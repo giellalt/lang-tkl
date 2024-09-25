@@ -1,0 +1,10 @@
+template = ""
+rev_id = 189
+template_sha = "3dff963055a9972d4983077141e971bdcc0934a1"
+
+[replacements]
+__LICENSE__ = "LGPLv3"
+__REPO__ = "lang-tkl"
+__UND2C__ = "tkl"
+__UNDEFINED__ = "Tokelauan"
+__UND__ = "tkl"
