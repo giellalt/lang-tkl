@@ -3,6 +3,15 @@
 !! Pronouns in the Tokelauan language are words that may replace nouns or refer to participants in the conversation.
 
 LEXICON Pronouns
-pronoun    Cases   ;
+toku+Pron+Sg1:toku # ;
+taku+Pron+Sg1:taku # ;
+tota+Pron+Sg1:tota # ;
+tata+Pron+Sg1:tata # ;
+
+toku+Pron+Pl1:oku # ;
+taku+Pron+Pl1:aku # ;
+tota+Pron+Pl1:ota # ;
+tata+Pron+Pl1:ata # ;
+
 
 ! vim: set ft=xfst-lexc:
