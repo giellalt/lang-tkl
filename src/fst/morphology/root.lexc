@@ -69,6 +69,9 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Non-dictionary words can be recognised with:
  +Guess
 
+!! For reduplication
+ ^R ^E ^3S !!= @CODE@ cons, vow, for 2- and 3-syll
+
 !! Question and Focus particles:
  +Qst +Foc
 
@@ -137,6 +140,10 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! given the proper use of these flags.
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+
+!! Use the following flag diacritics to control tag placement for prefixing
+ @U.verb.sg@        !!≈ |  @CODE@ | Tag moving from prefixing to +Sg
+ @U.verb.pl@        !!≈ |  @CODE@ | Tag moving from prefixing to +Pl
 
 LEXICON Root
 !! The word forms in Tokelauan language start from the lexeme roots of basic

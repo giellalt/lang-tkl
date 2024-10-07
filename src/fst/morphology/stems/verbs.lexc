@@ -2,7 +2,15 @@
 !  -----
 !! Verbs in the Tokelauan language inflect for tense.
 
-LEXICON Verbs
-verb    Persons   ;
+LEXICON 2v_stems
+nofo 2v ; ! nonofo
+tumu 2v ; ! tutumu
+lea 2v ;  ! lelea
+
+LEXICON 3v_stems
+mativa:ma^R^Etiva 3v ; ! matitiva
+kalaga:ka^R^Elaga 3v ; ! kalalaga
+alofa:a^R^Elofa 3v ;  ! alolofa
+galue:ga^R^Elue 3v ;  ! galuluex
 
 ! vim: set ft=xfst-lexc:

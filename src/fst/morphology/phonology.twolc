@@ -3,30 +3,29 @@
 !! =================================== !
 
 Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
-
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
-
+ a b c d e f g h i j k l m n o p q r s t u v w x y z 
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+ %^R:f %^R:g %^R:k %^R:l %^R:m %^R:n %^R:p %^R:h %^R:t %^R:v %^R:0
+ %^E:a %^E:e %^E:i %^E:o %^E:u %^E:0
+ %^3S:0
  %>:0 ;
 
 Sets
 
- Vow = a e i o u y æ ø å 
-       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
- Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
+ Vow = a e i o u y ;
+ Cns = b c d f g h j k l m n p q r s t v w x z ;
  
 Rules
 
-"Deleting stem-final s in s genitive"
- s:0 <=> Vow s %>: _ ;
 
-!!€ primus%>s
-!!€ primus00
+"^R1 realisation as consonant"
+%^R:Cx <=> .#.                 _ %^E: %> Cx;
+           .#. %^3S: (Cns) Vow _ %^E: Cx;
+     where Cx in Cns ;
 
-!!€grís%>s
-!!€grís00
+"^E1 realisation as vowel"
+%^E:Vx <=> .#.                 %^R: _ %> (Cns) Vx ;
+           .#. %^3S: (Cns) Vow %^R: _    (Cns) Vx ;
+       where Vx in Vow ;
 
-!!$grís%>s
-!!$grís0s
+
