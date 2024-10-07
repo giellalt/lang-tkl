@@ -88,6 +88,10 @@ nouns, but perhaps with a colon (':') as separator.
 Verb inflection
 The Tokelauan language verbs inflect in persons.
 
+# Prefixes
+
+* S = syll; R, E = C V in redup pattern
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
@@ -99,17 +103,6 @@ The Tokelauan language verbs inflect in persons.
 =================================== !
 The Tokelauan morphophonological/twolc rules file !
 =================================== !
-
-* *primus%>s*
-* *primus00*
-
-*  examples:*
-
-*  examples:*
-
-*  examples:*
-
-*  examples:*
 
 * * *
 
@@ -152,6 +145,9 @@ The verbs are syntactically split according to transitivity:
 Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
+For reduplication
+ ^R ^E ^3S  cons, vow, for 2- and 3-syll
+
 Question and Focus particles:
 
 Semantics are classified with
@@ -192,6 +188,10 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+Use the following flag diacritics to control tag placement for prefixing
+|  @U.verb.sg@ | Tag moving from prefixing to +Sg
+|  @U.verb.pl@ | Tag moving from prefixing to +Pl
 
 The word forms in Tokelauan language start from the lexeme roots of basic
 word classes, or optionally from prefixes:

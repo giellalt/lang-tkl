@@ -31,6 +31,9 @@ The verbs are syntactically split according to transitivity:
 Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
+For reduplication
+ ^R ^E ^3S  cons, vow, for 2- and 3-syll
+
 Question and Focus particles:
 
 Semantics are classified with
@@ -71,6 +74,10 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+Use the following flag diacritics to control tag placement for prefixing
+|  @U.verb.sg@ | Tag moving from prefixing to +Sg
+|  @U.verb.pl@ | Tag moving from prefixing to +Pl
 
 The word forms in Tokelauan language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
