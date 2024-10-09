@@ -148,7 +148,7 @@ Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
 For reduplication
- ^R ^E ^3S ^T ^A  cons, vow, for 2- and 3-syll
+ ^R ^E ^R1 ^R2 ^E1 ^E2 ^3S ^T ^A  cons, vow, for 2- and 3-syll
 
 Question and Focus particles:
 
