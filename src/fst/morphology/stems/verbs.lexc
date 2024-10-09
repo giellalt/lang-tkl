@@ -3,19 +3,30 @@
 !! Verbs in the Tokelauan language inflect for tense.
 
 LEXICON 2v_stems
-nofo 2v ; ! nonofo
-tumu 2v ; ! tutumu
-lea 2v ;  ! lelea
+nofo vtags ; ! nonofo
+tumu vtags ; ! tutumu
+lea vtags ;  ! lelea
+fiti vtags "be agile, active" ; ! fifiti
+tili vtags "spend all time on something important" ; ! titili
 
 LEXICON 3v_stems
-mativa:ma^R^Etiva 3v ; ! matitiva
-kalaga:ka^R^Elaga 3v ; ! kalalaga
-alofa:a^R^Elofa 3v ;  ! alolofa
-galue:ga^R^Elue 3v ;  ! galuluex
+mativa:ma^R^Etiva vtags ; ! matitiva
+kalaga:ka^R^Elaga vtags ; ! kalalaga
+alofa:a^R^Elofa vtags ;  ! alolofa
+galue:ga^R^Elue vtags ;  ! galulue
 
 LEXICON tav_stems  
-momotu:momotu tav "break" ;
-lelemu:lelemu tav "drown someone" ;
-kokoma:kokoma tav "squeeze";
+lelemu:lelemu vtags "drown someone" ; ! talemu
+momotu:momotu vtags "break" ; ! tamotu
+kokoma:kokoma vtags "squeeze"; ! takoma
+
+LEXICON ta_stems
+loka vtags ;
+puke vtags ;
+
+LEXICON redup_stems
+logo vtags ; ! logologo
+tafu vtags ; ! tafutafu
+alo vtags ;  ! aloalo
 
 ! vim: set ft=xfst-lexc:

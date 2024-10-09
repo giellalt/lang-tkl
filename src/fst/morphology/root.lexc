@@ -70,7 +70,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Guess
 
 !! For reduplication
- ^R ^E ^3S ^T ^A !!= @CODE@ cons, vow, for 2- and 3-syll
+ ^R ^E ^R1 ^R2 ^E1 ^E2 ^3S ^T ^A !!= @CODE@ cons, vow, for 2- and 3-syll
 
 !! Question and Focus particles:
  +Qst +Foc
