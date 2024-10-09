@@ -13,9 +13,9 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !!            !!!Tokelauan morphological analyser                      !
+! !!            !!!Tokelauan morphological analyser                      
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Tokelauan LANGUAGE.
+!! INTRODUCTION TO THE MORPHOLOGICAL ANALYSER FOR Tokelauan .
  
 
 Multichar_Symbols  !!≈ # Definitions for @CODE@
@@ -27,21 +27,21 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
+ +N +A +Adv +V                                  !!≈ - @CODE@
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num  !!≈ - @CODE@
 
 !! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+ +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ - @CODE@
 
 !! The Usage extents are marked using following tags:
- +Err/Orth   
- +Use/-Spell 
+ +Err/Orth    !!≈ - @CODE@
+ +Use/-Spell  !!≈ - @CODE@
  +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
  +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
-!! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com 
+!! The nominals are inflected in the following  Number
+ +Sg +Du +Pl !!≈ - @CODE@
+ +Nom +Gen +Acc !!≈ - @CODE@
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
@@ -145,7 +145,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  @U.verb.sg@        !!≈ |  @CODE@ | Tag moving from prefixing to +Sg
  @U.verb.pl@        !!≈ |  @CODE@ | Tag moving from prefixing to +Pl
 
-LEXICON Root
+LEXICON Root  !!≈ - **@@ODE@**
 !! The word forms in Tokelauan language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
  Nouns       ;

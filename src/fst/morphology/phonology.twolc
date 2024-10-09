@@ -2,50 +2,56 @@
 !! The Tokelauan morphophonological/twolc rules file !
 !! =================================== !
 
-Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z 
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
- %^R:f %^R:g %^R:k %^R:l %^R:m %^R:n %^R:p %^R:h %^R:t %^R:v
- %^R1:f %^R1:g %^R1:k %^R1:l %^R1:m %^R1:n %^R1:p %^R1:h %^R1:t %^R1:v
- %^R2:f %^R2:g %^R2:k %^R2:l %^R2:m %^R2:n %^R2:p %^R2:h %^R2:t %^R2:v
- %^E:a %^E:e %^E:i %^E:o %^E:u 
- %^E1:a %^E1:e %^E1:i %^E1:o %^E1:u 
- %^E2:a %^E2:e %^E2:i %^E2:o %^E2:u 
- %^3S:0
+Alphabet !!= # @CODE@
+ a b c d e f g h i j k l m n o p q r s t u v w x y z   !!= - @CODE@ = lower case
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z   !!= - @CODE@ = upper case
+ %^R:f %^R:g %^R:k %^R:l %^R:m %^R:n %^R:p %^R:h %^R:t %^R:v  !!= - @CODE@ = redup Cns
+ %^R1:f %^R1:g %^R1:k %^R1:l %^R1:m %^R1:n %^R1:p %^R1:h %^R1:t %^R1:v  !!= - @CODE@ = tja
+ %^R2:f %^R2:g %^R2:k %^R2:l %^R2:m %^R2:n %^R2:p %^R2:h %^R2:t %^R2:v  !!= - @CODE@ = tja
+ %^E:a %^E:e %^E:i %^E:o %^E:u   !!= - @CODE@  !!= - @CODE@ = redup Vow
+ %^E1:a %^E1:e %^E1:i %^E1:o %^E1:u   !!= - @CODE@ = tja
+ %^E2:a %^E2:e %^E2:i %^E2:o %^E2:u   !!= - @CODE@ = tja
+ %^3S:0  !!= - @CODE@ 
  %^T:t %^A:a !!= @CODE@ = ta prefix
- %>:0 ;
+ %>:0 ;  !!= - @CODE@ = suffix border
 
-Sets
+Sets !!= # @CODE@ 
 
- Vow = a e i o u y ;
- Cns = b c d f g h j k l m n p q r s t v w x z ;
+ Vow = a e i o u y ;  !!= - @CODE@ 
+ Cns = b c d f g h j k l m n p q r s t v w x z ;  !!= - @CODE@ 
  
-Rules
+Rules !!= # @CODE@ 
 
 "^R realisation as consonant"
+!! **RULE: @RULENAME@** = duplicates C for reduplication
 %^R:Cx <=> .#.                 _ %^E: %> Cx ;
            .#. %^3S: (Cns) Vow _ %^E:    Cx ;
      where Cx in Cns ;
 
 "^E realisation as vowel"
+!! **RULE: @RULENAME@** = duplicates V for reduplication
 %^E:Vx <=> .#.                 %^R: _ %> (Cns) Vx ;
            .#. %^3S: (Cns) Vow %^R: _    (Cns) Vx ;
        where Vx in Vow ;
 
 
 "^R1 realisation as consonant"
+!! **RULE: @RULENAME@** = duplicates C1 for full reduplication
 %^R1:Cx <=> .#. _ %^E1: %^R2: %^E2: %> Cx ;
      where Cx in Cns ;
 
 "^E1 realisation as vowel"
+!! **RULE: @RULENAME@** = duplicates V1 for full reduplication
 %^E1:Vx <=> .#. %^R1: _ %^R2: %^E2: %> (Cns) Vx ;
        where Vx in Vow ;
 
 "^R2 realisation as consonant"
+!! **RULE: @RULENAME@** = duplicates C3 for full reduplication
 %^R2:Cx <=> .#. %^R1: %^E1: _ %^E2: %> (Cns) (Vow) Cx;
      where Cx in Cns ;
 
 "^E2 realisation as vowel"
+!! **RULE: @RULENAME@** = duplicates V2 for full reduplication
 %^E2:Vx <=> .#. %^R1: %^E1: %^R2: _ %> (Cns) (Vow) (Cns) Vx ;
        where Vx in Vow ;
 

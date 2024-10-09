@@ -2,29 +2,31 @@
 !  -----
 !! Verbs in the Tokelauan language inflect for tense.
 
-LEXICON 2v_stems
+LEXICON 2v_stems !!= * @CODE@ = 2-syllabic verbs with CV reduplication
 nofo vtags ; ! nonofo
 tumu vtags ; ! tutumu
 lea vtags ;  ! lelea
 fiti vtags "be agile, active" ; ! fifiti
 tili vtags "spend all time on something important" ; ! titili
 
-LEXICON 3v_stems
+LEXICON 3v_stems!!= * @CODE@ = 3-syllabic verbs with CV reduplication
+
 mativa:ma^R^Etiva vtags ; ! matitiva
 kalaga:ka^R^Elaga vtags ; ! kalalaga
 alofa:a^R^Elofa vtags ;  ! alolofa
 galue:ga^R^Elue vtags ;  ! galulue
 
-LEXICON tav_stems  
+LEXICON tav_stems  !!= * @CODE@ = 3-syllabic verbs with CV to ta prefix
+
 lelemu:lelemu vtags "drown someone" ; ! talemu
 momotu:momotu vtags "break" ; ! tamotu
 kokoma:kokoma vtags "squeeze"; ! takoma
 
-LEXICON ta_stems
+LEXICON ta_stems!!= * @CODE@ = 2-syllabic verbs with ta prefix
 loka vtags ;
 puke vtags ;
 
-LEXICON redup_stems
+LEXICON redup_stems!!= * @CODE@ = 2-syllabic verbs with full reduplication
 logo vtags ; ! logologo
 tafu vtags ; ! tafutafu
 alo vtags ;  ! aloalo

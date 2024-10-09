@@ -1,10 +1,10 @@
 !! Verb inflection
 !  ---------------
-!! The Tokelauan language verbs inflect in persons.
+!! The Tokelauan language verbs inflect for number.
 
 !! # Prefixes
 
-LEXICON Verbs
+LEXICON Verbs !!= @CODE@ splits to subgrups according to pl form
 2v_pref ;
 3v_pref ;
 tav_pref ;
@@ -13,27 +13,30 @@ redup_pref ;
 
 !! * S = syll; R, E = C V in redup pattern
 
-LEXICON 2v_pref
+LEXICON 2v_pref !!= * @CODE@ = 2-syllabic verbs with CV reduplication
 @U.verb.sg@                   2v_stems ; ! sg verbs
 @U.verb.pl@:@U.verb.pl@^R^E%> 2v_stems ; ! pl verbs
 
-LEXICON 3v_pref
+LEXICON 3v_pref !!= * @CODE@ = 3-syllabic verbs with CV reduplication
 @U.verb.sg@                 3v_stems ; ! sg verbs
 @U.verb.pl@:@U.verb.pl@^3S  3v_stems ; ! pl verbs
 
-LEXICON tav_pref
+LEXICON tav_pref !!= * @CODE@ = 3-syllabic verbs with CV to ta
 @U.verb.sg@                 tav_stems ; ! sg verbs
 @U.verb.pl@:@U.verb.pl@^T^A tav_stems ; ! pl verbs
 
-LEXICON ta_pref
+LEXICON ta_pref !!= * @CODE@ = 2-syllabic verbs with ta prefix
 @U.verb.sg@               ta_stems ; ! sg verbs
 @U.verb.pl@:@U.verb.pl@ta ta_stems ; ! pl verbs
 
-LEXICON redup_pref
+LEXICON redup_pref !!= * @CODE@ = 2-syllabic verbs with full reduplication
 @U.verb.sg@                           redup_stems ; ! sg verbs
 @U.verb.pl@:@U.verb.pl@^R1^E1^R2^E2%> redup_stems ; ! pl verbs
 
-LEXICON vtags
+
+!! # Suffixes
+
+LEXICON vtags !!= * @CODE@ = adds POS and Sg, Pl tags as governed by the U flags
 @U.verb.sg@+V+Sg:@U.verb.sg@ # ;
 @U.verb.pl@+V+Pl:@U.verb.pl@ # ;
 
