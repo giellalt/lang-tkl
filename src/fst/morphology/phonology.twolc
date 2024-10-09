@@ -5,9 +5,10 @@
 Alphabet
  a b c d e f g h i j k l m n o p q r s t u v w x y z 
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
- %^R:f %^R:g %^R:k %^R:l %^R:m %^R:n %^R:p %^R:h %^R:t %^R:v %^R:0
- %^E:a %^E:e %^E:i %^E:o %^E:u %^E:0
+ %^R:f %^R:g %^R:k %^R:l %^R:m %^R:n %^R:p %^R:h %^R:t %^R:v
+ %^E:a %^E:e %^E:i %^E:o %^E:u 
  %^3S:0
+ %^T:t %^A:a !!= @CODE@ = ta prefix
  %>:0 ;
 
 Sets
@@ -19,13 +20,28 @@ Rules
 
 
 "^R1 realisation as consonant"
+!%^R:Cx <=> .#.                 _ %^E:  Cx Vow [.#.|%>];
 %^R:Cx <=> .#.                 _ %^E: %> Cx;
            .#. %^3S: (Cns) Vow _ %^E: Cx;
      where Cx in Cns ;
 
 "^E1 realisation as vowel"
-%^E:Vx <=> .#.                 %^R: _ %> (Cns) Vx ;
+!%^E:Vx <=>                  %^R: _   (Cns) Vx  [.#.|%>] ;
+%^E:Vx <=> .#.                 %^R: _ %> (Cns) Vx  ;
            .#. %^3S: (Cns) Vow %^R: _    (Cns) Vx ;
        where Vx in Vow ;
 
+"^R as zero"
+%^R:0 <=> .#. (Cns) Vow _ ;
 
+"^E as zero"
+%^E:0 <=> .#. (Cns) Vow %^R: _ ;
+
+"Deletion in front of ^T"
+Cx:0 <=> %^T: %^A: _ ;
+	where Cx in Cns ;
+	
+"Deletion in front of ^A"
+Vx:0 <=> %^T: %^A: Cns: _ ;
+	where Vx in Vow ;
+	

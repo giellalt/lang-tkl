@@ -13,4 +13,9 @@ kalaga:ka^R^Elaga 3v ; ! kalalaga
 alofa:a^R^Elofa 3v ;  ! alolofa
 galue:ga^R^Elue 3v ;  ! galuluex
 
+LEXICON tav_stems  
+momotu:momotu tav "break" ;
+lelemu:lelemu tav "drown someone" ;
+kokoma:kokoma tav "squeeze";
+
 ! vim: set ft=xfst-lexc:

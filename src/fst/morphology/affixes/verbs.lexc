@@ -7,9 +7,27 @@
 LEXICON Verbs
 2v_pref ;
 3v_pref ;
+tav_pref ;
 
 !! * S = syll; R, E = C V in redup pattern
 
+
+!LEXICON 2v_pref
+!@U.verb.sg@                   2v_stems ; ! for sg verbs
+!@U.verb.pl@:@U.verb.pl@^R^E 2v_stems ; ! for pl verbs
+!
+!LEXICON 3v_pref
+!@U.verb.sg@  3v_stems ; ! for sg verbs
+!@U.verb.pl@:@U.verb.pl@  3v_stems ; ! for pl verbs
+!
+!LEXICON 2v
+!@U.verb.sg@+V+Sg:@U.verb.sg@ # ;
+!@U.verb.pl@+V+Pl:@U.verb.pl@ # ;
+!
+!LEXICON 3v
+!@U.verb.sg@+V+Sg:@U.verb.sg@ # ;
+!@U.verb.pl@+V+Pl:@U.verb.pl@ # ;
+!
 
 LEXICON 2v_pref
 @U.verb.sg@                   2v_stems ; ! for sg verbs
@@ -19,11 +37,20 @@ LEXICON 3v_pref
 @U.verb.sg@  3v_stems ; ! for sg verbs
 @U.verb.pl@:@U.verb.pl@^3S  3v_stems ; ! for pl verbs
 
+LEXICON tav_pref
+@U.verb.sg@                   tav_stems ; ! for sg verbs
+@U.verb.pl@:@U.verb.pl@^T^A tav_stems ; ! for pl verbs
+
+
 LEXICON 2v
 @U.verb.sg@+V+Sg:@U.verb.sg@ # ;
 @U.verb.pl@+V+Pl:@U.verb.pl@ # ;
 
 LEXICON 3v
+@U.verb.sg@+V+Sg:@U.verb.sg@ # ;
+@U.verb.pl@+V+Pl:@U.verb.pl@ # ;
+
+LEXICON tav
 @U.verb.sg@+V+Sg:@U.verb.sg@ # ;
 @U.verb.pl@+V+Pl:@U.verb.pl@ # ;
 
