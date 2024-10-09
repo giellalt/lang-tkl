@@ -1,5 +1,5 @@
 
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Tokelauan LANGUAGE.
+INTRODUCTION TO THE MORPHOLOGICAL ANALYSER FOR Tokelauan .
 
 # Definitions for Multichar_Symbols
 
@@ -9,14 +9,21 @@ language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
 The parts-of-speech are:
+- +N +A +Adv +V
+- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num
 
 The parts of speech are further split up into:
+- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
 
 The Usage extents are marked using following tags:
+- +Err/Orth
+- +Use/-Spell
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
-The nominals are inflected in the following Case and Number
+The nominals are inflected in the following  Number
+- +Sg +Du +Pl
+- +Nom +Gen +Acc
 
 The possession is marked as such:
 The comparative forms are:
@@ -79,6 +86,7 @@ Use the following flag diacritics to control tag placement for prefixing
 |  @U.verb.sg@ | Tag moving from prefixing to +Sg
 |  @U.verb.pl@ | Tag moving from prefixing to +Pl
 
+- **@@ODE@**
 The word forms in Tokelauan language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
