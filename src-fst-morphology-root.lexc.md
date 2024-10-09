@@ -32,7 +32,7 @@ Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
 For reduplication
- ^R ^E ^3S  cons, vow, for 2- and 3-syll
+ ^R ^E ^3S ^T ^A  cons, vow, for 2- and 3-syll
 
 Question and Focus particles:
 
