@@ -6,6 +6,7 @@ LEXICON 2v_stems !!= * @CODE@ = 2-syllabic verbs with CV reduplication
 nofo vtags ; ! nonofo
 tumu vtags ; ! tutumu
 lea vtags ;  ! lelea
+tū:tuu vtags ; ! tutū
 fiti vtags "be agile, active" ; ! fifiti
 tili vtags "spend all time on something important" ; ! titili
 
