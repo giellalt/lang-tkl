@@ -17,8 +17,9 @@ The Tokelauan morphophonological/twolc rules file !
 
 # Sets  
 
--  Vow = a e i o u y ;   
--  Cns = b c d f g h j k l m n p q r s t v w x z ;   
+-  Vow = a e i o u      
+- ā ē ō ī ū Ā Ē Ō Ī Ū ; long vowels  
+-  Cns = b c d f g h j k l m n p q r s t v w x y z ;   
 
 # Rules  
 

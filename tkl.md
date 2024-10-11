@@ -108,6 +108,8 @@ LEXICON Verbs  splits to subgrups according to pl form
 
 * LEXICON vtags  = adds POS and Sg, Pl tags as governed by the U flags
 
+* LEXICON redup_suff  = adds POS and Sg, Pl tags as governed by the U flags
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
@@ -135,8 +137,9 @@ The Tokelauan morphophonological/twolc rules file !
 
 # Sets  
 
--  Vow = a e i o u y ;   
--  Cns = b c d f g h j k l m n p q r s t v w x z ;   
+-  Vow = a e i o u      
+- ā ē ō ī ū Ā Ē Ō Ī Ū ; long vowels  
+-  Cns = b c d f g h j k l m n p q r s t v w x y z ;   
 
 # Rules  
 
@@ -164,6 +167,8 @@ The Tokelauan morphophonological/twolc rules file !
 INTRODUCTION TO THE MORPHOLOGICAL ANALYSER FOR Tokelauan .
 
 # Definitions for Multichar_Symbols
+
+## Composed letters
 
 ## Analysis symbols
 The morphological analyses of wordforms for the Tokelauan
@@ -201,7 +206,7 @@ Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 
 For reduplication
- ^R ^E ^R1 ^R2 ^E1 ^E2 ^3S ^T ^A  cons, vow, for 2- and 3-syll
+ ^R ^E ^R1 ^R2 ^E1 ^E2 ^3S ^T ^A ^[ ^]  cons, vow, for 2- and 3-syll
 
 Question and Focus particles:
 
