@@ -47,8 +47,9 @@ loka vtags ;
 puke vtags ;
 
 LEXICON redup_stems!!= * @CODE@ = 2-syllabic verbs with full reduplication
-logo vtags ; ! logologo
-tafu vtags ; ! tafutafu
-alo vtags ;  ! aloalo
+logo redup_suff ; ! logologo
+tafu redup_suff ; ! tafutafu
+alo redup_suff ;  ! aloalo
+
 
 ! vim: set ft=xfst-lexc:

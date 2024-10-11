@@ -14,6 +14,7 @@ Alphabet !!= # @CODE@
  %^3S:0  !!= - @CODE@ 
  %^VC:0
  %^T:t %^A:a !!= @CODE@ = ta prefix
+ %^%[:0 %^%]:0
  %>:0 ;  !!= - @CODE@ = suffix border
 
 Sets !!= # @CODE@ 
