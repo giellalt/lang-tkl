@@ -12,15 +12,21 @@ Alphabet !!= # @CODE@
  %^E1:a %^E1:e %^E1:i %^E1:o %^E1:u   !!= - @CODE@ = tja
  %^E2:a %^E2:e %^E2:i %^E2:o %^E2:u   !!= - @CODE@ = tja
  %^3S:0  !!= - @CODE@ 
+ %^VC:0
  %^T:t %^A:a !!= @CODE@ = ta prefix
  %>:0 ;  !!= - @CODE@ = suffix border
 
 Sets !!= # @CODE@ 
 
- Vow = a e i o u y ;  !!= - @CODE@ 
- Cns = b c d f g h j k l m n p q r s t v w x z ;  !!= - @CODE@ 
+ Vow = a e i o u     !!= - @CODE@ 
+       ā ē ō ī ū Ā Ē Ō Ī Ū ; !!≈ - @CODE@ long vowels  
+ Cns = b c d f g h j k l m n p q r s t v w x y z ;  !!= - @CODE@ 
  
 Rules !!= # @CODE@ 
+
+" vow shortening"
+Vx:0 <=> Vx _ %^VC: ;
+	where Vx in Vow ;
 
 "^R realisation as consonant"
 !! **RULE: @RULENAME@** = duplicates C for reduplication

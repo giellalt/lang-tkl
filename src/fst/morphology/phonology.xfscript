@@ -14,10 +14,10 @@ echo
 echo <<< Defining the phonological inventory >>>
 
 define stops [ b | B | d | D | g | G | p | P | t | T | K | k | c | C | q | Q | x | X ] ;
-define cont  [ f | F | v | V | w | W | r | R | s | S | j | J | l | L | h | H | z | Z ] ; 
+define cont  [ f | F | v | V | w | W | r | R | s | S | j | J | l | L | h | H | y | Y | z | Z ] ; 
 define nas   [ m | M | n | N ] ; 
 define cns   [ stops | cont | nas ] ;
-define vow       [ i | e | a | o | u | y ] ; 
+define vow       [ i | e | a | o | u | ā | ē | ō | ī | ū | Ā | Ē | Ō | Ī | Ū ] ;  
 define dummy     [ %> |  %^R | %^R1 | %^R2 | %^E | %^E1 | %^E2 | %^3S | %^T | %^A ] ;
 define segment   [ cns | vow | foreign | dummy ] ; ! dummy as segment??? XXX 
 define flags     [ %@U%.verb%.sg%@ | %@U%.verb%.pl%@ ] ;
@@ -65,6 +65,9 @@ echo <<< Defining the cleanup rules >>>
 
 define DummyDeletion [ dummy -> 0 ] ;
 
+define LongVowelOrthography [ а а -> ā , e e -> ē , i i -> ī , o o -> ō , u u -> ū , 
+                              A a -> Ā , E e -> Ē , I i -> Ī , O o -> Ō , U u -> Ū ] ; 
+
 !************* 
 !The cascade *
 !*************
@@ -76,6 +79,7 @@ read regex [
      REdupR
 .o. REdupE
 .o. DummyDeletion 
+.o. LongVowelOrthography
 ] ;
 
 echo <<< Done, congratulations! >>>

@@ -2,13 +2,32 @@
 !  -----
 !! Verbs in the Tokelauan language inflect for tense.
 
+
+LEXICON v_particles
+ē+Prs:ее pcle ;  ! one verb ē, can be shortened initially in VP
+e+Prs:e pcle ;   ! a separate verb e
+nai+:nai pcle ;
+
+LEXICON aux
+fia auxtag ;
+ke  auxtag ;
+
+LEXICON auxtag
++V: # ;
+
+LEXICON pcle
++Prs:^VC vtags ; ! ^VC = vowel shortening
++Prt: vtags ;    ! ^VC = vowel shortening
+
 LEXICON 2v_stems !!= * @CODE@ = 2-syllabic verbs with CV reduplication
 nofo vtags ; ! nonofo
 tumu vtags ; ! tutumu
 lea vtags ;  ! lelea
-tū:tuu vtags ; ! tutū
 fiti vtags "be agile, active" ; ! fifiti
 tili vtags "spend all time on something important" ; ! titili
+tū:tuu vtags ;
+tā:taa vtags ;
+
 
 LEXICON 3v_stems!!= * @CODE@ = 3-syllabic verbs with CV reduplication
 
