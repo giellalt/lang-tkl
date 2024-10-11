@@ -1,0 +1,83 @@
+!Distributed under the terms of the GNU General Public License version 2
+! or any later version.
+
+!====================
+!FST-rules in Tokelau
+!====================
+
+! ======================== !
+! Phonological definitions !
+! ======================== !
+echo
+echo <<< Making the Tokelau phonological component >>>
+echo
+echo <<< Defining the phonological inventory >>>
+
+define stops [ b | B | d | D | g | G | p | P | t | T | K | k | c | C | q | Q | x | X ] ;
+define cont  [ f | F | v | V | w | W | r | R | s | S | j | J | l | L | h | H | z | Z ] ; 
+define nas   [ m | M | n | N ] ; 
+define cns   [ stops | cont | nas ] ;
+define vow       [ i | e | a | o | u | y ] ; 
+define dummy     [ %> |  %^R | %^R1 | %^R2 | %^E | %^E1 | %^E2 | %^3S | %^T | %^A ] ;
+define segment   [ cns | vow | foreign | dummy ] ; ! dummy as segment??? XXX 
+define flags     [ %@U%.verb%.sg%@ | %@U%.verb%.pl%@ ] ;
+
+
+
+!********************
+!Phonological rules *
+!********************
+
+echo
+echo <<< Defining the phonological rules >>>
+
+define REdupR [ %^R -> b || _ %^E %> b vow ,,
+                %^R -> d || _ %^E %> d vow ,,
+                %^R -> g || _ %^E %> g vow ,,
+                %^R -> p || _ %^E %> p vow ,,
+                %^R -> t || _ %^E %> t vow ,,
+                %^R -> k || _ %^E %> k vow ,,
+                %^R -> f || _ %^E %> f vow ,,
+                %^R -> v || _ %^E %> v vow ,,
+                %^R -> r || _ %^E %> r vow ,,
+                %^R -> s || _ %^E %> s vow ,,
+                %^R -> j || _ %^E %> j vow ,,
+                %^R -> l || _ %^E %> l vow ,,
+                %^R -> h || _ %^E %> h vow ,,
+                %^R -> m || _ %^E %> m vow ,,
+                %^R -> n || _ %^E %> n vow ] ;
+
+define REdupE [ %^E -> a || _ %> cns a ,,
+                %^E -> e || _ %> cns e ,,
+                %^E -> i || _ %> cns i ,,
+                %^E -> o || _ %> cns o ,,
+                %^E -> u || _ %> cns u ,,
+                %^E -> y || _ %> cns y ] ;
+
+
+
+! ============= !
+! Cleanup rules !
+! ============= !
+
+echo
+echo <<< Defining the cleanup rules >>>
+
+define DummyDeletion [ dummy -> 0 ] ;
+
+!************* 
+!The cascade *
+!*************
+
+echo
+echo <<< Compiling our rules... >>>
+
+read regex [
+     REdupR
+.o. REdupE
+.o. DummyDeletion 
+] ;
+
+echo <<< Done, congratulations! >>>
+
+
