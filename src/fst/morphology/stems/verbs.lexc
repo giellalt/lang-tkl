@@ -25,8 +25,8 @@ tumu vtags ; ! tutumu
 lea vtags ;  ! lelea
 fiti vtags "be agile, active" ; ! fifiti
 tili vtags "spend all time on something important" ; ! titili
-tū:tuu vtags ;
-tā:taa vtags ;
+tū:tuu vtags ; ! tutuu
+tā:taa vtags ; ! tataa
 
 
 LEXICON 3v_stems!!= * @CODE@ = 3-syllabic verbs with CV reduplication
@@ -46,9 +46,12 @@ LEXICON ta_stems!!= * @CODE@ = 2-syllabic verbs with ta prefix
 loka vtags ;
 puke vtags ;
 
-LEXICON redup_stems!!= * @CODE@ = 2-syllabic verbs with full reduplication
+LEXICON 4redup_stems!!= * @CODE@ = 2-syllabic verbs with full reduplication
 logo redup_suff ; ! logologo
 tafu redup_suff ; ! tafutafu
+
+
+LEXICON 3redup_stems!!= * @CODE@ = 2-syllabic verbs with full reduplication
 alo redup_suff ;  ! aloalo
 
 

@@ -9,7 +9,8 @@ LEXICON Verbs !!= @CODE@ splits to subgrups according to pl form
 3v_pref ;
 tav_pref ;
 ta_pref ;
-redup_pref ;
+3redup_pref ;
+4redup_pref ;
 aux ;
 v_particles ;
 
@@ -31,9 +32,13 @@ LEXICON ta_pref !!= * @CODE@ = 2-syllabic verbs with ta prefix
 @U.verb.sg@               ta_stems ; ! sg verbs
 @U.verb.pl@:@U.verb.pl@ta ta_stems ; ! pl verbs
 
-LEXICON redup_pref !!= * @CODE@ = 2-syllabic verbs with full reduplication
-@U.verb.sg@                redup_stems ; ! sg verbs
-@U.verb.pl@:@U.verb.pl@^[{ redup_stems ; ! pl verbs
+LEXICON 3redup_pref !!= * @CODE@ = 2-syllabic verbs with full reduplication
+@U.verb.sg@                3redup_stems ; ! sg verbs
+@U.verb.pl@:@U.verb.pl@^E1^R2^E2%> 3redup_stems ; ! pl verbs
+
+LEXICON 4redup_pref !!= * @CODE@ = 2-syllabic verbs with full reduplication
+@U.verb.sg@                4redup_stems ; ! sg verbs
+@U.verb.pl@:@U.verb.pl@^R1^E1^R2^E2%> 4redup_stems ; ! pl verbs
 
 
 !! # Suffixes
@@ -45,21 +50,12 @@ LEXICON vtags !!= * @CODE@ = adds POS and Sg, Pl tags as governed by the U flags
 
 LEXICON redup_suff !!= * @CODE@ = adds POS and Sg, Pl tags as governed by the U flags
 +V+Sg: redup_suff_sgflags ;
-+V+Pl:}ˆ2ˆ] redup_suff_plflags ;
++V+Pl: redup_suff_plflags ;
 
 LEXICON redup_suff_sgflags
 @U.verb.sg@ # ;
 LEXICON redup_suff_plflags
 @U.verb.pl@ # ;
 
-!LEXICON redup_roots
-!0:ˆ[{   redup_roots ;
-!        redup_roots ;
-!LEXICON NRoots buku NSuff ; lembu NSuff ; pelabuhan NSuff ;
-!LEXICON NSuff
-!+Noun:0    Num ;
-!LEXICON Num +Unmarked:0 # ; +Plural:}ˆ2ˆ] # ;
-! redup_stems
-!
 ! vim: set ft=xfst-lexc:
 

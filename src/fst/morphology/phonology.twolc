@@ -25,7 +25,7 @@ Sets !!= # @CODE@
  
 Rules !!= # @CODE@ 
 
-" vow shortening"
+"Vow shortening"
 Vx:0 <=> Vx _ %^VC: ;
 	where Vx in Vow ;
 
@@ -34,6 +34,8 @@ Vx:0 <=> Vx _ %^VC: ;
 %^R:Cx <=> .#.                 _ %^E: %> Cx ;
            .#. %^3S: (Cns) Vow _ %^E:    Cx ;
      where Cx in Cns ;
+! REnofo -> nonofo
+! REtuu -> tutuu
 
 "^E realisation as vowel"
 !! **RULE: @RULENAME@** = duplicates V for reduplication
@@ -44,22 +46,24 @@ Vx:0 <=> Vx _ %^VC: ;
 
 "^R1 realisation as consonant"
 !! **RULE: @RULENAME@** = duplicates C1 for full reduplication
-%^R1:Cx <=> .#. _ %^E1: %^R2: %^E2: %> Cx ;
+%^R1:Cx <=>  _ %^E1: %^R2: %^E2: %> Cx ;
      where Cx in Cns ;
 
 "^E1 realisation as vowel"
 !! **RULE: @RULENAME@** = duplicates V1 for full reduplication
-%^E1:Vx <=> .#. %^R1: _ %^R2: %^E2: %> (Cns) Vx ;
+%^E1:Vx <=>  _ %^R2: %^E2: %> (Cns) Vx ;
        where Vx in Vow ;
 
 "^R2 realisation as consonant"
 !! **RULE: @RULENAME@** = duplicates C3 for full reduplication
-%^R2:Cx <=> .#. %^R1: %^E1: _ %^E2: %> (Cns) (Vow) Cx;
+!%^R2:Cx <=> .#. %^R1: %^E1: _ %^E2: %> (Cns) (Vow) Cx;
+%^R2:Cx <=>  _ %^E2: %> (Cns) Vow Cx;
      where Cx in Cns ;
 
 "^E2 realisation as vowel"
 !! **RULE: @RULENAME@** = duplicates V2 for full reduplication
-%^E2:Vx <=> .#. %^R1: %^E1: %^R2: _ %> (Cns) (Vow) (Cns) Vx ;
+!%^E2:Vx <=> .#. %^R1: %^E1: %^R2: _ %> (Cns) (Vow) (Cns) Vx ;
+%^E2:Vx <=>  _ %> (Cns) Vow Cns Vx ;
        where Vx in Vow ;
 
 

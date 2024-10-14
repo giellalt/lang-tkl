@@ -4,8 +4,8 @@
 
 LEXICON Comparisons
 +A+Pos:0        Cases   ;
-+A+Comp:er       Cases   ;
-+A+Superl:est      Cases   ;
+!+A+Comp:er       Cases   ;
+!+A+Superl:est      Cases  ; 
 
 ! vim: set ft=xfst-lexc:
 

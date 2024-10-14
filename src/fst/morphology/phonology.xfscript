@@ -18,7 +18,7 @@ define cont  [ f | F | v | V | w | W | r | R | s | S | j | J | l | L | h | H | y
 define nas   [ m | M | n | N ] ; 
 define cns   [ stops | cont | nas ] ;
 define vow       [ i | e | a | o | u | ā | ē | ō | ī | ū | Ā | Ē | Ō | Ī | Ū ] ;  
-define dummy     [ %> |  %^R | %^R1 | %^R2 | %^E | %^E1 | %^E2 | %^3S | %^T | %^A | ] ;
+define dummy     [ %> |  %^R | %^R1 | %^R2 | %^E | %^E1 | %^E2 | %^3S | %^T | %^A ] ;
 define segment   [ cns | vow | foreign | dummy ] ; ! dummy as segment??? XXX 
 define flags     [ %@U%.verb%.sg%@ | %@U%.verb%.pl%@ ] ;
 
@@ -64,7 +64,7 @@ echo
 echo <<< Defining the cleanup rules >>>
 
 
-define FullRedupCleanup ~[ ?* "ˆ[" ~$["ˆ]"] ] & ~[ ~$["ˆ["] "ˆ]" ?* ] ;
+define FullRedupCleanup ~[ ?* "^[" ~$["^]"] ] & ~[ ~$["^["] "^]" ?* ] ;
 
 define DummyDeletion [ dummy -> 0 ] ;
 
