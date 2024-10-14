@@ -36,7 +36,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ - @CODE@
-
+ +Prox +Med +Dist  !!≈ - @CODE@ = proximal, medial, distal (near speaker, hearer, neiter)
+ 
 !! The Usage extents are marked using following tags:
  +Err/Orth    !!≈ - @CODE@
  +Use/-Spell  !!≈ - @CODE@
@@ -60,6 +61,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+ +Aux
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
@@ -77,8 +79,9 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  ^R ^E ^R1 ^R2 ^E1 ^E2 ^3S ^T ^A ^[ ^] !!= @CODE@ cons, vow, for 2- and 3-syll
 
 !! Question and Focus particles:
- +Qst +Foc
+ +Qst +Foc !!= @CODE@ 
 
++Prf +Ipf +Fut  !!= @CODE@ Aspect, perhaps
 
 !! Semantics are classified with
  +Mal 
@@ -152,6 +155,13 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 LEXICON Root  !!≈ - **@@ODE@**
 !! The word forms in Tokelauan language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
+ Conjunctions ;
+ Determiners ;
+ Demonstratives ;
+ Premodifiers ;
+ Prepositions ;
+ Postmodifiers ;
+ Propernouns ;
  Nouns       ;
  Verbs       ;
  Adjectives  ;

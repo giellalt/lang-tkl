@@ -1,0 +1,7 @@
+
+LEXICON cc
++CC: # ;
+
+LEXICON Conjunctions
+oi cc "and" ;
+kae cc "and, when, while, but" ;

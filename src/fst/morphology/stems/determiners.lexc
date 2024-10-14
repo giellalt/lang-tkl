@@ -1,0 +1,45 @@
+LEXICON Determiners
+
+te+Det+Def+Sg:te # ;
+nā+Det+Def+Pl:nā # ;
+he+Det+Indef+Sg:he # ;
+ni+Det+Indef+Pl:ni # ;
+
+LEXICON Demonstratives
+a+Dem:a # ;
+ia+Dem:ia # ;
+te+Dem:te # ; ! a te, ia te
+tē+Dem:tē # ;
+iē+Dem:iē # ;
+
+! proximal or first person (objects near to the speaker),
+! medial or second person (objects near to the addressee),
+! distal or third person[2]
+tēnei+Dem+Sg+Prox:tēnei # ;
+nei+Dem+Sg+Prox:nei # ;
+tēna+Dem+Sg+Med:tēna # ;
+tēia+Dem+Sg+Dist:tēia # ;
+iēnei+Dem+Pl+Prox:iēnei # ;
+nei+Dem+Pl+Prox:nei # ;
+iēnā+Dem+Sg+Med:iēnā # ;
+iēia+Dem+Pl+Diest:iēia # ;
+
+
+
+LEXICON pre
++Pre: # ;
+
+LEXICON Premodifiers ! Adjectives?
+mātuā pre "very big" ;
+tamā pre "very small" ;
+tamakī pre  "very small" ;
+tamakīkī pre  "very small" ;
+toe pre "final, last, leftover" ;
+
+LEXICON post
++Post: # ;
+
+LEXICON Postmodifiers
+lele post "very" ;
+lava post "emph" ;
+

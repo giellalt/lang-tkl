@@ -3,6 +3,67 @@
 !! Pronouns in the Tokelauan language are words that may replace nouns or refer to participants in the conversation.
 
 LEXICON Pronouns
++Pron: Personal ;
+       Possessive ;
+       Possessive ;
+todo_name ;
+
+LEXICON Personal
++Du1+Incl:ki% tāua # ;
++Du1+Incl:ki% tā # ;
++Pl1+Incl:ki% tātou # ;
++Sg1+Excl:au # ;
++Sg1+Excl:kita # ;
++Du1+Excl:ki% māua # ;
++Du1+Excl:ki% mā # ;
++Pl1+Excl:ki% mātou # ;
++Sg2:koe # ;
++Du2:koulua # ;
++Pl2:koutou # ;
++Sg3:ia # ;
++Du3:ki% lāua # ;
++Du3:ki% lā # ;
++Pl3:ki% lātou # ;
+
++Sg1+Excl:kō # ;
++Sg2:kē # ;
+
+LEXICON Possessive
+o% tāua+Du1+Incl:o% tāua # ;
+o% tāua+Du1+Incl:o% tā # ;
+o% tātou+Pl1+Incl:o% tātou # ;
+o% oku+Sg1+Excl:o% oku # ;
+o% kita+Sg1+Excl:o% kita # ;
+o% māua+Du1+Excl:o% māua # ;
+o% mā+Du1+Excl:o% mā # ;
+o% mātou+Pl1+Excl:o% mātou # ;
+o% ōu+Sg2:o% ōu # ;
+o% koe+Sg2:o% koe # ;
+o% koulua+Du2:o% koulua # ;
+o% koutou+Pl2:o% koutou # ;
+o% ona+Sg3:o% ona # ;
+o% lāua+Du3:o% lāua # ;
+o% lā+Du3:o% lā # ;
+o% lātou+Pl3:o% lātou # ;
+
+a% tāua+Du1+Incl:a% tāua # ;
+a% tāua+Du1+Incl:a% tā # ;
+a% tātou+Pl1+Incl:a% tātou # ;
+a% aku+Sg1+Excl:a% oku # ;
+a% kita+Sg1+Excl:a% kita # ;
+a% māua+Du1+Excl:a% māua # ;
+a% mā+Du1+Excl:a% mā # ;
+a% mātou+Pl1+Excl:a% mātou # ;
+a% ōu+Sg2:a% ōu # ;
+a% koe+Sg2:a% koe # ;
+a% koulua+Du2:a% koulua # ;
+a% koutou+Pl2:a% koutou # ;
+a% ana+Sg3:a% ana # ;
+a% lāua+Du3:a% lāua # ;
+a% lā+Du3:a% lā # ;
+a% lātou+Pl3:a% lātou # ;
+
+LEXICON todo_name
 toku+Pron+Sg1:toku # ;
 taku+Pron+Sg1:taku # ;
 tota+Pron+Sg1:tota # ;

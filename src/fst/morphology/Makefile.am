@@ -39,10 +39,12 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/symbols.lexc     \
 			 affixes/verbs.lexc       \
 			 stems/adjectives.lexc    \
+			 stems/conjunctions.lexc    \
 			 stems/nouns.lexc         \
 			 stems/numerals.lexc      \
 			 stems/prefixes.lexc      \
 			 stems/pronouns.lexc      \
+			 stems/propernouns.lexc      \
 			 stems/verbs.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files

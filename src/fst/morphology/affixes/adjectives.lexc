@@ -3,9 +3,7 @@
 !! The Tokelauan language adjectives compare.
 
 LEXICON Comparisons
-+A+Pos:0        Cases   ;
-!+A+Comp:er       Cases   ;
-!+A+Superl:est      Cases  ; 
++A: # ;
 
 ! vim: set ft=xfst-lexc:
 
