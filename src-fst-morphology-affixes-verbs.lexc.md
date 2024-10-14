@@ -15,7 +15,9 @@ LEXICON Verbs  splits to subgrups according to pl form
 
 * LEXICON ta_pref  = 2-syllabic verbs with ta prefix
 
-* LEXICON redup_pref  = 2-syllabic verbs with full reduplication
+* LEXICON 3redup_pref  = 2-syllabic verbs with full reduplication
+
+* LEXICON 4redup_pref  = 2-syllabic verbs with full reduplication
 
 # Suffixes
 
