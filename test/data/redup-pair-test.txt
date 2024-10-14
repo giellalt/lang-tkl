@@ -1,0 +1,4 @@
+^R1:l ^E1:o ^R2:g ^E2:o > l o g o
+^R1:t ^E1:a ^R2:f ^E2:u > t a f u
+^E1:i ^R2:k ^E2:i > i k i
+
