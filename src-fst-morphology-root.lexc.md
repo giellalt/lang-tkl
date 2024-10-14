@@ -16,6 +16,7 @@ The parts-of-speech are:
 
 The parts of speech are further split up into:
 - +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+- +Prox +Med +Dist = proximal, medial, distal (near speaker, hearer, neiter)
 
 The Usage extents are marked using following tags:
 - +Err/Orth
@@ -44,6 +45,9 @@ For reduplication
  ^R ^E ^R1 ^R2 ^E1 ^E2 ^3S ^T ^A ^[ ^]  cons, vow, for 2- and 3-syll
 
 Question and Focus particles:
+ +Qst +Foc  
+
++Prf +Ipf +Fut   Aspect, perhaps
 
 Semantics are classified with
 

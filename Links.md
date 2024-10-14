@@ -16,6 +16,7 @@
                 * [nouns.lexc](src-fst-morphology-stems-nouns.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/nouns.lexc))
                 * [numerals.lexc](src-fst-morphology-stems-numerals.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/numerals.lexc))
                 * [prefixes.lexc](src-fst-morphology-stems-prefixes.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/prefixes.lexc))
+                * [prepositions.lexc](src-fst-morphology-stems-prepositions.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/prepositions.lexc))
                 * [pronouns.lexc](src-fst-morphology-stems-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/pronouns.lexc))
                 * [verbs.lexc](src-fst-morphology-stems-verbs.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/verbs.lexc))
         * `phonetics/`
