@@ -349,6 +349,7 @@ Verbs in the Tokelauan language inflect for tense.
 * LEXICON ta_stems = 2-syllabic verbs with ta prefix
 
 * LEXICON 4redup_stems = 2-syllabic verbs with full reduplication
+
 * LEXICON 3redup_stems = 2-syllabic verbs with full reduplication
 
 * * *
