@@ -5,3 +5,4 @@ LEXICON cc
 LEXICON Conjunctions
 oi cc "and" ;
 kae cc "and, when, while, but" ;
+ma cc "and" ;

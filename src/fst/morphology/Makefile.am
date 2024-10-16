@@ -40,8 +40,10 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/verbs.lexc       \
 			 stems/adjectives.lexc    \
 			 stems/conjunctions.lexc    \
+			 stems/determiners.lexc    \
 			 stems/nouns.lexc         \
 			 stems/numerals.lexc      \
+			 stems/particles.lexc      \
 			 stems/prefixes.lexc      \
 			 stems/pronouns.lexc      \
 			 stems/propernouns.lexc      \

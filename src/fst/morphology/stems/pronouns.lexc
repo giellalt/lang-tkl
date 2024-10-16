@@ -3,65 +3,71 @@
 !! Pronouns in the Tokelauan language are words that may replace nouns or refer to participants in the conversation.
 
 LEXICON Pronouns
-+Pron: Personal ;
+       Personal ;
        Possessive ;
        Possessive ;
+       Interrogative ;
 todo_name ;
 
 LEXICON Personal
-+Du1+Incl:ki% tāua # ;
-+Du1+Incl:ki% tā # ;
-+Pl1+Incl:ki% tātou # ;
-+Sg1+Excl:au # ;
-+Sg1+Excl:kita # ;
-+Du1+Excl:ki% māua # ;
-+Du1+Excl:ki% mā # ;
-+Pl1+Excl:ki% mātou # ;
-+Sg2:koe # ;
-+Du2:koulua # ;
-+Pl2:koutou # ;
-+Sg3:ia # ;
-+Du3:ki% lāua # ;
-+Du3:ki% lā # ;
-+Pl3:ki% lātou # ;
+ki% tāua+Pron+Du1+Incl:ki% tāua # ;
+ki% tā+Pron+Du1+Incl:ki% tā # ;
++Pron+Pl1+Incl:ki% tātou # ;
++Pron+Sg1+Excl:au # ;
++Pron+Sg1+Excl:kita # ;
++Pron+Du1+Excl:ki% māua # ;
++Pron+Du1+Excl:ki% mā # ;
++Pron+Pl1+Excl:ki% mātou # ;
++Pron+Sg2:koe # ;
++Pron+Du2:koulua # ;
++Pron+Pl2:koutou # ;
++Pron+Sg3:ia # ;
++Pron+Du3:ki% lāua # ;
++Pron+Du3:ki% lā # ;
++Pron+Pl3:ki% lātou # ;
 
-+Sg1+Excl:kō # ;
-+Sg2:kē # ;
++Pron+Sg1+Excl:kō # ;
++Pron+Sg2:kē # ;
 
 LEXICON Possessive
-o% tāua+Du1+Incl:o% tāua # ;
-o% tāua+Du1+Incl:o% tā # ;
-o% tātou+Pl1+Incl:o% tātou # ;
-o% oku+Sg1+Excl:o% oku # ;
-o% kita+Sg1+Excl:o% kita # ;
-o% māua+Du1+Excl:o% māua # ;
-o% mā+Du1+Excl:o% mā # ;
-o% mātou+Pl1+Excl:o% mātou # ;
-o% ōu+Sg2:o% ōu # ;
-o% koe+Sg2:o% koe # ;
-o% koulua+Du2:o% koulua # ;
-o% koutou+Pl2:o% koutou # ;
-o% ona+Sg3:o% ona # ;
-o% lāua+Du3:o% lāua # ;
-o% lā+Du3:o% lā # ;
-o% lātou+Pl3:o% lātou # ;
+o% tāua+Pron+Poss+Du1+Incl:o% tāua # ;
+o% tāua+Pron+Poss+Du1+Incl:o% tā # ;
+o% tātou+Pron+Poss+Pl1+Incl:o% tātou # ;
+o% oku+Pron+Poss+Sg1+Excl:o% oku # ;
+o% kita+Pron+Poss+Sg1+Excl:o% kita # ;
+o% māua+Pron+Poss+Du1+Excl:o% māua # ;
+o% mā+Pron+Poss+Du1+Excl:o% mā # ;
+o% mātou+Pron+Poss+Pl1+Excl:o% mātou # ;
+o% ōu+Pron+Poss+Sg2:o% ōu # ;
+o% koe+Pron+Poss+Sg2:o% koe # ;
+o% koulua+Pron+Poss+Du2:o% koulua # ;
+o% koutou+Pron+Poss+Pl2:o% koutou # ;
+o% ona+Pron+Poss+Sg3:o% ona # ;
+o% lāua+Pron+Poss+Du3:o% lāua # ;
+o% lā+Pron+Poss+Du3:o% lā # ;
+o% lātou+Pron+Poss+Pl3:o% lātou # ;
 
-a% tāua+Du1+Incl:a% tāua # ;
-a% tāua+Du1+Incl:a% tā # ;
-a% tātou+Pl1+Incl:a% tātou # ;
-a% aku+Sg1+Excl:a% oku # ;
-a% kita+Sg1+Excl:a% kita # ;
-a% māua+Du1+Excl:a% māua # ;
-a% mā+Du1+Excl:a% mā # ;
-a% mātou+Pl1+Excl:a% mātou # ;
-a% ōu+Sg2:a% ōu # ;
-a% koe+Sg2:a% koe # ;
-a% koulua+Du2:a% koulua # ;
-a% koutou+Pl2:a% koutou # ;
-a% ana+Sg3:a% ana # ;
-a% lāua+Du3:a% lāua # ;
-a% lā+Du3:a% lā # ;
-a% lātou+Pl3:a% lātou # ;
+a% tāua+Pron+Poss+Du1+Incl:a% tāua # ;
+a% tāua+Pron+Poss+Du1+Incl:a% tā # ;
+a% tātou+Pron+Poss+Pl1+Incl:a% tātou # ;
+a% aku+Pron+Poss+Sg1+Excl:a% oku # ;
+a% kita+Pron+Poss+Sg1+Excl:a% kita # ;
+a% māua+Pron+Poss+Du1+Excl:a% māua # ;
+a% mā+Pron+Poss+Du1+Excl:a% mā # ;
+a% mātou+Pron+Poss+Pl1+Excl:a% mātou # ;
+a% ōu+Pron+Poss+Sg2:a% ōu # ;
+a% koe+Pron+Poss+Sg2:a% koe # ;
+a% koulua+Pron+Poss+Du2:a% koulua # ;
+a% koutou+Pron+Poss+Pl2:a% koutou # ;
+a% ana+Pron+Poss+Sg3:a% ana # ;
+a% lāua+Pron+Poss+Du3:a% lāua # ;
+a% lā+Pron+Poss+Du3:a% lā # ;
+a% lātou+Pron+Poss+Pl3:a% lātou # ;
+
+tona+Pron+Poss+Sg3:tona # ;
+
+LEXICON Interrogative
+ai+Pron+Interr:ai # ;
 
 LEXICON todo_name
 toku+Pron+Sg1:toku # ;

@@ -4,9 +4,9 @@
 
 
 LEXICON v_particles
-ē+Prs:ее pcle ;  ! one verb ē, can be shortened initially in VP
-e+Prs:e pcle ;   ! a separate verb e
-nai+:nai pcle ;
+ē+Prs:ее vpcle ;  ! one verb ē, can be shortened initially in VP
+e+Prs:e vpcle ;   ! a separate verb e
+nai+:nai vpcle ;
 na+Prf:na # ; ! Perfective ?
 nae+Prf:nae # ; 
 kā+Fut:kā # ;
@@ -45,7 +45,7 @@ hi:hi v "Fish with a" ;
 LEXICON auxtag
 +V+Aux: # ;
 
-LEXICON pcle
+LEXICON vpcle
 +Prs:^VC vtags ; ! ^VC = vowel shortening
 +Prt: vtags ;    ! ^VC = vowel shortening
 
