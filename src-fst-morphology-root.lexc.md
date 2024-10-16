@@ -13,6 +13,7 @@ language are presented in this system in terms of the following symbols.
 The parts-of-speech are:
 - +N +A +Adv +V
 - +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num
+- +Incl +Excl
 
 The parts of speech are further split up into:
 - +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
