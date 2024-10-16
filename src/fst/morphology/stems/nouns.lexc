@@ -3,9 +3,9 @@
 !! Nouns in the Tokelauan language refer to objects or sets of objects, qualities, states or ideas.
 
 LEXICON Nouns
-fale+N:fale n "house"   ;
-āeto+N:aaeto n "eagle" ;
-aiha+N:aiha n "ice" ;
+fale:fale n "house"   ;
+āeto:aaeto n "eagle" ;
+aiha:aiha n "ice" ;
 ! vim: set ft=xfst-lexc:
 a n "Letter A." ;
 āeto n "(Bb.). Eagle. He" ;
