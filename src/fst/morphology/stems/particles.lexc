@@ -3,3 +3,6 @@ LEXICON pcle
 
 LEXICON Particles
 ko pcle ;
+ta pcle ;
+foki pcle "emph" ;
+ei pcle "anaphoric article" ;
