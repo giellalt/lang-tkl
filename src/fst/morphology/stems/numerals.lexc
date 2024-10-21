@@ -2,7 +2,56 @@
 !  --------
 !! Numerals in the Tokelauan language describe a nuerical quantity.
 
+LEXICON num
++Num: # ;
+
 LEXICON Numerals
-numeral+Num:numeral    Cases   ;
+tahi num "1" ;
+lua num "2" ;
+tolu num "3" ;
+fā num "4" ;
+lima num "5" ;
+ono num "6" ;
+fitu num "7" ;
+valu num "8" ;
+iva num "9" ;
+hefulu num "10" ;
+hefulutahi num "11" ;
+hefululua num "12" ;
+hefulutolu num "13" ;
+hefulufā num "14" ;
+hefululima num "15" ;
+hefuluono num "16" ;
+hefulufitu num "17" ;
+hefuluvalu num "18" ;
+hefuluiva num "19" ;
+luahefulu num "20" ;
+luahefulutahi num "21" ;
+luahefululua num "22" ;
+luahefulutolu num "23" ;
+luahefulufā num "24" ;
+luahefululima num "25" ;
+luahefuluono num "26" ;
+luahefulufitu num "27" ;
+luahefuluvalu num "28" ;
+luahefuluiva num "29" ;
+toluhefulu num "30" ;
+fāhefulu num "40" ;
+limahefulu num "50" ;
+onohefulu num "60" ;
+fituhefulu num "70" ;
+valuhefulu num "80" ;
+ivahefulu num "90" ;
+helau num "100" ;
+afe num "1000" ;
+luaafe num "2000" ;
+toluafe num "3000" ;
+fāafe num "4000" ;
+limaafe num "5000" ;
+onoafe num "6000" ;
+fituafe num "7000" ;
+valuafe num "8000" ;
+ivaafe num "9000" ;
+
 
 ! vim: set ft=xfst-lexc:
