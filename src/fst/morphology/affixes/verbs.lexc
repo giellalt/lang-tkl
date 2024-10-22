@@ -47,6 +47,20 @@ LEXICON vtags !!= * @CODE@ = adds POS and Sg, Pl tags as governed by the U flags
 @U.verb.sg@+V+Sg:@U.verb.sg@ # ;
 @U.verb.pl@+V+Pl:@U.verb.pl@ # ;
 
+LEXICON tvtags !!= * @CODE@ = adds POS and Sg, Pl tags as governed by the U flags
+@U.verb.sg@+V+Sg:@U.verb.sg@ # ;
+@U.verb.pl@+V+Pl:@U.verb.pl@ # ;
+@U.verb.sg@+V+Sg:@U.verb.sg@ tv ;
+@U.verb.pl@+V+Pl:@U.verb.pl@ tv ;
+
+LEXICON tv
+# ;
++TV:%>a # ;
++Dir+TV:mai%>a # ;
++Dir+TV:atu%>a # ;
++Dir+TV:ifo%>a # ;
++Dir+TV:ake%>a # ;
+
 
 LEXICON redup_suff !!= * @CODE@ = adds POS and Sg, Pl tags as governed by the U flags
 +V+Sg: redup_suff_sgflags ;

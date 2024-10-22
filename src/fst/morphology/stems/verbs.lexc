@@ -72,15 +72,15 @@ nā:naa vtags "(o f young" ;
 tē:tee vtags "Be bulging, stick" ; ! XXX
 ! pā':paa' v "A rrive," ; ! XXX
 
-ao:ao vtags "Collect, gather." ;
-au:au vtags "Reach, get" ;
-ea:ea vtags "Surface. Kua" ;
+ao:ao tvtags "Collect, gather." ;
+au:au vtags "reach, get there" ;
+ea:ea vtags "Surface" ;
 oe:oe vtags "Acknowledge or answer" ;
 ui:ui vtags "Although, though, in" ;
 
 ao’:ao’ vtags "Hew and shape" ;
 ake:ake vtags "Be washed" ;
-ako:ako vtags "Learn. Kua" ;
+ako:ako tvtags "Learn" ;
 ala:ala vtags "Be awake." ;
 amu:amu vtags "(of the movements" ;
 apo:apo vtags "Heed, regard" ;
@@ -341,24 +341,24 @@ viga:viga vtags "Ask persis t" ;
 vili:vili vtags "Strive, endeavour, aim" ;
 voli:voli vtags "Eng. volley Volley." ;
 
-ino':ino' vtags "Fall face down." ;
+ino:ino vtags "Fall face down." ;
 !omo.:omo. vtags "Take up a" ; ! XXX
 !tata.:tata. vtags "ull forcefully," ;
-ova':ova' vtags "Eng. over. Go" ;
-uli':uli' vtags "(of a canoe," ;
-mao':mao' vtags "(o f" ;
-hau':hau' vtags "(pi. oomai or" ;
-lava':lava' vtags "Be enough. Kua" ;
-lele':lele' vtags "(pi. felelei). Fly." ;
-nanu':nanu' vtags "M isp" ;
-hika':hika' vtags "Make a fire" ;
-hoka':hoka' vtags "Poke, stab." ;
-hulu':hulu' vtags "(pl. huhulu). Fall" ;
-taia':taia' vtags "Be hardened or" ;
-tali':tali' vtags "Receive guest(s), be" ;
-tele':tele' vtags "Sail, travel under" ;
-tūgā':tuugaa' vtags "Be very late," ;
-liki’:liki’ vtags "(of many units)." ;
+ova:ova vtags "Eng. over. Go" ;
+uli:uli vtags "(of a canoe," ;
+mao:mao vtags "(o f" ;
+hau:hau vtags "(pi. oomai or" ;
+lava:lava vtags "Be enough. Kua" ;
+lele:lele vtags "(pi. felelei). Fly." ;
+nanu:nanu vtags "M isp" ;
+hika:hika vtags "Make a fire" ;
+hoka:hoka vtags "Poke, stab." ;
+hulu:hulu vtags "(pl. huhulu). Fall" ;
+taia:taia vtags "Be hardened or" ;
+tali:tali vtags "Receive guest(s), be" ;
+tele:tele vtags "Sail, travel under" ;
+tūgā:tuugaa vtags "Be very late," ;
+liki:liki vtags "Be small sized." ;
 
 
 LEXICON 3v_stems!!= * @CODE@ = 3-syllabic verbs with CV reduplication
@@ -550,6 +550,7 @@ vikia:vikia vtags "Be com" ;
 aoaoa:aoaoa vtags "Be clouded over," ; ! XXX
 aoina:aoina vtags "Be too late" ; ! XXX
 
+kukula:kukula vtags "be red" ;
 fafali:fafali vtags "Wipe and clean" ;
 fafalo:fafalo vtags "Pull, stretch. Nahe" ;
 fafati:fafati vtags "Break, snap" ;
