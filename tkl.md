@@ -110,6 +110,8 @@ LEXICON Verbs  splits to subgrups according to pl form
 
 * LEXICON vtags  = adds POS and Sg, Pl tags as governed by the U flags
 
+* LEXICON tvtags  = adds POS and Sg, Pl tags as governed by the U flags
+
 * LEXICON redup_suff  = adds POS and Sg, Pl tags as governed by the U flags
 
 * * *
@@ -211,6 +213,8 @@ Non-dictionary words can be recognised with:
 
 For reduplication
  ^R ^E ^R1 ^R2 ^E1 ^E2 ^3S ^T ^A ^[ ^]  cons, vow, for 2- and 3-syll
+
++Dir   directional
 
 Question and Focus particles:
  +Qst +Foc  
