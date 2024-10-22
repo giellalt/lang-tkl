@@ -29,6 +29,8 @@ Rules !!= # @CODE@
 Vx:0 <=> Vx _ %^VC: ;
 	where Vx in Vow ;
 
+!## CV reduplication
+
 "^R realisation as consonant"
 !! **RULE: @RULENAME@** = duplicates C for reduplication
 %^R:Cx <=> .#.                 _ %^E: %> Cx ;
@@ -44,6 +46,8 @@ Vx:0 <=> Vx _ %^VC: ;
        where Vx in Vow ;
 
 
+!## CVCV reduplication
+
 "^R1 realisation as consonant"
 !! **RULE: @RULENAME@** = duplicates C1 for full reduplication
 %^R1:Cx <=>  _ %^E1: %^R2: %^E2: %> Cx ;
@@ -57,7 +61,7 @@ Vx:0 <=> Vx _ %^VC: ;
 "^R2 realisation as consonant"
 !! **RULE: @RULENAME@** = duplicates C3 for full reduplication
 !%^R2:Cx <=> .#. %^R1: %^E1: _ %^E2: %> (Cns) (Vow) Cx;
-%^R2:Cx <=>  _ %^E2: %> (Cns) Vow Cx;
+%^R2:Cx <=>  _ %^E2: %> (Cns) Vow Cx ;
      where Cx in Cns ;
 
 "^E2 realisation as vowel"
