@@ -37,6 +37,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ - @CODE@
+ +Def +Der !!≈ - @CODE@
  +Prox +Med +Dist  !!≈ - @CODE@ = proximal, medial, distal (near speaker, hearer, neiter)
  
 !! The Usage extents are marked using following tags:
