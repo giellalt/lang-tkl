@@ -17,6 +17,7 @@ The parts-of-speech are:
 
 The parts of speech are further split up into:
 - +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+- +Def +Der
 - +Prox +Med +Dist = proximal, medial, distal (near speaker, hearer, neiter)
 
 The Usage extents are marked using following tags:
