@@ -98,7 +98,10 @@ MAP:cconjunction (@CNP @CVP) TARGET CC ;
 ADD:sconjunction (@CVP) TARGET CS ;
 MAP:oneverbpersentence (@+FMAINV) TARGET VFIN IF (NEGATE *0 V);
 
+#   Preposition
 
+SELECT Pr IF (1C N);
+## e tatalo
 
 AFTER-SECTIONS
 
