@@ -4,7 +4,7 @@
 !! nouns, but perhaps with a colon (':') as separator.
 
 LEXICON prop
-+N+Prop:%:  #  ;
++N+Prop:  #  ;
 
 ! vim: set ft=xfst-lexc:
 

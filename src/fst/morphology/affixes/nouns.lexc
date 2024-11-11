@@ -2,7 +2,7 @@
 !  ---------------
 !! The Tokelauan language nouns inflect in number and cases.
 
-LEXICON nouninfl
+LEXICON n
 +N+Sg: # ;
 
 ! vim: set ft=xfst-lexc:

@@ -37,7 +37,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ - @CODE@
- +Def +Der !!≈ - @CODE@
+ +Def +Det !!≈ - @CODE@
  +Prox +Med +Dist  !!≈ - @CODE@ = proximal, medial, distal (near speaker, hearer, neiter)
  
 !! The Usage extents are marked using following tags:
@@ -160,20 +160,21 @@ LEXICON Root  !!≈ - **@@ODE@**
 !! The word forms in Tokelauan language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
  Conjunctions ;
- Determiners ;
  Demonstratives ;
+ Determiners ;
  Interjections ;
+ Nouns       ;
+ Numerals    ;
  Particles ;
+ Postmodifiers ;
+ Prefixes    ;
  Premodifiers ;
  Prepositions ;
- Postmodifiers ;
- Propernouns ;
- Nouns       ;
- Verbs       ;
  Pronouns    ;
- Numerals    ;
- Prefixes    ;
+ Propernouns ;
  Punctuation ;
+ Subjunctions ;
  Symbols     ;
+ Verbs       ;
 
 ! vim: set ft=xfst-lexc:

@@ -7,3 +7,14 @@ oi cc "and" ;
 kae cc "and, when, while, but" ;
 ma cc "and" ;
 ona cc "fordi" ;
+ka cc "but" ;
+kana cc "if" ;
+ke cc "so" ;
+ona cc ;
+
+LEXICON cs
++CS: # ;
+
+LEXICON Subjunctions
+kāfai cs "if" ;
+kafai cs "if" ;
