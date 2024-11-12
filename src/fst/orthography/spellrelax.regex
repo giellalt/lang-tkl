@@ -18,6 +18,10 @@
 # This will probably call for two distinct spellrelax files,
 # one for use for all fsts and one for the descriptive ones.
 
+For the temporary hack:
+
+# Part A: restore aa to ā (for -desc and -norm alike):
+
 а а -> [ā|a] ,
 e e -> [ē|e] ,
 i i -> [ī|i] ,
@@ -29,6 +33,8 @@ E e -> [Ē|E] ,
 I i -> [Ī|I] ,
 O o -> [Ō|O] ,
 U u -> [Ū|U] ,
+
+# Part B: Allow for sloppy use of length mark (to be confined to -desc only):
 
 ā (->) a ,
 ē (->) e ,
