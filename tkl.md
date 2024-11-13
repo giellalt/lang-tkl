@@ -4,6 +4,18 @@ All doc-comment documentation in one large file.
 
 ---
 
+# src-cg3-disambiguator.cg3.md 
+
+
+
+SECTION  #
+
+* * *
+
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-tkl/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
 # src-cg3-functions.cg3.md 
 
 
