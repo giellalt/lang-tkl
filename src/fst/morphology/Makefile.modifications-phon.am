@@ -22,6 +22,6 @@
 #! 		  compile for other things
 #GT_PHONOLOGY_MAIN=phonology.xfscript
 GT_PHONOLOGY_MAIN=phonology.twolc
-GT_PHONOLOGY_SUPPLEMENTS=
+GT_PHONOLOGY_SUPPLEMENTS=longvowel-cleanup.regex
 
 # vim: set ft=automake:
