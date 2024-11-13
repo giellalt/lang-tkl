@@ -14,7 +14,6 @@ STRICT-TAGS +=
     Abbr ABBR ACR Pr Po Pron Pcle
     Pers Det Dem Refl Recipr Poss Interr
     Nom Acc Gen Dat Instr
-    Ill Loc Com Ess Ine Ela
     Msc Fem Neu
     Sg Pl Du
     Def Indef
@@ -109,14 +108,11 @@ LIST COMMA = "," ;
 
 SET FIRSTNAME = (Prop Sem/Fem) OR (Prop Sem/Mal) ;
 LIST TIME-N-SET = (N Sem/Time) ;
-LIST NOT-TIME = "dulvi" "vuorru" ;
-SET TIME-N = TIME-N-SET - NOT-TIME ;
-LIST HUMAN = Sem/Hum Sem/Mal Sem/Fem Sem/Sur Pers NumAg ;
+
 
 #!! * Sets for Morphosyntactic properties
 # --------------------------
 
-LIST LOC = Loc Ine Ela ;
 
 # Derivation
 # ----------
@@ -127,16 +123,13 @@ LIST LOC = Loc Ine Ela ;
 SET FMAINV = @-FMAINV OR @+FMAINV OR (V @<OBJ) OR (V @N<) OR (V @<SUBJ) OR (V @<ADVL) ;
 SET FAUXV = @-FAUXV OR @+FAUXV ;
 LIST @ADVL = @ADVL @ADVL> @ADVL< @<ADVL @>ADVL @-F<ADVL ;
-LIST HAB-V-TAGS = Pl3 Sg3 ConNeg PrfPrc Inf ;
 SET SUBJ = @<SUBJ OR @SUBJ> OR @SUBJ ;
 SET SPRED = @<SPRED OR @SPRED> OR @SPRED ;
 SET OPRED = @<OPRED OR @OPRED> OR @OPRED ;
 SET OBJ = (@<OBJ) OR (@OBJ>) OR (@OBJ) OR (@-F<OBJ) OR (@-FOBJ>) ;
 LIST <OBJ = @-F<OBJ @<OBJ ;
 LIST OBJ> = @OBJ> @-FOBJ> ;
-SET <OBJ-OTHERS = <OBJ OR (Gen) OR (Nom) OR (Ess) OR (Loc) OR (Adv) OR (Ine) OR (Ela) ;
-SET OBJ>-OTHERS = OBJ> OR (Gen) OR (Nom) OR (Ess) OR (Loc) OR (Adv) OR (Ine) OR (Ela) ;
-SET SYN-V = V + SUBJ OR OBJ + V OR @ADVL + V OR (V @N<) OR (V @A<) OR V + SPRED OR (V @COMP-CS<) ;
+
 
 # Initials
 # --------
@@ -275,12 +268,6 @@ SET LEX-ADV = Adv - (A*) ;
 SET NOT-ADV            = WORD - Adv ;
 SET NOT-ADV-N          = NOT-ADV - N;
 SET NOT-ADV-PCLE       = NOT-ADV - Pcle ;
-SET NOT-ADV-INDEF      = NOT-ADV - Indef ;
-SET NOT-ADV-PCLE-ILL   = WORD - Adv - Pcle - Ill ;
-SET NOT-ADV-PCLE-Refl  = WORD - Adv - Pcle - Refl ;
-SET NOT-ADV-PCLE-INDEF = WORD - Adv - Pcle - Indef ;
-SET NOT-ADV-PCLE-NEG   = WORD - Adv - Pcle - Neg ;
-SET NOT-ADVL-PCLE-NEG  = WORD - @ADVL - @P< - Pcle - Neg ;
 
 
  # Introduce finite clauses.
@@ -301,8 +288,7 @@ SETS
 #!! * Sets for verbs
 # -----
 
-LIST NOT-REAL-V = (Actio Nom) (Actio Gen) (Actio Loc) (Actio Com) PrsPrc ;
-SET REAL-V = V - NOT-REAL-V  ;
+SET REAL-V = V ;
 SET MAIN-V = V - FAUXV ;
 LIST V-TRANS = (V TV) ;
 SET TRANS-V = V-TRANS + REAL-V ;
@@ -350,8 +336,6 @@ SET NOT-NPMOD-ACC     = NOT-NPMOD - Acc OR ABBR ;
 SET NOT-NPMOD-ACC-ADV     = NOT-NPMOD - Acc - Adv OR ABBR ; 
 SET NOT-NPMODADV    = WORD - PRE-NP-HEAD - Adv ;                      
 SET NOT-NPMODADV-INDEF   = WORD - PRE-NP-HEAD - Adv - Indef ;              
-SET NOT-NPMODADVII  = WORD - PRE-NP-HEAD - Adv - Indef - Ill ;        
-SET NOT-NPMODADVIIP = WORD - PRE-NP-HEAD - Adv - Indef - Ill - Pcle ; 
 SET NOT-NPMODCC   = WORD - PRE-NP-HEAD - COMMA - @CNP ;
 SET NAPP     = WORD - PRE-APP ;
 
@@ -376,14 +360,12 @@ SET S-BOUNDARY = CP OR BOUNDARYSYMBOLS OR (Neg Sup) OR @CVP ;
 SET BOC = S-BOUNDARY OR BOS ;
 SET BOC-PUNCT = BOC - ("-") - ("–") ; 
 SET EOC = S-BOUNDARY OR EOS ;
-SET NP-BOUNDARY = BOS OR EOS OR REAL-CLB OR VFIN OR Inf OR (Actio Ess) OR ConNeg OR VGen OR Sup OR PPRON-NOT-GEN OR Recipr OR Po OR Pr OR Pcle OR Interj OR CS OR CP OR @CVP ;
+SET NP-BOUNDARY = BOS OR EOS OR REAL-CLB OR VFIN OR Inf OR Recipr OR Pr OR Pcle OR Interj OR CS OR CP OR @CVP ;
 
-SET APP-BOUNDARY = REAL-CLB OR VFIN OR Inf OR (Actio Ess) OR ConNeg OR VGen OR Sup OR Recipr OR Po OR Pr OR Pcle OR Interj OR CS OR CP OR PrfPrc - @>N ;
+SET APP-BOUNDARY = REAL-CLB OR VFIN OR Inf OR Recipr OR Pr OR Pcle OR Interj OR CS OR CP OR PrfPrc - @>N ;
 SET SV-BOUNDARY = S-BOUNDARY OR Inf - FAUXV OR Sup OR FMAINV ;
 SET SVF-BOUNDARY = S-BOUNDARY OR VFIN ;
 
-LIST ADVLCASE = Ill Loc Com Ess Ine Ela ;
-LIST CASE = Nom Acc Gen Ill Loc Com Ess Ine Ela ;
 
 #!! * Syntactic sets
 # --------------
@@ -399,11 +381,18 @@ SET NON-APP = ALLSYNTAG - (@APP);
 SECTION         #
 
 
+
+MAP:interjection (@INTERJ) TARGET Interj ;
+MAP:cconjunction (@CNP @CVP) TARGET CC ;
+ADD:sconjunction (@CVP) TARGET CS ;
+MAP:oneverbpersentence (@+FMAINV) TARGET VFIN IF (NEGATE *0 V);
+
+
 MAP:pcle (@PCLE) TARGET Pcle ;
 MAP:interj (@INTERJ) TARGET Interj ;
 MAP:>P (@>P) Gen (1 Po) ;
 MAP:>Pcoor (@>P) Gen (1 CC LINK *1 @>P BARRIER NOT-NPMOD) ;
-MAP:>P (@>P) Gen - TIME-N (NEGATE -1 Pr)(1 Pr LINK 1 Gen) ;
+MAP:>P (@>P) Gen (NEGATE -1 Pr)(1 Pr LINK 1 Gen) ;
 MAP:p< (@P<) Gen (*-1 Pr BARRIER NOT-NPMOD)(NEGATE 1 Gen) ;
 MAP:p<coor (@P<) Gen (-1 CRD OR COMMA LINK -1 @P<) ;
 MAP:>nAttr (@>Num) TARGET Attr (1 Num)  ;
@@ -411,6 +400,8 @@ MAP:>nAttr (@>N) TARGET Attr (*1 N BARRIER Num OR A - Attr OR Pr OR Ord)  ;
 MAP:>nAttrCoor (@>N) TARGET Attr (1 CC LINK 1 @>N)  ;
 MAP:<advl (@<ADVL) TARGET Adv (*1 Po OR EOS BARRIER SV-BOUNDARY) ;
 MAP:obj> (@OBJ>) TARGET Acc (*1 FMAINV BARRIER SV-BOUNDARY) ;
+
+
 
 
 AFTER-SECTIONS

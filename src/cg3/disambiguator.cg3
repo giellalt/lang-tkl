@@ -53,57 +53,50 @@ DELIMITERS = "<.>" "<!>" "<?>" "<¶>" ;
 LIST BOS = (>>>) (<s>);
 LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
 
-LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Acc Gen
-Dat Msc Fem Neu Sg Pl Def Indef Cmp Sup Prs Prt 1Sg 2Sg 3Sg Inf PrfPrc
-PrsPrc Sup Imp CLB PUNCT LEFT RIGHT Guess ;
-
-
-LIST NAGD = Nom Acc Gen Dat ;
-LIST RARECASES = Instr ;
-LIST GENDER = Msc Fem Neu ;
-LIST NUMBER = Sg Pl ;
-LIST VFIN = Prs Prt Imp ;
-LIST INFMARK = ("to") ;
 # Sets
 # ====
+
+LIST V = V ;
+LIST N = N ;
+LIST Pr = Pr ;
+LIST Inf = Inf ;
+LIST Prop = Prop ;
+LIST Pron = Pron ;
+LIST Det = Det ;
+LIST Adv = Adv ;
+LIST CC = CC ;
+LIST CS = CS ;
+LIST Interj = Interj ;
+LIST Num = Num ;
+LIST Dem = Dem ;
+#LIST Pcle = Pcle ;
+
 
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
 
-
-
-########################                  #########################
-########################                  #########################
-                        # disambiguation #
-########################                  #########################
-########################                  #########################
-
 SECTION
 
+#   ======== #
+#!! SECTION  #
+#   ======== #
 
-# Always remove guesses if anything better is available
-REMOVE Guess ;
+# Propernoun
 
-# E.g. select infinitive if previous word is infinitive marker:
-SELECT:toInf Inf IF (-1 INFMARK);
+SELECT:prop Prop IF (NOT -1 BOS);
 
-
-# ======== #
-###SECTION  #
-# ======== #
-
-
-MAP:interjection (@INTERJ) TARGET Interj ;
-MAP:cconjunction (@CNP @CVP) TARGET CC ;
-ADD:sconjunction (@CVP) TARGET CS ;
-MAP:oneverbpersentence (@+FMAINV) TARGET VFIN IF (NEGATE *0 V);
 
 #   Preposition
 
+#REMOVE "Pcle" IF (0 Pr)(1 Dem)(2 N);
+
+SELECT Pr IF (0 Pr)(1 Dem)(2 N) ;
 SELECT Pr IF (1C N);
-## e tatalo
+# e tatalo
+
+SELECT Det IF (-1 Pr)(2 N) ;
 
 AFTER-SECTIONS
 
 # last resort rules
-REMOVE:rarecases RARECASES ;
+
