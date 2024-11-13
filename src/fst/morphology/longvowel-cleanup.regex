@@ -1,0 +1,16 @@
+# We represent ā etc. as aa etc in twolc in order to 
+# cope with the mora-based reduplication pattern.
+# After twolc output we want to replace aa with ā for
+# all transducers.
+
+а а -> ā ,
+e e -> ē ,
+i i -> ī ,
+o o -> ō ,
+u u -> ū , 
+
+A a -> Ā ,
+E e -> Ē ,
+I i -> Ī ,
+O o -> Ō ,
+U u -> Ū ;

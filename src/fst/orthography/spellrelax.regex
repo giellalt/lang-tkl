@@ -5,36 +5,7 @@
 # Explanation:
 # lexical side (->) input 
 
-
-# This is a temporary hack. 
-# We represent ā etc. as aa etc in twolc in order to 
-# cope with the mora-based reduplication pattern.
-# After twolc output we want to replace aa with ā for
-# all transducers, and the do a spellerlax from ā to a.
-
-# The goal is thus:
-# а а -> ā , # for all fsts, also the normative ones
-# ā (->) a , # an ordinary spellrelax file, for desc-
-# This will probably call for two distinct spellrelax files,
-# one for use for all fsts and one for the descriptive ones.
-
-For the temporary hack:
-
-# Part A: restore aa to ā (for -desc and -norm alike):
-
-а а -> [ā|a] ,
-e e -> [ē|e] ,
-i i -> [ī|i] ,
-o o -> [ō|o] ,
-u u -> [ū|u] , 
-
-A a -> [Ā|A] ,
-E e -> [Ē|E] ,
-I i -> [Ī|I] ,
-O o -> [Ō|O] ,
-U u -> [Ū|U] ,
-
-# Part B: Allow for sloppy use of length mark (to be confined to -desc only):
+# Allow for sloppy use of length mark (to be confined to -desc only):
 
 ā (->) a ,
 ē (->) e ,
@@ -45,6 +16,4 @@ U u -> [Ū|U] ,
 Ē (->) E ,
 Ī (->) I ,
 Ō (->) O ,
-Ū (->) U 
-
-; 
+Ū (->) U ; 
