@@ -79,6 +79,15 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
+.generated/generator-raw-gt-desc.%: .generated/generator-raw-gt-desc.tmp.% \
+									morphology/longvowel-cleanup.compose.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+				@\"$<\" \
+			.o. @\"morphology/longvowel-cleanup.compose.$*\"      \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
 ##################################################################
