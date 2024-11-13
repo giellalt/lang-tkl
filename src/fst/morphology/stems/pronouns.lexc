@@ -35,8 +35,8 @@ lāua+Pron+Du3:lāua # ;
 lā+Pron+Du3:lā # ;
 lātou+Pron+Pl3:lātou # ;
 
-+Pron+Sg1+Excl:kō # ;
-+Pron+Sg2:kē # ;
+kō+Pron+Sg1+Excl:kō # ;
+kē+Pron+Sg2:kē # ;
 
 LEXICON Possessive
 o% tāua+Pron+Poss+Du1+Incl:o% tāua # ;
