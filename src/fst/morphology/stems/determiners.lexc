@@ -8,7 +8,7 @@ ni+Det+Indef+Pl:ni # ;
 LEXICON Demonstratives
 a+Dem:a # ;
 ia+Dem:ia # ;
-te+Dem:te # ; ! a te, ia te
+!te+Dem:te # ; ! a te, ia te
 tē+Dem:tē # ;
 iē+Dem:iē # ;
 
@@ -22,7 +22,7 @@ tēia+Dem+Sg+Dist:tēia # ;
 iēnei+Dem+Pl+Prox:iēnei # ;
 nei+Dem+Pl+Prox:nei # ;
 iēnā+Dem+Sg+Med:iēnā # ;
-iēia+Dem+Pl+Diest:iēia # ;
+iēia+Dem+Pl+Dist:iēia # ;
 
 
 

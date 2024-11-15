@@ -36,9 +36,11 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Incl +Excl    !!≈ - @CODE@
  
 !! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ - @CODE@
+ +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  +Poss !!≈ - @CODE@
  +Def +Det !!≈ - @CODE@
  +Prox +Med +Dist  !!≈ - @CODE@ = proximal, medial, distal (near speaker, hearer, neiter)
+
++Post +Pre !!≈ - @CODE@ = postmodifiers, premodifiers
  
 !! The Usage extents are marked using following tags:
  +Err/Orth    !!≈ - @CODE@
@@ -48,10 +50,11 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! The nominals are inflected in the following  Number
  +Sg +Du +Pl !!≈ - @CODE@
- +Nom +Gen +Acc !!≈ - @CODE@
+ +Nom +Gen +Acc  !!≈ - @CODE@
+ +Loc !!≈ - @CODE@ for locative nouns
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+! +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
@@ -107,6 +110,13 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Edu
  +Veh
  +Clth
+ 
+ 
+ 
+ 
+ !! These tags are used somewhere:
+ 
+
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the

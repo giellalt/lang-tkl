@@ -4,18 +4,17 @@
 
 
 LEXICON v_particles
-ē+Prs:ее vpcle ;  ! one verb ē, can be shortened initially in VP
-e+Prs:e vpcle ;   ! a separate verb e
-nai+:nai vpcle ;
-na+Prf:na # ; ! Perfective ?
-nae+Prf:nae # ; 
-kā+Fut:kā # ;
-koi+Ipf:koi # ; ! imperfective ?
-kua+Prs:kua # ; ! todo: Tag for presentation
-e+Prs:e # ;  ! todo: Tag for presentation
-hē+Neg:hē # ;
-hēki+Neg:hēki # ;
-hēai+Neg:hēai # ;
+ē+V+Prs:ее # ;  ! one verb ē, can be shortened initially in VP
+e+V+Prs:e # ;   ! a separate verb e
+nai+V:nai # ;
+na+V+Prf:na # ; ! Perfective ?
+nae+V+Prf:nae # ; 
+kā+V+Fut:kā # ;
+koi+V+Ipf:koi # ; ! imperfective ?
+kua+V+Prs:kua # ; ! todo: Tag for presentation
+hē+V+Neg:hē # ;
+hēki+V+Neg:hēki # ;
+hēai+V+Neg:hēai # ;
 
 
 LEXICON aux
@@ -47,9 +46,9 @@ hi:hi v "Fish with a" ;
 LEXICON auxtag
 +V+Aux: # ;
 
-LEXICON vpcle
-+Prs:^VC vtags ; ! ^VC = vowel shortening
-+Prt: vtags ;    ! ^VC = vowel shortening
+!LEXICON vpcle
+!+Prs:^VC vtags ; ! ^VC = vowel shortening
+!+Prt: vtags ;    ! ^VC = vowel shortening
 
 LEXICON 2v_stems !!= * @CODE@ = 2-syllabic verbs with CV reduplication
 v_div ; ! These 2000 verbs to be classified, they are just dumped here for the time being
