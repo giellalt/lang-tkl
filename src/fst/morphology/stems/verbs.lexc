@@ -835,6 +835,7 @@ kalapu:lapu redup_suff "gleam" ; ! kalapulapu
 
 LEXICON 3redup_stems!!= * @CODE@ = 2-syllabic verbs with full reduplication
 alo redup_suff ;  ! aloalo
+ako:ako tvtags "Learn" ; ! akoako "teach"
 
 
 
@@ -2089,3 +2090,4 @@ vēnā:veenaa vtags "Be like th" ;
 vēvēake:veeveeake vtags "T u" ;
 vēvēatu:veeveeatu vtags "u rn" ;
 vēvēifo:veeveeifo vtags "u rn" ;
+aofia:aofia vtags "be included" ;
