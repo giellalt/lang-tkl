@@ -10,7 +10,7 @@ This page documents the work on the **Tokelauan language model**.
 
 ## Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* [Test diary](test-diary.md)
 
 ## In-source documentation
 
