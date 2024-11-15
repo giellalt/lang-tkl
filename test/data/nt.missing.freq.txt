@@ -22,7 +22,7 @@
  271 vēnei
  267 vāgana
  255 tamāloa
- 253 kaukauna
+ 253 kaukauna N servant
  251 kātoa
  241 tupu
  237 tautala
@@ -204,14 +204,10 @@
   32 ofoofogia
   32 mōlia
   32 itūmālō
-  32 19
-  32 16
-  32 15
   31 vaitūloto
   31 teine
   31 fakaopoopo
   31 fakaleleia
-  31 26
   30 oatu
   30 mautū
   30 kōvana
@@ -244,7 +240,6 @@
   27 hāfia
   27 fakaolagia
   27 fakamamāgia
-  27 23
   26 āfāina
   26 toetū
   26 taukalalaga
@@ -285,7 +280,6 @@
   22 fakatāmilo
   22 fakaeteete
   22 aolāfoga
-  22 27
   21 vālelea
   21 mānanaia
   21 maopoopo
@@ -348,8 +342,6 @@
   17 fakamāgaloa
   17 fakalatagia
   17 fakahēaogā
-  17 1-8
-  17 000
   16 ōake
   16 tautou
   16 pupuni
@@ -479,8 +471,6 @@
   10 apoapoaki
   10 akoakoa
   10 aiātatau
-  10 28
-  10 1-11
    9 Ōlaga
    9 āhi
    9 tāofia
