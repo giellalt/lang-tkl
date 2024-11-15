@@ -16,6 +16,7 @@ STRICT-TAGS +=
     Prs Prt
     1Sg 2Sg 3Sg
     Inf
+    Pcle
     PrfPrc PrsPrc
     Ind Imp Sbj Sup
     Cmpnd
@@ -93,6 +94,11 @@ SELECT:prop Prop IF (NOT -1 BOS);
 SELECT Pr IF (0 Pr)(1 Dem)(2 N) ;
 SELECT Pr IF (1C N);
 # e tatalo
+
+SELECT Det IF (0 Det)(1 N);
+# Ko ai te tino tē?: W ho is this (or that) man?
+
+SELECT Pcle IF (1 Det OR N);
 
 SELECT Det IF (-1 Pr)(2 N) ;
 
