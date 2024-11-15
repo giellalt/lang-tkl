@@ -197,9 +197,11 @@ The parts-of-speech are:
 - +Incl +Excl
 
 The parts of speech are further split up into:
-- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef +Poss
 - +Def +Det
 - +Prox +Med +Dist = proximal, medial, distal (near speaker, hearer, neiter)
+
+- +Post +Pre = postmodifiers, premodifiers
 
 The Usage extents are marked using following tags:
 - +Err/Orth
@@ -210,6 +212,7 @@ The Usage extents are marked using following tags:
 The nominals are inflected in the following  Number
 - +Sg +Du +Pl
 - +Nom +Gen +Acc
+- +Loc for locative nouns
 
 The possession is marked as such:
 The comparative forms are:
@@ -235,6 +238,8 @@ Question and Focus particles:
 +Prf +Ipf +Fut   Aspect, perhaps
 
 Semantics are classified with
+
+These tags are used somewhere:
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
