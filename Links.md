@@ -20,8 +20,6 @@
                 * [prepositions.lexc](src-fst-morphology-stems-prepositions.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/prepositions.lexc))
                 * [pronouns.lexc](src-fst-morphology-stems-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/pronouns.lexc))
                 * [verbs.lexc](src-fst-morphology-stems-verbs.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/verbs.lexc))
-        * `phonetics/`
-            * [txt2ipa.xfscript](src-fst-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/phonetics/txt2ipa.xfscript))
         * `transcriptions/`
             * [transcriptor-abbrevs2text.lexc](src-fst-transcriptions-transcriptor-abbrevs2text.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc))
             * [transcriptor-numbers-digit2text.lexc](src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc))
