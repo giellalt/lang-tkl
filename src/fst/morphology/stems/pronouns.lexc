@@ -77,10 +77,13 @@ tona+Pron+Poss+Sg3:tona # ;
 
 LEXICON Interrogative
 ai+Pron+Interr:ai # ;
+ā+Pron+Interr:aa # ;
 fea+Pron+Interr:fea # ;
 
 
 LEXICON todo_name
+fakatahi+Pron:fakatahi # ;
+
 toku+Pron+Sg1:toku # ;
 taku+Pron+Sg1:taku # ;
 tota+Pron+Sg1:tota # ;

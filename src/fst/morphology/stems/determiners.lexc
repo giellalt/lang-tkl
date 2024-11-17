@@ -5,8 +5,9 @@ nā+Det+Def+Pl:nā # ;
 he+Det+Indef+Sg:he # ;
 ni+Det+Indef+Pl:ni # ;
 
+tētahi+Det+Indef+Sg:tētahi # ;
+tetahi+Det+Indef+Sg:tetahi # ;
 hetahi+Det+Indef+Sg:hetahi # ;
-
 iētahi+Det+Indef+Pl:iētahi # ;
 
 LEXICON Demonstratives
@@ -19,6 +20,7 @@ iē+Dem:iē # ;
 ! proximal or first person (objects near to the speaker),
 ! medial or second person (objects near to the addressee),
 ! distal or third person[2]
+tēnā+Dem+Sg+Prox:tēnā # ;
 tēnei+Dem+Sg+Prox:tēnei # ;
 nei+Dem+Sg+Prox:nei # ;
 tēna+Dem+Sg+Med:tēna # ;

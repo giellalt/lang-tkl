@@ -5,7 +5,11 @@
 LEXICON Adjectives
 haku+A+Poss+Sg1+Sg:haku # ;
 hō+A+Poss+Sg2+Sg:hoo # ;
+tō+A+Poss+Sg2+Sg:too # ;
 hana+A+Poss+Sg3+Sg:hana # ;
+tana+A+Poss+Sg3+Sg:tana # ;
+ōu+A+Poss+Sg2+Sg:oou # ;
+outou+A+Poss+Du2+Pl:outou # ;
 
 
 ! vim: set ft=xfst-lexc:

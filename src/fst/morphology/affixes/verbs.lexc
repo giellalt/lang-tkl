@@ -43,6 +43,12 @@ LEXICON 4redup_pref !!= * @CODE@ = 2-syllabic verbs with full reduplication
 
 !! # Suffixes
 
+LEXICON vsg !!= * @CODE@ 
++V+Sg: # ; ! fano
+
+LEXICON vpl !!= * @CODE@ 
++V+Pl: # ; !olo
+
 LEXICON vtags !!= * @CODE@ = adds POS and Sg, Pl tags as governed by the U flags
 @U.verb.sg@+V+Sg:@U.verb.sg@ # ;
 @U.verb.pl@+V+Pl:@U.verb.pl@ # ;
@@ -53,7 +59,7 @@ LEXICON tvtags !!= * @CODE@ = adds POS and Sg, Pl tags as governed by the U flag
 @U.verb.sg@+V+Sg:@U.verb.sg@ tv ;
 @U.verb.pl@+V+Pl:@U.verb.pl@ tv ;
 
-LEXICON tv
+LEXICON tv !!= * @CODE@ 
 # ;
 +TV:%>a # ;
 +Dir+TV:mai%>a # ;
@@ -66,9 +72,9 @@ LEXICON redup_suff !!= * @CODE@ = adds POS and Sg, Pl tags as governed by the U 
 +V+Sg: redup_suff_sgflags ;
 +V+Pl: redup_suff_plflags ;
 
-LEXICON redup_suff_sgflags
+LEXICON redup_suff_sgflags !!= * @CODE@ 
 @U.verb.sg@ # ;
-LEXICON redup_suff_plflags
+LEXICON redup_suff_plflags !!= * @CODE@ 
 @U.verb.pl@ # ;
 
 ! vim: set ft=xfst-lexc:

@@ -2,12 +2,28 @@
 !  ---------------
 !! The Tokelauan language nouns inflect in number and cases.
 
+LEXICON Nouns
+nounstems ;
+n-redup ;
+
+
+LEXICON n-redup
+@U.noun.sg@ redupnouns ; ! sg nouns
+@U.noun.pl@ redupnouns ; ! pl nouns
+
+
+!### Suffixes
 
 LEXICON locnoun 
 +N+Loc: # ;
 
 LEXICON n
 +N+Sg: # ;
+
+LEXICON nredupsuf
+@U.noun.sg@+N+Sg:@U.noun.sg@ # ;
+@U.noun.pl@+N+Pl:@U.noun.pl@ # ;
+
 
 ! vim: set ft=xfst-lexc:
 
