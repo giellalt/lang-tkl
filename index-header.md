@@ -6,7 +6,15 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-tkl)](https://github.com/giellalt/lang-tkl/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-tkl/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-tkl/main/latest)
 
-This page documents the work on the **Tokelauan language model**. 
+This page documents the work on the **Tokelauan language model**. The work is still in an experimental phase.
+
+## Applications for Tokelauan
+
+The applications are still on a beta level
+
+- [Online spellchecker for Tokelauan](https://divvun.org/proofing/online-speller.html?lang=tkl)
+- [Grammatical analysis of Tokelauan text](https://gtweb-02.uit.no/webpipeline/tkl)
+
 
 ## Project documentation
 
