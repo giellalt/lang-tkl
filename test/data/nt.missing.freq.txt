@@ -1,149 +1,81 @@
- 767 taimi N time
- 563 auā
- 547 luga
- 541 tēnā
- 506 tētahi
- 500 iētahi
- 500 fakatahi
- 446 oti
- 440 talitonu
- 417 faia
  407 vēnā
- 404 tana
- 402 nahe
- 355 olo
- 334 fafine
- 321 kinā
- 311 kino
  303 ā
- 286 fōki
- 276 tō
- 274 lagona
- 271 vēnei
- 267 vāgana
  255 tamāloa
- 253 kaukauna N servant
- 251 kātoa
- 241 tupu
- 237 tautala
- 223 tuhi
- 219 ataliki
- 211 ho
- 206 kāmata
- 194 fehoahoani
- 191 fokotahi
- 189 oioti
- 187 outou
- 179 ifo
  179 hētahi
- 178 ōmamai
  175 mālohi
- 175 fakatonu
  173 lo
  166 tāmate
- 166 talia
- 164 tamana
  162 meamoni
  159 tupe
  155 vēhea
  153 nukukehe
  152 takitaki
  151 tuha
- 147 itū
  143 kaifenua
  142 kātoatoa
- 141 atua
  139 tonu
- 139 mafaia
  138 ōlaga
  135 tuhituhiga
  130 tūmau
  130 autou
  128 ohitāulaga
  126 vāega
- 123 kaumai
- 122 apohitolo
  121 taumafai
  121 fakaaogā
- 117 kinei
  116 āvaga
  116 tūnoa
  114 atuga
- 111 va
  109 tūlāfono
- 109 fīlēmū
  108 mātataku
- 107 maia
  103 tūhia
- 103 fakamahino
  100 mana
   99 vae
-  99 fakamoemoe
   98 fakamāoni
   97 meaalofa
   97 fakailoga
-  96 falaoa
   95 lākau
   94 fakafetai
   91 tāulaga
-  91 tautatala
   86 tokatahi
   85 tūlaga
   84 āmio
   84 tēmoni
   84 tutupu
   78 tālaki
-  77 hāuni
   76 takutino
-  75 hana
   74 vēia
-  71 1
   69 gālulue
   68 tupuna
-  68 fakamāgalo
   67 itūkāigā
   66 taulelea
   66 hūnako
   64 toeaina
   62 pūlea
   61 tugamau
-  61 gaohia
-  60 12
   59 ō
   59 vīkiga
   59 talitonuga
   58 nofoāliki
   58 mātagā
   58 fakamālōlō
-  58 9
   57 āmiotonu
-  57 kāmataga
   57 fakamālohi
   56 tāpuaki
   56 tautua
-  56 māmoe
   56 fakatetagata
   55 tāne
-  54 kini
   52 fakamāonia
   51 talafakatuha
   51 pelitome
   51 fakaolataga
   51 aulo
-  50 fea
   50 fa
-  50 14
-  50 13
   49 vaganā
   49 mālōlō
   49 aunoa
-  48 kogāfenua
-  48 ita
   47 takitahi
   47 lagonaga
   47 fakatagi
-  47 6
-  47 4
   46 vīkia
   46 tīaki
   46 papatiho
@@ -153,38 +85,27 @@
   45 māhani
   45 lāpuna
   45 kiteagia
-  45 8
   44 mātitiva
   44 koga
   44 fakateagaga
-  44 3
   43 tākua
   43 tuinanauga
-  43 11
   42 pakū
-  42 kehea
   42 hona
   42 fakahalagia
   41 tāli
   41 maukoloa
   41 faka-Kelihiano
-  41 22
   40 vāvega
   40 tīgā
   40 fakafeiloaki
   39 takitakikau
-  39 2
-  39 10
   38 tōvine
   37 tupua
   37 taliagia
   37 pakukū
   37 kalagagia
-  37 gogō
   36 tutuha
-  36 inoino
-  36 5
-  36 18
   35 tōfia
   35 mauagia
   35 kiteaga
@@ -192,7 +113,6 @@
   35 fakahehē
   35 fakahala
   35 agalelei
-  34 kavatu
   34 fakatutū
   34 fakahāuāga
   33 āku
@@ -211,23 +131,17 @@
   30 oatu
   30 mautū
   30 kōvana
-  30 itūtino
   30 hāloa
   30 fōkia
   30 fakalogologo
   30 fakaaliga
-  30 24
-  30 21
   29 pagotā
   29 mataala
   29 lotofuatia
-  29 heiloga
   29 faitatagi
-  29 20
   28 māhina
   28 māfua
   28 manumālō
-  28 kaumaia
   28 fāifāi
   28 fāfifia
   28 fakamāoniga
@@ -235,8 +149,6 @@
   27 āhini
   27 tālakia
   27 takitakia
-  27 kavefekau
-  27 hāunia
   27 hāfia
   27 fakaolagia
   27 fakamamāgia
@@ -248,8 +160,6 @@
   26 maulalo
   26 manulele
   26 manino
-  26 haolotoga
-  26 fata
   26 fakamākeke
   25 tōkahā
   25 mākeke
@@ -265,18 +175,14 @@
   24 fakaaloalo
   23 talapepelo
   23 pōuliuli
-  23 pōuli
   23 māfuta
   23 momoe
   23 maiga
   23 havavali
-  23 fono
   23 fakalāina
-  23 aofia
   22 vēake
   22 māumau
   22 leoleomāmoe
-  22 haku
   22 fakatāmilo
   22 fakaeteete
   22 aolāfoga
@@ -285,16 +191,12 @@
   21 maopoopo
   21 maihe
   21 kikilagia
-  21 kaia
-  21 gāuta
   21 fakavāivai
   21 fakahehēa
   21 fakaatili
   20 Ōmamai
   20 nofolihi
   20 mālie
-  20 loloa
-  20 kanofi
   20 fētutuli
   20 fakamamā
   20 fakakitea
@@ -309,12 +211,10 @@
   19 mānumanu
   19 mamafa
   19 kokofu
-  19 fīnauga
   19 folafolagia
   19 fakatolu
   19 fakapaupau
   19 fakamahinoa
-  19 afafine
   18 vaitafe
   18 tāleni
   18 tuhitākai
@@ -329,7 +229,6 @@
   18 fakataufai
   18 fakapakū
   17 tipi
-  17 tiakia
   17 teu
   17 mātutua
   17 mālolohi
@@ -346,12 +245,9 @@
   16 tautou
   16 pupuni
   16 manakoga
-  16 lapataki
   16 hōhola
   16 fetogi
   16 fakamāopoopo
-  16 amo
-  16 1-2
   15 vēakē
   15 tālako
   15 toho
@@ -369,12 +265,9 @@
   15 fakahā
   15 anei
   15 akoakogia
-  15 17
-  15 1-12
   14 moa
   14 malōlōga
   14 hoku
-  14 hakilia
   14 fānanau
   14 fakatutūa
   14 fakagutugutulua
@@ -382,18 +275,14 @@
   13 Ōlive
   13 āfea
   13 totōa
-  13 pukea
   13 polapola
   13 māketi
   13 māhalohalo
   13 manuia
   13 lākei
-  13 lāfoga
   13 lauē
   13 hakilikili
-  13 fufulu
   13 fakatūa
-  13 fakahaoa
   13 fakaaloalogia
   13 agamalū
   12 ōlive
@@ -407,19 +296,14 @@
   12 takape
   12 meamanogi
   12 lōtoā
-  12 lotokino
   12 kēna
   12 kehega
   12 ina
-  12 hō
-  12 haogalēmū
   12 fakatōkilalogia
   12 fakamālōlōa
   12 fakamanuiagia
   12 faitatala
   12 faifekau
-  12 afiafipō
-  12 1-5
   11 āva
   11 ōku
   11 ōifo
@@ -427,13 +311,11 @@
   11 tauai
   11 taeaopō
   11 mātuituia
-  11 mānava
   11 munimuni
   11 momoli
   11 maopoopoga
   11 lēpela
   11 konanā
-  11 kakaha
   11 fōaki
   11 fuāhaito
   11 fakatinoga
@@ -457,19 +339,15 @@
   10 mākokona
   10 meatōtino
   10 meakie
-  10 lotofale
   10 loimata
   10 lamatia
-  10 kavatua
   10 iloagia
   10 hoā
-  10 holia
   10 haihaitia
   10 gāpāpā
   10 fakamaligi
   10 eunuka
   10 apoapoaki
-  10 akoakoa
   10 aiātatau
    9 Ōlaga
    9 āhi
@@ -488,10 +366,8 @@
    9 kulī
    9 konā
    9 keina
-   9 hēvae
    9 hūiga
    9 hūia
-   9 fuā
    9 fekehekeheakiga
    9 fanoga
    9 fakatāua
@@ -509,13 +385,11 @@
    8 tāofiofi
    8 tāmatega
    8 tālatala
-   8 tetekea
    8 taupulepule
    8 tamāloloa
    8 talafeagai
    8 pūhia
    8 mōliagia
-   8 mumunia
    8 moana
    8 maualuluga
    8 laveaki
@@ -525,9 +399,6 @@
    8 hōhō
    8 hēgata
    8 hohopo
-   8 helehelea
-   8 gātai
-   8 gataaga
    8 fīnau
    8 fuāvine
    8 filifiliagia
@@ -536,7 +407,6 @@
    8 fakaumatiagia
    8 fakatāugā
    8 fakatagagia
-   8 fakakinoa
    8 fakaitiitia
    8 fakailoagia
    8 fakahāuāgia
@@ -568,9 +438,7 @@
    7 kī
    7 kilitai
    7 keheagia
-   7 kakaia
    7 hautou
-   7 haute
    7 fītā
    7 fōkiatua
    7 fēkakai
@@ -590,12 +458,9 @@
    7 fakakofua
    7 fakainu
    7 fakahoa
-   7 fakahaolotoa
    7 faitiogia
    7 faifaiva
    7 eva
-   7 akea
-   7 16-20
    6 āvavaga
    6 āmiokino
    6 Ōmai
@@ -620,21 +485,16 @@
    6 māluelue
    6 mālepelepe
    6 mumuna
-   6 muamuālima
    6 meamata
    6 mamago
-   6 lāuga
    6 līpoti
    6 lavalavā
-   6 kātoaga
    6 kāmela
    6 kogālakau
    6 kofutino
    6 kofutatao
-   6 hihifo
    6 fītatā
    6 fuafuagia
-   6 fatufatua
    6 fakatonugia
    6 fakataulaitu
    6 fakatauanau
@@ -658,9 +518,6 @@
    6 anafea
    6 aloā
    6 Fakaohoohoga
-   6 1-6
-   6 1-4
-   6 1-10
    5 Āva
    5 āi
    5 vaefa
@@ -677,7 +534,6 @@
    5 taulāitu
    5 taukave
    5 tauivi
-   5 tauhia
    5 taugōfie
    5 talatalanoaga
    5 taina
@@ -705,13 +561,10 @@
    5 gāholo
    5 gōfie
    5 fakatūtumu
-   5 fakatupua
    5 fakatuikehe
    5 fakatuhagia
-   5 fakatinoa
    5 fakatete
    5 fakatelalolagi
-   5 fakataunukua
    5 fakamātagā
    5 fakamāgalogia
    5 fakamū
@@ -730,14 +583,6 @@
    5 aloakia
    5 akelihe
    5 aiheā
-   5 9-13
-   5 9-11
-   5 31-35
-   5 31-34
-   5 13-17
-   5 12-13
-   5 1-9
-   5 1-13
    4 ātonu
    4 ōmamaiga
    4 āla
@@ -775,7 +620,6 @@
    4 mogamoga
    4 matamumuli
    4 mataituhi
-   4 lototonu
    4 lolotoga
    4 likiliki
    4 lauefa
@@ -829,29 +673,10 @@
    4 afio
    4 Ofoofogia
    4 Fakaeteete
-   4 9-10
-   4 50
-   4 43-45
-   4 38-42
-   4 30-32
-   4 2ma
-   4 29-34
-   4 27-31
-   4 25-28
-   4 23-27
-   4 23-25
-   4 18-19
-   4 16-30
-   4 144
-   4 14-23
-   4 14-18
-   4 14-17
-   4 14-15
-   4 12-17
-   4 12-16
    3 Ātonu
    3 Ōmeka
    3 vāiti
+   3 vāganā
    3 vanu
    3 uluhaito
    3 ukua
@@ -889,7 +714,6 @@
    3 palapalā
    3 oneone
    3 ofoalofa
-   3 mātū
    3 mātuku
    3 mātalatala
    3 mōliaga
@@ -984,68 +808,9 @@
    3 alāvaka
    3 alapaha
    3 akoakia
-   3 7-13
-   3 6-8
-   3 57-61
-   3 50-56
-   3 47-56
-   3 47-53
-   3 45-56
-   3 45-53
-   3 44-49
-   3 42-47
-   3 41-44
-   3 39
-   3 38-40
-   3 36-49
-   3 36-38
-   3 34-36
-   3 33-41
-   3 32-44
-   3 31-32
-   3 30ma
-   3 28-40
-   3 28-34
-   3 28-31
-   3 28-30
-   3 26-43
-   3 26-30
-   3 25
-   3 24-27
-   3 23-28
-   3 22-25
-   3 22-23
-   3 21-32
-   3 21-30
-   3 21-28
-   3 21-22
-   3 20-24
-   3 2-3
-   3 19-28
-   3 19-23
-   3 19-21
-   3 19-20
-   3 18-22
-   3 17-27
-   3 17-19
-   3 15-21
-   3 15-17
-   3 14-29
-   3 14-20
-   3 13-25
-   3 13-22
-   3 13-20
-   3 13-19
-   3 13-15
-   3 13-14
-   3 12-19
-   3 12-18
-   3 11-12
-   3 10-17
-   3 1-36
-   3 1-20
-   3 1-18
-   3 1-14
+   3 Ponitoho
+   3 Ponitiō
+   3 Poaha
    2 āū
    2 ōtea
    2 ōpoi
@@ -1054,7 +819,6 @@
    2 īhopo
    2 vāvālalata
    2 vāivaiga
-   2 vāganā
    2 valakauliagia
    2 valakaugia
    2 vaitākele
@@ -1110,7 +874,6 @@
    2 pūnonou
    2 pūloutau
    2 pōlehi
-   2 pukāmata
    2 puapuagātia
    2 peleni
    2 papā
@@ -1127,7 +890,6 @@
    2 momoia
    2 molimaugia
    2 mineti
-   2 meāfale
    2 melivao
    2 mateagia
    2 mateaga
@@ -1286,128 +1048,13 @@
    2 aoagia
    2 amoga
    2 akoakoagia
+   2 Popilio
    2 Heepa
-   2 9Kua
-   2 9-19
-   2 9-14
-   2 8Ko
-   2 71
-   2 7-9
-   2 7-19
-   2 6ko
-   2 6Na
-   2 6-16
-   2 6-15
-   2 6-13
-   2 6-11
-   2 59-66
-   2 56-62
-   2 55-64
-   2 54-55
-   2 53-58
-   2 50-53
-   2 5-6
-   2 5-15
-   2 4ma
-   2 4i
-   2 4Ko
-   2 4E
-   2 47
-   2 46-52
-   2 46-50
-   2 46-48
-   2 45-52
-   2 45-48
-   2 45-46
-   2 43-50
-   2 42
-   2 41-46
-   2 41
-   2 40-56
-   2 40-45
-   2 40
-   2 4-8
-   2 39-46
-   2 38-41
-   2 37-43
-   2 37-38
-   2 36-46
-   2 36
-   2 35-43
-   2 35-41
-   2 35-37
-   2 34-35
-   2 33Oi
-   2 33-46
-   2 33-39
-   2 33-37
-   2 33-34
-   2 33
-   2 32-42
-   2 32-35
-   2 32-34
-   2 32
-   2 31
-   2 30-44
-   2 30
-   2 3-9
-   2 3-6
-   2 3-14
-   2 3-13
-   2 3-12
-   2 2ke
-   2 29-33
-   2 29-31
-   2 28-38
-   2 28-36
-   2 27-40
-   2 27-33
-   2 27-32
-   2 260
-   2 26-39
-   2 26-27
-   2 25ke
-   2 25-27
-   2 23ko
-   2 23-33
-   2 22-33
-   2 22-27
-   2 22-26
-   2 21-43
-   2 20Kua
-   2 20-28
-   2 20-26
-   2 18ma
-   2 18-30
-   2 18-27
-   2 18-26
-   2 18-23
-   2 18-21
-   2 17-31
-   2 17-26
-   2 17-25
-   2 16ma
-   2 15-26
-   2 15-22
-   2 15-19
-   2 15-18
-   2 14-21
-   2 14-16
-   2 13ma
-   2 13-21
-   2 13-16
-   2 12-21
-   2 12-14
-   2 11-15
-   2 10-12
-   2 10-11
-   2 1-19
    1 Ītumaia
    1 īnuga
    1 Āni
    1 ōna
    1 Āmiotonu
-   1 ōlega
    1 Āla
    1 āfu
    1 ōatu
@@ -1427,7 +1074,6 @@
    1 vaeluapō
    1 utuvai
    1 uloha
-   1 tēuga
    1 tētēka
    1 tīpiga
    1 tāpenagia
@@ -1650,7 +1296,6 @@
    1 kilā
    1 kikilāgia
    1 kemo
-   1 kelia
    1 kehegia
    1 kavatuagia
    1 kautafa
@@ -1807,7 +1452,6 @@
    1 fakamāina
    1 fakamūga
    1 fakamūa
-   1 fakamoemoega
    1 fakamaumaugia
    1 fakamaumaua
    1 fakamatakua
@@ -1909,245 +1553,11 @@
    1 agavaka
    1 agafulumāfā
    1 afioga
+   1 Pouteha
+   1 Potokino
+   1 Potioli
+   1 Pokiono
+   1 Poholo
+   1 Poaneke
    1 Iviivinaki
    1 Fakamāopoopo
-   1 9ma
-   1 9kāfai
-   1 9Nahe
-   1 9Na
-   1 9Ko
-   1 9I
-   1 9Auā
-   1 8ko
-   1 8auā
-   1 8Na
-   1 812
-   1 8-9
-   1 7ko
-   1 75
-   1 74I
-   1 72
-   1 71-75
-   1 7-14
-   1 7-11
-   1 7-10
-   1 6ma
-   1 6I
-   1 6Hēai
-   1 69-75
-   1 69-72
-   1 69-70
-   1 68kua
-   1 67-68
-   1 66-72
-   1 66-71
-   1 66-68
-   1 65Oi
-   1 65
-   1 63ma
-   1 61ma
-   1 6-9
-   1 6-7
-   1 6-20
-   1 5ona
-   1 5na
-   1 5kua
-   1 5Kae
-   1 58-62
-   1 58
-   1 57-68
-   1 57-62
-   1 57-59
-   1 57-58
-   1 55-57
-   1 54-56
-   1 53Oi
-   1 53-65
-   1 53-56
-   1 53-54
-   1 52
-   1 51Nae
-   1 51-53
-   1 50oi
-   1 5-13
-   1 5-12
-   1 4na
-   1 4Na
-   1 4Kua
-   1 49-50
-   1 47-49
-   1 46Ma
-   1 45-51
-   1 45-47
-   1 45
-   1 44Ma
-   1 44Kua
-   1 43Ko
-   1 43-44
-   1 43
-   1 42Oi
-   1 42-50
-   1 42-48
-   1 42-44
-   1 41ka
-   1 41-48
-   1 3ma
-   1 3ki
-   1 3ke
-   1 3Kua
-   1 3I
-   1 3E
-   1 39Te
-   1 39-42
-   1 38ko
-   1 38-48
-   1 38-39
-   1 37i
-   1 37Nae
-   1 37Ka
-   1 37E
-   1 37-39
-   1 36Ko
-   1 36E
-   1 36-44
-   1 35e
-   1 35Ko
-   1 35-45
-   1 35-39
-   1 34Kua
-   1 34-40
-   1 33-38
-   1 33-35
-   1 32-39
-   1 32-37
-   1 31ma
-   1 31Ko
-   1 31-37
-   1 30pe
-   1 30Ko
-   1 3-7
-   1 3-5
-   1 3-11
-   1 3-10
-   1 2oi
-   1 2kāfai
-   1 2kae
-   1 2Ko
-   1 29nahe
-   1 29ko
-   1 29Na
-   1 29Kua
-   1 29-32
-   1 29-30
-   1 28oi
-   1 28e
-   1 28Na
-   1 28-32
-   1 276
-   1 27-30
-   1 27-29
-   1 27-28Oi
-   1 27-28
-   1 26i
-   1 26Na
-   1 26Kāfai
-   1 26I
-   1 26-29
-   1 25Ko
-   1 25Auā
-   1 25-34
-   1 25-26
-   1 24oi
-   1 24-30
-   1 24-26
-   1 23-38
-   1 22pe
-   1 22Ni
-   1 22Kua
-   1 22-32
-   1 22-31
-   1 22-30
-   1 21vāganā
-   1 21ke
-   1 21ka
-   1 21He
-   1 21-25
-   1 21-23
-   1 20na
-   1 20kua
-   1 20Kāfai
-   1 20Io
-   1 200
-   1 20-30
-   1 20-27
-   1 20-25
-   1 20-23
-   1 20-22
-   1 20-21
-   1 2-8
-   1 2-7
-   1 2-5
-   1 2-4
-   1 2-19
-   1 2-13
-   1 19te
-   1 19-24
-   1 19-22
-   1 18ko
-   1 18Na
-   1 18Ko
-   1 18Kae
-   1 18-35
-   1 18-25
-   1 17ma
-   1 17Ko
-   1 17E
-   1 17-21
-   1 16na
-   1 16fakailoa
-   1 16Na
-   1 16Ka
-   1 16E
-   1 16-18
-   1 16-17
-   1 15ma
-   1 15Ko
-   1 15-31
-   1 15-28
-   1 15-24
-   1 14ko
-   1 14Na
-   1 14Ma
-   1 14Ko
-   1 14I
-   1 14-30
-   1 14-27
-   1 14-19
-   1 13kae
-   1 13Ma
-   1 13Ko
-   1 13-35
-   1 12kae
-   1 12Koutou
-   1 12Kae
-   1 12Auā
-   1 120
-   1 12-22
-   1 11ma
-   1 11kae
-   1 11Ona
-   1 11E
-   1 11-27
-   1 11-18
-   1 11-13
-   1 10ma
-   1 10kae
-   1 10ka
-   1 10i
-   1 10e
-   1 10Oi
-   1 10-20
-   1 10-13
-   1 1-7
-   1 1-52
-   1 1-17
