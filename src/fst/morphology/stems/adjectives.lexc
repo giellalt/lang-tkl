@@ -2,6 +2,10 @@
 !  ----------
 !! Adjectives in the Tokelauan language describe the entities nouns refer to.
 
-!LEXICON Adjectives
+LEXICON Adjectives
+haku+A+Poss+Sg1+Sg:haku # ;
+hō+A+Poss+Sg2+Sg:hoo # ;
+hana+A+Poss+Sg3+Sg:hana # ;
+
 
 ! vim: set ft=xfst-lexc:

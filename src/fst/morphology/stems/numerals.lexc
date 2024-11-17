@@ -6,6 +6,7 @@ LEXICON num
 +Num: # ;
 
 LEXICON Numerals
+fokotahi num "1" ; ! except when counting, which is tahi
 tahi num "1" ;
 lua num "2" ;
 tolu num "3" ;

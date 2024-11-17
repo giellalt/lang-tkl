@@ -77,6 +77,8 @@ tona+Pron+Poss+Sg3:tona # ;
 
 LEXICON Interrogative
 ai+Pron+Interr:ai # ;
+fea+Pron+Interr:fea # ;
+
 
 LEXICON todo_name
 toku+Pron+Sg1:toku # ;

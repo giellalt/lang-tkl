@@ -2,6 +2,10 @@
 !  ---------------
 !! The Tokelauan language nouns inflect in number and cases.
 
+
+LEXICON locnoun 
++N+Loc: # ;
+
 LEXICON n
 +N+Sg: # ;
 
