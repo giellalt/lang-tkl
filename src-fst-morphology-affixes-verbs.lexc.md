@@ -21,11 +21,20 @@ LEXICON Verbs  splits to subgrups according to pl form
 
 # Suffixes
 
+* LEXICON vsg  
+
+* LEXICON vpl  
+
 * LEXICON vtags  = adds POS and Sg, Pl tags as governed by the U flags
 
 * LEXICON tvtags  = adds POS and Sg, Pl tags as governed by the U flags
 
+* LEXICON tv  
+
 * LEXICON redup_suff  = adds POS and Sg, Pl tags as governed by the U flags
+
+* LEXICON redup_suff_sgflags  
+* LEXICON redup_suff_plflags  
 
 * * *
 
