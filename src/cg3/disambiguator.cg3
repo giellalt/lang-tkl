@@ -72,7 +72,7 @@ LIST Num = Num ;
 LIST Dem = Dem ;
 #LIST Pcle = Pcle ;
 
-
+LIST verbalparticle = "kā" "koi" ;
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
 
@@ -85,6 +85,11 @@ SECTION
 # Propernoun
 
 SELECT:prop Prop IF (NOT -1 BOS);
+
+
+# Verbs
+
+SELECT:kaakoi V if (-1 verbalparticle);
 
 
 #   Preposition
@@ -101,6 +106,9 @@ SELECT Det IF (0 Det)(1 N);
 SELECT Pcle IF (1 Det OR N);
 
 SELECT Det IF (-1 Pr)(2 N) ;
+
+# Nouns 
+SELECT:NP N IF (-1C Det OR Poss);
 
 AFTER-SECTIONS
 
