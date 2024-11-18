@@ -73,6 +73,9 @@ LIST Dem = Dem ;
 #LIST Pcle = Pcle ;
 
 LIST verbalparticle = "kā" "koi" ;
+LIST TE = "te" ;
+LIST AU = "au" ;
+
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
 
@@ -89,7 +92,14 @@ SELECT:prop Prop IF (NOT -1 BOS);
 
 # Verbs
 
-SELECT:kaakoi V if (-1 verbalparticle);
+SELECT:kaakoi V IF (-1 verbalparticle);
+
+REMOVE:te V IF (0 TE);
+
+SELECT:auV V IF (0 AU)(1 Dem OR Det);
+# E hē au te lou ki te fuāulu
+
+REMOVE:au V IF (0 AU)(1 N);
 
 
 #   Preposition
