@@ -1,23 +1,12 @@
- 407 vēnā
- 303 ā
  255 tamāloa
  179 hētahi
  175 mālohi
- 173 lo
  166 tāmate
  162 meamoni
- 159 tupe
- 155 vēhea
  153 nukukehe
- 152 takitaki
- 151 tuha
  143 kaifenua
  142 kātoatoa
- 139 tonu
- 138 ōlaga
  135 tuhituhiga
- 130 tūmau
- 130 autou
  128 ohitāulaga
  126 vāega
  121 taumafai
@@ -28,8 +17,6 @@
  109 tūlāfono
  108 mātataku
  103 tūhia
- 100 mana
-  99 vae
   98 fakamāoni
   97 meaalofa
   97 fakailoga
@@ -52,7 +39,6 @@
   64 toeaina
   62 pūlea
   61 tugamau
-  59 ō
   59 vīkiga
   59 talitonuga
   58 nofoāliki
@@ -105,7 +91,6 @@
   37 taliagia
   37 pakukū
   37 kalagagia
-  36 tutuha
   35 tōfia
   35 mauagia
   35 kiteaga
@@ -148,7 +133,6 @@
   28 faigāluega
   27 āhini
   27 tālakia
-  27 takitakia
   27 hāfia
   27 fakaolagia
   27 fakamamāgia
@@ -202,7 +186,6 @@
   20 fakakitea
   20 fagu
   19 vāitaimi
-  19 vavae
   19 totō
   19 tautō
   19 tautiti
@@ -267,7 +250,6 @@
   15 akoakogia
   14 moa
   14 malōlōga
-  14 hoku
   14 fānanau
   14 fakatutūa
   14 fakagutugutulua
@@ -438,7 +420,6 @@
    7 kī
    7 kilitai
    7 keheagia
-   7 hautou
    7 fītā
    7 fōkiatua
    7 fēkakai
@@ -525,7 +506,6 @@
    5 tāpena
    5 tāofiofia
    5 tōega
-   5 tuhituhi
    5 tokotoko
    5 toegā
    5 toafa
@@ -631,7 +611,6 @@
    4 hōvē
    4 hāuniagia
    4 huitupe
-   4 houtou
    4 hilihilikehe
    4 haihai
    4 gatā
