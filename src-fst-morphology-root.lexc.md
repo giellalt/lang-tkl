@@ -100,6 +100,8 @@ given the proper use of these flags.
 Use the following flag diacritics to control tag placement for prefixing
 |  @U.verb.sg@ | Tag moving from prefixing to +Sg
 |  @U.verb.pl@ | Tag moving from prefixing to +Pl
+|  @U.noun.sg@ | Tag moving from prefixing to +Sg
+|  @U.noun.pl@ | Tag moving from prefixing to +Pl
 
 - **@@ODE@**
 The word forms in Tokelauan language start from the lexeme roots of basic
