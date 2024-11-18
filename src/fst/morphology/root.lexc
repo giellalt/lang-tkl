@@ -165,6 +165,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Use the following flag diacritics to control tag placement for prefixing
  @U.verb.sg@        !!≈ |  @CODE@ | Tag moving from prefixing to +Sg
  @U.verb.pl@        !!≈ |  @CODE@ | Tag moving from prefixing to +Pl
+ @U.noun.sg@        !!≈ |  @CODE@ | Tag moving from prefixing to +Sg
+ @U.noun.pl@        !!≈ |  @CODE@ | Tag moving from prefixing to +Pl
 
 LEXICON Root  !!≈ - **@@ODE@**
 !! The word forms in Tokelauan language start from the lexeme roots of basic
