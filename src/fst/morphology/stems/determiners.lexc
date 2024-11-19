@@ -8,6 +8,7 @@ ni+Det+Indef+Pl:ni # ;
 tētahi+Det+Indef+Sg:tētahi # ;
 tetahi+Det+Indef+Sg:tetahi # ;
 hetahi+Det+Indef+Sg:hetahi # ;
+hetahi+Det+Indef+Sg:heetahi # ; ! xxx error? 255 x hētahi in Bible
 iētahi+Det+Indef+Pl:iētahi # ;
 
 LEXICON Demonstratives

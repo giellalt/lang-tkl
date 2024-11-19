@@ -6,6 +6,7 @@ LEXICON Adjectives
 
 
 ! Singular reference
+
 haku+A+Poss+Sg1+Sg:haku # ;
 hoku+A+Poss+Sg1+Sg+Indef:hoku # ;
 hata+A+Poss+Sg1+Sg+Emph:hata # ; ! Special form which conveys an appeal for sympathy or pity.
@@ -29,7 +30,9 @@ houtou+A+Poss+Pl2+Sg:houtou # ;
 ha% lātou+A+Poss+Pl3+Sg:ha% laatou # ;
 ho% lātou+A+Poss+Pl3+Sg:ho% laatou # ;
 
+
 ! Plural reference
+
 ata+A+Poss+Sg1+Pl:ata # ;
 ō+A+Poss+Sg2+Pl:oo # ;
 ana+A+Poss+Sg3+Pl:ana # ;
