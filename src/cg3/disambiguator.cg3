@@ -6,6 +6,7 @@
 STRICT-TAGS +=
     # Tags from lexicon
     N V A Prop Adv Num CC CS Interj
+    Emph Prf
     Abbr ACR Pr Pron
     Pers Det Dem Refl Recipr Poss Interr
     Nom Acc Gen Dat Instr
@@ -70,11 +71,13 @@ LIST CS = CS ;
 LIST Interj = Interj ;
 LIST Num = Num ;
 LIST Dem = Dem ;
+LIST Emph = Emph ;
 #LIST Pcle = Pcle ;
 
 LIST verbalparticle = "kā" "koi" ;
 LIST TE = "te" ;
 LIST AU = "au" ;
+LIST IA = "ia" ;
 
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
@@ -85,9 +88,20 @@ SECTION
 #!! SECTION  #
 #   ======== #
 
+# VP
+
+SELECT V IF (-1 V + Prf);
+
+
+
 # Propernoun
 
 SELECT:prop Prop IF (NOT -1 BOS);
+
+
+SELECT Pcle IF (0 IA + Pcle)(1 Prop);
+
+SELECT Emph IF (-1 N)(0 IA + Pcle + Emph);
 
 
 # Verbs
@@ -112,6 +126,8 @@ SELECT Pr IF (1C N);
 
 SELECT Det IF (0 Det)(1 N);
 # Ko ai te tino tē?: W ho is this (or that) man?
+
+REMOVE Det IF (NOT 1 N);
 
 SELECT Pcle IF (1 Det OR N);
 
