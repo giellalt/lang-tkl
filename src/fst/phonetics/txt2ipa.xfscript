@@ -25,10 +25,10 @@ define down [ A -> a, B -> b, C -> c, D -> d, E -> e, F -> f, G -> g, H -> h,
     R -> r, S -> s, T -> t, U -> u, V -> v, W -> w, X -> x, Y -> y, Z -> z, 
     Ā -> ā, Ē -> ē, Ī -> ī, Ō -> ō, Ū -> ū ] ;
 
-define Vj i -> i̯ || Vow _ [ Cns | .#. ];
+define Vj i -> i̯ || [a|e|u] _ [ Cns | .#. ];
 define Vw u -> u̯ || Vow _ [ Cns | .#. ];
 
-
+define 
 
 echo << Cleanup...>>
 
@@ -46,8 +46,7 @@ define ii     [ ī -> i %ː ] ;
 define oo     [ ō -> o %ː ] ;
 define uu     [ ū -> u %ː ] ;
 
-
-define ng  [ g -> ŋ || Vow _ ] ;
+define ng  [ g -> ŋ ] ;
 
 
 define beforeCV    [..] -> %.  || Vow  (%ː)  _ (Cns) Vow ;  !a-te-qu-seq
