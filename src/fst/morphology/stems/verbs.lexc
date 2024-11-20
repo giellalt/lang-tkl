@@ -6,8 +6,8 @@ LEXICON v_particles
 ē+V+Prs:ее # ;  ! one verb ē, can be shortened initially in VP
 e+V+Prs:e # ;   ! a separate verb e
 nai+V:nai # ;
-na+V+Prf:na # ; ! Perfective ?
-nae+V+Prf:nae # ; 
+na+V+Prf:na # ; ! Perfective 
+nae+V+Prf:nae # ; ! Imperfective
 nahe+V+Pcle+Neg:nahe # ;
 kā+V+Fut:kā # ;
 koi+V+Ipf:koi # ; ! imperfective ?
@@ -129,8 +129,8 @@ leu:leu vtags "(pi. leleu). (of" ;
 liu:liu vtags "Change, alter." ;
 lua:lua vtags "Vomit, spew. N" ;
 lue:lue vtags "Shake. Nahe" ;
-mai:mai tvtags "Be salty," ;
-mau:mau tvtags "Be satisfied," ;
+mai:mai vtags "Be salty," ;
+mau:mau vtags "Be satisfied," ;
 mou:mou vtags "anish, d" ;
 mii:mii vtags "(o f w" ;
 mua:mua vtags "W in" ;
@@ -224,8 +224,7 @@ lohi:lohi vtags "Aspire, strive. Lohi" ;
 lote:lote vtags "Handle, touch. N" ;
 luhi:luhi vtags "Eng. loose. Be" ;
 luhi:luhi vtags "Eng. lose. Be" ;
-maua:maua vtags "G et," ;
-maua:maua vtags "ear, u" ;
+maua:maua vtags "get" ;
 maka:maka vtags "Toss, cast," ;
 mano:mano vtags "(o f things" ;
 mapo:mapo vtags "Be firm ," ;

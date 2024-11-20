@@ -90,6 +90,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 +Prf +Ipf +Fut  !!= @CODE@ Aspect, perhaps
 
++Emph
+
 !! Semantics are classified with
  +Mal 
  +Fem 
