@@ -18,7 +18,7 @@ LEXICON locnoun
 +N+Loc: # ;
 
 LEXICON n
-+N+Sg: # ;
++N: # ;
 
 LEXICON nredupsuf
 @U.noun.sg@+N+Sg:@U.noun.sg@ # ;
