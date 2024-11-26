@@ -23,6 +23,7 @@ STRICT-TAGS +=
     Cmpnd
     CLB PUNCT LEFT RIGHT
     Guess
+    Post
     # Tags used in syntax
     @<SUBJ @SUBJ> @<OBJ @<IOBJ @OBJ> @IOBJ>
     @+FMAINV @-FMAINV
@@ -32,7 +33,7 @@ STRICT-TAGS +=
     @X
     ;
 
-OPTIONS += no-inline-sets ;
+#OPTIONS += no-inline-sets ;
 
 # ========== #
 # Delimiters #
@@ -78,6 +79,7 @@ LIST verbalparticle = "kā" "koi" ;
 LIST TE = "te" ;
 LIST AU = "au" ;
 LIST IA = "ia" ;
+LIST KO = "ko" ;
 
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
@@ -100,9 +102,9 @@ SELECT:prop Prop IF (NOT -1 BOS);
 
 
 SELECT Pcle IF (0 IA + Pcle)(1 Prop);
-
 SELECT Emph IF (-1 N)(0 IA + Pcle + Emph);
 
+SELECT Pcle IF (0 KO)(1 TE);
 
 # Verbs
 
@@ -135,6 +137,10 @@ SELECT Det IF (-1 Pr)(2 N) ;
 
 # Nouns 
 SELECT:NP N IF (-1C Det OR Poss);
+
+REMOVE:maN N (-1 CLB)(0 ("mā"));
+
+REMOVE:PrPr Pr IF (1C Pr);
 
 AFTER-SECTIONS
 

@@ -222,11 +222,9 @@ SUBSTITUTE:SubV=icl (@IMV)(@<OBJ) TARGET Inf (-1 @IM)(*-2 <mv>);
 
 SECTION
 
-### IM
-
-SETPARENT:r0 @IM TO (1 Inf);
 
 ### NP rules
+
 
 SETPARENT:r1 @>N TO (*1 N BARRIER NPNH);
 SETPARENT:r1adj @>N TO (*2 Pr OR V OR S-BOUNDARY2 BARRIER NOT-A LINK -1 A);
