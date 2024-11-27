@@ -57,6 +57,7 @@ STRICT-TAGS +=
     @HNOUN
     @HAB @VOC
     @INTERJ @PCLE @V
+    @CLB
     @X
     <mv> <aux>
     ¶ ?
@@ -308,7 +309,6 @@ SET NON-APP = ALLSYNTAG - (@APP);
 SECTION         #
 
 
-
 MAP:interjection (@INTERJ) TARGET Interj ;
 MAP:cconjunction (@CNP @CVP) TARGET CC ;
 ADD:sconjunction (@CVP) TARGET CS ;
@@ -317,10 +317,23 @@ MAP:oneverbpersentence (@+FMAINV) TARGET VFIN IF (NEGATE *0 V);
 
 MAP:pcle (@PCLE>) TARGET Pcle ;
 MAP:interj (@INTERJ) TARGET Interj ;
-MAP:p< (@P<) TARGET N IF (*-1 Pr BARRIER N OR V);
+MAP:p< (@P<) TARGET N OR Pron IF (*-1 Pr BARRIER N OR V);
 MAP:d< (@>N) TARGET Det IF (1 N);
-#MAP:n< (@N<) TARGET Post ;
+MAP:d (@N<) TARGET Dem IF (-1 N)(NOT 1 N);
+MAP:n< (@N<) TARGET Post ;
+MAP:subj (@SUBJ>) TARGET N  IF (NOT 0 @P<)(*1 V);
+MAP:subj (@SUBJ>) TARGET Pron IF (*1 V);
+MAP:an (@>N) TARGET A IF (1 N);
 
+MAP:<advl (@<ADVL) TARGET Pr IF (*-1 V);
+MAP:advl> (@ADVL>) TARGET Pr IF (*1 V);
+MAP:hnoun (@HNOUN) TARGET N IF (NEGATE *0 V);
+MAP:<advl (@<ADVL) TARGET Pr IF (*-1 @HNOUN);
+MAP:advl> (@ADVL>) TARGET Pr IF (*1 @HNOUN);
+MAP:fmv (@FMV) TARGET V ;
+MAP:clb (@CLB) TARGET CLB ;
+
+MAP:X (@X) TARGET (*);
 
 AFTER-SECTIONS
 

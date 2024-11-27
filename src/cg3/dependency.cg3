@@ -46,7 +46,9 @@ STRICT-TAGS +=
     @IMV @ICL-ADVL @ICL-AUX< @ICL-OBJ @ICL-STA
     @HNOUN
     @HAB @VOC
-    @INTERJ @PCLE @V
+    @INTERJ @PCLE @PCLE> @<PCLE 
+    @CLB
+    @V
     @X
     <mv> <aux>
     ;
@@ -72,7 +74,7 @@ LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
 # ========
 
  
-SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
+SET WORD = Det | N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Acc Gen
 Dat Msc Fem Neu Sg Pl Def Indef Cmp Sup Prs Prt 1Sg 2Sg 3Sg Inf PrfPrc
 PrsPrc Sup Imp CLB PUNCT LEFT RIGHT ;
@@ -141,7 +143,7 @@ LIST @SUBJ = @<SUBJ @SUBJ> ;
 LIST @OBJ = @<OBJ @OBJ> ;
 LIST @SPRED = @SPRED> @<SPRED ;
 LIST @OPRED = @OPRED> @<OPRED ;
-
+LIST @PCLE = @PCLE> @<PCLE ;
 
 # Syntactic set definitions 
 # =========================
@@ -183,12 +185,17 @@ SUBSTITUTE:SubNfaux=V (@-FAUXV) (@IAUX) TARGET V ;
 
 # <mv> and <aux>
 # --------------
-SUBSTITUTE:SubV=mv (V) (<mv> V) TARGET @MV ;
+SUBSTITUTE:SubV=mv (V) (<mv> V) TARGET V + @IMV ;
+SUBSTITUTE:SubV=mv (V) (<mv> V) TARGET V + @FMV IF (NOT 0 <mv>) ;
 SUBSTITUTE:SubV=aux (V) (<aux> V) TARGET @AUX ;
+
+
 
 # infinite clauses:
 
-SUBSTITUTE:SubV=mvICL (V) (<mv> V) TARGET NONVFIN (0 @<OBJ LINK NEGATE *1 @IMV BARRIER S-BOUNDARY2 OR V) ;
+#SUBSTITUTE:SubV=mvICL (V) (<mv> V) TARGET NONVFIN (0 @<OBJ LINK NEGATE *1 @IMV BARRIER S-BOUNDARY2 OR V) ;
+
+
 
 # the finite verb
 # ------------------
@@ -209,14 +216,11 @@ SUBSTITUTE:SubV=FS-Nmv (@FMV) (@FS-N<) TARGET V (*-1 sum-CS-CVP BARRIER VFIN) ;
 SUBSTITUTE:SubV=FSN-IMV (@IMV) (@FS-N<IMV) TARGET V (*-1 <aux> BARRIER @MV LINK *-1 Interr BARRIER COMMA OR CS) ;
 SUBSTITUTE:SubVmain=FS-Naux (@FAUX) (@FS-N<) TARGET V (*-1 Interr BARRIER VFIN) ;
 SUBSTITUTE:SubV=FSN-IAUX (@IAUX) (@FS-N<IAUX) TARGET V (*-1 <aux> BARRIER @MV LINK *-1 Interr BARRIER @MV) ;
-
-
 SUBSTITUTE:SubV=FS-STAmv (@FMV)(@FS-STA) TARGET V (*-1 CS BARRIER @V LINK *-1 @V) ;
 SUBSTITUTE:SubV=FS-STAmv (@FMV)(@FS-STA) TARGET V (*-1 CS BARRIER @V LINK *-1 @V) ;
 
 # infinite clauses:
 SUBSTITUTE:SubV=iclaux (@<OBJ) (@ICL-OBJ) TARGET NONVFIN (*-1 @-FSUBJ> BARRIER @V) ;
-
 SUBSTITUTE:SubV=icl (@IMV)(@<OBJ) TARGET Inf (-1 @IM)(*-2 <mv>);
 
 
@@ -243,7 +247,6 @@ SETPARENT:r6 @P< TO (*-1 Pr BARRIER V);
 
 ### S
 
-
 SETPARENT:r9 @SUBJ> TO (*1 VFIN BARRIER CS);
 SETPARENT:r10 @<SUBJ TO (-*1 VFIN BARRIER CS);
 SETPARENT:r11 @<OBJ TO (-*1 V BARRIER CS);
@@ -254,6 +257,10 @@ SETPARENT @<ADVL TO (-1* <aux> BARRIER <mv>);
 SETPARENT @<ADVL TO (-1* <mv> BARRIER CS);
 SETPARENT @ADVL> TO (*1 <mv> BARRIER CS);
 SETPARENT @ADVL> TO (*1 <aux> BARRIER <mv>);
+
+SETPARENT @<ADVL TO (-1* @HNOUN BARRIER V);
+SETPARENT @ADVL> TO (*1 @HNOUN BARRIER V);
+
 SETPARENT @<ADVL TO (-1* @rc-VAUX BARRIER CS);
 SETPARENT @<ADVL TO (-1* V* BARRIER CS);
 SETPARENT @<ADVL TO (1 Num LINK -2 Num);
@@ -314,7 +321,15 @@ SETPARENT:RelVtoN @FS-N< TO (*-1 CS LINK -1 N OR A OR Pron) ;
 ### Embedded clause
 
 
+
+## Tokelau
+
+SETPARENT:LeftPcle @PCLE> TO (1 WORD); # or to phrase head?
+
+
 ### Root
 
-SETPARENT VFIN (NONE p (*)) TO (@0 (*));
-
+SETPARENT:vfin VFIN (NONE p (*)) TO (@0 (*));
+SETPARENT:v V (NONE p (*)) TO (@0 (*));
+SETPARENT N (NONE p (*)) TO (@0 (*));
+SETPARENT @CLB TO (*-1 @FMV OR @HNOUN);

@@ -124,6 +124,8 @@ REMOVE:au V IF (0 AU)(1 N);
 
 SELECT Pr IF (0 Pr)(1 Dem)(2 N) ;
 SELECT Pr IF (1C N);
+
+REMOVE Pr IF (0 V)(NOT 1 N OR Det OR Pron);
 # e tatalo
 
 SELECT Det IF (0 Det)(1 N);
