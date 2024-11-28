@@ -1,0 +1,559 @@
+!! Numeral affix file
+
+LEXICON num
++Num: # ;
+
+LEXICON dateyearcase_nullsuff_w_dot
+           MARKDOT ;
+
+LEXICON ARABICCASES   !!≈ * **@CODE@**  adds +Arab
++Arab: # ;
+
+LEXICON ARABICCASE   !!≈ * **@CODE@**  adds +Arab
+ +Arab:  # ;
+
+LEXICON ARABICCASE0   !!≈ * **@CODE@**  adds +Arab
+ +Arab:  DIGITCASE0 ;
+
+
+LEXICON RNum  # ;
+LEXICON ROMNUMTAGOBL  # ;
+LEXICON dateyearcase  # ;
+LEXICON dateyearcase_fullsuff  # ;
+LEXICON prp  # ;
+LEXICON v  # ;
+
+
+LEXICON NUM-PREFIXES   !!≈ !! __@CODE@__
+    §:§      ARABIC ; ! §24
+   §§:§§     ARABIC ; ! §§24
+  §% :§%     ARABIC ; ! § 24
+ §§% :§§%    ARABIC ; ! §§ 24
+   %-:∑-     ARABIC ; ! -24
+   %‒:%‒     ARABIC ; ! -24 U+2012
+   %–:%–     ARABIC ; ! -24 U+2013
+   %—:%—     ARABIC ; ! -24 U+2014
+   %―:%―     ARABIC ; ! -24 U+2015
+   %+:%+     ARABIC ; ! <plus>24
+ %-% :∑-%    ARABIC ; ! - 24
+ %‒% :%‒%    ARABIC ; ! - 24 U+2012
+ %–% :%–%    ARABIC ; ! - 24 U+2013
+ %—% :%—%    ARABIC ; ! - 24 U+2014
+ %―% :%―%    ARABIC ; ! - 24 U+2015
+ %+% :%+%    ARABIC ; ! <plus> 24
+   %*:%*     ARABIC ; ! *24
+   %$:%$     ARABIC ; ! $24
+   %€:%€     ARABIC ; ! €24
+   %<:%[%<%] ARABIC ; ! <24
+   %>:%[%>%] ARABIC ; ! >24
+  s%.:s%.    ARABIC ; ! s.24
+             ARABICX ; ! 3x4+Num+Err/Missingspace (should be 3 x 4)
+
+LEXICON ARABICS
+            +Use/Circ: REALARABICfirst  ; ! for the arabic numerals
+            +Use/Circ: REALARABICpunct  ; ! for the arabic numerals
+                       ARABIC           ; ! for +Sem/ID
+                       ARABICDATE       ; ! for +Sem/Date
+                       ARABICYEAR       ; ! for +Sem/Year
+                       ARABICCLOCK      ; ! for +Sem/Time-clock
+                       ARABICORD        ; ! for +Ord
+       ARABICX          ; ! for 3x4 and its like
+
+LEXICON REALARABICfirst !!≈ * __@CODE@__ to avoid 0 as first arabic, except from only 0, or in front of comma
+< [1|2|3|4|5|6|7|8|9] > REALARABIC          ; ! 2-4 digits
+< [1 "@P.number.one@"|2 "@P.number.two@"|3 "@P.number.three@"|4 "@P.number.four@"|5 "@P.number.five@"|6 "@P.number.six@"|7 "@P.number.seven@"|8 "@P.number.eight@"|9 "@P.number.nine@"|%0  "@P.number.ten@"]  > REALARABICDELIMITER ; ! 1 digit only
+                  %0    ARABICDELIMITER     ; ! 0 is a number
+< [1|2|3|4|5|6|7|8|9] > REALARABICfirstpart ; !first arabic in numbers like 199 878 and 199.878 (no 0)
+                  %0    REALARABICDELIMITER ; ! 0, and 0-
+                  %0    REALDECARABICdec    ; ! 0,5 and 0-5 %
+
+LEXICON REALARABICpunct !!≈ * __@CODE@__ to get number after
+   %-:∑-     REALARABICfirst ; ! -24
+   %‒:%‒     REALARABICfirst ; ! -24 U+2012
+   %–:%–     REALARABICfirst ; ! -24 U+2013
+   %—:%—     REALARABICfirst ; ! -24 U+2014
+   %―:%―     REALARABICfirst ; ! -24 U+2015
+   %+:%+     REALARABICfirst ; ! <plus>24
+
+LEXICON REALARABIC   !!≈ * __@CODE@__ 1-4 arabics
+< (1|2|3|4|5|6|7|8|9|%0) (1|2|3|4|5|6|7|8|9|%0) [1 "@P.number.one@"|2 "@P.number.two@"|3 "@P.number.three@"|4 "@P.number.four@"|5 "@P.number.five@"|6 "@P.number.six@"|7 "@P.number.seven@"|8 "@P.number.eight@"|9 "@P.number.nine@"|%0  "@P.number.ten@"]  > REALARABICDELIMITER ; ! hyph, %, casesuffix
+
+LEXICON REALARABICfirstpart !!≈ * __@CODE@__ numbers like 199 878, 199.878, 199,878, 12000-13000
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALARABICsecondpart ; ! 199 878 and 199.878
+< [1|2|3|4|5|6|7|8|9|%0|0] [1|2|3|4|5|6|7|8|9|%0|0]  > REALDECARABICsecond ; ! 19912,878 and 12000-13000
+
+
+
+LEXICON REALDECARABICsecond !!≈ * __@CODE@__ 19912,878 and 12000-13000
+< [1|2|3|4|5|6|7|8|9|%0] >  REALDECARABICsecond ;  ! loop
+ REALDECARABICdec ; ! comma and hyph
+
+
+LEXICON REALDECARABICdec  !!≈ * __@CODE@__ hyph and comma
+%,  REALARABICDECIM ;
+!%,@P.ErrOrth.ON@:%.@P.ErrOrth.ON@  REALARABICDECIM ; ! 0.6 pro correct 0,6 Kommenterte denne ut, det trenges ekstra tagg og disambiguering hvis denne skal brukes, kombinert med begrensening for høyre side av skilletegn. Denne generer Err/Orth til tall som 20.005 . Både 20.005 og 20,005 kan være korrekt.
+%-:∑-  REALARABICDECIM ;
+%-:∑-  REALARABICDECIM ;
+
+LEXICON REALARABICsecondpart   !!≈ * __@CODE@__ numbers like 199 878 and 199.878
+                               !! allow 199,878 as special typo
+< [% |%.] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICsecondpart_cont ;
+< [%,] "@P.ErrOrth.ON@" [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > REALARABICsecondpart_cont ;
+
+LEXICON REALARABICsecondpart_cont !!≈ * __@CODE@__ loop, to case suffix, to , or -,
+ REALARABICDELIMITER ;
+ REALARABICsecondpart ;
+ REALDECARABICdec ;
+
+
+LEXICON REALARABICDECIM !!≈ * __@CODE@__ loop and to % and case suffix
+< [1|2|3|4|5|6|7|8|9|%0] > REALARABICDECIM ; !loop
+< [1|2|3|4|5|6|7|8|9|%0] > PROSENT ; ! to % and case suffix
+
+
+LEXICON ARABIC   !!≈ * __@CODE@__ +Sem/ID, +Ord
+< [1 "@P.number.one@"|2 "@P.number.two@"|3 "@P.number.three@"|4 "@P.number.four@"|5 "@P.number.five@"|6 "@P.number.six@"|7 "@P.number.seven@"|8 "@P.number.eight@"|9 "@P.number.nine@"|%0  "@P.number.ten@"]  > ARABICLOOPS ; ! hyph, %, casesuffix
+
+
+LEXICON ARABICLOOPS !!≈ * __@CODE@__
+                    ARABICLOOP      ;
+  +Use/SpellNoSugg: ARABICSabcdef   ;
+!                   ARABICLOOPORD   ; !vi begrenser til tall opp til 100
+!                   ARABICLOOPphone ; !denne overgenerer
+
+
+LEXICON ARABICSabcdef !!≈ * __@CODE@__
+ < [a|b|c|d|e|f|f %  f] > ACASETAG ;
+
+
+LEXICON ARABICDATE !!≈ * __@CODE@__
+                                    ARABICDATENUM ;
+< (1|2|%0) [1|2|3|4|5|6|7|8|9   ] > ARABICDATEHYPH ;
+< [1|2]                       %0  > ARABICDATEHYPH ;
+< [3]      [1|                %0] > ARABICDATEHYPH ;
+
+LEXICON ARABICDATEHYPH !!≈ * __@CODE@__
+ %.%-:%.∑- ARABICDATENUM ;
+   %-:∑-   ARABICDATENUM ;
+ %.%–      ARABICDATENUM ; ! en dash
+   %–      ARABICDATENUM ; ! en dash
+
+LEXICON ARABICDATENUM !!≈ * __@CODE@__
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [%0] [1|2|3|4|5|6|7|8|9] > ARABICDATENUM2 ; !29.09
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1]  [1|2|%0]            > ARABICDATENUM2 ; !29.10
+ < [3]      [1|                %0] %. [%0] [1|2|3|4|5|6|7|8|9] > ARABICDATENUM2 ; !31.09
+ < [3]      [1|                %0] %. [1]  [1|2|%0]            > ARABICDATENUM2 ; !31.10
+ <          [1|2|3|4|5|6|7|8|9   ] %.      [1|2|3|4|5|6|7|8|9] > ARABICDATENUM2 ; !9.9
+ <          [1|2|3|4|5|6|7|8|9   ] %. [1]  [1|2|%0]            > ARABICDATENUM2 ; !9.10
+ < [1|2]    [1|2|3|4|5|6|7|8|9|%0] %.      [1|2|3|4|5|6|7|8|9] > ARABICDATENUM2 ; !29.9
+ < [1|2]    [1|2|3|4|5|6|7|8|9|%0] %. [1]  [1|2|%0]            > ARABICDATENUM2 ; !29.10
+ < [3]      [1|                %0] %.      [1|2|3|4|5|6|7|8|9] > ARABICDATENUM2 ; !31.9
+ < [3]      [1|                %0] %. [1]  [1|2|%0]            > ARABICDATENUM2 ; !31.10
+
+LEXICON ARABICDATENUM2 !!≈ * __@CODE@__
+ < %. [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > datetag       ;
+ < %.                              [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > datetag       ;
+                                                                                   datetag_w_dot_cont ;
+
+LEXICON datetag_w_dot_cont !!≈ * __@CODE@__
+ dateyearcase_nullsuff_w_dot_tag ;
+ dateyearcase_fullsuff_tag       ;
+
+LEXICON ARABICCLOCK !!≈ * __@CODE@__ is a regex for clock time.
+
+! 2-digit clock time, like 8-16 on a shop sign
+! ! 8-16
+ < (%0) 1 [%-|–|—] ([1|2|%0]) [1 [%0|1|2|3|4|4|5|6|7|8|9] | 2 [%0|1|2|3|4] | [2|3|4|5|6|7|8|9]] > numclock ;
+ < (%0) 2 [%-|–|—] ([1|2|%0]) [1 [%0|1|2|3|4|4|5|6|7|8|9] | 2 [%0|1|2|3|4] | [3|4|5|6|7|8|9]] > numclock ;
+ < (%0) 3 [%-|–|—] ([1|2|%0]) [1 [%0|1|2|3|4|4|5|6|7|8|9] | 2 [%0|1|2|3|4] | [4|5|6|7|8|9]] > numclock ;
+ < (%0) 4 [%-|–|—] ([1|2|%0]) [1 [%0|1|2|3|4|4|5|6|7|8|9] | 2 [%0|1|2|3|4] | [5|6|7|8|9]] > numclock ;
+ < (%0) 5 [%-|–|—] ([1|2|%0]) [1 [%0|1|2|3|4|4|5|6|7|8|9] | 2 [%0|1|2|3|4] | [6|7|8|9]] > numclock ;
+ < (%0) 6 [%-|–|—] ([1|2|%0]) [1 [%0|1|2|3|4|4|5|6|7|8|9] | 2 [%0|1|2|3|4] | [7|8|9]] > numclock ;
+ < (%0) 7 [%-|–|—] ([1|2|%0]) [1 [%0|1|2|3|4|4|5|6|7|8|9] | 2 [%0|1|2|3|4] | [8|9]] > numclock ;
+ < (%0) 8 [%-|–|—] ([1|2|%0]) [1 [%0|1|2|3|4|4|5|6|7|8|9] | 2 [%0|1|2|3|4] |  9] > numclock ;
+ < (%0) 9 [%-|–|—] ([1|2|%0]) [1 [%0|1|2|3|4|4|5|6|7|8|9] | 2 [%0|1|2|3|4] ] > numclock ;
+! 10-12
+ < 1 %0 [%-|–|—] [1 [1|2|3|4|4|5|6|7|8|9]| 2 [%0|1|2|3|4]] > numclock ;
+ < 1 1  [%-|–|—] [1   [2|3|4|4|5|6|7|8|9]| 2 [%0|1|2|3|4]] > numclock ;
+ < 1 2  [%-|–|—] [1     [3|4|4|5|6|7|8|9]| 2 [%0|1|2|3|4]] > numclock ;
+ < 1 3  [%-|–|—] [1         [4|5|6|7|8|9]| 2 [%0|1|2|3|4]] > numclock ;
+ < 1 4  [%-|–|—] [1           [5|6|7|8|9]| 2 [%0|1|2|3|4]] > numclock ;
+ < 1 5  [%-|–|—] [1             [6|7|8|9]| 2 [%0|1|2|3|4]] > numclock ;
+ < 1 6  [%-|–|—] [1               [7|8|9]| 2 [%0|1|2|3|4]] > numclock ;
+ < 1 7  [%-|–|—] [1                 [8|9]| 2 [%0|1|2|3|4]] > numclock ;
+ < 1 8  [%-|–|—] [1                    9 | 2 [%0|1|2|3|4]] > numclock ;
+ < 1 9  [%-|–|—]                           2 [%0|1|2|3|4]  > numclock ;
+
+! 20-24  
+ < 2 %0 [%-|–|—] 2 [1|2|3|4] > numclock ;
+ < 2  1 [%-|–|—] 2   [2|3|4] > numclock ;
+ < 2  2 [%-|–|—] 2     [3|4] > numclock ;
+ < 2  3 [%-|–|—] 2        4  > numclock ;
+
+! 4-digit clock time
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
+ <   [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
+ <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > CLOCK-sep ;
+
+LEXICON CLOCK-sep !!≈ * __@CODE@__ different separators for intervals, or one clock time only
+   %– ARABICCLOCK2 ; ! en dash
+   numclock ; ! one clock time indication only
+   %,:%,  ARABICCLOCKDECIMALS    ; ! clock time with fractional seconds (e.g. sports)
+   %-:∑- ARABICCLOCK2 ;       ! 12.00-12.30   = no space
+   %-:% ∑-%   ARABICCLOCK2x ;  ! 12.00 - 12.30 = space (common)
+   %-:∑-%   ARABICCLOCK2x ;    ! 12.00- 12.30  = inconcistent space (found in corpus)
+   %-:% ∑-  ARABICCLOCK2x ;    ! 12.00 -12.30  = inconcistent space (found in corpus)
+   %–:% %–%  ARABICCLOCK2x ; ! en dash, spaces as above
+   %–:% %– ARABICCLOCK2x ; ! en dash
+   %–:%–%  ARABICCLOCK2x ; ! en dash
+
+
+LEXICON ARABICCLOCK2 !!≈ * __@CODE@__ is the second component of intervals, idntical to ARABICCLOCK
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
+ <   [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
+ <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclock ;
+
+LEXICON ARABICCLOCK2x !!≈ * __@CODE@__ is the second component of intervals,
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclockx ;
+ < [1|2|%0] [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclockx ;
+ <   [1|2|3|4|5|6|7|8|9|%0] %. [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclockx ;
+ <   [1|2|3|4|5|6|7|8|9|%0] %: [1|2|3|4|5|%0] [1|2|3|4|5|6|7|8|9|%0] > numclockx ;
+
+LEXICON ARABICCLOCKDECIMALS !!≈ * __@CODE@__ is fractional seconds
+ <  [1|2|3|4|5|6|7|8|9|%0]+ > numclock ;
+
+LEXICON ARABICYEAR !!≈ * __@CODE@__
+ < [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > numyear ;
+
+LEXICON numyear !!≈ * __@CODE@__
+       yeartag  ;
+ %/:%/ moreyear ;
+ %-:∑- moreyear ;
+ %–:%– moreyear ;
+ %-:∑- moreyearx ;
+ %–:% %–%  moreyearx ;
+ %-:% ∑-%  moreyearx ;
+ %–:% %–  moreyearx ;
+ %-:% ∑-  moreyearx ;
+ %–:%–%  moreyearx ;
+ %-:∑-%  moreyearx ;
+
+
+LEXICON moreyear !!≈ * __@CODE@__
+                              < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagpl ;
+ < [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagpl ;
+
+LEXICON moreyearx !!≈ * __@CODE@__
+                              < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagplx ;
+ < [1|2] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > yeartagplx ;
+
+
+LEXICON yeartagplx !!≈ * __@CODE@__
++Use/NG:  yeartagpl ;
+
+LEXICON ARABICORD !!≈ * __@CODE@__
+ < [1|2|3|4|5|6|7|8|9|%0] [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPORD ;
+                       < [1|2|3|4|5|6|7|8|9]    > ARABICLOOPORD ;
+                                          1%0%0   ARABICLOOPORD ;
+
+
+!LEXICON ARABICLOOPphone      +358(0)16671254, 01-16671254, 166 71 254
+! + ARABICLOOPphoneNum ;   !
+!   ARABICLOOPphoneNum ;
+
+!LEXICON ARABICLOOPphoneNum    +358(0)16671254, 01-16671254, 166 71 254
+!< [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPphoneNum ;
+!< [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPphoneSep ;
+!< [1|2|3|4|5|6|7|8|9|%0] > ARABICCASEphone ;
+!
+!LEXICON ARABICLOOPphoneSep     +358(0)16671254, 01-16671254, 166 71 254
+!  (                      ARABICLOOPphoneNum ;
+!  )                      ARABICLOOPphoneNum ;
+!  —                      ARABICLOOPphoneNum ;
+! %-:∑-                   ARABICLOOPphoneNum ;
+! %                       ARABICLOOPphoneNum ; ! Space as separator
+
+
+LEXICON REALARABICDELIMITER  !!≈ * __@CODE@__
+                     ARABICDELIMITER ; ! 1-4 arabics to casesuffixses
+            %,       REALARABICDECIM ;
+            %-:∑-    REALARABICDECIM ;
+            %–       REALARABICDECIM ;
+            %-:∑-    REALARABIC      ; ! 1-2 multipart numbers
+             –:–     REALARABIC      ; ! 1–2 multipart numbers, n-dash
+             —:—     REALARABIC      ; ! 1—2 multipart numbers, m-dash
+            ,-:,∑-   NUM-ARABICCASES ; ! 10,-
+   ,-+Err/Orth:.∑-   NUM-ARABICCASES ; ! 10.- It is wrong, but written.
+ % %%+Use/-TTS+Err/Orth:%%    ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%". Use this in non-TTS, it will flag the error
+ % @P.Pmatch.Loc@%%+Use/TTS:@P.Pmatch.Loc@%%    ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%". Use this in TTS, it will split in two tokens
+ % %%+Use/-TTS:% %%  ARABICDELIMITER ; ! the correct ones as well... 50 % etc. In TTS, we treat 50 and % as two tokens = easier processing
+
+LEXICON ARABICX
+ < [1|2|3|4|5|6|7|8|9|%0]+ [{ x }|{ x }:{ X }|{ × }] [1|2|3|4|5|6|7|8|9|%0]+ > ARABICXNORMTAG ; ! Go to the x
+ < [1|2|3|4|5|6|7|8|9|%0]+ [{ x }:x|{ x }:X|{ × }:×] [1|2|3|4|5|6|7|8|9|%0]+ > ARABICXERRTAG ; ! Go to the x
+
+LEXICON ARABICXNORMTAG
++Num+Arab: # ;
+
+LEXICON ARABICXERRTAG
++Num+Arab+Err/MissingSpace: # ;
+
+
+LEXICON ARABICLOOP   !!≈ * __@CODE@__
+                           ARABIC          ;
+             %.%-:%.∑-     ARABIC          ; ! 1.-2 multipart numbers ! !
+             %.%–:%.%–     ARABIC          ; ! 1.–2 multipart numbers ! !
+             %.%—:%.%—     ARABIC          ; ! 1.—2 multipart numbers ! !
+             %.%-:%.% ∑-   ARABICORD       ; ! 1. -2. multipart numbers ! !
+             %.%-:%.%-%    ARABICORD       ; ! 1. - 2. multipart numbers ! !
+             %.%-:%.% ∑-%  ARABICORD       ; ! 1. - 2. multipart numbers ! !
+             %.%–:%.% %–%  ARABICORD       ; ! 1. – 2. multipart numbers ! !
+             %.%-:%.∑-     ARABICORD       ; ! 1.-2. multipart numbers ! !
+             %.%–:%.%–     ARABICORD       ; ! 1.–2. multipart numbers ! !
+             %.%—:%.%—     ARABICORD       ; ! 1.—2. multipart numbers ! !
+              %-%:∑-%      ARABIC          ; ! 1- 2 multipart numbers
+              %–%:%–%      ARABIC          ; ! 1– 2 multipart numbers
+              %—%:%—%      ARABIC          ; ! 1— 2 multipart numbers
+             % %-:% ∑-     ARABIC          ; ! 1 -2 multipart numbers
+             % %–:% %–     ARABIC          ; ! 1 –2 multipart numbers
+             % %—:% %—     ARABIC          ; ! 1 —2 multipart numbers
+            % %-%:% ∑-%    ARABIC          ; ! 1 - 2 multipart numbers
+            % %–%:% %–%    ARABIC          ; ! 1 – 2 multipart numbers
+            % %—%:% %—%    ARABIC          ; ! 1 — 2 multipart numbers
+          % %-%-%:% ∑-∑-%  ARABIC          ; ! 1 -- 2 multipart numbers
+          % %–%–%:% %–%–%  ARABIC          ; ! 1 –– 2 multipart numbers
+          % %—%—%:% %—%—%  ARABIC          ; ! 1 —— 2 multipart numbers
+               %.:%.       ARABIC          ;
+                %::%:      ARABIC          ;
+!              %,:%,       ARABIC          ;
+                 :         ARABIC          ; ! Allowing for "23 500" w/nbsp (init char = alt-space)
+!               %:%        ARABIC          ; ! Allowing for "23 500". Lene: Denne er plagsom og bør forbedres. F.eks. 2017 30 vil vi ikke ha om ett tall.
+               %/:%/       ARABIC          ; ! 24/12
+              %/%:%/%      ARABIC          ; ! 24/ 12
+             % %/:% %/     ARABIC          ; ! 24 /12
+                ':'        ARABIC          ;
+
+             +Num:         RNum            ; ! Num Cmp Noun, with hyphen
+
+!   % %-+Err/Orth:% ∑-     ARABICDELIMITER ; ! 1 - multipart numbers - "1 -:s"?
+! % %-%-+Err/Orth:% ∑-∑-   ARABICDELIMITER ; ! 1 -- multipart numbers
+!                          ARABICDELIMITER ; ! list of number-case delimiters
+                           ID-ARABIC       ;
+
+
+LEXICON MARKDOT !!≈ * __@CODE@__
+! This should create a new backtrack-point before the dot, but no sub-reading:
+   +Use/-PMatch:%. # ;
+< "+Use/PMatch":0 "@P.Pmatch.Backtrack@" 0:%. > # ; ! This creates a split point
+   +Use/PMatch+CLBfinal: # ; ! This creates an alternative end point for those
+                             ! requiring a full stop, so that when the previous line
+                             ! forces a bactrack and reanalysis, the expression can
+                             ! end up here, and then make the additional PUNCT analysis
+                             ! of the full stop. Without this line, there will never
+                             ! be this extra analysis, and the abbr/date/whatever +
+                             ! end of sentence reading will never be possible.
+
+
+
+! The Roman numerals !
+! ------------------ !
+
+LEXICON ROMAN   !!≈ * __@CODE@__  roman numerals
+ +Use/Circ: ROM-THOUSAND ; !
+ +Use/Circ: ROM-HUNDRED ; !
+ +Use/Circ: ROM-TEN ; !
+ +Use/Circ: ROM-ONE ; !
+  ROM-SINGEL ; !
+
+
+LEXICON ROM-SINGEL   !!≈ * __@CODE@__
+    I+Use/NG:i    ROM-ONE-TAG ;
+   II+Use/NG:ii   ROM-ONE-TAG ;
+  III+Use/NG:iii  ROM-ONE-TAG ;
+   IV+Use/NG:iv   ROM-ONE-TAG ;
+    V+Use/NG:v    ROM-ONE-TAG ;
+   VI+Use/NG:vi   ROM-ONE-TAG ;
+  VII+Use/NG:vii  ROM-ONE-TAG ;
+ VIII+Use/NG:viii ROM-ONE-TAG ;
+   IX+Use/NG:ix   ROM-ONE-TAG ;
+    X+Use/NG:x   ROM-ONE-TAG ;
+   XI+Use/NG:xi   ROM-ONE-TAG ;
+   XII+Use/NG:xii   ROM-ONE-TAG ;
+   XIII+Use/NG:xiii   ROM-ONE-TAG ;
+   XIV+Use/NG:xiv   ROM-ONE-TAG ;
+   XV+Use/NG:xv   ROM-ONE-TAG ;
+   XVI+Use/NG:xvi   ROM-ONE-TAG ;
+   XVII+Use/NG:xvii   ROM-ONE-TAG ;
+   XVIII+Use/NG:xviii   ROM-ONE-TAG ;
+   XIX+Use/NG:xix   ROM-ONE-TAG ;
+   XX+Use/NG:xx   ROM-ONE-TAG ;
+
+
+LEXICON ROM-THOUSAND   !!≈ * __@CODE@__
+     M+Use/Circ:M     ROM-THOUSAND-TAG ;
+    MM+Use/Circ:MM    ROM-THOUSAND-TAG ;
+   MMM+Use/Circ:MMM   ROM-THOUSAND-TAG ;
+  MMMM+Use/Circ:MMMM  ROM-THOUSAND-TAG ;
+ MMMMM+Use/Circ:MMMMM ROM-THOUSAND-TAG ;
+
+LEXICON ROM-THOUSAND-TAG   !!≈ * __@CODE@__
+ +Use/Circ: ROMNUMTAG   ; !
+ +Use/Circ: ROM-HUNDRED ; !
+ +Use/Circ: ROM-TEN     ; !
+ +Use/Circ: ROM-ONE     ; !
+ +Use/Circ: ROM-SPLIT   ; !
+
+LEXICON ROM-HUNDRED   !!≈ * __@CODE@__
+    C+Use/Circ:C    ROM-HUNDRED-TAG ;
+   CC+Use/Circ:CC   ROM-HUNDRED-TAG ;
+  CCC+Use/Circ:CCC  ROM-HUNDRED-TAG ;
+   CD+Use/Circ:CD   ROM-HUNDRED-TAG ;
+    D+Use/Circ:D    ROM-HUNDRED-TAG ;
+   DC+Use/Circ:DC   ROM-HUNDRED-TAG ;
+  DCC+Use/Circ:DCC  ROM-HUNDRED-TAG ;
+ DCCC+Use/Circ:DCCC ROM-HUNDRED-TAG ;
+   CM+Use/Circ:CM   ROM-HUNDRED-TAG ;
+
+LEXICON ROM-HUNDRED-TAG   !!≈ * __@CODE@__
+ +Use/Circ: ROMNUMTAG ;
+ +Use/Circ: ROM-TEN   ;
+ +Use/Circ: ROM-ONE   ;
+ +Use/Circ: ROM-SPLIT ;
+
+LEXICON ROM-TEN   !!≈ * __@CODE@__
+    X+Use/Circ:X    ROM-TEN-TAG ;
+   XX+Use/Circ:XX   ROM-TEN-TAG ;
+  XXX+Use/Circ:XXX  ROM-TEN-TAG ;
+   XL+Use/Circ:XL   ROM-TEN-TAG ;
+    L+Use/Circ:L    ROM-TEN-TAG ;
+   LX+Use/Circ:LX   ROM-TEN-TAG ;
+  LXX+Use/Circ:LXX  ROM-TEN-TAG ;
+ LXXX+Use/Circ:LXXX ROM-TEN-TAG ;
+   XC+Use/Circ:XC   ROM-TEN-TAG ;
+
+LEXICON ROM-TEN-TAG   !!≈ * __@CODE@__
+ +Use/Circ: ROMNUMTAG ;
+ +Use/Circ: ROM-ONE   ;
+ +Use/Circ: ROM-SPLIT ;
+
+LEXICON ROM-ONE   !!≈ * __@CODE@__
+    I:I    ROM-ONE-TAG ;
+   II:II   ROM-ONE-TAG ;
+  III:III  ROM-ONE-TAG ;
+   IV:IV   ROM-ONE-TAG ;
+    V:V    ROM-ONE-TAG ;
+   VI:VI   ROM-ONE-TAG ;
+  VII:VII  ROM-ONE-TAG ;
+ VIII:VIII ROM-ONE-TAG ;
+   IX:IX   ROM-ONE-TAG ;
+
+LEXICON ROM-ONE-TAG   !!≈ * __@CODE@__
+  +Use/Circ: ROMNUMTAG ;
+!        +N: ROMNUMTAG ; ! !The Olav viđeš fix (Roman V now gets A)
+  +Use/Circ: ROM-SPLIT ;
+
+! Here, we split the Roman numerals, in order to account for cases like
+! "Kapihtal II-IV". We may send this first part directly to ROM-TAG below (and
+! get the +Num tag), or we may send them through a second loop, identical to
+! the first one, but marked wit "2" (the lexica are called 2ROMAN, etc. We do
+! this instead of making a loop, since we do not want cases like
+! "II-IV-VI-VII-IX". If that should turn out to be a good idea, a loop would
+! do the trick.
+
+LEXICON ROM-SPLIT   !!≈ * __@CODE@__
+ %-+Use/Circ:∑- 2ROMAN ; ! II-VI, etc. !
+
+
+! Here goes loop 2.
+
+LEXICON 2ROMAN   !!≈ * __@CODE@__
+ +Use/Circ: 2ROM-THOUSAND ;
+ +Use/Circ: 2ROM-HUNDRED  ;
+ +Use/Circ: 2ROM-TEN      ;
+ +Use/Circ: 2ROM-ONE      ;
+
+LEXICON 2ROM-THOUSAND   !!≈ * __@CODE@__
+     M+Use/Circ:M     2ROM-THOUSAND-TAG ;
+    MM+Use/Circ:MM    2ROM-THOUSAND-TAG ;
+   MMM+Use/Circ:MMM   2ROM-THOUSAND-TAG ;
+  MMMM+Use/Circ:MMMM  2ROM-THOUSAND-TAG ;
+ MMMMM+Use/Circ:MMMMM 2ROM-THOUSAND-TAG ;
+
+LEXICON 2ROM-THOUSAND-TAG   !!≈ * __@CODE@__
+ +Use/Circ: ROMNUMTAG    ;
+ +Use/Circ: 2ROM-HUNDRED ;
+ +Use/Circ: 2ROM-TEN     ;
+ +Use/Circ: 2ROM-ONE     ;
+
+LEXICON 2ROM-HUNDRED   !!≈ * __@CODE@__
+    C+Use/Circ:C    2ROM-HUNDRED-TAG ;
+   CC+Use/Circ:CC   2ROM-HUNDRED-TAG ;
+  CCC+Use/Circ:CCC  2ROM-HUNDRED-TAG ;
+   CD+Use/Circ:CD   2ROM-HUNDRED-TAG ;
+    D+Use/Circ:D    2ROM-HUNDRED-TAG ;
+   DC+Use/Circ:DC   2ROM-HUNDRED-TAG ;
+  DCC+Use/Circ:DCC  2ROM-HUNDRED-TAG ;
+ DCCC+Use/Circ:DCCC 2ROM-HUNDRED-TAG ;
+   CM+Use/Circ:CM   2ROM-HUNDRED-TAG ;
+
+LEXICON 2ROM-HUNDRED-TAG   !!≈ * __@CODE@__
+ +Use/Circ: ROMNUMTAG ;
+ +Use/Circ: 2ROM-TEN  ;
+ +Use/Circ: 2ROM-ONE  ;
+
+LEXICON 2ROM-TEN   !!≈ * __@CODE@__
+    X+Use/Circ:X    2ROM-TEN-TAG ;
+   XX+Use/Circ:XX   2ROM-TEN-TAG ;
+  XXX+Use/Circ:XXX  2ROM-TEN-TAG ;
+   XL+Use/Circ:XL   2ROM-TEN-TAG ;
+    L+Use/Circ:L    2ROM-TEN-TAG ;
+   LX+Use/Circ:LX   2ROM-TEN-TAG ;
+  LXX+Use/Circ:LXX  2ROM-TEN-TAG ;
+ LXXX+Use/Circ:LXXX 2ROM-TEN-TAG ;
+   XC+Use/Circ:XC   2ROM-TEN-TAG ;
+
+LEXICON 2ROM-TEN-TAG   !!≈ * __@CODE@__
+ +Use/Circ: ROMNUMTAG ;
+ +Use/Circ: 2ROM-ONE  ;
+
+LEXICON 2ROM-ONE   !!≈ * __@CODE@__
+    I:I    2ROM-ONE-TAG ;
+   II:II   2ROM-ONE-TAG ;
+  III:III  2ROM-ONE-TAG ;
+   IV:IV   2ROM-ONE-TAG ;
+    V:V    2ROM-ONE-TAG ;
+   VI:VI   2ROM-ONE-TAG ;
+  VII:VII  2ROM-ONE-TAG ;
+ VIII:VIII 2ROM-ONE-TAG ;
+   IX:IX   2ROM-ONE-TAG ;
+
+LEXICON 2ROM-ONE-TAG   !!≈ * __@CODE@__
+ +Use/Circ: ROMNUMTAG ;
+
+
+
+
+! A final section with some isolated numeral expresssions !
+! ------------------------------------------------------- !
+
+LEXICON ISOLATED-NUMEXP   !!≈ * __@CODE@__ some isolated numeral expressions
+           ½:½   NUMTAG ;
+           ¹:¹   NUMTAG ;
+           ²:²   NUMTAG ;
+           ³:³   NUMTAG ;
+           ¼:¼   NUMTAG ;
+           ¾:¾   NUMTAG ;
+
+
+! Ad hoc lexica to be fixed
+
+LEXICON ARABICCASEORD # ; 
+LEXICON ARABICCASEORD-ERR # ; 
+LEXICON DIGITCASE0 # ; 
+LEXICON yeartagpl # ; 
+
+
+
+

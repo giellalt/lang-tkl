@@ -34,6 +34,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +N +A +Adv +V                                  !!≈ - @CODE@
  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num   !!≈ - @CODE@
  +Incl +Excl    !!≈ - @CODE@
+ +Rom     !!≈ - @CODE@
  
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef  +Poss !!≈ - @CODE@
@@ -67,6 +68,20 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
  +Aux
+
++Use/Circ
++Arab
++Use/PMatch
++CLBfinal
+
++Sem/ID
+
++Cmp/SplitR
++Err/MissingSpace
++Sem/Year
++Use/-PMatch
++Use/NG
++Use/SpellNoSugg
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
@@ -169,6 +184,10 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  @U.verb.pl@        !!≈ |  @CODE@ | Tag moving from prefixing to +Pl
  @U.noun.sg@        !!≈ |  @CODE@ | Tag moving from prefixing to +Sg
  @U.noun.pl@        !!≈ |  @CODE@ | Tag moving from prefixing to +Pl
+@C.ErrOrth@        !!≈ |  @CODE@ | a pematch tag to remove
+
+!! pmatch
+@P.Pmatch.Loc@        !!≈ |  @CODE@ | a pematch tag to remove
 
 LEXICON Root  !!≈ - **@@ODE@**
 !! The word forms in Tokelauan language start from the lexeme roots of basic
