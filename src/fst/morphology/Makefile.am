@@ -69,7 +69,7 @@ GT_LEXC_L2_SRCS=\
 GENERATED_LEXC_SRCS=generated_files/smi-$(GLANG)-arabic_roman_digits.lexc \
 		generated_files/smi-$(GLANG)-digits.lexc \
 		generated_files/mul-$(GLANG)-punctuation.lexc \
-                generated_files/mul-$(GLANG)-symbols.lexc
+		generated_files/mul-$(GLANG)-symbols.lexc
 
 # change handling of shared lexical data here:
 if HAVE_SHARED_COMMON
