@@ -7,6 +7,7 @@
             * `affixes/`
                 * [adjectives.lexc](src-fst-morphology-affixes-adjectives.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/affixes/adjectives.lexc))
                 * [nouns.lexc](src-fst-morphology-affixes-nouns.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/affixes/nouns.lexc))
+                * [numerals.lexc](src-fst-morphology-affixes-numerals.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/affixes/numerals.lexc))
                 * [propernouns.lexc](src-fst-morphology-affixes-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/affixes/propernouns.lexc))
                 * [symbols.lexc](src-fst-morphology-affixes-symbols.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/affixes/symbols.lexc))
                 * [verbs.lexc](src-fst-morphology-affixes-verbs.lexc.html) ([src](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/affixes/verbs.lexc))

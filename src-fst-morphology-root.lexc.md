@@ -14,6 +14,7 @@ The parts-of-speech are:
 - +N +A +Adv +V
 - +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num
 - +Incl +Excl
+- +Rom
 
 The parts of speech are further split up into:
 - +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef +Poss
@@ -102,6 +103,10 @@ Use the following flag diacritics to control tag placement for prefixing
 |  @U.verb.pl@ | Tag moving from prefixing to +Pl
 |  @U.noun.sg@ | Tag moving from prefixing to +Sg
 |  @U.noun.pl@ | Tag moving from prefixing to +Pl
+|  @C.ErrOrth@ | a pematch tag to remove
+
+pmatch
+|  @P.Pmatch.Loc@ | a pematch tag to remove
 
 - **@@ODE@**
 The word forms in Tokelauan language start from the lexeme roots of basic
