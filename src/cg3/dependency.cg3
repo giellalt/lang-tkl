@@ -331,5 +331,5 @@ SETPARENT:LeftPcle @PCLE> TO (1 WORD); # or to phrase head?
 
 SETPARENT:vfin VFIN (NONE p (*)) TO (@0 (*));
 SETPARENT:v V (NONE p (*)) TO (@0 (*));
-SETPARENT N (NONE p (*)) TO (@0 (*));
+#SETPARENT N (NONE p (*)) TO (@0 (*)); # this gives subjects
 SETPARENT @CLB TO (*-1 @FMV OR @HNOUN);
