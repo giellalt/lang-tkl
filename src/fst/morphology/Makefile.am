@@ -20,7 +20,7 @@ SUBDIRS=. test
 
 # Add language-specific flags for hfst-lexc compilation here:
 if HAVE_SHARED_COMMON
-HFST_LEXC_LOCAL_FLAGS=  # --Werror # uncomment if lexc is good enough
+HFST_LEXC_LOCAL_FLAGS=   --Werror # uncomment if lexc is good enough
 else
 HFST_LEXC_LOCAL_FLAGS=  # No --Werror if deps are missing !
 endif
@@ -34,6 +34,7 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
 			 affixes/nouns.lexc       \
+			 affixes/numerals.lexc       \
 			 affixes/propernouns.lexc \
 			 affixes/symbols.lexc     \
 			 affixes/verbs.lexc       \
@@ -66,9 +67,7 @@ GT_LEXC_L2_SRCS=\
 			$(L2)
 
 # Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=generated_files/smi-$(GLANG)-arabic_roman_digits.lexc \
-		generated_files/smi-$(GLANG)-digits.lexc \
-		generated_files/mul-$(GLANG)-punctuation.lexc \
+GENERATED_LEXC_SRCS=generated_files/mul-$(GLANG)-punctuation.lexc \
 		generated_files/mul-$(GLANG)-symbols.lexc
 
 # change handling of shared lexical data here:
