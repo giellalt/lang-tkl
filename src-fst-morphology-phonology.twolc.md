@@ -13,8 +13,9 @@ The Tokelauan morphophonological/twolc rules file !
 -  %^E2:a %^E2:e %^E2:i %^E2:o %^E2:u    = tja
 -  %^3S:0   
  %^T:t %^A:a  = ta prefix
--  %>:0 ;   = suffix border
-
+-  %>:0    = suffix border
+-  a2 e2 i2 o2 u2 ;   for Petele2ema - Peteleema *Petelēma
+The digit 2 to be removed in longvowel-cleanup.regex 
 # Sets  
 
 -  Vow = a e i o u      

@@ -5,6 +5,8 @@ INTRODUCTION TO THE MORPHOLOGICAL ANALYSER FOR Tokelauan .
 
 ## Composed letters
 
+- a2 e2 i2 o2 u2 these are for first part of lexical aa, ee, ii, oo, uu
+
 ## Analysis symbols
 The morphological analyses of wordforms for the Tokelauan
 language are presented in this system in terms of the following symbols.

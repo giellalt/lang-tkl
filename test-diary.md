@@ -29,6 +29,23 @@ Coverage:
 ```
 
 
+## Disambiguation
+
+Assuming the disambiguation is correct:
+
+Number of words in the test corpus:
+
+`cat misc/nt2.txt|hfst-tokenise -gmW tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3 |grep -v "^:"|grep -v "^$"|wc -l`
+
+
+Number of readings and words in the test corpus:
+
+`cat misc/nt2.txt|hfst-tokenise -gmW tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3 |grep -v "^:"|grep -v "^$"|grep '^"'|wc -l`
+
+Number of readings per word:
+
+241130: (721729-317150)/317150 = 1.27567
+
 
 
 

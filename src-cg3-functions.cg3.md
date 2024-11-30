@@ -8,14 +8,6 @@
 
 * Sets for verbs
 
-* NP sets defined according to their morphosyntactic features
-
-* The PRE-NP-HEAD family of sets
-
-These sets model noun phrases (NPs). The idea is to first define whatever can
-occur in front of the head of the NP, and thereafter negate that with the
-expression **WORD - premodifiers**.
-
 * Miscellaneous sets
 
 * Border sets and their complements

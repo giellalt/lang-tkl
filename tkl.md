@@ -28,14 +28,6 @@ SECTION  #
 
 * Sets for verbs
 
-* NP sets defined according to their morphosyntactic features
-
-* The PRE-NP-HEAD family of sets
-
-These sets model noun phrases (NPs). The idea is to first define whatever can
-occur in front of the head of the NP, and thereafter negate that with the
-expression **WORD - premodifiers**.
-
 * Miscellaneous sets
 
 * Border sets and their complements
@@ -295,8 +287,9 @@ The Tokelauan morphophonological/twolc rules file !
 -  %^E2:a %^E2:e %^E2:i %^E2:o %^E2:u    = tja
 -  %^3S:0   
  %^T:t %^A:a  = ta prefix
--  %>:0 ;   = suffix border
-
+-  %>:0    = suffix border
+-  a2 e2 i2 o2 u2 ;   for Petele2ema - Peteleema *Petelēma
+The digit 2 to be removed in longvowel-cleanup.regex 
 # Sets  
 
 -  Vow = a e i o u      
@@ -331,6 +324,8 @@ INTRODUCTION TO THE MORPHOLOGICAL ANALYSER FOR Tokelauan .
 # Definitions for Multichar_Symbols
 
 ## Composed letters
+
+- a2 e2 i2 o2 u2 these are for first part of lexical aa, ee, ii, oo, uu
 
 ## Analysis symbols
 The morphological analyses of wordforms for the Tokelauan
