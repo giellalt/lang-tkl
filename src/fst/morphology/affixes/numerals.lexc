@@ -21,7 +21,7 @@ LEXICON ROMNUMTAGOBL  # ;
 LEXICON dateyearcase  # ;
 LEXICON dateyearcase_fullsuff  # ;
 LEXICON prp  # ;
-LEXICON v  # ;
+
 
 
 LEXICON NUM-PREFIXES   !!≈ !! __@CODE@__

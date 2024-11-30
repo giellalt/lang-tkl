@@ -23,6 +23,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! ## Composed letters
 
+a2 e2 i2 o2 u2   !!≈ - @CODE@ these are for first part of lexical aa, ee, ii, oo, uu
 
 !! ## Analysis symbols
 !  ----------------

@@ -3,6 +3,10 @@
 # After twolc output we want to replace aa with ā for
 # all transducers.
 
+# Then we have a fix for Petele2ema - Peteleema *Petelēma,
+# a handful of propernouns really having vowel sequences.
+# To consider: is thee a syllable boundary there?
+
 а а -> ā ,
 e e -> ē ,
 i i -> ī ,
@@ -13,4 +17,12 @@ A a -> Ā ,
 E e -> Ē ,
 I i -> Ī ,
 O o -> Ō ,
-U u -> Ū ;
+U u -> Ū ,
+
+а2 а -> a a ,
+e2 e -> e e ,
+i2 i -> i i ,
+o2 o -> o o ,
+u2 u -> u u 
+
+;

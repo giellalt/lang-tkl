@@ -15,8 +15,9 @@ Alphabet !!= # @CODE@
  %^VC:0
  %^T:t %^A:a !!= @CODE@ = ta prefix
  %^%[:0 %^%]:0
- %>:0 ;  !!= - @CODE@ = suffix border
-
+ %>:0   !!= - @CODE@ = suffix border
+ a2 e2 i2 o2 u2 ;  !!= - @CODE@ for Petele2ema - Peteleema *Petelēma
+                   !! The digit 2 to be removed in longvowel-cleanup.regex 
 Sets !!= # @CODE@ 
 
  Vow = a e i o u     !!= - @CODE@ 

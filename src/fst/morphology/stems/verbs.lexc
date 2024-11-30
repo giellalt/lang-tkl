@@ -36,12 +36,10 @@ tamākīkī auxtag "slightly" ;
 toe auxtag "again" ;
 vave auxtag "quickly, soon" ;
 vē:vee auxtag "be the same as" ;
-vē:ve auxtag "be the same as" ;
 vēhea:veehea auxtag "interrogative verb" ;
 
-! Check these
-he:he v "Go astray, lose" ;
-hi:hi v "Fish with a" ;
+hē:hee vtags "Go astray, lose" ;
+hī:hii vtags "Fish with a" ;
 
 LEXICON auxtag
 +V+Aux: # ;
@@ -71,7 +69,6 @@ lū:luu vtags "Shake. N a" ;
 mā:maa vtags "Presume, assume, think." ;
 nā:naa vtags "(o f young" ;
 tē:tee vtags "Be bulging, stick" ; ! XXX
-! pā':paa' v "A rrive," ; ! XXX
 
 ao:ao tvtags "Collect, gather." ;
 au:au vtags "reach, get there" ;
@@ -421,7 +418,6 @@ umiti:umiti vtags "Crave for a" ;
 unati:unati vtags "Nip, pinch (with" ;
 fafao:fafao vtags "Put s.th. into" ;
 feanu:feanu vtags "Spit. Nahe ke" ;
-feinu:feinu vtags "Plural o f" ;
 feoti:feoti vtags "Die (humans only)" ;
 feulu:feulu vtags "Enter in or" ;
 felau:felau vtags "Share out, allot." ;
