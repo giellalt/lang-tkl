@@ -63,7 +63,7 @@ STRICT-TAGS +=
     ¶ ?
     V* A*
     @<NP
-    @PCLE>
+    @PCLE>    @<PCLE
 
     ;
 
@@ -167,49 +167,7 @@ SET NOT-VERB = WORD - V ;
 # - - - - - - - - - -
 
 SET V-IND-FIN = Prs OR Prt ;
-#SET V-MOOD = Ind OR Pot OR Imprt OR ImprtII OR Cond OR (Neg Sup) ;
-#SET VFIN = V-MOOD - ConNeg ;
-#SET VFIN-POS = V-MOOD - ConNeg - Neg ;
-#SET VFIN-NOT-IMP = VFIN - Imprt ;
-#SET VFIN-NOT-NEG = VFIN - Neg ;
-#SET NOT-PRFPRC = WORD - PrfPrc ;
 
-# Person
-# - - - - 
-
-LIST V-SG1 = (V Ind Prs Sg1)  (V Ind Prt Sg1) (V Cond Prs Sg1) 
-             (V Cond Prt Sg1) (V Pot Prs Sg1) (V Neg Ind Sg1);
-LIST V-SG2 = (V Ind Prs Sg2)  (V Ind Prt Sg2) (V Cond Prs Sg2) 
-             (V Cond Prt Sg2) (V Pot Prs Sg2) (V Neg Ind Sg2);
-LIST V-SG3 = (V Ind Prs Sg3)  (V Ind Prt Sg3) (V Cond Prs Sg3) 
-             (V Cond Prt Sg3) (V Pot Prs Sg3) (V Neg Ind Sg3);
-LIST V-DU1 = (V Ind Prs Du1)  (V Ind Prt Du1) (V Cond Prs Du1) 
-     	     (V Cond Prt Du1) (V Pot Prs Du1) (V Neg Ind Du1);
-LIST V-DU2 = (V Ind Prs Du2)  (V Ind Prt Du2) (V Cond Prs Du2) 
-	         (V Cond Prt Du2) (V Pot Prs Du2) (V Neg Ind Du2);
-LIST V-DU3 = (V Ind Prs Du3)  (V Ind Prt Du3) (V Cond Prs Du3) 
-	         (V Cond Prt Du3) (V Pot Prs Du3) (V Neg Ind Du3);
-LIST V-PL1 = (V Ind Prs Pl1)  (V Ind Prt Pl1) (V Cond Prs Pl1) 
-             (V Cond Prt Pl1) (V Pot Prs Pl1) (V Neg Ind Pl1);
-LIST V-PL2 = (V Ind Prs Pl2)  (V Ind Prt Pl2) (V Cond Prs Pl2) 
-             (V Cond Prt Pl2) (V Pot Prs Pl2) (V Neg Ind Pl2);
-LIST V-PL3 = (V Ind Prs Pl3)  (V Ind Prt Pl3) (V Cond Prs Pl3) 
-             (V Cond Prt Pl3) (V Pot Prs Pl3) (V Neg Ind Pl3);
- 
-
-# Some subsets of the VFIN sets
-# - - - - - - - - - - - - - - -
-SET V-SG = V-SG1 OR V-SG2 OR V-SG3 ;
-SET V-DU = V-DU1 OR V-DU2 OR V-DU3 ;
-SET V-PL = V-PL1 OR V-PL2 OR V-PL3 ;
-
-SET V-DU-PL = V-DU1 OR V-DU2 OR V-DU3 OR V-PL1 OR V-PL2 OR V-PL3 ;
-
-
-# Pronoun sets
-# ------------
-
-# This set is for choosing between Adv and Pron Indef.
 
 # Adjectival sets and their complements
 # -------------------------------------
@@ -221,13 +179,11 @@ SET NOT-A-ADV = WORD - A - Adv ;
 
 # Adverbial sets and their complements
 # ------------------------------------
-SET LEX-ADV = Adv - (A*) ;
-SET NOT-ADV            = WORD - Adv ;
-SET NOT-ADV-N          = NOT-ADV - N;
-SET NOT-ADV-PCLE       = NOT-ADV - Pcle ;
+SET NOT-ADV      = WORD - Adv ;
+SET NOT-ADV-N    = NOT-ADV - N;
+SET NOT-ADV-PCLE = NOT-ADV - Pcle ;
 
-
- # Introduce finite clauses.
+# Introduce finite clauses.
 
 LIST TIME-ADV = (Adv Sem/Time) ;
 
@@ -245,30 +201,10 @@ SETS
 #!! * Sets for verbs
 # -----
 
-	
-SET REAL-V = V ;
 SET MAIN-V = V - FAUXV ;
 LIST V-TRANS = (V TV) ;
-SET TRANS-V = V-TRANS + REAL-V ;
+SET TRANS-V = V-TRANS + V ;
 SET VFIN = Prs OR Prt ;
-
-#!! * NP sets defined according to their morphosyntactic features
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-
-LIST N-SG-NOM = (N Sg Nom) ;
-LIST N-NOM = (N Nom) ;
-SET HEAD-N = N - RCmpnd ;
-SET HEAD-N-NOM = (N Nom) - RCmpnd ;
-SET SUBJECTHEAD = N OR A OR Pron - Refl ; # These, can be subject heads
-SET NP = N OR A ;                      # anything that can take except numerals
-SET NP-HEAD        = Pron OR HEAD-N ;
-
-#!! * The PRE-NP-HEAD family of sets
-
-#!! These sets model noun phrases (NPs). The idea is to first define whatever can
-#!! occur in front of the head of the NP, and thereafter negate that with the
-#!! expression **WORD - premodifiers**.
-
 
 #!! * Miscellaneous sets
 # ------------------
@@ -284,21 +220,21 @@ SET NOT-INITIAL-CC = WORD - INITIAL - CC ;
 
 SET CP = (Pron Interr) OR (Pron Rel) ;
 LIST BOUNDARYSYMBOLS =  "\;" ":" "-" "–" ;
-SET S-BOUNDARY = CP OR BOUNDARYSYMBOLS OR (Neg Sup) OR @CVP ;
-SET BOC = S-BOUNDARY OR BOS ;
-SET BOC-PUNCT = BOC - ("-") - ("–") ; 
-SET EOC = S-BOUNDARY OR EOS ;
-SET NP-BOUNDARY = BOS OR EOS OR REAL-CLB OR VFIN OR Recipr OR Pr OR Pcle OR Interj OR CS OR CP OR @CVP ;
+SET S-BOUNDARY   = CP OR BOUNDARYSYMBOLS OR (Neg Sup) OR @CVP ;
+SET BOC          = S-BOUNDARY OR BOS ;
+SET BOC-PUNCT    = BOC - ("-") - ("–") ; 
+SET EOC          = S-BOUNDARY OR EOS ;
+SET NP-BOUNDARY  = BOS OR EOS OR REAL-CLB OR VFIN OR Recipr OR Pr OR Pcle OR Interj OR CS OR CP OR @CVP ;
 
-SET APP-BOUNDARY = REAL-CLB OR VFIN OR Recipr OR Pr OR Pcle OR Interj OR CS OR CP OR PrfPrc - @>N ;
-SET SV-BOUNDARY = S-BOUNDARY  - FAUXV OR Sup OR FMAINV ;
+SET APP-BOUNDARY = REAL-CLB OR VFIN OR Recipr OR Pr OR Pcle OR Interj OR CS OR CP ;
+SET SV-BOUNDARY  = S-BOUNDARY  - FAUXV OR FMAINV ;
 SET SVF-BOUNDARY = S-BOUNDARY OR VFIN ;
-
+SET NP           = Det | N | Dem | Pron ;
 
 #!! * Syntactic sets
 # --------------
 
-LIST ALLSYNTAG = (@+FAUXV) (@+FMAINV) (@-FAUXV) (@-FMAINV) (@-FSUBJ>)(@-FOBJ)(@-F<ADVL)(@-FADVL>)(@>A) (@>ADVL) (@ADVL<) (@<ADVL) (@ADVL>) (@ADVL) (@>N) (@APP) (@APP-N<) (@APP-Pron<) (@APP>Pron) (@APP-Num<) (@APP-ADVL<) (@VOC)(@CNP) (@CVP) (@P<) (@>P) (@HNOUN) (@INTERJ) (@Pron<) (@OBJ) (@OBJ>) (@<OBJ) (@OPRED) (@<OPRED) (@OPRED>) (@SPRED<OBJ) (@PCLE) (@PCLE>) (@COMP-CS<) (@N<) (@SPRED) (@<SPRED) (@SPRED>) (@PPRED) (@Num<) (@SUBJ) (@<SUBJ) (@SUBJ>) (@X) (@<NP);
+LIST ALLSYNTAG = (@+FAUXV) (@+FMAINV) (@-FAUXV) (@-FMAINV) (@-FSUBJ>)(@-FOBJ)(@-F<ADVL)(@-FADVL>)(@>A) (@>ADVL) (@ADVL<) (@<ADVL) (@ADVL>) (@ADVL) (@>N) (@APP) (@APP-N<) (@APP-Pron<) (@APP>Pron) (@APP-Num<) (@APP-ADVL<) (@VOC)(@CNP) (@CVP) (@P<) (@>P) (@HNOUN) (@INTERJ) (@Pron<) (@OBJ) (@OBJ>) (@<OBJ) (@OPRED) (@<OPRED) (@OPRED>) (@SPRED<OBJ) (@PCLE) (@PCLE>) (@<PCLE) (@COMP-CS<) (@N<) (@SPRED) (@<SPRED) (@SPRED>) (@PPRED) (@Num<) (@SUBJ) (@<SUBJ) (@SUBJ>) (@X) (@<NP);
  
 
 SET NON-APP = ALLSYNTAG - (@APP);
@@ -314,8 +250,9 @@ MAP:cconjunction (@CNP @CVP) TARGET CC ;
 ADD:sconjunction (@CVP) TARGET CS ;
 MAP:oneverbpersentence (@+FMAINV) TARGET VFIN IF (NEGATE *0 V);
 
+MAP:lpcle (@PCLE>) TARGET Pcle IF (1 NP);
+MAP:rpcle (@<PCLE) TARGET Pcle IF (-1 NP);
 
-MAP:pcle (@PCLE>) TARGET Pcle ;
 MAP:interj (@INTERJ) TARGET Interj ;
 MAP:p< (@P<) TARGET N OR Pron IF (*-1 Pr BARRIER N OR V);
 MAP:d< (@>N) TARGET Det IF (1 N);

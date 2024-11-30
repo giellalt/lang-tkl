@@ -6,7 +6,7 @@
 STRICT-TAGS +=
     # Tags from lexicon
     N V A Prop Adv Num CC CS Interj
-    Emph Prf
+    Emph Prf Rom
     Abbr ACR Pr Pron
     Pers Det Dem Refl Recipr Poss Interr
     Nom Acc Gen Dat Instr
@@ -71,6 +71,7 @@ LIST CC = CC ;
 LIST CS = CS ;
 LIST Interj = Interj ;
 LIST Num = Num ;
+LIST Rom = Rom ;
 LIST Dem = Dem ;
 LIST Emph = Emph ;
 #LIST Pcle = Pcle ;
@@ -83,12 +84,38 @@ LIST KO = "ko" ;
 
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
+SET NP = Det | N | Dem | Pron ;
 
 SECTION
 
 #   ======== #
 #!! SECTION  #
 #   ======== #
+
+# No context rules
+REMOVE Rom IF (0 ("i")); # no roman i
+REMOVE N IF (0 ("i")); # no letter i
+
+# Lexical rules
+
+SELECT:īPrs V IF (0 ("ī"));
+SELECT:iPr Pr IF  (0 ("i"))(1 NP);
+
+SELECT:kīN V IF (0 ("kī")); # The loanword key
+SELECT:kiPr Pr IF  (0 ("i"))(1 NP);
+
+
+SELECT:ia1 Emph IF (0 ("ia"))(1 Prop);
+REMOVE:ia2 Emph IF (0 ("ia"));
+
+# ko
+REMOVE Pron IF (0 ("ko"))(NOT 1 V);
+
+# mā
+REMOVE ("ma") IF (0 ("mā"));
+REMOVE:maPron Pr IF (0 ("mā") + Pron)(1C V);
+REMOVE:maPr Pron IF (0 ("mā") + Pr)(-1 V)(1 NP);
+REMOVE:maN Pron (0 ("mā") + N)(-1 Pron);
 
 # VP
 
@@ -125,7 +152,7 @@ REMOVE:au V IF (0 AU)(1 N);
 SELECT Pr IF (0 Pr)(1 Dem)(2 N) ;
 SELECT Pr IF (1C N);
 
-REMOVE Pr IF (0 V)(NOT 1 N OR Det OR Pron);
+REMOVE Pr IF (0 V)(NOT 1 NP OR Pcle);
 # e tatalo
 
 SELECT Det IF (0 Det)(1 N);
@@ -143,6 +170,22 @@ SELECT:NP N IF (-1C Det OR Poss);
 REMOVE:maN N (-1 CLB)(0 ("mā"));
 
 REMOVE:PrPr Pr IF (1C Pr);
+
+
+# Late lexical rules
+
+# e
+SELECT:ePrs Prs IF (0 ("e"))(1 V);
+SELECT:ePr Pr IF  (0 ("e"))(1 NP);
+
+REMOVE:oi N IF (0 ("oi") + CC);
+
+# Late preposition - noun rule
+
+REMOVE N IF (0 Pr)(1 NP OR Pcle);
+REMOVE Pr IF (-1C Pr)(0 N);
+
+
 
 AFTER-SECTIONS
 
