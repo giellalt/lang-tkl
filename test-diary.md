@@ -4,17 +4,21 @@ Test diary
 
 ## Lexical coverage 
 
+(testing on different conversion versions of the nt)
+
 Number of words (standing in `lang-tkl`):
 
 ```
-cat misc/nt_tkl.txt |hfst-tokenise -mgW tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep ' ?'|wc -l
+cat misc/nt_tkl.txt |hfst-tokenise -m tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+cat misc/nt_tkl.txt |tr -d "[0-9]"|hfst-tokenise -m tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
 Number of unknown words:
 
 
 ```
-cat misc/nt_tkl.txt |hfst-tokenise -m tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+cat misc/nt_tkl.txt |hfst-tokenise -mgW tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep ' ?'|wc -l
+cat misc/nt.tkl.txt |tr -d "[0-9]"|hfst-tokenise -mgW tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|wc -l
 ```
 
 ### Lexical coverage nt
@@ -26,6 +30,8 @@ Coverage:
 241115: 1-(34193/351080) = 0.9026
 241115: 1-(30018/350323) = 0.9143
 241117: 1-(17098/350323) = 0.9512
+241201: 1-(14505/320561) = 0.9548
+
 ```
 
 
