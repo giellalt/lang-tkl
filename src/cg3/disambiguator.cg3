@@ -160,7 +160,6 @@ SELECT Pcle IF (0 KO)(1 TE);
 
 # Verbs
 
-SELECT:dirverb V IF (1 DIR-PCLE);
 SELECT:kaakoi V IF (-1 verbalparticle);
 
 REMOVE:te V IF (0 TE);
@@ -175,11 +174,14 @@ REMOVE:au V IF (0 AU)(1 N);
 
 #REMOVE "Pcle" IF (0 Pr)(1 Dem)(2 N);
 
+REMOVE:notPrPron Pr IF (1 Pron OR Prop);
 SELECT Pr IF (0 Pr)(1 Dem)(2 N) ;
 SELECT Pr IF (1C N);
 
 REMOVE Pr IF (0 V)(NOT 1 NP OR Pcle);
 # e tatalo
+
+
 
 SELECT Det IF (0 Det)(1 N);
 # Ko ai te tino tē?: W ho is this (or that) man?
@@ -211,6 +213,9 @@ REMOVE:oi N IF (0 ("oi") + CC);
 REMOVE N IF (0 Pr)(1 NP OR Pcle);
 REMOVE Pr IF (-1C Pr)(0 N);
 
+# Late verb rules
+
+SELECT:dirverb V IF (1 DIR-PCLE);
 
 
 AFTER-SECTIONS
