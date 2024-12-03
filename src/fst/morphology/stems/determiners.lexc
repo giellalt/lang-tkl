@@ -13,7 +13,7 @@ iētahi+Det+Indef+Pl:iētahi # ;
 
 LEXICON Demonstratives
 a+Dem:a # ;
-ia+Dem:ia # ;
+!ia+Dem:ia # ; ! not as such in dictionary
 !te+Dem:te # ; ! a te, ia te
 tē+Dem:tē # ;
 iē+Dem:iē # ;

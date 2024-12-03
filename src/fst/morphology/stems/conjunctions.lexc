@@ -9,7 +9,6 @@ ma cc "and" ;
 ona cc "fordi" ;
 ka cc "but" ;
 kana cc "if" ;
-ke cc "so" ;
 ona cc ;
 
 LEXICON cs
@@ -18,6 +17,7 @@ LEXICON cs
 LEXICON Subjunctions
 kāfai cs "if" ;
 kafai cs "if" ;
+ke cc "so" ; ! introducing subordinate clauses.
 auā cs "because" ;
 heiloga cs "unless" ;
 vāgana cs "unless" ;
