@@ -37,10 +37,8 @@ The nominals are inflected in the following  Number
 - +Loc for locative nouns
 
 The possession is marked as such:
-The comparative forms are:
 Numerals are classified under:
 Verb moods are:
-Verb personal forms are:
 Other verb forms are
 
 * +Symbol = independent symbols in the text stream, like £, €, ©
