@@ -16,7 +16,7 @@ STRICT-TAGS +=
     Cmp Superl
     Prs Prt
     1Sg 2Sg 3Sg
-    Inf
+    Inf Neg
     Pcle
     PrfPrc PrsPrc
     Ind Imp Sbj Sup
@@ -98,6 +98,8 @@ REMOVE N IF (0 ("i")); # no letter i
 
 # Lexical rules
 
+SELECT:ataV V IF (0 ("ata"))(1 V);
+
 SELECT:īPrs V IF (0 ("ī"));
 SELECT:iPr Pr IF  (0 ("i"))(1 NP);
 
@@ -113,6 +115,12 @@ SELECT:iaPron Pron IF (-1 V)(0 ("ia"))(NOT 1 N);
 # ō
 
 REMOVE Pr IF (-1 N)(0 ("ō"))(NOT 1 NP);
+
+# he / hē (Det he atu a shipjack, V Neg Ko au e hē fano I will not go, V hē go astray, N hē grasshopper
+SELECT:heNeg Neg IF (0 ("hē"))(1 V);
+SELECT:heDet Det IF (0  ("hē"))(1 NP);
+REMOVE Neg IF (0  ("hē") + V)(1 V);
+# wait with rule for the grasshopper until it appears
 
 # ke / kē
 SELECT:keCS CS IF (-1 N)(0 ("ke"))(1 V);
