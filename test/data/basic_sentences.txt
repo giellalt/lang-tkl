@@ -1,0 +1,213 @@
+Kua hau te tino.
+# ‘A man has arrived’ or ‘The man has arrived’
+
+Vili ake oi kaumai he toki.
+# ‘Do run and bring me an axe’
+
+E hau te vaka i tauhaga uma.
+# The ship comes every year
+
+Ko te povi e kai mutia.
+# ‘Cows eat grass’
+
+Ko ietahi tino e fiafia lele ki nā hiva.
+# ‘Some people love dances’
+
+Kaumai hetahi nofoa.
+# ‘Bring me another chair’
+
+
+Kua hau koe auā ia au e tauale.
+# ‘You have come because I am sick’
+
+Na maua te tuhi mai ia te koe.
+# ‘The letter from you arrived’
+
+ko nā hiama ni tamaki mea ola.
+# ‘germs are tiny living things’
+
+
+# Lele ‘very’ is used only if there is a gradable qualifier in the noun phrase, including mātuā
+# and tamā. (Note: a gradable qualifier is one which allows o f comparison. Words like fu a efa
+# ‘big, fat’ and gali ‘beautiful’ are gradable, whereas hima ‘made of cement’ is not.)
+
+he mātuā ika lele
+# ‘an absolutely huge fish’
+
+he tino lelei lele
+# ‘a very good man’
+
+# Lava intensifies the meaning of the word it follows. It may modify the head word plus any
+# qualifiers, or it may intensify a qualifying word:
+
+Ko he ā te mea tēnā? Ko he fa le lava!
+# ‘What is that thing? It is a house!’
+
+Ko he a te fale tênā? Ko te fale fo n o lava.
+# ‘What is that building? It is the meeting house.’
+
+te ko fu kukula lava
+‘the red shirt’ (not the other one)
+
+# Lava is also used to form reflexives:
+
+Kua kofu te tauale e ia lava
+# ‘The patient has dressed him self
+
+Na lavea ia i a te ia lava
+# ‘He hurt himself’
+
+
+# e: This preposition marks the agent of a transitive verb (see below, 5.1):
+
+Na kaumai te polo e te tamaiti.
+# ‘The child brought the ball’
+
+E he iloa e au.
+# ‘I don’t know’
+
+
+# i
+# This preposition has a number of meanings, including in, at, with, because of, from. Its
+#basic meaning is to indicate location in a place:
+
+Nae nofo te toeaina i te nofoa.
+# ‘The old man was sitting in the chair’
+
+Vaelua te lākau i te toki.
+# ‘Split the wood with the axe’
+
+
+# Locative noun phrases differ in structure from other noun phrases. When a locative noun is
+# preceded by a preposition, it does not take an article. If it is the unmarked noun of a sentence
+# (5.1), it is preceded by the particle ia. Other grammatical words which may occur in a locative
+# noun phrase are postmodifiers like lele, lava and the directional particles (5.11), or a premodifying
+# possessive pronoun minus its article component (4.3.2):
+
+Fano ki gāuta lele.
+# ‘Go right inland’
+
+Nofo i ona tua.
+# ‘Sit behind him’
+
+E takalo te tamaiti i lalo ifo o te laulau.
+# ‘The child is playing under the table’
+
+E gali ia Fenualoa.
+# ‘Fenualoa is pretty’
+
+
+
+E kikila atu au ki a te koe.
+# ‘I am looking at you’
+
+Na kai e ki maua te ika.
+# ‘We two ate the fish’
+
+Kua maua te tuhi mai ia te koe.
+# ‘The letter from you has arrived’
+
+Kā olo koulua?
+# ‘Are you two going now?’
+
+Na fakatali pea ia kita.
+# ‘I just waited’
+
+
+
+
+
+
+# 5.1. Transitive and intransitive
+
+# Examples of transitive sentences:
+
+Na fau e ia tona fale.
+#  ‘He built his house’
+
+Na kai te ika e Mele.
+# ‘Mele ate the fish’
+
+Kikila e koe te gāluega.
+# ‘You supervise the work’
+
+# Examples of intransitive sentences:
+
+E takalo te tamaiti i te fātoaga.
+# ‘The child is playing in the garden’
+
+E kekē te puaka.
+# ‘The pig is squealing’
+
+Ka vili au ki ko.
+# ‘I will run over there’
+
+E kakai na fafine i tau kuka.
+# ‘The women are eating (some of) your cooking’
+
+E kikila na tamaiti ki te mahina.
+# ‘The children are looking at the moon’
+
+
+
+# 5.2 TENSE-ASPECT PARTICLES
+
+
+Ko tena te fale nae nonofo ai oku mātua.
+# ‘That’s the house where my parents used to live’
+
+Na teka te vaka i te vāiaho taluai.
+# ‘The boat departed last week’
+
+
+# 5.2.2 ka
+# This particle indicates a situation that is going to take place in the future, subsequent to the
+# time of speaking. Usually it refers to the immediate future:
+
+Ka fano te vaka.
+# ‘The boat is about to leave’
+
+# 5.2.3 koi
+# This particle indicates that a situation is still going on at the present time, although it may be
+# expected to stop at some future time:
+
+Koi ola ō mātua?
+# ‘Are your parents still living?’
+# Note that one does not say *Koi i te VahaPahefika iaAtafu ‘Atafu is still in the Pacific Ocean’,
+# because there is no possibility of this ceasing to be the case.
+
+# The other verbal particles discussed below can be used to refer to past, present or future time.
+# It is usually clear from the context which is intended.
+
+# 5.2.4 kua
+# This particle has a number of rather subtle uses, all of which imply change or development.
+# Two uses are particularly common. It can indicate an event that has taken place recently and is
+# felt by the speaker to have created a new situation:
+
+Kua hau to tamana.
+# ‘Your father has arrived’
+# or it can refer to a changed state:
+
+Kua tauale to tamana.
+# ‘Your father is ill’ or ‘Your father has become ill’
+# Either way, kua always means that a change has come about, or will come about at some future
+# time:
+
+Olo oi tāfafao oi kua omai ai.
+# ‘Go and amuse yourselves, and then you will come back’
+
+# 5.2.5 e
+# The non-past marker e has the widest and vaguest meaning of the tense-aspect particles. It
+# may indicate a permanent truth, or something that will happen in the future, or a situation that
+# exists at the time of speaking or that is concurrent with some other situation in the past or the
+# future. E is in fact used quite often to refer to things that happened in the past, provided this is
+# clear from the context of the narrative.
+
+E vevela te lā.
+# ‘The sun is hot’
+
+E fa n o au ki Niu Hila i te tauhaga fo u.
+# ‘I’m going to New Zealand next year’
+
+E nofo ia Hina i luga o te vaka kae oho ifo ia Tokalalaga ki lalo.
+# ‘While Hina sat on the canoe, Tokalalaga dived down below’ 
