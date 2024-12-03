@@ -86,6 +86,8 @@ SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
 SET NP = Det | N | Dem | Pron ;
 
+LIST DIR-PCLE = "mai" "atu" "ake" "ifo" ;
+
 SECTION
 
 #   ======== #
@@ -107,7 +109,7 @@ SELECT:kīN V IF (0 ("kī")); # The loanword key
 SELECT:kiPr Pr IF  (0 ("i"))(1 NP);
 
 
-SELECT:ia1 Emph IF (0 ("ia"))(1 Prop);
+SELECT:ia1 Emph IF (-1 N)(0 ("ia"));
 REMOVE:ia2 Emph IF (0 ("ia"));
 
 SELECT:iaPron Pron IF (-1 V)(0 ("ia"))(NOT 1 N);
@@ -158,6 +160,7 @@ SELECT Pcle IF (0 KO)(1 TE);
 
 # Verbs
 
+SELECT:dirverb V IF (1 DIR-PCLE);
 SELECT:kaakoi V IF (-1 verbalparticle);
 
 REMOVE:te V IF (0 TE);
