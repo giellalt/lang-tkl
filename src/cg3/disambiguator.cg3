@@ -108,14 +108,26 @@ SELECT:kiPr Pr IF  (0 ("i"))(1 NP);
 SELECT:ia1 Emph IF (0 ("ia"))(1 Prop);
 REMOVE:ia2 Emph IF (0 ("ia"));
 
+SELECT:iaPron Pron IF (-1 V)(0 ("ia"))(NOT 1 N);
+
+# ō
+
+REMOVE Pr IF (-1 N)(0 ("ō"))(NOT 1 NP);
+
+# ke / kē
+SELECT:keCS CS IF (-1 N)(0 ("ke"))(1 V);
+SELECT:kePron Pron IF (NOT -1 N)(0 ("kē"))(1 V);
+
 # ko
 REMOVE Pron IF (0 ("ko"))(NOT 1 V);
 
 # mā
 REMOVE ("ma") IF (0 ("mā"));
 REMOVE:maPron Pr IF (0 ("mā") + Pron)(1C V);
-REMOVE:maPr Pron IF (0 ("mā") + Pr)(-1 V)(1 NP);
+REMOVE:maPr Pron IF (0 ("mā") + Pr)(-1 V OR N)(1 NP);
 REMOVE:maN Pron (0 ("mā") + N)(-1 Pron);
+
+
 
 # VP
 
