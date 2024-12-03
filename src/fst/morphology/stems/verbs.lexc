@@ -18,7 +18,7 @@ hēai+V+Neg:hēai # ;
 
 LEXICON aux
 fia auxtag "wish to" ;
-ke  auxtag  ;
+!ke  auxtag  ; ! dictionary says ke = CC, kē = Pron Sg2.
 ata auxtag "can" ;
 fakatau auxtag "all" ;
 fakatagā auxtag "pretend to" ;
@@ -126,7 +126,7 @@ leu:leu vtags "(pi. leleu). (of" ;
 liu:liu vtags "Change, alter." ;
 lua:lua vtags "Vomit, spew. N" ;
 lue:lue vtags "Shake. Nahe" ;
-mai:mai vtags "Be salty," ;
+māi:maai vtags "Be salty," ;
 mau:mau vtags "Be satisfied," ;
 mou:mou vtags "anish, d" ;
 mii:mii vtags "(o f w" ;
@@ -1354,7 +1354,8 @@ fālanu:faalanu vtags "Be blue coloured." ;
 fālō:faaloo vtags "Stretch, reach" ;
 fālufalu:faalufalu vtags "(of people). Be" ;
 fanaifo:fanaifo vtags "(pi. oifo). Come" ;
-fānaupalahi:faanaupalahi vtags "(Term used of" ;
+fānau:faanau vtags "give birth / be born" ;
+fānaupalahi:faanaupalahi vtags "give birth twice in a year" ;
 fahioti:fahioti vtags "urder, kill." ;
 fātelotelo:faatelotelo vtags "Poke out the" ;
 fātelo:faatelo vtags "Put the tongue" ;
