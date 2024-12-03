@@ -1,53 +1,53 @@
- 255 tamāloa
- 179 hētahi
- 175 mālohi
- 166 tāmate
- 162 meamoni
- 153 nukukehe
- 143 kaifenua
- 142 kātoatoa
- 135 tuhituhiga
- 128 ohitāulaga
- 126 vāega
- 121 taumafai
- 121 fakaaogā
- 116 āvaga
- 116 tūnoa
- 114 atuga
- 109 tūlāfono
- 108 mātataku
- 103 tūhia
-  98 fakamāoni
-  97 meaalofa
-  97 fakailoga
-  95 lākau
-  94 fakafetai
-  91 tāulaga
-  86 tokatahi
-  85 tūlaga
-  84 āmio
-  84 tēmoni
-  84 tutupu
-  78 tālaki
-  76 takutino
-  74 vēia
-  69 gālulue
-  68 tupuna
-  67 itūkāigā
-  66 taulelea
-  66 hūnako
-  64 toeaina
-  62 pūlea
-  61 tugamau
-  59 vīkiga
-  59 talitonuga
-  58 nofoāliki
-  58 mātagā
-  58 fakamālōlō
-  57 āmiotonu
-  57 fakamālohi
-  56 tāpuaki
-  56 tautua
+ 255 tamāloa N
+ 179 hētahi Pron+Indef+Sg
+ 175 mālohi A
+ 166 tāmate V TV
+ 162 meamoni N
+ 153 nukukehe A 'foreign' (nuku N 'village' + kehe A 'different')
+ 143 kaifenua N 'crown' (?? kai V IT 'eat' + fenua N 'earth, land')
+ 142 kātoatoa A 'complete' (from kātoa A 'whole')
+ 135 tuhituhiga N 'writing(s)' (tuhi V 'write' + full reduplication 'durative' + -ga 'nominalizer')
+ 128 ohitāulaga N 'priest' (ohi 'offer' + tāulaga 'offering(s)')
+ 126 vāega N 'part' (vae V 'divide' + -ga and lengthening 'nominalizer')
+ 121 taumafai V IV 
+ 121 fakaaogā V TV
+ 116 āvaga N 'spouse' / V IV 'marry'
+ 116 tūnoa A 'highest' (used in the collocation alofa tūnoa 'mercy' (alofa 'love')
+ 114 atuga PCLE (nominalizing past tense marker (directional particle atu 'away' + nominalizer -ga))
+ 109 tūlāfono N 
+ 108 mātataku A+Pl (mataku + partial reduplication and lengthening 'plural')
+ 103 tūhia V TV+transitive suffix (+lengthening)
+  98 fakamāoni A 
+  97 meaalofa N
+  97 fakailoga N
+  95 lākau N
+  94 fakafetai V IV
+  91 tāulaga N
+  86 tokatahi Num
+  85 tūlaga N
+  84 āmio N 'behaviour' / V IV 'behave'
+  84 tēmoni N
+  84 tutupu V IV (tupu + plural partial reduplication)
+  78 tālaki V TV
+  76 takutino V TV
+  74 vēia A
+  69 gālulue V IV+Pl (galue + plural partial reduplication with lengthening)
+  68 tupuna N
+  67 itūkāigā PCLE (pre-nominal 'kind of')
+  66 taulelea N (one of the few plurals, usually pronounced tāulelea; Sg taulealea)
+  66 hūnako N
+  64 toeaina N
+  62 pūlea V TV+transitive suffix + lengthening (from pule)
+  61 tugamau N
+  59 vīkiga N
+  59 talitonuga N
+  58 nofoāliki N
+  58 mātagā A
+  58 fakamālōlō V TV
+  57 āmiotonu A
+  57 fakamālohi V IV
+  56 tāpuaki V IV
+  56 tautua V IV
   56 fakatetagata
   55 tāne
   52 fakamāonia
