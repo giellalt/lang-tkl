@@ -136,11 +136,14 @@ REMOVE:maPr Pron IF (0 ("mā") + Pr)(-1 V OR N)(1 NP);
 REMOVE:maN Pron (0 ("mā") + N)(-1 Pron);
 
 
+# NP
+
+REMOVE:PNP V IF (-1C Pr)(0 N);
 
 # VP
 
-SELECT V IF (-1 V + Prf);
-
+SELECT V IF (-1 V + Prf OR V + Prs);
+SELECT:VV V IF (1C V) ;
 
 
 # Propernoun
