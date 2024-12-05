@@ -216,7 +216,7 @@ REMOVE Pr IF (-1C Pr)(0 N);
 # Late verb rules
 
 SELECT:dirverb V IF (1 DIR-PCLE);
-
+SELECT:dirpcle Pcle IF (-1 V)(0 DIR-PCLE);
 
 AFTER-SECTIONS
 
