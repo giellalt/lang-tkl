@@ -41,17 +41,29 @@ Assuming the disambiguation is correct:
 
 Number of words in the test corpus:
 
-`cat misc/nt2.txt|hfst-tokenise -gmW tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3 |grep -v "^:"|grep -v "^$"|wc -l`
+```
+cat misc/nt2.txt |hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+```
 
 
-Number of readings and words in the test corpus:
+Number of readings in the test corpus:
 
-`cat misc/nt2.txt|hfst-tokenise -gmW tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3 |grep -v "^:"|grep -v "^$"|grep '^"'|wc -l`
+```
+cat misc/nt2.txt |hfst-tokenise -gmW tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3|grep -v '^[":]'|wc -l
+```
 
 Number of readings per word:
 
-241130: (721729-317150)/317150 = 1.27567
+Without disambiguation, the number of readings is 1.835 per word (601788/327949)
 
+With disambiguation:
+
+```
+241202: 408241/327949 = 1.24483
+241202: 391579/327949 = 1.19402
+```
+  
+  
 
 
 
