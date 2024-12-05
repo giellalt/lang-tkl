@@ -1,8 +1,8 @@
 Kua hau te tino.
-# ‘A man has arrived’ or ‘The man has arrived’
+#  the man ‘A man has arrived’
 
 Vili ake oi kaumai he toki.
-# ‘Do run and bring me an axe’
+# run ‘Do run and bring me an axe’
 
 E hau te vaka i tauhaga uma.
 # The ship comes every year
