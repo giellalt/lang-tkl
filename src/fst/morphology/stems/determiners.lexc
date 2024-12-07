@@ -1,52 +1,134 @@
-LEXICON Determiners
+!! # Determiners and pre- and postmodifiers
 
-te+Det+Def+Sg:te # ;
-nā+Det+Def+Pl:nā # ;
-he+Det+Indef+Sg:he # ;
-ni+Det+Indef+Pl:ni # ;
-
-tētahi+Det+Indef+Sg:tētahi # ;
-tetahi+Det+Indef+Sg:tetahi # ;
-hetahi+Det+Indef+Sg:hetahi # ;
-hetahi+Det+Indef+Sg:heetahi # ; ! xxx error? 255 x hētahi in Bible
-iētahi+Det+Indef+Pl:iētahi # ;
-
-LEXICON Demonstratives
-a+Dem:a # ;
-!ia+Dem:ia # ; ! not as such in dictionary
-!te+Dem:te # ; ! a te, ia te
-tē+Dem:tē # ;
-iē+Dem:iē # ;
-
-! proximal or first person (objects near to the speaker),
-! medial or second person (objects near to the addressee),
-! distal or third person[2]
-tēnā+Dem+Sg+Prox:tēnā # ;
-tēnei+Dem+Sg+Prox:tēnei # ;
-nei+Dem+Sg+Prox:nei # ;
-tēna+Dem+Sg+Med:tēna # ;
-tēia+Dem+Sg+Dist:tēia # ;
-iēnei+Dem+Pl+Prox:iēnei # ;
-nei+Dem+Pl+Prox:nei # ;
-iēnā+Dem+Sg+Med:iēnā # ;
-iēia+Dem+Pl+Dist:iēia # ;
-
-
-
-LEXICON pre
-+Pre: # ;
-
-LEXICON Premodifiers ! Adjectives?
+LEXICON Premodifiers
 mātuā pre "very big" ;
 tamā pre "very small" ;
 tamakī pre  "very small" ;
 tamakīkī pre  "very small" ;
 toe pre "final, last, leftover" ;
 
-LEXICON post
-+Post: # ;
+LEXICON pre ! rather +Det+Pre, or only +Det ?
++Pre: # ;
 
-LEXICON Postmodifiers
+LEXICON Postmodifiers ! rather +Dem+Emph ?
 lele post "very" ;
 lava post "emph" ;
 
+LEXICON post
++Post: # ;
+
+
+LEXICON Determiners
+
+! +/- specific, +/- plural, -Det must be pre/N
+te+Det+Def+Sg:te # ;
+he+Det+Indef+Sg:he # ;
+nā+Det+Def+Pl:nā # ;
+ni+Det+Indef+Pl:ni # ;
+
+tētahi+Det+Indef+Sg:tētahi # ;
+tetahi+Det+Indef+Sg:tetahi # ;
+hetahi+Det+Indef+Sg:hetahi # ;
+hetahi+Det+Indef+Sg:hētahi # ; ! xxx error? 255 x hētahi in Bible
+iētahi+Det+Indef+Pl:iētahi # ;
+
+a+Dem:a # ;
+
+!! -Dem may occur both pre-N and post-N:
+!! before N they function as Det, after N they
+!! must have another Det as support. (taimi = time)
+!! tēnei taimi, te taimi tēnei
+
+!! ## pre-nominal
+!! sg
+tēnei+Det+Dem+Prox:tēnei # ; ! 1
+tēnā+Det+Dem+Med:tēnā # ;    ! 2
+tēia+Det+Dem+Dist:tēia # ;   ! 3
+
+!! unspecified for number
+nei+Det+Dem+Prox:nei # ;
+nā+Det+Dem+Med:nā # ;
+ia+Det+Dem-Dist:ia # ; 
+
+!! pl
+iēnei+Det+Dem+Pl+Prox:iēnei # ;
+iēnā+Det+Dem+Sg+Med:iēnā # ;
+iēia+Det+Dem+Pl+Dist:iēia # ;
+
+!! post-nominal
+!! sg
+tēnei+Dem+Prox:tēnei # ; ! 1
+tēnā+Dem+Med:tēnā # ;    ! 2
+tēia+Dem+Dist:tēia # ;   ! 3
+
+!! unspecified for number
+nei+Dem+Prox:nei # ;
+nā+Dem+Med:nā # ;
+ia+Dem-Dist:ia # ; 
+
+!! pl
+iēnei+Dem+Pl+Prox:iēnei # ;
+iēnā+Dem+Sg+Med:iēnā # ;
+iēia+Dem+Pl+Dist:iēia # ;
+
+tē+Dem:tē # ; ! in use only postnominally
+iē+Dem:iē # ; ! in use only postnominally
+
+
+
+!! ## Possessors
+
+
+!! ### Singular reference
+
+haku+Det+Poss+Sg1+Sg:haku # ;
+hoku+Det+Poss+Sg1+Sg+Indef:hoku # ;
+hata+Det+Poss+Sg1+Sg+Emph:hata # ; ! Special form which conveys an appeal for sympathy or pity.
+hau+Det+Poss+Sg2+Sg:hau # ;
+hō+Det+Poss+Sg2+Sg:hoo # ;
+tō+Det+Poss+Sg2+Sg:too # ;
+ōu+Det+Poss+Sg2+Sg:oou # ;
+hana+Det+Poss+Sg3+Sg:hana # ;
+tana+Det+Poss+Sg3+Sg:tana # ;
+tata+Det+Poss+Sg3+Sg+Emph:tata # ;
+
+!! du1
+au+Det+Poss+Du2+Sg:au # ;
+haulua+Det+Poss+Du2+Sg:haulua # ;
+ha% lāua+Det+Poss+Du3+Sg:ha% lāua # ;
+ho% lāua+Det+Poss+Du3+Sg+Indef:ho% lāua # ;
+
+!! pl1
+hautou+Det+Poss+Pl2+Sg:hautou # ;
+houtou+Det+Poss+Pl2+Sg:houtou # ;
+ha% lātou+Det+Poss+Pl3+Sg:ha% laatou # ;
+ho% lātou+Det+Poss+Pl3+Sg:ho% laatou # ;
+
+
+!! ### Plural reference
+
+ata+Det+Poss+Sg1+Pl:ata # ;
+ō+Det+Poss+Sg2+Pl:oo # ;
+ana+Det+Poss+Sg3+Pl:ana # ;
+ona+Det+Poss+Sg3+Pl:ona # ;
+
+!! du1
+outou+Det+Poss+Du2+Pl:outou # ;
+aulua+Det+Poss+Du2+Pl:aulua # ; !2nd person dual possessive pronominal adjective, definite, class-A
+oulua+Det+Poss+Du2+Pl:oulua # ; !2nd person dual possessive pronominal adjective, definite, class-O
+!du3
+
+!! pl1
+ha% mātou+Det+Poss+Pl1+Excl+Sg:ha% mātou # ; ! 1st person plural exclusive possessive pronom inal adjective, in­ definite, class-A, with singular reference.
+autou+Det+Poss+Pl2+Pl:autou # ;
+outou+Det+Poss+Pl2+Pl:outou # ;
+!! pl3
+!! TODO
+
+!! # System should be:
+!! - particles before / after N
+!! - particles before / after V
+
+!! - proximal or first person (objects near to the speaker),
+!! - medial or second person (objects near to the addressee),
+!! - distal or third person
