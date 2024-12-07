@@ -17,7 +17,7 @@ STRICT-TAGS +=
     Prs Prt
     1Sg 2Sg 3Sg
     Inf Neg
-    Pcle
+    Pcle Pre
     PrfPrc PrsPrc
     Ind Imp Sbj Sup
     Cmpnd
@@ -85,6 +85,9 @@ LIST KO = "ko" ;
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
 SET NP = Det | N | Dem | Pron ;
+SET PRE-N        = A | Pcle | Pre ;
+SET NOT-PRE-N    = WORD - PRE-N ;
+
 
 LIST DIR-PCLE = "mai" "atu" "ake" "ifo" ;
 
@@ -160,6 +163,7 @@ SELECT Pcle IF (0 KO)(1 TE);
 
 # Verbs
 
+REMOVE V IF 
 SELECT:kaakoi V IF (-1 verbalparticle);
 
 REMOVE:te V IF (0 TE);
@@ -186,7 +190,8 @@ REMOVE Pr IF (0 V)(NOT 1 NP OR Pcle);
 SELECT Det IF (0 Det)(1 N);
 # Ko ai te tino tē?: W ho is this (or that) man?
 
-REMOVE Det IF (NOT 1 N);
+REMOVE Det IF (NEGATE *1 N BARRIER NOT-PRE-N);
+SELECT Det IF (*1 N BARRIER NOT-PRE-N);
 
 SELECT Pcle IF (1 Det OR N);
 

@@ -11,7 +11,7 @@
 STRICT-TAGS +=
     # Tags from lexicon
     N V A Prop Adv Num CC CS Interj
-    Abbr ABBR ACR Pr Po Pron Pcle
+    Abbr ABBR ACR Pr Po Pron Pcle Pre
     Pers Det Dem Refl Recipr Poss Interr
     Nom Acc Gen Dat Instr
     Msc Fem Neu
@@ -230,6 +230,8 @@ SET APP-BOUNDARY = REAL-CLB OR VFIN OR Recipr OR Pr OR Pcle OR Interj OR CS OR C
 SET SV-BOUNDARY  = S-BOUNDARY  - FAUXV OR FMAINV ;
 SET SVF-BOUNDARY = S-BOUNDARY OR VFIN ;
 SET NP           = Det | N | Dem | Pron ;
+SET PRE-N        = A | Pcle ;
+SET NOT-PRE-N    = WORD - PRE-N ;
 
 #!! * Syntactic sets
 # --------------
@@ -255,7 +257,8 @@ MAP:rpcle (@<PCLE) TARGET Pcle IF (-1 NP);
 
 MAP:interj (@INTERJ) TARGET Interj ;
 MAP:p< (@P<) TARGET N OR Pron IF (*-1 Pr BARRIER N OR V);
-MAP:d< (@>N) TARGET Det IF (1 N);
+MAP:d< (@>N) TARGET Det IF (*1 N BARRIER NOT-PRE-N);
+MAP:d< (@>N) TARGET Pre IF (*1 N BARRIER NOT-PRE-N);
 MAP:d (@N<) TARGET Dem IF (-1 N)(NOT 1 N);
 MAP:n< (@N<) TARGET Post ;
 MAP:subj (@SUBJ>) TARGET N  IF (NOT 0 @P<)(*1 V);
