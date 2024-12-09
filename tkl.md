@@ -377,7 +377,43 @@ Question and Focus particles:
 
 +Prf +Ipf +Fut   Aspect, perhaps
 
+- +Emph 
+- +Dem-Dist 
+- +Du1 
+- +Du2 
+- +Du3 
+- +Pl1 
+- +Pl2 
+- +Pl3 
+- +Sg1 
+- +Sg2 
+- +Sg3 
+- +Use/GC 
+
 Semantics are classified with
+- +Sem/Date 
+- +Sem/Measr 
+- +Sem/Time-clock 
+
+- +Sem/Ani 
+- +Sem/Build 
+- +Sem/Clth 
+- +Sem/Edu 
+- +Sem/Fem 
+- +Sem/Group 
+- +Sem/Hum 
+- +Sem/Mal 
+- +Sem/Measr 
+- +Sem/Obj 
+- +Sem/Org 
+- +Sem/Plant 
+- +Sem/Plc 
+- +Sem/Route 
+- +Sem/Sur 
+- +Sem/Time 
+- +Sem/Txt 
+- +Sem/Veh 
+- +Sem/Wthr 
 
 These tags are used somewhere:
 
