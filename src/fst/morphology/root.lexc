@@ -102,28 +102,44 @@ a2 e2 i2 o2 u2   !!≈ - @CODE@ these are for first part of lexical aa, ee, ii, 
 
 +Prf +Ipf +Fut  !!= @CODE@ Aspect, perhaps
 
-+Emph
++Emph			    !!≈ - @CODE@ 
++Dem-Dist	    !!≈ - @CODE@ 
++Du1		    !!≈ - @CODE@ 
++Du2		    !!≈ - @CODE@ 
++Du3		    !!≈ - @CODE@ 
++Pl1		    !!≈ - @CODE@ 
++Pl2		    !!≈ - @CODE@ 
++Pl3		    !!≈ - @CODE@ 
++Sg1		    !!≈ - @CODE@ 
++Sg2		    !!≈ - @CODE@ 
++Sg3		    !!≈ - @CODE@ 
++Use/GC		    !!≈ - @CODE@ 
+
 
 !! Semantics are classified with
- +Mal 
- +Fem 
- +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
++Sem/Date	    !!≈ - @CODE@ 
++Sem/Measr	    !!≈ - @CODE@ 
++Sem/Time-clock !!≈ - @CODE@ 
+
+ +Sem/Ani	     !!≈ - @CODE@ 
+ +Sem/Build      !!≈ - @CODE@ 
+ +Sem/Clth	     !!≈ - @CODE@ 
+ +Sem/Edu	     !!≈ - @CODE@ 
+ +Sem/Fem 	     !!≈ - @CODE@ 
+ +Sem/Group	     !!≈ - @CODE@ 
+ +Sem/Hum	     !!≈ - @CODE@ 
+ +Sem/Mal 	     !!≈ - @CODE@ 
+ +Sem/Measr      !!≈ - @CODE@ 
+ +Sem/Obj	     !!≈ - @CODE@ 
+ +Sem/Org	     !!≈ - @CODE@ 
+ +Sem/Plant	     !!≈ - @CODE@ 
+ +Sem/Plc 	     !!≈ - @CODE@ 
+ +Sem/Route	     !!≈ - @CODE@ 
+ +Sem/Sur 	     !!≈ - @CODE@ 
+ +Sem/Time 	     !!≈ - @CODE@ 
+ +Sem/Txt	     !!≈ - @CODE@ 
+ +Sem/Veh	     !!≈ - @CODE@ 
+ +Sem/Wthr	     !!≈ - @CODE@ 
  
  
  

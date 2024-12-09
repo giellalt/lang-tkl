@@ -8,14 +8,14 @@ tamakīkī pre  "very small" ;
 toe pre "final, last, leftover" ;
 
 LEXICON pre ! rather +Det+Pre, or only +Det ?
-+Pre: # ;
++Pcle+Pre: # ;
 
 LEXICON Postmodifiers ! rather +Dem+Emph ?
 lele post "very" ;
 lava post "emph" ;
 
 LEXICON post
-+Post: # ;
++Pcle+Post: # ;
 
 
 LEXICON Determiners
