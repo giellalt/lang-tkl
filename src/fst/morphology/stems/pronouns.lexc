@@ -78,8 +78,9 @@ tona+Pron+Poss+Sg3:tona # ;
 LEXICON Interrogative
 ai+Pron+Interr:ai # ;
 ā+Pron+Interr:ā # ;
-fea+Pron+Interr:fea # ;
+fea+Pron+Interr:fea # ; !cf. also the adverbs.lexc file
 
+hei+Pron+Interr:hei # ;
 
 LEXICON todo_name
 fakatahi+Pron:fakatahi # ;
