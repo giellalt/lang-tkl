@@ -85,9 +85,11 @@ LIST KO = "ko" ;
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
 SET NP = Det | N | Dem | Pron ;
-SET PRE-N        = A | Pcle | Pre ;
-SET NOT-PRE-N    = WORD - PRE-N ;
+SET PRE-N-POS        = A | Pcle | Pre ;
+SET NOT-PRE-N    = WORD - PRE-N-POS ;
 
+LIST PRE-V-MOD = "mātua" ;
+#SET PRE-N-MOD = 
 
 LIST DIR-PCLE = "mai" "atu" "ake" "ifo" ;
 
