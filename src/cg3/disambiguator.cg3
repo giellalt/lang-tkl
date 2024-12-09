@@ -15,11 +15,12 @@ STRICT-TAGS +=
     Def Indef
     Cmp Superl
     Prs Prt
-    1Sg 2Sg 3Sg
+    Sg1 Sg2 Sg3
     Inf Neg
     Pcle Pre
     PrfPrc PrsPrc
     Ind Imp Sbj Sup
+    Med Dist Prox
     Cmpnd
     CLB PUNCT LEFT RIGHT
     Guess
@@ -88,6 +89,7 @@ SET NP = Det | N | Dem | Pron ;
 SET PRE-N-POS        = A | Pcle | Pre ;
 SET NOT-PRE-N    = WORD - PRE-N-POS ;
 
+LIST COUNTABLES = "aho" "faiākoga" "fetū" "fulufulu" "mea" "nuku" "pelofeta" "tamaiti" "tino" ; 
 LIST PRE-V-MOD = "mātua" ;
 #SET PRE-N-MOD = 
 
@@ -143,6 +145,17 @@ REMOVE:maPr Pron IF (0 ("mā") + Pr)(-1 V OR N)(1 NP);
 REMOVE:maN Pron (0 ("mā") + N)(-1 Pron);
 
 
+# na
+SELECT Dem IF (0 ("na") + Dem + Med)(*0 Sg2);
+# E ā mai na koe.
+
+# nā
+SELECT:naPl Pl IF (0  ("nā") + Det + Def + Pl)(1 Pl OR COUNTABLES);
+
+SELECT:naDem Dem IF (0 ("na") + Dem + Med)(*0 Sg2);
+# E ā mai nā koe.
+
+
 # NP
 
 REMOVE:PNP V IF (-1C Pr)(0 N);
@@ -165,7 +178,7 @@ SELECT Pcle IF (0 KO)(1 TE);
 
 # Verbs
 
-REMOVE V IF 
+
 SELECT:kaakoi V IF (-1 verbalparticle);
 
 REMOVE:te V IF (0 TE);
