@@ -1,53 +1,16 @@
- 255 tamāloa N
- 179 hētahi Pron+Indef+Sg
  175 mālohi A
  166 tāmate V TV
- 162 meamoni N
- 153 nukukehe A 'foreign' (nuku N 'village' + kehe A 'different')
- 143 kaifenua N 'crown' (?? kai V IT 'eat' + fenua N 'earth, land')
- 142 kātoatoa A 'complete' (from kātoa A 'whole')
- 135 tuhituhiga N 'writing(s)' (tuhi V 'write' + full reduplication 'durative' + -ga 'nominalizer')
- 128 ohitāulaga N 'priest' (ohi 'offer' + tāulaga 'offering(s)')
- 126 vāega N 'part' (vae V 'divide' + -ga and lengthening 'nominalizer')
- 121 taumafai V IV 
  121 fakaaogā V TV
- 116 āvaga N 'spouse' / V IV 'marry'
  116 tūnoa A 'highest' (used in the collocation alofa tūnoa 'mercy' (alofa 'love')
  114 atuga PCLE (nominalizing past tense marker (directional particle atu 'away' + nominalizer -ga))
- 109 tūlāfono N 
- 108 mātataku A+Pl (mataku + partial reduplication and lengthening 'plural')
- 103 tūhia V TV+transitive suffix (+lengthening)
-  98 fakamāoni A 
-  97 meaalofa N
-  97 fakailoga N
-  95 lākau N
-  94 fakafetai V IV
-  91 tāulaga N
-  86 tokatahi Num
-  85 tūlaga N
-  84 āmio N 'behaviour' / V IV 'behave'
-  84 tēmoni N
-  84 tutupu V IV (tupu + plural partial reduplication)
+ 108 mātataku
+ 107 maia (was ok earlier!)
+  98 fakamāoni A
   78 tālaki V TV
-  76 takutino V TV
   74 vēia A
-  69 gālulue V IV+Pl (galue + plural partial reduplication with lengthening)
-  68 tupuna N
   67 itūkāigā PCLE (pre-nominal 'kind of')
-  66 taulelea N (one of the few plurals, usually pronounced tāulelea; Sg taulealea)
-  66 hūnako N
-  64 toeaina N
-  62 pūlea V TV+transitive suffix + lengthening (from pule)
-  61 tugamau N
-  59 vīkiga N
-  59 talitonuga N
-  58 nofoāliki N
   58 mātagā A
-  58 fakamālōlō V TV
   57 āmiotonu A
-  57 fakamālohi V IV
-  56 tāpuaki V IV
-  56 tautua V IV
   56 fakatetagata
   55 tāne
   52 fakamāonia
@@ -116,7 +79,6 @@
   30 oatu
   30 mautū
   30 kōvana
-  30 hāloa
   30 fōkia
   30 fakalogologo
   30 fakaaliga
@@ -157,6 +119,7 @@
   24 tuafafine
   24 fakafītāuli
   24 fakaaloalo
+  24 Fakaaliga
   23 talapepelo
   23 pōuliuli
   23 māfuta
@@ -173,7 +136,6 @@
   21 vālelea
   21 mānanaia
   21 maopoopo
-  21 maihe
   21 kikilagia
   21 fakavāivai
   21 fakahehēa
@@ -239,7 +201,6 @@
   15 taigole
   15 puna
   15 papatihoa
-  15 manaia
   15 leamai
   15 kālalaga
   15 iloaga
@@ -255,7 +216,6 @@
   14 fakagutugutulua
   14 fahefulu
   13 Ōlive
-  13 āfea
   13 totōa
   13 polapola
   13 māketi
@@ -313,7 +273,6 @@
   10 ulumatua
   10 tūtumu
   10 tāgulu
-  10 tuhia
   10 tofotofo
   10 tauagavale
   10 takoto
@@ -360,7 +319,6 @@
    9 fakakofu
    9 fakaaogāgia
    9 akoaki
-   9 Peteleema
    8 violē
    8 vevehitū
    8 vaipuna
@@ -432,7 +390,6 @@
    7 fakamālōlōgia
    7 fakamākekeke
    7 fakamāgaloga
-   7 fakamolemole
    7 fakamoemoegia
    7 fakamahinoagia
    7 fakakātoatoagia
@@ -476,6 +433,7 @@
    6 kofutatao
    6 fītatā
    6 fuafuagia
+   6 feinu
    6 fakatonugia
    6 fakataulaitu
    6 fakatauanau
@@ -496,9 +454,7 @@
    6 faitama
    6 faifatoaga
    6 faiamio
-   6 anafea
    6 aloā
-   6 Fakaohoohoga
    5 Āva
    5 āi
    5 vaefa
@@ -525,6 +481,7 @@
    5 ologa
    5 nauloto
    5 mākekeke
+   5 māila
    5 meake
    5 lāulu
    5 leoleoa
@@ -650,8 +607,6 @@
    4 faitogafiti
    4 amutia
    4 afio
-   4 Ofoofogia
-   4 Fakaeteete
    3 Ātonu
    3 Ōmeka
    3 vāiti
@@ -720,6 +675,7 @@
    3 kālite
    3 kīkī
    3 kofutaga
+   3 kekē
    3 kavakea
    3 kavaifo
    3 kaukāiga
@@ -1028,12 +984,13 @@
    2 amoga
    2 akoakoagia
    2 Popilio
-   2 Heepa
+   2 Fakaaloalo
    1 Ītumaia
    1 īnuga
    1 Āni
    1 ōna
    1 Āmiotonu
+   1 ālaga
    1 Āla
    1 āfu
    1 ōatu
@@ -1198,7 +1155,6 @@
    1 mātaua
    1 māona
    1 mānavagia
-   1 mānaia
    1 māmaha
    1 mālaga
    1 mākona
@@ -1309,7 +1265,6 @@
    1 hilimua
    1 hikuleo
    1 hiakiga
-   1 hi
    1 hetioa
    1 hepo
    1 heila
@@ -1538,5 +1493,7 @@
    1 Pokiono
    1 Poholo
    1 Poaneke
-   1 Iviivinaki
-   1 Fakamāopoopo
+   1 Feinu
+   1 Fakaatili
+   1 Fakaaogāga
+   1 Apelaamo
