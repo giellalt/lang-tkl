@@ -189,6 +189,7 @@ a2 e2 i2 o2 u2   !!≈ - @CODE@ these are for first part of lexical aa, ee, ii, 
 LEXICON Root  !!≈ - **@@ODE@**
 !! The word forms in Tokelauan language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
+ Adverbs ;
  Conjunctions ;
  Determiners ;
  Interjections ;
@@ -196,6 +197,8 @@ LEXICON Root  !!≈ - **@@ODE@**
  Numerals    ;
  Particles ;
  Prefixes    ;
+ Postmodifiers ;
+ Premodifiers ;
  Prepositions ;
  Pronouns    ;
  Propernouns ;
