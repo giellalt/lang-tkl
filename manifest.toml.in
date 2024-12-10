@@ -17,4 +17,4 @@ tkl = "@SPELLER_DESC_NATIVE@"
 system_pkg_id = "no.divvun.MacDivvun.tkl"
 
 [windows]
-system_product_code = "{REPLACE_WITH_REAL_SYSTEM_PROD_CODE}_is1"
+system_product_code = "{37FE2871-8034-4B27-ABDA-5F7892788C5C}_is1"
