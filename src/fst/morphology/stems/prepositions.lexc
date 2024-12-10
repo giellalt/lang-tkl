@@ -5,16 +5,16 @@ LEXICON pr
 +Pr: # ;
 
 LEXICON Prepositions
-e pr ;
-i pr ;
-ki pr ;
-mai pr "from" ;
-o pr ;
-a pr ;
-mō pr ;
-mā pr ;
-ma pr ;
-talu pr ;
+e pr "agentive" ;
+i pr "locative" ;
+ki pr "directional" ;
+mai pr "source" ;
+o pr "possessive" ;
+a pr "possessive" ;
+mō pr "benefactive" ;
+mā pr "benefactive" ;
+ma pr "as" ;
+talu pr "since" ;
 kia pr ; ! ki + a
 
 
