@@ -18,15 +18,15 @@
   51 pelitome TV N
   51 fakaolataga N
   51 aulo N
-  50 fa 
-  49 vaganā
-  49 mālōlō
-  49 aunoa
-  47 takitahi
-  47 lagonaga
-  47 fakatagi
-  46 vīkia
-  46 tīaki
+  50 fa NUM (should be fā)
+  49 vaganā CS (should be vāganā)
+  49 mālōlō V A
+  49 aunoa A
+  47 takitahi NUM
+  47 lagonaga TV lagona + "productive clausal nominalization" (Hooper) -ga
+  47 fakatagi TV
+  46 vīkia TV
+  46 tīaki TV
   46 papatiho
   46 fakatumulia
   46 fakatalitali
