@@ -11,14 +11,14 @@
   67 itūkāigā PCLE (pre-nominal 'kind of')
   58 mātagā A
   57 āmiotonu A
-  56 fakatetagata
-  55 tāne
-  52 fakamāonia
-  51 talafakatuha
-  51 pelitome
-  51 fakaolataga
-  51 aulo
-  50 fa
+  56 fakatetagata A
+  55 tāne N
+  52 fakamāonia TV ! (1. stem fakamāonia; 2. transitive suffixed form of fakamāoni)
+  51 talafakatuha N
+  51 pelitome TV N
+  51 fakaolataga N
+  51 aulo N
+  50 fa 
   49 vaganā
   49 mālōlō
   49 aunoa
