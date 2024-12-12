@@ -30,35 +30,35 @@
   46 papatiho TV
   46 fakatumulia V
   46 fakatalitali V
-  45 ātili
-  45 māhani
-  45 lāpuna
-  45 kiteagia
-  44 mātitiva
-  44 koga
-  44 fakateagaga
-  43 tākua
-  43 tuinanauga
-  42 pakū
-  42 hona
-  42 fakahalagia
-  41 tāli
-  41 maukoloa
-  41 faka-Kelihiano
-  40 vāvega
-  40 tīgā
-  40 fakafeiloaki
-  39 takitakikau
-  38 tōvine
-  37 tupua
-  37 taliagia
-  37 pakukū
-  37 kalagagia
-  35 tōfia
-  35 mauagia
-  35 kiteaga
-  35 fakahāuā
-  35 fakahehē
+  45 ātili +Pcle+Post
+  45 māhani A
+  45 lāpuna N
+  45 kiteagia TV kitea + -gia ("syntactically determined" -(C)ia suffix (Hooper))
+  44 mātitiva A pl. of mativa
+  44 koga N
+  44 fakateagaga A
+  43 tākua TV
+  43 tuinanauga N
+  42 pakū IV
+  42 hona DET+Poss indefinite singular-reference non-alienable third-person-singular-possessor
+  42 fakahalagia TV fakahala + -gia ("syntactically determined" -(C)ia suffix (Hooper))
+  41 tāli +Pce+Pre
+  41 maukoloa N "rich person" and also A "rich"
+  41 faka-Kelihiano A
+  40 vāvega N
+  40 tīgā A
+  40 fakafeiloaki TV and V (agent ergative or absolutive)
+  39 takitakikau N
+  38 tōvine N
+  37 tupua N
+  37 taliagia TV talia + -gia ("syntactically determined" -(C)ia suffix (Hooper))
+  37 pakukū V pl. of pakū (but Tokelau Dictionary says pākukū)
+  37 kalagagia TV
+  35 tōfia TV (lexically derived from tofi TV)
+  35 mauagia TV maua + -gia ("syntactically determined" -(C)ia suffix (Hooper))
+  35 kiteaga TV kitea + "productive clausal nominalization" (Hooper) -ga
+  35 fakahāuā V 
+  35 fakahehē TV (derived from hehē V "fail" with the causative prefix faka-)
   35 fakahala
   35 agalelei
   34 fakatutū
