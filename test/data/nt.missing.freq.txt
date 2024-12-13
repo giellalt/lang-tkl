@@ -59,29 +59,29 @@
   35 kiteaga TV kitea + "productive clausal nominalization" (Hooper) -ga
   35 fakahāuā V 
   35 fakahehē TV (derived from hehē V "fail" with the causative prefix faka-)
-  35 fakahala
-  35 agalelei
-  34 fakatutū
-  34 fakahāuāga
-  33 āku
-  33 puikāiga
-  33 mōliga
-  33 fakahātaulo
-  32 tukulima
-  32 tauanoa
-  32 ofoofogia
-  32 mōlia
-  32 itūmālō
-  31 vaitūloto
-  31 teine
-  31 fakaopoopo
-  31 fakaleleia
-  30 oatu
-  30 mautū
-  30 kōvana
-  30 fōkia
-  30 fakalogologo
-  30 fakaaliga
+  35 fakahala TV (derived from hala A/V/TV with the causative prefix faka-)
+  35 agalelei A
+  34 fakatutū TV "raise up (several people)" (derived from tū "stand" with pluralizing partial reduplication and causativizing prefix faka-)
+  34 fakahāuāga N
+  33 āku ! a merged spelling of the prepositional phrase a aku "of me"
+  33 puikāiga N
+  33 mōliga N
+  33 fakahātaulo TV
+  32 tukulima TV
+  32 tauanoa +Pcle+Post
+  32 ofoofogia A
+  32 mōlia TV
+  32 itūmālō N
+  31 vaitūloto N
+  31 teine N
+  31 fakaopoopo TV
+  31 fakaleleia TV fakalalei TV "improve" + -a ("syntactically determined" -(C)ia suffix (Hooper)); derived from lelei A "good"
+  30 oatu V (Dictionary spelling: ōatu) lexicalized compound of o- (compound form of olo "go (pl.)" (cf. fano "go (sg.)") + atu "directional postverbal particle)
+  30 mautū V
+  30 kōvana N
+  30 fōkia TV fōki + -a ("syntactically determined" -(C)ia suffix (Hooper))
+  30 fakalogologo V pl. of fakalogo by full reduplication
+  30 fakaaliga N ("revelation", lexically derived from fakaali TV "show" + nominalizer -ga)
   29 pagotā
   29 mataala
   29 lotofuatia
