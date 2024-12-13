@@ -82,97 +82,97 @@
   30 fōkia TV fōki + -a ("syntactically determined" -(C)ia suffix (Hooper))
   30 fakalogologo V pl. of fakalogo by full reduplication
   30 fakaaliga N ("revelation", lexically derived from fakaali TV "show" + nominalizer -ga)
-  29 pagotā
-  29 mataala
-  29 lotofuatia
-  29 faitatagi
-  28 māhina
-  28 māfua
-  28 manumālō
-  28 fāifāi
-  28 fāfifia
-  28 fakamāoniga
-  28 faigāluega
-  27 āhini
-  27 tālakia
-  27 hāfia
-  27 fakaolagia
-  27 fakamamāgia
-  26 āfāina
-  26 toetū
-  26 taukalalaga
-  26 paki
-  26 mōlī
-  26 maulalo
-  26 manulele
-  26 manino
-  26 fakamākeke
-  25 tōkahā
-  25 mākeke
-  25 lalahi
-  25 fakamālamalama
-  25 fakaeke
-  25 faitāulaga
-  24 āhiāhi
-  24 tāmatea
-  24 tupulaga
-  24 tuafafine
-  24 fakafītāuli
-  24 fakaaloalo
-  24 Fakaaliga
-  23 talapepelo
-  23 pōuliuli
-  23 māfuta
-  23 momoe
-  23 maiga
-  23 havavali
-  23 fakalāina
-  22 vēake
-  22 māumau
-  22 leoleomāmoe
-  22 fakatāmilo
-  22 fakaeteete
-  22 aolāfoga
-  21 vālelea
-  21 mānanaia
-  21 maopoopo
-  21 kikilagia
-  21 fakavāivai
-  21 fakahehēa
-  21 fakaatili
-  20 Ōmamai
-  20 nofolihi
-  20 mālie
-  20 fētutuli
-  20 fakamamā
-  20 fakakitea
-  20 fagu
-  19 vāitaimi
-  19 totō
-  19 tautō
-  19 tautiti
-  19 taugatā
-  19 taufai
-  19 mānumanu
-  19 mamafa
-  19 kokofu
-  19 folafolagia
-  19 fakatolu
-  19 fakapaupau
-  19 fakamahinoa
-  18 vaitafe
-  18 tāleni
-  18 tuhitākai
-  18 takutinoga
-  18 tagatānuku
-  18 pakumanu
-  18 mālohiaga
-  18 māfuaaga
-  18 mealilo
-  18 hopo
-  18 fakatonua
-  18 fakataufai
-  18 fakapakū
+  29 pagotā N
+  29 mataala A
+  29 lotofuatia N
+  29 faitatagi V pl of tagi (NB: partial reduplication + compounding with fai "do" - a rather idiosyncratic pluralization process, I think)
+  28 māhina N
+  28 māfua V
+  28 manumālō V and N
+  28 fāifāi V (in Dictionary: fāifai)
+  28 fāfifia A pl. of fāfia (but the pl. form is not in the Dictionary)
+  28 fakamāoniga N
+  28 faigāluega V
+  27 āhini N
+  27 tālakia TV tālaki + -a ("syntactically determined" -(C)ia suffix (Hooper))
+  27 hāfia TV
+  27 fakaolagia TV (derived from fakaola TV + lexically determined -(C)ia suffix)
+  27 fakamamāgia TV (derived from fakamamā TV + lexically determined -(C)ia suffix)
+  26 āfāina A
+  26 toetū V (the plural form is toetutū, also used in the New Testament)
+  26 taukalalaga (Dictionary: taukālalaga) V pl. of taukalaga
+  26 paki V
+  26 mōlī N
+  26 maulalo A
+  26 manulele N
+  26 manino A
+  26 fakamākeke TV and V (the plural is fakamākekeke, also used in the New Testament) (derived from mākeke / mākekeke through the causativizer faka-)
+  25 tōkahā N
+  25 mākeke V (the plural is mākekeke)
+  25 lalahi A pl of lahi
+  25 fakamālamalama TV (derived from mālamalama A through the causativizer faka-)
+  25 fakaeke TV
+  25 faitāulaga V
+  24 āhiāhi V (Dictionary: āhiahi, but also āhi)
+  24 tāmatea TV tāmate + -a ("syntactically determined" -(C)ia suffix (Hooper))
+  24 tupulaga N
+  24 tuafafine N (NB: According to the Dictionary, this noun ("sister of a man") has the plural form tuafāfine, and thus is one of very few nouns with a plural form)
+  24 fakafītāuli N
+  24 fakaaloalo V and N
+  24 Fakaaliga N
+  23 talapepelo V and N
+  23 pōuliuli N
+  23 māfuta V
+  23 momoe V pl. of moe
+  23 maiga ! syntacic compounding of directional Pcle+Dir mai + nominalizer -ga
+  23 havavali V pl. of havali
+  23 fakalāina V
+  22 vēake A vē + Pcle+Dir ake
+  22 māumau V
+  22 leoleomāmoe N
+  22 fakatāmilo A
+  22 fakaeteete A
+  22 aolāfoga N
+  21 vālelea A pl. of valea
+  21 mānanaia A pl. of mānaia
+  21 maopoopo V (Dictionary: māopoopo)
+  21 kikilagia TV kikila + -gia ("syntactically determined" -(C)ia suffix (Hooper))
+  21 fakavāivai V (derived from vāivai A by faka- causativizer)
+  21 fakahehēa TV fakahehē + -a ("syntactically determined" -(C)ia suffix (Hooper)); derived from hehē A with faka- "causative")
+  21 fakaatili (I am not sure, maybe as a Pcle+Post as a softened variant of atili "too much"?)
+  20 Ōmamai V lexicalized plural of alu "go" + mai (Pcle+Dir), ōmamai and ōmai are variants; the singular of alu + mai is totally idiosyncratic: hau)
+  20 nofolihi N
+  20 mālie A
+  20 fētutuli V (Dictionary indicates that fētutuli, fetuli and taufetuli are plural variants of vili)
+  20 fakamamā V and TV (derived from mamā + faka- "causative")
+  20 fakakitea V and TV (derived from kitea + faka- "causative")
+  20 fagu N
+  19 vāitaimi N
+  19 totō A pl. of tō
+  19 tautō V
+  19 tautiti N
+  19 taugatā A
+  19 taufai Pcle+Pre
+  19 mānumanu V and N
+  19 mamafa A
+  19 kokofu V pl. of kofu V
+  19 folafolagia TV folafola + -gia ("syntactically determined" -(C)ia suffix (Hooper)) 
+  19 fakatolu NUMERAL
+  19 fakapaupau A
+  19 fakamahinoa TV fakamahino + -a ("syntactically determined" -(C)ia suffix (Hooper)); NB: fakamahino may also be used as a V
+  18 vaitafe N
+  18 tāleni N
+  18 tuhitākai N
+  18 takutinoga N
+  18 tagatānuku N
+  18 pakumanu N
+  18 mālohiaga N
+  18 māfuaaga N
+  18 mealilo N
+  18 hopo V
+  18 fakatonua TV fakatonu + -a ("syntactically determined" -(C)ia suffix (Hooper))
+  18 fakataufai V
+  18 fakapakū V (derived from pakū V with faka- "causative")
   17 tipi
   17 teu
   17 mātutua
