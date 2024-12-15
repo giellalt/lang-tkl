@@ -24,7 +24,7 @@ cat misc/nt.tkl.txt |tr -d "[0-9]"|hfst-tokenise -mgW tools/tokenisers/tokeniser
 ### Lexical coverage nt
 
 
-Coverage:
+Coverage, NT:
 
 ```
 241115: 1-(34193/351080) = 0.9026
@@ -32,6 +32,13 @@ Coverage:
 241117: 1-(17098/350323) = 0.9512
 241201: 1-(14505/320561) = 0.9548
 241209: 1-(11008/320540) = 0.9656
+```
+
+Coverage, book collection:
+
+```
+        All words                      Not words with initial capital
+241210: 1-(6868/62281) = 0.8897        1-(4549/44442) = 0.8976
 ```
 
 

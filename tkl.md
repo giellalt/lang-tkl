@@ -476,7 +476,16 @@ word classes, or optionally from prefixes:
 
 # src-fst-morphology-stems-determiners.lexc.md 
 
-# Determiners and pre- and postmodifiers
+
+
+NP overview:
+1. (preposition) -> in prepositions.lexc
+2. determiner -> Determiners
+3. (possessive pronoun)
+4. (premodifier)
+5. nucleus
+6. (postmodifier)
+7. (demonstrative)
 
 -Dem may occur both pre-N and post-N:
 before N they function as Det, after N they
@@ -484,13 +493,6 @@ must have another Det as support. (taimi = time)
 tēnei taimi, te taimi tēnei
 
 ## pre-nominal
-sg
-
-unspecified for number
-
-pl
-
-post-nominal
 sg
 
 unspecified for number
@@ -520,6 +522,13 @@ TODO
 - proximal or first person (objects near to the speaker),
 - medial or second person (objects near to the addressee),
 - distal or third person
+
+post-nominal
+sg
+
+unspecified for number
+
+pl
 
 * * *
 
