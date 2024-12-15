@@ -77,7 +77,15 @@ LIST Dem = Dem ;
 LIST Emph = Emph ;
 #LIST Pcle = Pcle ;
 
-LIST verbalparticle = "kā" "koi" ;
+LIST PRE-V-PCLE = "kā" "oioti" "koi" "mai" "vave" "oioti" ;
+LIST PRE-NUM-PCLE = "vāe" ;
+LIST PRE-N-PCLE = "ko" "heā" ; # check heā
+LIST POST-V-PCLE = "ake" "atu" "ifo" ;
+LIST POST-PR-PCLE = "ei" ;
+LIST POST-N-PCLE = "ia" ;
+LIST POST-X-PCLE = "foki" ;
+LIST PRE-PRON-PCLE = "ta" "to" ;
+
 LIST TE = "te" ;
 LIST AU = "au" ;
 LIST IA = "ia" ;
@@ -179,7 +187,7 @@ SELECT Pcle IF (0 KO)(1 TE);
 # Verbs
 
 
-SELECT:kaakoi V IF (-1 verbalparticle);
+SELECT:kaakoi V IF (-1 PRE-V-PCLE);
 
 REMOVE:te V IF (0 TE);
 

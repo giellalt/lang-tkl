@@ -97,13 +97,19 @@ SET NounFemNeu = (N Fem) OR (N Neu) ;
 LIST NOMINALHEAD = N Num Pron ;
 LIST PRENAGR = Det Dem A ;
 
+LIST PRE-V-PCLE = "kā" "oioti" "koi" "mai" "vave" "oioti" ;
+LIST PRE-NUM-PCLE = "vāe" ;
+LIST PRE-N-PCLE = "ko" "heā"; # check heā
+LIST POST-V-PCLE = "ake" "atu" "ifo" ;
+LIST POST-PR-PCLE = "ei" ;
+LIST POST-N-PCLE = "ia" ;
+LIST POST-X-PCLE = "foki" ;
+LIST PRE-PRON-PCLE = "ta" "to" ;
+
 # Complementary set
 
 # Case sets
 
-SET NOTDAT = Nom | Gen | Acc ;
-SET NOTACC = Nom | Gen | Dat ;
-SET NOTACCDAT = Nom | Gen ;
 SET OBL = Acc | Dat | Gen ;
 SET PRE-N =  A | Det | Dem | (N Gen) | Num ;
 LIST COMMA = "," ; 
@@ -236,8 +242,19 @@ SETPARENT:r1adjcomma @>N TO (*3 Pr OR V OR S-BOUNDARY2 BARRIER NOT-A LINK -1 COM
 SETPARENT:r2 @CVP TO (-1 NOMINALHEAD);
 SETPARENT:CCNP @CNP (-1 N) TO (*1 N BARRIER NPNH);
 SETPARENT:CCA @CNP (-1 $$POS + $$NAGD) TO (1 $$POS + $$NAGD);
-SETPARENT @N< TO (*-1 N OR Pron BARRIER NPNH);
-	
+SETPARENT @N< TO (*-1 N BARRIER NPNH);
+SETPARENT @N< TO (*-1 Pron BARRIER NPNH);
+
+SETPARENT:dlvpcle @PCLE>  (0 PRE-V-PCLE) TO (*1 V);
+SETPARENT:dlnpcle @PCLE>  (0 PRE-N-PCLE) TO (*1 N);
+SETPARENT:dlproppcle @PCLE> TO (0 PRE-PRON-PCLE) (1 Prop);
+SETPARENT:dlpronpcle @PCLE> TO (1 Pron) (0 PRE-PRON-PCLE);
+SETPARENT:dlnumpcle @PCLE> TO (1 Num) (0 PRE-NUM-PCLE);
+SETPARENT:drnpcle @<PCLE TO (*-1 N OR Pron)  (0 POST-N-PCLE)(-1 N);
+SETPARENT:drprpcle @<PCLE TO (-1 Pr) (0 POST-PR-PCLE);
+SETPARENT:drxpcle @<PCLE (0 POST-X-PCLE)  TO  (-1 WORD) ;
+
+
 ### PPs
 
 SETPARENT:r6 @P< TO (*-1 Pr BARRIER V);

@@ -198,6 +198,18 @@ SET CRD = @CNP OR COMMA OR ("/") OR ("-") ;
 
 SETS
 
+LIST PRE-V-PCLE = "kā" "oioti" "koi" "mai" "vave" "oioti" ;
+LIST PRE-NUM-PCLE = "vāe" ;
+LIST PRE-N-PCLE = "ko" "heā"; # check heā
+LIST POST-V-PCLE = "ake" "atu" "ifo" ;
+LIST POST-PR-PCLE = "ei" ;
+LIST POST-N-PCLE = "ia" ;
+LIST PRE-PROP-PCLE = "ia" ;
+LIST POST-X-PCLE = "foki" ;
+LIST PRE-PRON-PCLE = "ta" "to" ;
+
+
+
 #!! * Sets for verbs
 # -----
 
@@ -252,8 +264,16 @@ MAP:cconjunction (@CNP @CVP) TARGET CC ;
 ADD:sconjunction (@CVP) TARGET CS ;
 MAP:oneverbpersentence (@+FMAINV) TARGET VFIN IF (NEGATE *0 V);
 
-MAP:lpcle (@PCLE>) TARGET Pcle IF (1 NP);
-MAP:rpcle (@<PCLE) TARGET Pcle IF (-1 NP);
+MAP:lprop (@PCLE>) TARGET PRE-PROP-PCLE IF (1 Prop);
+MAP:lvpcle (@PCLE>) TARGET PRE-V-PCLE IF (*1 V BARRIER N OR Pr);
+MAP:rvpcle (@<PCLE) TARGET POST-V-PCLE IF (-1 V);
+
+MAP:lnpcle (@PCLE>) TARGET PRE-N-PCLE IF (1 NP);
+MAP:lpronpcle (@PCLE>) TARGET PRE-PRON-PCLE IF (1 Pron);
+MAP:lnumpcle (@PCLE>) TARGET PRE-NUM-PCLE IF (1 Num);
+MAP:rnpcle (@<PCLE) TARGET POST-N-PCLE IF (-1 NP);
+MAP:rprpcle (@<PCLE) TARGET POST-PR-PCLE IF (-1 Pr);
+MAP:rxpcle (@<PCLE) TARGET POST-X-PCLE IF (-1 WORD);
 
 MAP:interj (@INTERJ) TARGET Interj ;
 MAP:p< (@P<) TARGET N OR Pron IF (*-1 Pr BARRIER N OR V);
