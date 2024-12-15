@@ -12,7 +12,6 @@
 LEXICON  Nominal-modifiers
  Premodifiers ;   ! +Pcle+Pre
  Determiners ;    ! +Det / +Det+Dem
- Possessives ;    ! +Det+Poss
  Postmodifiers ;  ! +Pcle+Post
  Demonstratives ; ! +Dem
 

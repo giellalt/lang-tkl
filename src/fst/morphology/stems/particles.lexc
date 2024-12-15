@@ -6,19 +6,20 @@ LEXICON pclemph
 
 
 LEXICON Particles
-ko pcle ;
-ta pcle ;
-foki pcle "emph" ;
-ei pcle "anaphoric article" ;
-vave pcle ;
-to pcle ;
-ifo pcle ;
-oioti pcle "just, only" ; ! dictionary says "qual"
-lō pcle "comparative particle" ;
-vāe pcle "divide" ;
-ia pclemph ;
-ia pcle ;
-mai pcle ;
-atu pcle ;
-ake pcle ;
+ake pcle ; ! Post-verbal directional
+atu pcle ; ! Post-verbal directional
+ei pcle ; ! anaphoric particle, after Pr, referring to antecedent
+ia pcle ; ! In front of Prop, Pron, locnoun
+ia pclemph ; ! Post-nominal emphatic
+ifo pcle ; ! Post-verbal directional
+oioti pcle "just, only" ; ! preverbal qualifying particle (oioti oi kaumai te tuhi)
+foki pcle "emph" ; ! follows the word it emph
+ko pcle ; ! Pre-nominal, introducing S or NP
+lō pcle "comparative particle" ; ! in phrase "i lō"
+mai pcle ; ! Pre-verbal particle
 heā pcle ; ! interrogative particle !
+ta pcle ; ! Pre-pronominal particle, o-class
+to pcle ; ! Pre-pronominal particle, a-class
+vave pcle ; ! Pre-verbal particle
+vāe pcle "divide" ; ! in front of numerals
+
