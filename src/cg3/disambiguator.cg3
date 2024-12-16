@@ -152,6 +152,8 @@ REMOVE:maPron Pr IF (0 ("mā") + Pron)(1C V);
 REMOVE:maPr Pron IF (0 ("mā") + Pr)(-1 V OR N)(1 NP);
 REMOVE:maN Pron (0 ("mā") + N)(-1 Pron);
 
+# mai
+SELECT:maiPr Pr if (NOT -1 V)(0 ("mai"))(*1 N OR Pron BARRIER V);
 
 # na
 SELECT Dem IF (0 ("na") + Dem + Med)(*0 Sg2);
