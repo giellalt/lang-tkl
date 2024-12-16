@@ -1,29 +1,29 @@
 ## Inclusions: this is the real alphabet definition:
 a
-ā	0
+ā
 b
 c
 d
 e
-ē	0
+ē
 f
 g
 h
 i
-ī	0
+ī
 j
 k
 l
 m
 n
 o
-ō	0
+ō
 p
 r
 s
 t
 u
-ū	0
+ū
 v
 w
 x
