@@ -30,8 +30,6 @@ x
 y
 z
 -
-.
-:
 
 ## Transition pairs + weight - section separator:
 @@
