@@ -198,10 +198,10 @@ SET CRD = @CNP OR COMMA OR ("/") OR ("-") ;
 
 SETS
 
-LIST PRE-V-PCLE = "kā" "oioti" "koi" "mai" "vave" "oioti" ;
+LIST PRE-V-PCLE = "kā" "oioti" "koi" "vave" "oioti" ;
 LIST PRE-NUM-PCLE = "vāe" ;
 LIST PRE-N-PCLE = "ko" "heā"; # check heā
-LIST POST-V-PCLE = "ake" "atu" "ifo" ;
+LIST POST-V-PCLE = "ake" "atu" "ifo" "mai" ;
 LIST POST-PR-PCLE = "ei" ;
 LIST POST-N-PCLE = "ia" ;
 LIST PRE-PROP-PCLE = "ia" ;
@@ -281,9 +281,17 @@ MAP:d< (@>N) TARGET Det IF (*1 N BARRIER NOT-PRE-N);
 MAP:d< (@>N) TARGET Pre IF (*1 N BARRIER NOT-PRE-N);
 MAP:d (@N<) TARGET Dem IF (-1 N)(NOT 1 N);
 MAP:n< (@N<) TARGET Post ;
+
+MAP:subj (@<SUBJ) TARGET N  IF (*-1 V BARRIER Pr);
+MAP:subj (@<SUBJ) TARGET Pron IF (*1 V BARRIER Pr);
+
 MAP:subj (@SUBJ>) TARGET N  IF (NOT 0 @P<)(*1 V);
 MAP:subj (@SUBJ>) TARGET Pron IF (*1 V);
+MAP:subj (@SUBJ>) TARGET Pron IF (*-1 V BARRIER Pr);
 MAP:an (@>N) TARGET A IF (1 N);
+
+MAP:fneg (@+FAUXV) TARGET V IF (0 Neg);
+MAP:faux (@+FAUXV) TARGET V IF (0 Prs);
 
 MAP:<advl (@<ADVL) TARGET Pr IF (*-1 V);
 MAP:advl> (@ADVL>) TARGET Pr IF (*1 V);
@@ -293,7 +301,8 @@ MAP:advl> (@ADVL>) TARGET Pr IF (*1 @HNOUN);
 MAP:fmv (@FMV) TARGET V ;
 MAP:clb (@CLB) TARGET CLB ;
 
-MAP:X (@X) TARGET (*);
+#MAP:X (@X) TARGET (?);
+MAP:X (@X) TARGET WORD;
 
 AFTER-SECTIONS
 

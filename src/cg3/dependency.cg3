@@ -97,10 +97,10 @@ SET NounFemNeu = (N Fem) OR (N Neu) ;
 LIST NOMINALHEAD = N Num Pron ;
 LIST PRENAGR = Det Dem A ;
 
-LIST PRE-V-PCLE = "kā" "oioti" "koi" "mai" "vave" "oioti" ;
+LIST PRE-V-PCLE = "kā" "oioti" "koi" "vave" "oioti" ;
 LIST PRE-NUM-PCLE = "vāe" ;
 LIST PRE-N-PCLE = "ko" "heā"; # check heā
-LIST POST-V-PCLE = "ake" "atu" "ifo" ;
+LIST POST-V-PCLE = "ake" "atu" "ifo" "mai" ;
 LIST POST-PR-PCLE = "ei" ;
 LIST POST-N-PCLE = "ia" ;
 LIST POST-X-PCLE = "foki" ;
@@ -345,6 +345,7 @@ SETPARENT:RelVtoN @FS-N< TO (*-1 CS LINK -1 N OR A OR Pron) ;
 
 SETPARENT:LeftPcle @PCLE> TO (1 WORD); # or to phrase head?
 
+SETPARENT:v2 V TO (*-1 @FMV) ;
 
 ### Root
 
@@ -352,3 +353,9 @@ SETPARENT:vfin VFIN (NONE p (*)) TO (@0 (*));
 SETPARENT:v V (NONE p (*)) TO (@0 (*)); #(0C V);
 SETPARENT @HNOUN (NONE p (*)) TO (@0 (*)); # this gives subjects
 SETPARENT @CLB TO (*-1 @FMV OR @HNOUN);
+
+
+SETPARENT:PUNCTL PUNCT (0 LEFT) TO (1 WORD ) ;
+SETPARENT:PUNCTR PUNCT (0 RIGHT) TO (-1 WORD ) ;
+SETPARENT:PUNCT PUNCT TO (1 WORD - CLB) ;
+SETPARENT:PUNCT PUNCT TO (1 CLB LINK -2 WORD) ;
