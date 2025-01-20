@@ -40,6 +40,8 @@ STRICT-TAGS +=
     @>N @N< @>A @A< @IM
     @<SPRED @SPRED> @<OPRED @OPRED>
     @PPRED @<PPRED @OPRED @SPRED @SPRED<OBJ
+    @NPRED # Nominal predicate John_@SUBJ> teacher_@NPRED
+    @PRPRED # Preposition predicate Trond_@SUBJ> in_@NPRED Tromsø_@Pr<
     @+FMAINV @-FMAINV @+FAUXV @-FAUXV @FMV
     @-FSUBJ> @-F<OBJ @SPREF<OBJ
     @-FOBJ @-FOBJ> @-FSUBJ @<-FSUBJ
@@ -104,6 +106,8 @@ LIST COMMA = "," ;
 #!! * Sets for POS sub-categories
 # ------------------
 
+LIST PREDPREP = "i" "o" "a" ; # predicative prepositions,
+# Pr that may head a sentence without a verb
 
 #!! * Sets for Semantic tags
 # -------------
@@ -245,6 +249,7 @@ SET NP           = Det | N | Dem | Pron ;
 SET PRE-N        = A | Pcle ;
 SET NOT-PRE-N    = WORD - PRE-N ;
 
+
 #!! * Syntactic sets
 # --------------
 
@@ -252,6 +257,8 @@ LIST ALLSYNTAG = (@+FAUXV) (@+FMAINV) (@-FAUXV) (@-FMAINV) (@-FSUBJ>)(@-FOBJ)(@-
  
 
 SET NON-APP = ALLSYNTAG - (@APP);
+
+LIST KO = "ko" ;
 
 #!! These were the set types.
 
@@ -276,11 +283,16 @@ MAP:rprpcle (@<PCLE) TARGET POST-PR-PCLE IF (-1 Pr);
 MAP:rxpcle (@<PCLE) TARGET POST-X-PCLE IF (-1 WORD);
 
 MAP:interj (@INTERJ) TARGET Interj ;
-MAP:p< (@P<) TARGET N OR Pron IF (*-1 Pr BARRIER N OR V);
-MAP:d< (@>N) TARGET Det IF (*1 N BARRIER NOT-PRE-N);
+MAP:p< (@P<) TARGET N OR Pron IF (*-1 Pr BARRIER N OR V); 
+MAP:d< (@>N) TARGET Det IF (*1 N BARRIER NOT-PRE-N); # til far
 MAP:d< (@>N) TARGET Pre IF (*1 N BARRIER NOT-PRE-N);
 MAP:d (@N<) TARGET Dem IF (-1 N)(NOT 1 N);
 MAP:n< (@N<) TARGET Post ;
+
+
+# a o possessive og i lokativ kan stå i verbposisjon
+# e presensmarkør
+
 
 MAP:subj (@<SUBJ) TARGET N  IF (*-1 V BARRIER Pr);
 MAP:subj (@<SUBJ) TARGET Pron IF (*1 V BARRIER Pr);
@@ -295,9 +307,18 @@ MAP:faux (@+FAUXV) TARGET V IF (0 Prs);
 
 MAP:<advl (@<ADVL) TARGET Pr IF (*-1 V);
 MAP:advl> (@ADVL>) TARGET Pr IF (*1 V);
-MAP:hnoun (@HNOUN) TARGET N IF (NEGATE *0 V);
+
 MAP:<advl (@<ADVL) TARGET Pr IF (*-1 @HNOUN);
+MAP:<advl (@N<) TARGET Pr IF (*-1 N);
+
+MAP:prpred (@PRPRED) TARGET PREDPREP IF (NOT *0 V);
+MAP:npred (@NPRED) TARGET N IF (*1 N BARRIER KO)(NEGATE *-1 N LINK NOT -1 KO)(NOT *0 V); # Lærar Arnfinn
+
+
 MAP:advl> (@ADVL>) TARGET Pr IF (*1 @HNOUN);
+
+MAP:hnoun (@HNOUN) TARGET N IF (NEGATE *0 V);
+
 MAP:fmv (@FMV) TARGET V ;
 MAP:clb (@CLB) TARGET CLB ;
 

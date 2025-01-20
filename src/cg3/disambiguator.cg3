@@ -203,7 +203,7 @@ REMOVE:au V IF (0 AU)(1 N);
 
 #REMOVE "Pcle" IF (0 Pr)(1 Dem)(2 N);
 
-REMOVE:notPrPron Pr IF (1 Pron OR Prop);
+#REMOVE:notPrPron Pr IF (1 Pron OR Prop);
 SELECT Pr IF (0 Pr)(1 Dem)(2 N) ;
 SELECT Pr IF (1C N);
 
