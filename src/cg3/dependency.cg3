@@ -30,6 +30,8 @@ STRICT-TAGS +=
     @>N @N< @>A @A< @IM
     @<SPRED @SPRED> @<OPRED @OPRED>
     @<PPRED @OPRED @SPRED @SPRED<OBJ
+    @NPRED # Nominal predicate John_@SUBJ> teacher_@NPRED
+    @PRPRED # Preposition predicate Trond_@SUBJ> in_@NPRED Tromsø_@Pr<
     @+FMAINV @-FMAINV @+FAUXV @-FAUXV @FMV
     @-FSUBJ> @-F<OBJ @SPREF<OBJ
     @-FOBJ @-FOBJ> @-FSUBJ @<-FSUBJ
@@ -271,8 +273,8 @@ SETPARENT:r12 @OBJ> TO (*1 V BARRIER CS);
 SETPARENT:r11 @<IOBJ TO (-*1 V BARRIER CS);
 SETPARENT:r12 @IOBJ> TO (*1 V BARRIER CS);
 
-SETPARENT @SUBJ> TO (1 PRPRED);
-SETPARENT @SUBJ> TO (1 NPRED);
+SETPARENT @SUBJ> TO (1 @PRPRED);
+SETPARENT @SUBJ> TO (1 @NPRED);
 
 # preposition to verb
 SETPARENT @<ADVL TO (-1* <aux> BARRIER <mv>);
