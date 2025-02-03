@@ -210,6 +210,8 @@ SELECT Pr IF (1C N);
 REMOVE Pr IF (0 V)(NOT 1 NP OR Pcle);
 # e tatalo
 
+SELECT V IF (0 ("e"))(1 V);
+REMOVE V IF (0 ("e"));
 
 
 SELECT Det IF (0 Det)(1 N);

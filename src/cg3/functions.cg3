@@ -34,6 +34,7 @@ STRICT-TAGS +=
     Sem/Sur Sem/Time Sem/Year
     Post
     # Tags used in syntax
+    @<S @S> @<A @A> @<P @P>
     @SUBJ @<SUBJ @SUBJ> @<OBJ @<IOBJ @OBJ> @IOBJ>
     @SUBJ<ADVL @SUBJ<OBJ
     @OBJ @OBJ>SPRED
@@ -165,6 +166,8 @@ SET REALWORD-NOTABBR = WORD - Num - Ord - ABBR ;
 # Verbs and their complements
 # - - - - - - - - - - - - - -
 
+LIST E = "e" ;
+
 SET NOT-VERB = WORD - V ;
 
 # Finiteness and mood
@@ -294,7 +297,16 @@ MAP:n< (@N<) TARGET Post ;
 # e presensmarkør
 
 
-MAP:subj (@<SUBJ) TARGET N  IF (*-1 V BARRIER Pr);
+MAP:subj (@<P) TARGET N  IF (*-1 V BARRIER Pr)(*1 E);
+
+MAP (@<S)         TARGET N  IF (*-1 V )(*1 EOS BARRIER E);
+MAP (@<S)         TARGET N  IF (*-1 IV BARRIER TV);
+# subst får taggen @<S viss det til venstre er V utan mellomliggande Pr og til høgre ikkje er preposisjonen e
+# (eg bruker typologanes S, A, P for IVs eine argument + Ag og Pat for TV)
+ 
+MAP (@<P) TARGET N  IF (*-1 TV)(*1 E LINK *1 N BARRIER V);
+# subst får taggen @<A viss det til høgre **er** ein PP med preposisjonen e + NP
+MAP (@<A) TARGET E IF (0C Pr);
 MAP:subj (@<SUBJ) TARGET Pron IF (*1 V BARRIER Pr);
 
 MAP:subj (@SUBJ>) TARGET N  IF (NOT 0 @P<)(*1 V);
@@ -329,5 +341,5 @@ AFTER-SECTIONS
 
 
 	#=====#
-      END #
+         END #
 	#=====#
