@@ -1,8 +1,8 @@
-!! Verbs
+!! # Verbs
 !  -----
 !! Verbs in the Tokelauan language inflect for tense.
 
-LEXICON v_particles
+LEXICON v_particles  !!≈ * **@CODE@**
 ē+V+Prs:ē # ;  ! one verb ē, can be shortened initially in VP
 e+V+Prs:e # ;   ! a separate verb e
 nai+V:nai # ;
@@ -16,7 +16,7 @@ hē+V+Neg:hē # ;
 hēki+V+Neg:hēki # ;
 hēai+V+Neg:hēai # ;
 
-LEXICON aux
+LEXICON aux  !!≈ * **@CODE@**
 fia auxtag "wish to" ;
 !ke  auxtag  ; ! dictionary says ke = CC, kē = Pron Sg2.
 ata auxtag "can" ;
@@ -41,7 +41,7 @@ vēhea:vēhea auxtag "interrogative verb" ;
 hē:hē vtags "Go astray, lose" ;
 hī:hī vtags "Fish with a" ;
 
-LEXICON auxtag
+LEXICON auxtag  !!≈ * **@CODE@**
 +V+Aux: # ;
 
 !LEXICON vpcle

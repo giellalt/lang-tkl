@@ -1,6 +1,6 @@
+!! # Tokelau determiners
 
-
-!! NP overview:
+!! Documentation: NP overview:
 !! 1. (preposition) -> in prepositions.lexc
 !! 2. determiner -> Determiners
 !! 3. (possessive pronoun)
@@ -10,6 +10,7 @@
 !! 7. (demonstrative)
 
 LEXICON  Nominal-modifiers
+!!≈ __@LEXNAME@__ 
  Premodifiers ;   ! +Pcle+Pre
  Determiners ;    ! +Det / +Det+Dem
  Postmodifiers ;  ! +Pcle+Post
@@ -17,6 +18,7 @@ LEXICON  Nominal-modifiers
 
 
 LEXICON Premodifiers
+!!≈ __@LEXNAME@__ 
 mātuā pre "very big" ;
 tamā pre "very small" ;
 tamakī pre  "very small" ;
@@ -24,10 +26,12 @@ tamakīkī pre  "very small" ;
 toe pre "final, last, leftover" ;
 
 LEXICON pre ! rather +Det+Pre, or only +Det ?
+!!≈ __@LEXNAME@__ 
 +Pcle+Pre: # ;
 
 
 LEXICON Determiners
+!!≈ __@LEXNAME@__ 
 
 ! +/- specific, +/- plural, -Det must be pre/N
 te+Det+Def+Sg:te # ;
@@ -125,6 +129,7 @@ outou+Det+Poss+Pl2+Pl:outou # ;
 
 
 LEXICON Demonstratives
+!!≈ __@LEXNAME@__ 
 
 !! post-nominal
 !! sg
@@ -149,9 +154,11 @@ iē+Dem:iē # ; ! in use only postnominally
 
 
 LEXICON Postmodifiers ! rather +Dem+Emph ?
+!!≈ __@LEXNAME@__ 
 lele post "very" ;
 lava post "emph" ;
 
 LEXICON post
+!!≈ __@LEXNAME@__ 
 +Pcle+Post: # ;
 

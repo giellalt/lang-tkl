@@ -1,18 +1,19 @@
-!! Nouns
+!! # Tokelau Nouns
 !  -----
 !! Nouns in the Tokelauan language refer to objects or sets of objects, qualities, states or ideas.
 
 LEXICON redupnouns
-tamāloa:tamaalo^R^Ea nredupsuf "man" ;
+tamāloa:tamaalo^R^Ea nredupsuf "man" ;  !!= - @CODE@ (one redupnoun)
 
 LEXICON nounstems
+!!≈ __@LEXNAME@__ 
 
 !! ## Locative noun s
 
-uta locnoun " The islets on the far" ;
-fafo locnoun " Outside, out of" ;
-fale locnoun "Communal settlement," ;
-gāuta locnoun " 1. Shore, land, (from" ;
+uta locnoun " The islets on the far" ; !!= - @CODE@ 
+fafo locnoun " Outside, out of" ; !!= - @CODE@ 
+fale locnoun "Communal settlement," ; !!= - @CODE@ 
+gāuta locnoun " 1. Shore, land, (from" ; !!= - @CODE@ 
 gakiata locnoun " East. (cf. gaki and" ;
 gātai locnoun " 1. Sea, shore (from" ;
 kinā locnoun " There, at that place" ;
@@ -38,11 +39,11 @@ vao locnoun " Forest, bush just o u t­" ;
 
 
 
-! Todo: Check these:
-Iaugātogi n "Prize giving. Nae" ;
-Taumuliava n "rad itio" ;
-Iaupāma n "Palm leaf. (n.b." ;
-Lafalafa n "Traditional name given" ;
+!! - Todo: Check these:
+Iaugātogi n "Prize giving. Nae" ; !!= - @CODE@ 
+Taumuliava n "rad itio" ; !!= - @CODE@ 
+Iaupāma n "Palm leaf. (n.b." ; !!= - @CODE@ 
+Lafalafa n "Traditional name given" ; !!= - @CODE@ 
 Magafulu n "T he" ;
 Fakaafu n "The tenth m" ;
 Iākaiman n "Flock o f" ;
@@ -171,16 +172,16 @@ IIkahimago n "The thick strong" ;
 
 
 
-a n "Letter A." ;
-āeto n "(Bb.). Eagle. He" ;
-āeto:aaeto n "eagle" ;
-āiā n "Right, claim" ;
-aiha:aiha n "ice" ;
-aihiga n "Sam. ‘aisiga A" ;
-aitu n "ghost, spirit. E" ;
-ao n "daylight" ;
-aoao n "Supremacy. Ko" ;
-aoaluga n "small cloud" ;
+a n "Letter A." ; !!= - @CODE@ 
+āeto n "(Bb.). Eagle. He" ; !!= - @CODE@ 
+āeto:aaeto n "eagle" ; !!= - @CODE@ 
+āiā n "Right, claim" ; !!= - @CODE@ 
+aiha:aiha n "ice" ; !!= - @CODE@ 
+aihiga n "Sam. ‘aisiga A" ; !!= - @CODE@ 
+aitu n "ghost, spirit. E" ; !!= - @CODE@ 
+ao n "daylight" ; !!= - @CODE@ 
+aoao n "Supremacy. Ko" ; !!= - @CODE@ 
+aoaluga n "small cloud" ; !! etc
 aofaiga n "o tal" ;
 aofiaga n "Collection of people," ;
 aogā n "Use. Ko" ;

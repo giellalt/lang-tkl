@@ -1,18 +1,18 @@
-!! Pronouns
+!! # Tokelau Pronouns
 !  --------
 !! Pronouns in the Tokelauan language are words that may replace nouns or refer to participants in the conversation.
 
-LEXICON Pronouns
-       Personal ;
-       Possessive ;
-       Interrogative ;
-todo_name ;
+LEXICON Pronouns  !!≈ * **CODE@**
+       Personal ;  !!≈ * CODE@
+       Possessive ;  !!≈ * CODE@
+       Interrogative ;  !!≈ * CODE@
+todo_name ;  !!≈ * CODE@
 
-LEXICON Personal
-ki% tāua+Pron+Du1+Incl:ki% tāua # ;
-ki% tā+Pron+Du1+Incl:ki% tā # ;
-ki% tātou+Pron+Pl1+Incl:ki% tātou # ;
-tāua+Pron+Du1+Incl:tāua # ;
+LEXICON Personal  !!≈ * **CODE@**
+ki% tāua+Pron+Du1+Incl:ki% tāua # ;  !!≈ * CODE@
+ki% tā+Pron+Du1+Incl:ki% tā # ;  !!≈ * CODE@
+ki% tātou+Pron+Pl1+Incl:ki% tātou # ;  !!≈ * CODE@
+tāua+Pron+Du1+Incl:tāua # ; !! * ...
 tā+Pron+Du1+Incl:tā # ;
 tātou+Pron+Pl1+Incl:tātou # ;
 au+Pron+Sg1+Excl:au # ;
@@ -37,11 +37,11 @@ lātou+Pron+Pl3:lātou # ;
 kō+Pron+Sg1+Excl:kō # ;
 kē+Pron+Sg2:kē # ;
 
-LEXICON Possessive
-o% tāua+Pron+Poss+Du1+Incl:o% tāua # ;
-o% tāua+Pron+Poss+Du1+Incl:o% tā # ;
-o% tātou+Pron+Poss+Pl1+Incl:o% tātou # ;
-o% oku+Pron+Poss+Sg1+Excl:o% oku # ;
+LEXICON Possessive  !!≈ * CODE@
+o% tāua+Pron+Poss+Du1+Incl:o% tāua # ;  !!≈ * CODE@
+o% tāua+Pron+Poss+Du1+Incl:o% tā # ;  !!≈ * CODE@
+o% tātou+Pron+Poss+Pl1+Incl:o% tātou # ;  !!≈ * CODE@
+o% oku+Pron+Poss+Sg1+Excl:o% oku # ; !! * ...
 o% kita+Pron+Poss+Sg1+Excl:o% kita # ;
 o% māua+Pron+Poss+Du1+Excl:o% māua # ;
 o% mā+Pron+Poss+Du1+Excl:o% mā # ;
@@ -74,20 +74,19 @@ a% lātou+Pron+Poss+Pl3:a% lātou # ;
 
 tona+Pron+Poss+Sg3:tona # ;
 
-LEXICON Interrogative
-ai+Pron+Interr:ai # ;
-ā+Pron+Interr:ā # ;
-fea+Pron+Interr:fea # ; !cf. also the adverbs.lexc file
+LEXICON Interrogative  !!≈ * CODE@
+ai+Pron+Interr:ai # ;  !!≈ * CODE@
+ā+Pron+Interr:ā # ;  !!≈ * CODE@
+fea+Pron+Interr:fea # ; !! * ... cf. also the adverbs.lexc file
 
 hei+Pron+Interr:hei # ;
 
-LEXICON todo_name
-fakatahi+Pron:fakatahi # ;
-
-toku+Pron+Sg1:toku # ;
-taku+Pron+Sg1:taku # ;
-tota+Pron+Sg1:tota # ;
-tata+Pron+Sg1:tata # ;
+LEXICON todo_name   !!≈ * CODE@
+fakatahi+Pron:fakatahi # ;   !!≈ * CODE@
+toku+Pron+Sg1:toku # ;  !!≈ * CODE@
+taku+Pron+Sg1:taku # ;  !!≈ * CODE@
+tota+Pron+Sg1:tota # ;  !!≈ * CODE@
+tata+Pron+Sg1:tata # ; !! * ...
 
 toku+Pron+Pl1:oku # ;
 taku+Pron+Pl1:aku # ;

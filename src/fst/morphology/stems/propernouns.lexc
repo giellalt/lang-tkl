@@ -1,11 +1,13 @@
-LEXICON Propernouns
-Ai prop ;
-Aiātatau prop ;
-Ainea prop ;
-Aiheā prop ;
-Au prop ;
-Afioga prop ;
-Akalipa prop ;
+!! # nTokelau proer nouns
+
+LEXICON Propernouns   !!≈ * **@CODE@**
+Ai prop ;  !!≈ * CODE@
+Aiātatau prop ;  !!≈ * CODE@
+Ainea prop ;  !!≈ * CODE@
+Aiheā prop ;  !!≈ * CODE@
+Au prop ;  !!≈ * CODE@
+Afioga prop ;  !!≈ * CODE@
+Akalipa prop ; !! * ...
 Akoako prop ;
 Akoakoga prop ;
 Aliki prop ;

@@ -1,5 +1,5 @@
 # ==================================================================== #
-#    tkl functions grammar
+#!!   # Tokelau functions grammar
 # ==================================================================== #
 # ==================================================================== 
 
@@ -7,67 +7,68 @@
 # or any later version.
 #  Sámi language technology project 2003-2006, University of Tromsø # 
 
+#!! Tag declaration via STRICT-tAGS
 # Alphabet below must be all multichar symbols used in all rules
 STRICT-TAGS +=
-    # Tags from lexicon
-    N V A Prop Adv Num CC CS Interj
-    Abbr ABBR ACR Pr Po Pron Pcle Pre
-    Pers Det Dem Refl Recipr Poss Interr
-    Nom Acc Gen Dat Instr
-    Msc Fem Neu
-    Sg Pl Du
-    Def Indef
-    Cmp Superl Comp
-    Prs Prt
-    Sg1 Sg2 Sg3 Du1 Du2 Du3 Pl1 Pl2 Pl3
-    Neg
-    IV TV
-    PrfPrc PrsPrc
-    Ind Imp Sbj Sup Cond Pot Imprt ImprtII
-    Rel Coll NomAg NumAg
-    Attr Ord Qst
-    Cmpnd RCmpnd SgNomCmp SgGenCmp ShCmp
-    CLB PUNCT LEFT RIGHT
-    Guess WEB
-    Sem/Ani Sem/Fem Sem/Group Sem/Hum Sem/Mal
-    Sem/Date Sem/Measr Sem/Money Sem/Obj Sem/Org Sem/Plc
-    Sem/Sur Sem/Time Sem/Year
-    Post
-    # Tags used in syntax
-    @<S @S> @<A @A> @<P @P>
-    @SUBJ @<SUBJ @SUBJ> @<OBJ @<IOBJ @OBJ> @IOBJ>
-    @SUBJ<ADVL @SUBJ<OBJ
-    @OBJ @OBJ>SPRED
-    @>N @N< @>A @A< @IM
-    @<SPRED @SPRED> @<OPRED @OPRED>
-    @PPRED @<PPRED @OPRED @SPRED @SPRED<OBJ
-    @NPRED # Nominal predicate John_@SUBJ> teacher_@NPRED
-    @PRPRED # Preposition predicate Trond_@SUBJ> in_@NPRED Tromsø_@Pr<
-    @+FMAINV @-FMAINV @+FAUXV @-FAUXV @FMV
-    @-FSUBJ> @-F<OBJ @SPREF<OBJ
-    @-FOBJ @-FOBJ> @-FSUBJ @<-FSUBJ
-    @FAUX @IAUX @FS-IAUX @rc-VAUX
-    @FS-OBJ
-    @FS-ACC>> @FS-ADVL @FS-IMV @FS-N @FS-N<IAUX @FS-STA @FS-N< @FS-N<IMV
-    @<ADVL @ADVL> @>ADVL @ADVL @-FADVL @-F<ADVL @-FADVL>
-    @ADVL< @ADVL<OBJ @ADVL>CS @ADVL>SUBJ
-    @APP-ADVL< @APP-N< @APP-Num< @APP-Pron< @APP>Pron
-    @CMPND @COMP-CS<
-    @>CC @>Num @>P @>Pron @Pron< @Num<
-    @P< @CNP @CVP @>CS @CNP-VP @APP
-    @CNP @CVP
-    @IMV @ICL-ADVL @ICL-AUX< @ICL-OBJ @ICL-STA
-    @HNOUN
-    @HAB @VOC
-    @INTERJ @PCLE @V
-    @CLB
-    @X
-    <mv> <aux>
-    ¶ ?
-    V* A*
-    @<NP
-    @PCLE>    @<PCLE
-
+    # Tags from lexicon													  #!! - *@CODE@ 
+    N V A Prop Adv Num CC CS Interj										  #!! - *@CODE@ 
+    Abbr ABBR ACR Pr Po Pron Pcle Pre									  #!! - *@CODE@ 
+    Pers Det Dem Refl Recipr Poss Interr								  #!! - *@CODE@ 
+    Nom Acc Gen Dat Instr												  #!! - *@CODE@ 
+    Msc Fem Neu															  #!! - *@CODE@ 
+    Sg Pl Du															  #!! - *@CODE@ 
+    Def Indef															  #!! - *@CODE@ 
+    Cmp Superl Comp														  #!! - *@CODE@ 
+    Prs Prt																  #!! - *@CODE@ 
+    Sg1 Sg2 Sg3 Du1 Du2 Du3 Pl1 Pl2 Pl3									  #!! - *@CODE@ 
+    Neg																	  #!! - *@CODE@ 
+    IV TV																  #!! - *@CODE@ 
+    PrfPrc PrsPrc														  #!! - *@CODE@ 
+    Ind Imp Sbj Sup Cond Pot Imprt ImprtII								  #!! - *@CODE@ 
+    Rel Coll NomAg NumAg												  #!! - *@CODE@ 
+    Attr Ord Qst														  #!! - *@CODE@ 
+    Cmpnd RCmpnd SgNomCmp SgGenCmp ShCmp								  #!! - *@CODE@ 
+    CLB PUNCT LEFT RIGHT												  #!! - *@CODE@ 
+    Guess WEB															  #!! - *@CODE@ 
+    Sem/Ani Sem/Fem Sem/Group Sem/Hum Sem/Mal							  #!! - *@CODE@ 
+    Sem/Date Sem/Measr Sem/Money Sem/Obj Sem/Org Sem/Plc				  #!! - *@CODE@ 
+    Sem/Sur Sem/Time Sem/Year											  #!! - *@CODE@ 
+    Post																  #!! - *@CODE@ 
+    # Tags used in syntax												  #!! - *@CODE@ 
+    @<S @S> @<A @A> @<P @P>												  #!! - *@CODE@ 
+    @SUBJ @<SUBJ @SUBJ> @<OBJ @<IOBJ @OBJ> @IOBJ>						  #!! - *@CODE@ 
+    @SUBJ<ADVL @SUBJ<OBJ												  #!! - *@CODE@ 
+    @OBJ @OBJ>SPRED														  #!! - *@CODE@ 
+    @>N @N< @>A @A< @IM													  #!! - *@CODE@ 
+    @<SPRED @SPRED> @<OPRED @OPRED>										  #!! - *@CODE@ 
+    @PPRED @<PPRED @OPRED @SPRED @SPRED<OBJ								  #!! - *@CODE@ 
+    @NPRED # Nominal predicate John_@SUBJ> teacher_@NPRED				  #!! - *@CODE@ 
+    @PRPRED # Preposition predicate Trond_@SUBJ> in_@NPRED Tromsø_@Pr<	  #!! - *@CODE@ 
+    @+FMAINV @-FMAINV @+FAUXV @-FAUXV @FMV								  #!! - *@CODE@ 
+    @-FSUBJ> @-F<OBJ @SPREF<OBJ											  #!! - *@CODE@ 
+    @-FOBJ @-FOBJ> @-FSUBJ @<-FSUBJ										  #!! - *@CODE@ 
+    @FAUX @IAUX @FS-IAUX @rc-VAUX										  #!! - *@CODE@ 
+    @FS-OBJ																  #!! - *@CODE@ 
+    @FS-ACC>> @FS-ADVL @FS-IMV @FS-N @FS-N<IAUX @FS-STA @FS-N< @FS-N<IMV  #!! - *@CODE@ 
+    @<ADVL @ADVL> @>ADVL @ADVL @-FADVL @-F<ADVL @-FADVL>				  #!! - *@CODE@ 
+    @ADVL< @ADVL<OBJ @ADVL>CS @ADVL>SUBJ								  #!! - *@CODE@ 
+    @APP-ADVL< @APP-N< @APP-Num< @APP-Pron< @APP>Pron					  #!! - *@CODE@ 
+    @CMPND @COMP-CS<													  #!! - *@CODE@ 
+    @>CC @>Num @>P @>Pron @Pron< @Num<									  #!! - *@CODE@ 
+    @P< @CNP @CVP @>CS @CNP-VP @APP										  #!! - *@CODE@ 
+    @CNP @CVP															  #!! - *@CODE@ 
+    @IMV @ICL-ADVL @ICL-AUX< @ICL-OBJ @ICL-STA							  #!! - *@CODE@ 
+    @HNOUN																  #!! - *@CODE@ 
+    @HAB @VOC															  #!! - *@CODE@ 
+    @INTERJ @PCLE @V													  #!! - *@CODE@ 
+    @CLB																  #!! - *@CODE@ 
+    @X																	  #!! - *@CODE@ 
+    <mv> <aux>															  #!! - *@CODE@ 
+    ¶ ?																	  #!! - *@CODE@ 
+    V* A*																  #!! - *@CODE@ 
+    @<NP																  #!! - *@CODE@ 
+    @PCLE>    @<PCLE													  #!! - *@CODE@ 
+																		  #!! - *@CODE@ 
     ;
 
 ;
@@ -75,13 +76,13 @@ STRICT-TAGS +=
 OPTIONS += no-inline-sets ;
 
 # ========== #
-# Delimiters #
+# !! # Delimiters #
 # ========== #
 
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";   #!! - *@CODE@ 
 
 # ============= #
-# Tags and sets #
+#!! # Tags and sets #
 # ============= #
 
 SETS
@@ -89,15 +90,15 @@ SETS
 # I define end of clause and beginning of clause in a way so that the file
 # may be read both by the CG-2 and the vislcg formalisms.
 
-LIST BOS = (>>>) (<s>);
-LIST EOS = (<<<) (</s>);
+LIST BOS = (>>>) (<s>);   #!! - *@CODE@  
+LIST EOS = (<<<) (</s>);   #!! - *@CODE@ 
 
 # CG3 doesn´t function without >>> and <<< !
 
 # Tags declared as single-membered LISTs 
 # ======================================
 
-# Parts of speech
+#!! ## Parts of speech
 # ---------------
 
 SET CC-CS = CC OR CS ;
@@ -265,10 +266,11 @@ LIST KO = "ko" ;
 
 #!! These were the set types.
 
+#!! ## Rules
 
 SECTION         #
 
-
+#!! Map Interj, CC, CS, ..
 MAP:interjection (@INTERJ) TARGET Interj ;
 MAP:cconjunction (@CNP @CVP) TARGET CC ;
 ADD:sconjunction (@CVP) TARGET CS ;
@@ -285,7 +287,9 @@ MAP:rnpcle (@<PCLE) TARGET POST-N-PCLE IF (-1 NP);
 MAP:rprpcle (@<PCLE) TARGET POST-PR-PCLE IF (-1 Pr);
 MAP:rxpcle (@<PCLE) TARGET POST-X-PCLE IF (-1 WORD);
 
-MAP:interj (@INTERJ) TARGET Interj ;
+#!! PP complement rules
+
+
 MAP:p< (@P<) TARGET N OR Pron IF (*-1 Pr BARRIER N OR V); 
 MAP:d< (@>N) TARGET Det IF (*1 N BARRIER NOT-PRE-N); # til far
 MAP:d< (@>N) TARGET Pre IF (*1 N BARRIER NOT-PRE-N);
@@ -296,6 +300,7 @@ MAP:n< (@N<) TARGET Post ;
 # a o possessive og i lokativ kan stå i verbposisjon
 # e presensmarkør
 
+#!! ## Map clause structure tags
 
 MAP:subj (@<P) TARGET N  IF (*-1 V BARRIER Pr)(*1 E);
 
@@ -327,12 +332,20 @@ MAP:prpred (@PRPRED) TARGET PREDPREP IF (NOT *0 V);
 MAP:npred (@NPRED) TARGET N IF (*1 N BARRIER KO)(NEGATE *-1 N LINK NOT -1 KO)(NOT *0 V); # Lærar Arnfinn
 
 
-MAP:advl> (@ADVL>) TARGET Pr IF (*1 @HNOUN);
+#!! ## PP rules
 
 MAP:hnoun (@HNOUN) TARGET N IF (NEGATE *0 V);
 
+MAP:advl> (@ADVL>) TARGET Pr IF (*1 @HNOUN);
+
+#!! ## FMV
+
 MAP:fmv (@FMV) TARGET V ;
 MAP:clb (@CLB) TARGET CLB ;
+
+#!! ## The X rule
+
+#!! Map any leftover as @X
 
 #MAP:X (@X) TARGET (?);
 MAP:X (@X) TARGET WORD;

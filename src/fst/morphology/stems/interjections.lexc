@@ -1,11 +1,16 @@
+!! # Interjections
+
 LEXICON ij
-+Interj: # ;
+!!≈ __@LEXNAME@__ 
++Interj: # ; !!= - @CODE@ 
 
 LEXICON Interjections
-fakamolemole ij "sorry" ;
-fakafetai ij "thank you" ;
-aho ij "good afternoon" ;
-afiafi ij "good evening" ;
-mâlô ij "greeting" ;
-tâlofa ij "greeting" ;
-hāloa ij "what a pity" ;
+!!≈ __@LEXNAME@__ 
+fakamolemole ij "sorry" ; !!= - @CODE@ 
+fakafetai ij "thank you" ; !!= - @CODE@ 
+aho ij "good afternoon" ; !!= - @CODE@ 
+afiafi ij "good evening" ; !!= - @CODE@ 
+mâlô ij "greeting" ; !!= - @CODE@ 
+tâlofa ij "greeting" ; !!= - @CODE@ 
+hāloa ij "what a pity" ; !!= - @CODE@ 
+!! That was all interjections

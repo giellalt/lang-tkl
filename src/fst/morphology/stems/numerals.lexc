@@ -1,23 +1,23 @@
-!! Numerals
+!! # Tokelau Numerals
 !  --------
-!! Numerals in the Tokelauan language describe a nuerical quantity.
 
-LEXICON Numerals
-    NUM_CARD_ALL    ;
 
- +Use/Circ: ARABICS ;          ! for the arabic numerals        !
- +Use/Circ: ROMAN ;           ! for the roman numerals         !
- +Use/Circ: NUM-PREFIXES ;    ! for §34 etc.                   !
- +Use/Circ: ISOLATED-NUMEXP ; ! for ½ etc.                     !
+LEXICON Numerals   !!≈ * CODE@
+    NUM_CARD_ALL    ;   !!≈ * CODE@
 
-LEXICON NUM_CARD_ALL
+ +Use/Circ: ARABICS ;            !!≈ * CODE@ for the arabic numerals        !
+ +Use/Circ: ROMAN ;             !!≈ * CODE@ for the roman numerals         !
+ +Use/Circ: NUM-PREFIXES ;      !!≈ * CODE@ for §34 etc.                   !
+ +Use/Circ: ISOLATED-NUMEXP ;   !!≈ * CODE@ for ½ etc.                     !
+
+LEXICON NUM_CARD_ALL  
 !!≈ __@LEXNAME@__ 
-fokotahi num "1" ; ! except when counting, which is tahi
-tahi num "1" ;
-lua num "2" ;
-tolu num "3" ;
-fā:faa num "4" ;
-lima num "5" ;
+fokotahi num "1" ;   !!≈ * CODE@ except when counting, which is tahi
+tahi num "1" ;   !!≈ * CODE@
+lua num "2" ;   !!≈ * CODE@
+tolu num "3" ;   !!≈ * CODE@
+fā:faa num "4" ;   !!≈ * CODE@
+lima num "5" ; !! etc. up to 30, thereafter tens and hundreds and thousands up to 9000
 ono num "6" ;
 fitu num "7" ;
 valu num "8" ;

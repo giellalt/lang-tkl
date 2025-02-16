@@ -1,21 +1,22 @@
-!! Prepositions
+!! # Tokelau Prepositions
 !! ============
 
-LEXICON pr
-+Pr: # ;
+LEXICON pr   !!≈ * CODE@
++Pr: # ;  !!≈ * CODE@
 
-LEXICON Prepositions
-e pr "agentive" ;
-i pr "locative" ;
-ki pr "directional" ;
-mai pr "source" ;
-o pr "possessive" ;
-a pr "possessive" ;
-mō pr "benefactive" ;
-mā pr "benefactive" ;
-ma pr "as" ;
-talu pr "since" ;
-kia pr ; ! ki + a
+LEXICON Prepositions  !!≈ * CODE@
+e pr "agentive" ;  !!≈ * CODE@
+i pr "locative" ;  !!≈ * CODE@
+ki pr "directional" ;  !!≈ * CODE@
+mai pr "source" ;  !!≈ * CODE@
+o pr "possessive" ;  !!≈ * CODE@
+a pr "possessive" ;  !!≈ * CODE@
+mō pr "benefactive" ;  !!≈ * CODE@
+mā pr "benefactive" ;  !!≈ * CODE@
+ma pr "as" ;  !!≈ * CODE@
+talu pr "since" ;  !!≈ * CODE@
+kia pr ; ! ki + a  !!≈ * CODE@
 
+!! That was all prepositions
 
 

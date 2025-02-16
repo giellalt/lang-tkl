@@ -1,25 +1,29 @@
-LEXICON pcle
-+Pcle: # ;
-
-LEXICON pclemph
-+Pcle+Emph: # ;
+!! # Tokelau particles
 
 
-LEXICON Particles
-ake pcle ; ! Post-verbal directional
-atu pcle ; ! Post-verbal directional
-ei pcle ; ! anaphoric particle, after Pr, referring to antecedent
-ia pcle ; ! In front of Prop, Pron, locnoun
-ia pclemph ; ! Post-nominal emphatic
-ifo pcle ; ! Post-verbal directional
-oioti pcle "just, only" ; ! preverbal qualifying particle (oioti oi kaumai te tuhi)
-foki pcle "emph" ; ! follows the word it emph
-ko pcle ; ! Pre-nominal, introducing S or NP
-lō pcle "comparative particle" ; ! in phrase "i lō"
-mai pcle ; ! Pre-verbal particle
-heā pcle ; ! interrogative particle !
-ta pcle ; ! Pre-pronominal particle, o-class
-to pcle ; ! Pre-pronominal particle, a-class
-vave pcle ; ! Pre-verbal particle
-vāe pcle "divide" ; ! in front of numerals
+LEXICON pcle   !!≈ * CODE@
++Pcle: # ;   !!≈ * CODE@
 
+LEXICON pclemph   !!≈ * CODE@
++Pcle+Emph: # ;   !!≈ * CODE@
+
+
+LEXICON Particles   !!≈ * CODE@
+ake pcle ;   !!≈ * CODE@ Post-verbal directional
+atu pcle ;   !!≈ * CODE@ Post-verbal directional
+ei pcle ;   !!≈ * CODE@ anaphoric particle, after Pr, referring to antecedent
+ia pcle ;   !!≈ * CODE@ In front of Prop, Pron, locnoun
+ia pclemph ;   !!≈ * CODE@Post-nominal emphatic
+ifo pcle ;   !!≈ * CODE@Post-verbal directional
+oioti pcle "just, only" ;   !!≈ * CODE@preverbal qualifying particle (oioti oi kaumai te tuhi)
+foki pcle "emph" ;   !!≈ * CODE@follows the word it emph
+ko pcle ;   !!≈ * CODE@Pre-nominal, introducing S or NP
+lō pcle "comparative particle" ;   !!≈ * CODE@in phrase "i lō"
+mai pcle ;   !!≈ * CODE@Pre-verbal particle
+heā pcle ;   !!≈ * CODE@interrogative particle !
+ta pcle ;   !!≈ * CODE@Pre-pronominal particle, o-class
+to pcle ;   !!≈ * CODE@Pre-pronominal particle, a-class
+vave pcle ;   !!≈ * CODE@Pre-verbal particle
+vāe pcle "divide" ;   !!≈ * CODE@in front of numerals
+
+!! That was all particles

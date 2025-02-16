@@ -1,66 +1,67 @@
 # ========================== #
-# tkl dependency grammar #
+#!! # Tokelau dependency grammar 
 # ========================== #
 
-# Alphabet below must be all multichar symbols used in all rules
+#!! ## strict-tags
+#!! Alphabet below must be all multichar symbols used in all rules
 STRICT-TAGS +=
     # Tags from lexicon
-    N V A Prop Adv Num CC CS Interj
-    Abbr ACR Pr Pron
-    Pers Det Dem Refl Recipr Poss Interr IM
-    Nom Acc Gen Dat Instr
-    Msc Fem Neu
-    Sg Pl
-    Def Indef
-    Cmp Superl
-    Prs Prt
-    1Sg 2Sg 3Sg
-    1Pl 2Pl 3Pl
-    Inf
-    PrfPrc PrsPrc PrfPrs
-    Ind Imp Sbj Sup
-    Cmpnd
-    CLB PUNCT LEFT RIGHT
-    Guess
-    V*
-    # Tags used in syntax
-    @<S @S> @<A @A> @<P @P>
-    @<SUBJ @SUBJ> @<OBJ @<IOBJ @OBJ> @IOBJ>
-    @SUBJ<ADVL @SUBJ<OBJ
-    @OBJ>SPRED
-    @>N @N< @>A @A< @IM
-    @<SPRED @SPRED> @<OPRED @OPRED>
-    @<PPRED @OPRED @SPRED @SPRED<OBJ
-    @NPRED # Nominal predicate John_@SUBJ> teacher_@NPRED
-    @PRPRED # Preposition predicate Trond_@SUBJ> in_@NPRED Tromsø_@Pr<
-    @+FMAINV @-FMAINV @+FAUXV @-FAUXV @FMV
-    @-FSUBJ> @-F<OBJ @SPREF<OBJ
-    @-FOBJ @-FOBJ> @-FSUBJ @<-FSUBJ
-    @FAUX @IAUX @FS-IAUX @rc-VAUX
-    @FS-OBJ
-    @FS-ACC>> @FS-ADVL @FS-IMV @FS-N @FS-N<IAUX @FS-STA @FS-N< @FS-N<IMV
-    @<ADVL @ADVL> @>ADVL @ADVL @-FADVL
-    @ADVL< @ADVL<OBJ @ADVL>CS @ADVL>SUBJ
-    @APP-ADVL< @APP-N< @APP-Num< @APP-Pron< @APP>Pron
-    @CMPND @COMP-CS<
-    @>CC @>Num @>P @>Pron @Pron< @Num<
-    @P< @CNP @CVP @>CS @CNP-VP @APP
-    @CNP @CVP
-    @IMV @ICL-ADVL @ICL-AUX< @ICL-OBJ @ICL-STA
-    @HNOUN
-    @HAB @VOC
-    @INTERJ @PCLE @PCLE> @<PCLE 
-    @CLB
-    @V
-    @X
-    <mv> <aux>
+    N V A Prop Adv Num CC CS Interj										 #!! - @CODE@ 
+    Abbr ACR Pr Pron													 #!! - @CODE@ 
+    Pers Det Dem Refl Recipr Poss Interr IM								 #!! - @CODE@ 
+    Nom Acc Gen Dat Instr												 #!! - @CODE@ 
+    Msc Fem Neu															 #!! - @CODE@ 
+    Sg Pl																 #!! - @CODE@ 
+    Def Indef															 #!! - @CODE@ 
+    Cmp Superl															 #!! - @CODE@ 
+    Prs Prt																 #!! - @CODE@ 
+    1Sg 2Sg 3Sg															 #!! - @CODE@ 
+    1Pl 2Pl 3Pl															 #!! - @CODE@ 
+    Inf																	 #!! - @CODE@ 
+    PrfPrc PrsPrc PrfPrs												 #!! - @CODE@ 
+    Ind Imp Sbj Sup														 #!! - @CODE@ 
+    Cmpnd																 #!! - @CODE@ 
+    CLB PUNCT LEFT RIGHT												 #!! - @CODE@ 
+    Guess																 #!! - @CODE@ 
+    V*																	 #!! - @CODE@ 
+    # Tags used in syntax												 #!! - @CODE@ 
+    @<S @S> @<A @A> @<P @P>												 #!! - @CODE@ 
+    @<SUBJ @SUBJ> @<OBJ @<IOBJ @OBJ> @IOBJ>								 #!! - @CODE@ 
+    @SUBJ<ADVL @SUBJ<OBJ												 #!! - @CODE@ 
+    @OBJ>SPRED															 #!! - @CODE@ 
+    @>N @N< @>A @A< @IM													 #!! - @CODE@ 
+    @<SPRED @SPRED> @<OPRED @OPRED>										 #!! - @CODE@ 
+    @<PPRED @OPRED @SPRED @SPRED<OBJ									 #!! - @CODE@ 
+    @NPRED # Nominal predicate John_@SUBJ> teacher_@NPRED				 #!! - @CODE@ 
+    @PRPRED # Preposition predicate Trond_@SUBJ> in_@NPRED Tromsø_@Pr<	 #!! - @CODE@ 
+    @+FMAINV @-FMAINV @+FAUXV @-FAUXV @FMV								 #!! - @CODE@ 
+    @-FSUBJ> @-F<OBJ @SPREF<OBJ											 #!! - @CODE@ 
+    @-FOBJ @-FOBJ> @-FSUBJ @<-FSUBJ										 #!! - @CODE@ 
+    @FAUX @IAUX @FS-IAUX @rc-VAUX										 #!! - @CODE@ 
+    @FS-OBJ																 #!! - @CODE@ 
+    @FS-ACC>> @FS-ADVL @FS-IMV @FS-N @FS-N<IAUX @FS-STA @FS-N< @FS-N<IMV #!! - @CODE@ 
+    @<ADVL @ADVL> @>ADVL @ADVL @-FADVL									 #!! - @CODE@ 
+    @ADVL< @ADVL<OBJ @ADVL>CS @ADVL>SUBJ								 #!! - @CODE@ 
+    @APP-ADVL< @APP-N< @APP-Num< @APP-Pron< @APP>Pron					 #!! - @CODE@ 
+    @CMPND @COMP-CS<													 #!! - @CODE@ 
+    @>CC @>Num @>P @>Pron @Pron< @Num<									 #!! - @CODE@ 
+    @P< @CNP @CVP @>CS @CNP-VP @APP										 #!! - @CODE@ 
+    @CNP @CVP															 #!! - @CODE@ 
+    @IMV @ICL-ADVL @ICL-AUX< @ICL-OBJ @ICL-STA							 #!! - @CODE@ 
+    @HNOUN																 #!! - @CODE@ 
+    @HAB @VOC															 #!! - @CODE@ 
+    @INTERJ @PCLE @PCLE> @<PCLE 										 #!! - @CODE@ 
+    @CLB																 #!! - @CODE@ 
+    @V																	 #!! - @CODE@ 
+    @X																	 #!! - @CODE@ 
+    <mv> <aux>															 #!! - @CODE@ 
     ;
 
 
 OPTIONS += no-inline-sets ;
 
 # ========== #
-# Delimiters #
+#!! ## Delimiters #
 # ========== #
 
 DELIMITERS = "<.>" "<!>" "<?>" "<¶>";
@@ -72,11 +73,14 @@ DELIMITERS = "<.>" "<!>" "<?>" "<¶>";
 LIST BOS = (>>>) (<s>); 
 LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
 
+
+#!! ### Sets
 # ========
    SETS
 # ========
 
- 
+#!! ... to be documented
+
 SET WORD = Det | N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Acc Gen
 Dat Msc Fem Neu Sg Pl Def Indef Cmp Sup Prs Prt 1Sg 2Sg 3Sg Inf PrfPrc
@@ -183,8 +187,10 @@ LIST sum-CS-CVP = ("sum" CS @CVP) ;
 # §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 # §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
-
+#!! *# Rules
 SECTION
+
+#!! First som e adjustment rules
 
 SUBSTITUTE:SubFmainv=V (@+FMAINV) (@FMV) TARGET V ;
 SUBSTITUTE:SubNfmainv=V (@-FMAINV) (@IMV) TARGET V ;
@@ -236,7 +242,7 @@ SUBSTITUTE:SubV=icl (@IMV)(@<OBJ) TARGET Inf (-1 @IM)(*-2 <mv>);
 SECTION
 
 
-### NP rules
+#!! ### NP rules
 
 
 SETPARENT:r1 @>N TO (*1 N BARRIER NPNH);
@@ -258,14 +264,16 @@ SETPARENT:drprpcle @<PCLE TO (-1 Pr) (0 POST-PR-PCLE);
 SETPARENT:drxpcle @<PCLE (0 POST-X-PCLE)  TO  (-1 WORD) ;
 
 
-### PPs
+#!! ### PPs
 
 SETPARENT:r6 @P< TO (*-1 Pr BARRIER V);
 
-### ellipse
+#!! ### ellipse
 
 
-### S
+#!! ### S
+
+#!! Rules for subj and obj (to be revised)
 
 SETPARENT:r9 @SUBJ> TO (*1 VFIN BARRIER CS);
 SETPARENT:r10 @<SUBJ TO (-*1 VFIN BARRIER CS);
@@ -280,7 +288,7 @@ SETPARENT:r12 @IOBJ> TO (*1 V BARRIER CS);
 SETPARENT @SUBJ> TO (1 @PRPRED);
 SETPARENT @SUBJ> TO (1 @NPRED);
 
-# preposition to verb
+#!! ### preposition to verb
 SETPARENT @<ADVL TO (-1* <aux> BARRIER <mv>);
 SETPARENT @<ADVL TO (-1* <mv> BARRIER CS);
 SETPARENT @ADVL> TO (*1 <mv> BARRIER CS);
@@ -307,7 +315,7 @@ SETPARENT:r19  @IMV TO (*-1 @-FAUXV LINK *1 @CVP);
 SETPARENT:r19b @IMV TO (*-1 @+FAUXV LINK *1 @CVP);
 SETPARENT:r20 @-FAUXV TO (*-1 @+FAUXV LINK *1 @CVP);
 
-### VPs
+#!! ### VPs
 
 SETPARENT:r8 Sup TO (*-1 VFIN BARRIER CS);
 SETPARENT:r8b Inf TO (*-1 VFIN BARRIER CS);
@@ -316,18 +324,18 @@ SETPARENT:r8d PrfPrc TO (*-1 VFIN BARRIER CS);
 
 SETPARENT:tokVP V TO (-1 V);
 
-### CS
+#!! ### CS
 
 SETPARENT:RelCL @CVP (-1 COMMA) TO (-2 N);
 SETPARENT:r24 @CVP TO (*-1 @MAINV);
 
-### CC
+#!! ### CC
 
 SETPARENT:r25 @CNP (-1 BOS OR CLB OR LEFT) TO (*1  @MAINV) ;
 SETPARENT:2vCC @CNP TO (1 VFIN);
 
 
-### subjunction and coordination
+#!! ### subjunction and coordination
 
 SETPARENT:SetCCellipse KONJ + @CVP TO (*1 @<SUBJ BARRIER VFIN) ;
 SETPARENT:SetCCellipse KONJ + @CVP TO (*1 KONJ + @CVP BARRIER @V LINK *-1 @SUBJ> BARRIER @CVP) ;
@@ -336,12 +344,12 @@ SETPARENT:SetCCToCC CC-CVP TO (1 CS) ;
 SETPARENT:SetKonjToFMV KONJ + @CVP TO (*1 @FMV) ;
 SETPARENT:SetKonjToV KONJ + @CVP TO (*1 VFIN OR NONVFIN BARRIER S-BOUNDARY2) ;
 
-### coordination
+##!! ## coordination
 
 SETPARENT:SetCNPToWord @CNP TO (*-1 WORD) ;
 SETPARENT:SetCNPToWord @CVP + CC TO (*-1 WORD) ;
 
-### Relative clause
+##!! ### Relative clause
 
 SETPARENT:RelVtoVfin @FS-STA (NONE p (*)) TO (*1 @FV) ; 
 SETPARENT:RelVtoVfin @FS-STA (NONE p (*)) TO (*-1 @FV) ; 
@@ -353,13 +361,14 @@ SETPARENT:RelVtoN @FS-N< TO (*-1 CS LINK -1 N OR A OR Pron) ;
 
 
 
-## Tokelau
+##!!  ## Tokelau
+
 
 SETPARENT:LeftPcle @PCLE> TO (1 WORD); # or to phrase head?
 
 SETPARENT:v2 V TO (*-1 @FMV) ;
 
-### Root
+#!! ### Root
 
 SETPARENT:vfin VFIN (NONE p (*)) TO (@0 (*));
 SETPARENT:v V (NONE p (*)) TO (@0 (*)); #(0C V);

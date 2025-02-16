@@ -1,52 +1,53 @@
 # ===================== #
-# tkl disambiguator #
+#!! # Tokelau disambiguator 
 # ===================== #
 
+#!! ## Strict-tags
 # Alphabet below must be all multichar symbols used in all rules
 STRICT-TAGS +=
     # Tags from lexicon
-    N V A Prop Adv Num CC CS Interj
-    Emph Prf Rom
-    Abbr ACR Pr Pron
-    Pers Det Dem Refl Recipr Poss Interr
-    Nom Acc Gen Dat Instr
-    Msc Fem Neu
-    Sg Pl
-    Def Indef
-    Cmp Superl
-    Prs Prt
-    Sg1 Sg2 Sg3
-    Inf Neg
-    Pcle Pre
-    PrfPrc PrsPrc
-    Ind Imp Sbj Sup
-    Med Dist Prox
-    Cmpnd
-    CLB PUNCT LEFT RIGHT
-    Guess
-    Post
-    # Tags used in syntax
-    @<SUBJ @SUBJ> @<OBJ @<IOBJ @OBJ> @IOBJ>
-    @+FMAINV @-FMAINV
-    @<ADVL @ADVL> @ADVL
-    @CNP @CVP
-    @INTERJ
-    @X
+    N V A Prop Adv Num CC CS Interj		    #!! - @CODE@ 
+    Emph Prf Rom						    #!! - @CODE@ 
+    Abbr ACR Pr Pron					    #!! - @CODE@ 
+    Pers Det Dem Refl Recipr Poss Interr    #!! - @CODE@ 
+    Nom Acc Gen Dat Instr				    #!! - @CODE@ 
+    Msc Fem Neu							    #!! - @CODE@ 
+    Sg Pl								    #!! - @CODE@ 
+    Def Indef							    #!! - @CODE@ 
+    Cmp Superl							    #!! - @CODE@ 
+    Prs Prt								    #!! - @CODE@ 
+    Sg1 Sg2 Sg3							    #!! - @CODE@ 
+    Inf Neg								    #!! - @CODE@ 
+    Pcle Pre							    #!! - @CODE@ 
+    PrfPrc PrsPrc						    #!! - @CODE@ 
+    Ind Imp Sbj Sup						    #!! - @CODE@ 
+    Med Dist Prox						    #!! - @CODE@ 
+    Cmpnd								    #!! - @CODE@ 
+    CLB PUNCT LEFT RIGHT				    #!! - @CODE@ 
+    Guess								    #!! - @CODE@ 
+    Post								    #!! - @CODE@ 
+    # Tags used in syntax				    #!! - @CODE@ 
+    @<SUBJ @SUBJ> @<OBJ @<IOBJ @OBJ> @IOBJ> #!! - @CODE@ 
+    @+FMAINV @-FMAINV					    #!! - @CODE@ 
+    @<ADVL @ADVL> @ADVL					    #!! - @CODE@ 
+    @CNP @CVP							    #!! - @CODE@ 
+    @INTERJ								    #!! - @CODE@ 
+    @X									    #!! - @CODE@ 
     ;
 
 #OPTIONS += no-inline-sets ;
 
 # ========== #
-# Delimiters #
+#!! ## Delimiters 
 # ========== #
 
 
-DELIMITERS = "<.>" "<!>" "<?>" "<¶>" ;
+DELIMITERS = "<.>" "<!>" "<?>" "<¶>" ;  #!! - @CODE@  sentence delimiters
 
 
 
 # ============= #
-# Tags and sets #
+#!! ## Tags and sets 
 # ============= #
 
 
@@ -60,56 +61,59 @@ LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
 # Sets
 # ====
 
-LIST V = V ;
-LIST N = N ;
-LIST Pr = Pr ;
-LIST Inf = Inf ;
-LIST Prop = Prop ;
-LIST Pron = Pron ;
-LIST Det = Det ;
-LIST Adv = Adv ;
-LIST CC = CC ;
-LIST CS = CS ;
-LIST Interj = Interj ;
-LIST Num = Num ;
-LIST Rom = Rom ;
-LIST Dem = Dem ;
-LIST Emph = Emph ;
+LIST V = V ;		   #!! - @CODE@ 
+LIST N = N ;		   #!! - @CODE@ 
+LIST Pr = Pr ;		   #!! - @CODE@ 
+LIST Inf = Inf ;	   #!! - @CODE@ 
+LIST Prop = Prop ;	   #!! - @CODE@ 
+LIST Pron = Pron ;	   #!! - @CODE@ 
+LIST Det = Det ;	   #!! - @CODE@ 
+LIST Adv = Adv ;	   #!! - @CODE@ 
+LIST CC = CC ;		   #!! - @CODE@ 
+LIST CS = CS ;		   #!! - @CODE@ 
+LIST Interj = Interj ; #!! - @CODE@ 
+LIST Num = Num ;	   #!! - @CODE@ 
+LIST Rom = Rom ;	   #!! - @CODE@ 
+LIST Dem = Dem ;	   #!! - @CODE@ 
+LIST Emph = Emph ;	   #!! - @CODE@ 
 #LIST Pcle = Pcle ;
 
-LIST PRE-V-PCLE = "kā" "oioti" "koi" "mai" "vave" "oioti" ;
-LIST PRE-NUM-PCLE = "vāe" ;
-LIST PRE-N-PCLE = "ko" "heā" ; # check heā
-LIST POST-V-PCLE = "ake" "atu" "ifo" ;
-LIST POST-PR-PCLE = "ei" ;
-LIST POST-N-PCLE = "ia" ;
-LIST POST-X-PCLE = "foki" ;
-LIST PRE-PRON-PCLE = "ta" "to" ;
+LIST PRE-V-PCLE = "kā" "oioti" "koi" "mai" "vave" "oioti" ; #!! - @CODE@ 
+LIST PRE-NUM-PCLE = "vāe" ;								    #!! - @CODE@ 
+LIST PRE-N-PCLE = "ko" "heā" ; # check heā				    #!! - @CODE@ 
+LIST POST-V-PCLE = "ake" "atu" "ifo" ;					    #!! - @CODE@ 
+LIST POST-PR-PCLE = "ei" ;								    #!! - @CODE@ 
+LIST POST-N-PCLE = "ia" ;								    #!! - @CODE@ 
+LIST POST-X-PCLE = "foki" ;								    #!! - @CODE@ 
+LIST PRE-PRON-PCLE = "ta" "to" ;						    #!! - @CODE@ 
+														    #!! - @CODE@ 
+LIST TE = "te" ;										    #!! - @CODE@ 
+LIST AU = "au" ;										    #!! - @CODE@ 
+LIST IA = "ia" ;										    #!! - @CODE@ 
+LIST KO = "ko" ;   #!! - @CODE@ 
 
-LIST TE = "te" ;
-LIST AU = "au" ;
-LIST IA = "ia" ;
-LIST KO = "ko" ;
+SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;   #!! - @CODE@ 
 
-SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+SET NP = Det | N | Dem | Pron ;   #!! - @CODE@ 
+SET PRE-N-POS        = A | Pcle | Pre ;   #!! - @CODE@ 
+SET NOT-PRE-N    = WORD - PRE-N-POS ;   #!! - @CODE@ 
 
-SET NP = Det | N | Dem | Pron ;
-SET PRE-N-POS        = A | Pcle | Pre ;
-SET NOT-PRE-N    = WORD - PRE-N-POS ;
+LIST COUNTABLES = "aho" "faiākoga" "fetū" "fulufulu" "mea" "nuku" "pelofeta" "tamaiti" "tino" ;    #!! - @CODE@ 
+LIST PRE-V-MOD = "mātua" ;   #!! - @CODE@ 
+#SET PRE-N-MOD =   
 
-LIST COUNTABLES = "aho" "faiākoga" "fetū" "fulufulu" "mea" "nuku" "pelofeta" "tamaiti" "tino" ; 
-LIST PRE-V-MOD = "mātua" ;
-#SET PRE-N-MOD = 
+LIST DIR-PCLE = "mai" "atu" "ake" "ifo" ;   #!! - @CODE@ 
 
-LIST DIR-PCLE = "mai" "atu" "ake" "ifo" ;
+
+
+#   ======== #
+#!! ## rule SECTION  
+#   ======== #
 
 SECTION
 
-#   ======== #
-#!! SECTION  #
-#   ======== #
+#!! ### No context rules
 
-# No context rules
 REMOVE Rom IF (0 ("i")); # no roman i
 REMOVE N IF (0 ("i")); # no letter i
 
@@ -124,12 +128,14 @@ SELECT:kīN V IF (0 ("kī")); # The loanword key
 SELECT:kiPr Pr IF  (0 ("i"))(1 NP);
 
 
+#!! ### Local context rules (+/- 1)
+
 SELECT:ia1 Emph IF (-1 N)(0 ("ia"));
 REMOVE:ia2 Emph IF (0 ("ia"));
 
 SELECT:iaPron Pron IF (-1 V)(0 ("ia"))(NOT 1 N);
 
-# ō
+#!! - ō
 
 REMOVE Pr IF (-1 N)(0 ("ō"))(NOT 1 NP);
 
@@ -139,45 +145,50 @@ SELECT:heDet Det IF (0  ("hē"))(1 NP);
 REMOVE Neg IF (0  ("hē") + V)(1 V);
 # wait with rule for the grasshopper until it appears
 
-# ke / kē
+#!! - ke / kē
 SELECT:keCS CS IF (-1 N)(0 ("ke"))(1 V);
 SELECT:kePron Pron IF (NOT -1 N)(0 ("kē"))(1 V);
 
-# ko
+#!! - ko
 REMOVE Pron IF (0 ("ko"))(NOT 1 V);
 
-# mā
+#!! - mā
 REMOVE ("ma") IF (0 ("mā"));
 REMOVE:maPron Pr IF (0 ("mā") + Pron)(1C V);
 REMOVE:maPr Pron IF (0 ("mā") + Pr)(-1 V OR N)(1 NP);
 REMOVE:maN Pron (0 ("mā") + N)(-1 Pron);
 
-# mai
+#!! -  mai
 SELECT:maiPr Pr if (NOT -1 V)(0 ("mai"))(*1 N OR Pron BARRIER V);
 
-# na
+#!! -  na
 SELECT Dem IF (0 ("na") + Dem + Med)(*0 Sg2);
 # E ā mai na koe.
 
-# nā
+#!! -  nā
 SELECT:naPl Pl IF (0  ("nā") + Det + Def + Pl)(1 Pl OR COUNTABLES);
 
 SELECT:naDem Dem IF (0 ("na") + Dem + Med)(*0 Sg2);
 # E ā mai nā koe.
 
 
-# NP
+#!! ### NP
 
+#!! **PNP** removes V if N to the right of safe Pr
 REMOVE:PNP V IF (-1C Pr)(0 N);
 
-# VP
+#!! ### VP
 
+#!! **V** selects V if Prs or Prf particle to the left
 SELECT V IF (-1 V + Prf OR V + Prs);
+
+#!! **VV** selects V if next word is a safe V
 SELECT:VV V IF (1C V) ;
 
 
-# Propernoun
+#!! ### Propernoun
 
+#!! **prop** selects Prop if not sentence-initially (relying on capital first letter)
 SELECT:prop Prop IF (NOT -1 BOS);
 
 
@@ -186,7 +197,7 @@ SELECT Emph IF (-1 N)(0 IA + Pcle + Emph);
 
 SELECT Pcle IF (0 KO)(1 TE);
 
-# Verbs
+#!! Verbs
 
 
 SELECT:kaakoi V IF (-1 PRE-V-PCLE);
@@ -199,22 +210,30 @@ SELECT:auV V IF (0 AU)(1 Dem OR Det);
 REMOVE:au V IF (0 AU)(1 N);
 
 
-#   Preposition
+#!!   Preposition
 
 #REMOVE "Pcle" IF (0 Pr)(1 Dem)(2 N);
 
 #REMOVE:notPrPron Pr IF (1 Pron OR Prop);
-SELECT Pr IF (0 Pr)(1 Dem)(2 N) ;
-SELECT Pr IF (1C N);
 
-REMOVE Pr IF (0 V)(NOT 1 NP OR Pcle);
+#!! **PrDemN** selects Pr in front of Dem N string (hmm, should it be Det N)
+SELECT:PrDemN Pr IF (0 Pr)(1 Dem)(2 N) ;
+
+#!! **PrN** selects Pr if in front of safe N
+SELECT:PrN Pr IF (1C N);
+
+#!! **NoPr** removes Pr when homoym with V and np NP or Pcle to the right
+REMOVE:NoPr Pr IF (0 V)(NOT 1 NP OR Pcle);
 # e tatalo
 
-SELECT V IF (0 ("e"))(1 V);
-REMOVE V IF (0 ("e"));
+#!! **Ve** selects V for "e" if followed by verb
+SELECT:Ve V IF (0 ("e"))(1 V);
 
+#!! **NoVe** removed V reading for all other "e"
+REMOVE:NoVe V IF (0 ("e"));
 
-SELECT Det IF (0 Det)(1 N);
+#!! **Det** selects Det when next word is N (hmm, careful mode?)
+SELECT:Det Det IF (0 Det)(1 N);
 # Ko ai te tino tē?: W ho is this (or that) man?
 
 REMOVE Det IF (NEGATE *1 N BARRIER NOT-PRE-N);
@@ -224,20 +243,26 @@ SELECT Pcle IF (1 Det OR N);
 
 SELECT Det IF (-1 Pr)(2 N) ;
 
-# Nouns 
+#!! Nouns 
+
+#!! **NP** selects N when left word is safe Det or Poss
 SELECT:NP N IF (-1C Det OR Poss);
 
+#!! **maN** selects N for clause-initial *maa*
 REMOVE:maN N (-1 CLB)(0 ("mā"));
 
 REMOVE:PrPr Pr IF (1C Pr);
 
 
-# Late lexical rules
+#!! Late lexical rules
 
-# e
+#!! **ePrs** selects Prs for "e" if V to the right
 SELECT:ePrs Prs IF (0 ("e"))(1 V);
+
+#!! **ePr** selects Pr for "e" if N to the right
 SELECT:ePr Pr IF  (0 ("e"))(1 NP);
 
+#!! **oi** removes N reading from "oi" for CC oi
 REMOVE:oi N IF (0 ("oi") + CC);
 
 # Late preposition - noun rule
@@ -245,9 +270,12 @@ REMOVE:oi N IF (0 ("oi") + CC);
 REMOVE N IF (0 Pr)(1 NP OR Pcle);
 REMOVE Pr IF (-1C Pr)(0 N);
 
-# Late verb rules
+#!! Late verb rules
 
+#!! **dirverb** selects V for item in directioal verb set when next word is directional particle
 SELECT:dirverb V IF (1 DIR-PCLE);
+
+#!! **dirpcle** selects Pcle if verb to the left
 SELECT:dirpcle Pcle IF (-1 V)(0 DIR-PCLE);
 
 AFTER-SECTIONS
