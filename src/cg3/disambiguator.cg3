@@ -33,6 +33,7 @@ STRICT-TAGS +=
     @CNP @CVP							    #!! - @CODE@ 
     @INTERJ								    #!! - @CODE@ 
     @X									    #!! - @CODE@ 
+    @<Si @Si> @<Ag @Ag> @<Pa @Pa>		    #!! - @CODE@ 
     ;
 
 #OPTIONS += no-inline-sets ;
