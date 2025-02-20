@@ -1,5 +1,11 @@
-Verbs
+# Verbs
 Verbs in the Tokelauan language inflect for tense.
+
+* **LEXICON v_particles**
+
+* **LEXICON aux**
+
+* **LEXICON auxtag**
 
 * LEXICON 2v_stems  = 2-syllabic verbs with CV reduplication
 

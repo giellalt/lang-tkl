@@ -1,4 +1,70 @@
+# Tokelau functions grammar
 
+Tag declaration via STRICT-tAGS
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+
+- *@NO CODE@ 
+
+# Tags and sets #
+
+- *@NO CODE@  
+- *@NO CODE@ 
+
+## Parts of speech
 
 * Sets for POS sub-categories
 
@@ -15,6 +81,22 @@
 * Syntactic sets
 
 These were the set types.
+
+## Rules
+
+Map Interj, CC, CS, ..
+
+PP complement rules
+
+## Map clause structure tags
+
+## PP rules
+
+## FMV
+
+## The X rule
+
+Map any leftover as @X
 
 * * *
 

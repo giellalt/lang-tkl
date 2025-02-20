@@ -4,11 +4,245 @@ All doc-comment documentation in one large file.
 
 ---
 
+# src-cg3-dependency.cg3.md 
+
+# Tokelau dependency grammar 
+
+## strict-tags
+Alphabet below must be all multichar symbols used in all rules
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+
+## Delimiters #
+
+### Sets
+
+... to be documented
+
+*# Rules
+
+First som e adjustment rules
+
+### NP rules
+
+### PPs
+
+### ellipse
+
+### S
+
+Rules for subj and obj (to be revised)
+
+### preposition to verb
+
+### VPs
+
+### CS
+
+### CC
+
+### subjunction and coordination
+
+### Root
+
+* * *
+
+<small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-tkl/blob/main/src/cg3/dependency.cg3)</small>
+
+---
+
 # src-cg3-disambiguator.cg3.md 
 
+# Tokelau disambiguator 
 
+## Strict-tags
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
 
-SECTION  #
+## Delimiters 
+
+- @NO CODE@  sentence delimiters
+
+## Tags and sets 
+
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+
+- @NO CODE@ 
+
+- @NO CODE@ 
+- @NO CODE@ 
+- @NO CODE@ 
+
+- @NO CODE@ 
+- @NO CODE@ 
+
+- @NO CODE@ 
+
+## rule SECTION  
+
+### No context rules
+
+### Local context rules (+/- 1)
+
+- ō
+
+- ke / kē
+
+- ko
+
+- mā
+
+-  mai
+
+-  na
+
+-  nā
+
+### NP
+
+**PNP** removes V if N to the right of safe Pr
+
+### VP
+
+**V** selects V if Prs or Prf particle to the left
+
+**VV** selects V if next word is a safe V
+
+### Propernoun
+
+**prop** selects Prop if not sentence-initially (relying on capital first letter)
+
+Verbs
+
+Preposition
+
+**PrDemN** selects Pr in front of Dem N string (hmm, should it be Det N)
+
+**PrN** selects Pr if in front of safe N
+
+**NoPr** removes Pr when homoym with V and np NP or Pcle to the right
+
+**Ve** selects V for "e" if followed by verb
+
+**NoVe** removed V reading for all other "e"
+
+**Det** selects Det when next word is N (hmm, careful mode?)
+
+Nouns 
+
+**NP** selects N when left word is safe Det or Poss
+
+**maN** selects N for clause-initial *maa*
+
+Late lexical rules
+
+**ePrs** selects Prs for "e" if V to the right
+
+**ePr** selects Pr for "e" if N to the right
+
+**oi** removes N reading from "oi" for CC oi
+
+Late verb rules
+
+**dirverb** selects V for item in directioal verb set when next word is directional particle
+
+**dirpcle** selects Pcle if verb to the left
 
 * * *
 
@@ -18,7 +252,73 @@ SECTION  #
 
 # src-cg3-functions.cg3.md 
 
+# Tokelau functions grammar
 
+Tag declaration via STRICT-tAGS
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+- *@NO CODE@ 
+
+- *@NO CODE@ 
+
+# Tags and sets #
+
+- *@NO CODE@  
+- *@NO CODE@ 
+
+## Parts of speech
 
 * Sets for POS sub-categories
 
@@ -35,6 +335,22 @@ SECTION  #
 * Syntactic sets
 
 These were the set types.
+
+## Rules
+
+Map Interj, CC, CS, ..
+
+PP complement rules
+
+## Map clause structure tags
+
+## PP rules
+
+## FMV
+
+## The X rule
+
+Map any leftover as @X
 
 * * *
 
@@ -461,8 +777,61 @@ Use the following flag diacritics to control tag placement for prefixing
 |  @U.noun.pl@ | Tag moving from prefixing to +Pl
 |  @C.ErrOrth@ | a pematch tag to remove
 
-pmatch
-|  @P.Pmatch.Loc@ | a pematch tag to remove
+|               Flag diacritic | Explanation
+|               :------------- |:-----------
+|  @P.Pmatch.Loc@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split. Used e.g. in `bijladagi` to split `bijla` from `dagi`, or after abbreviations with full stops before the full stop, to allow an alternate `+CLB` analysis of it in case of a sentence final abbreviation. __NB!__ This will give a faulty lemma for the abbreviation, as it will not include the full stop. This can lead to other issues, but presently we have no other solution if we want to keep the full stopp as a separate token. We could leave a full stop at the end of the abbreviation lemma as well (but not on the input side - we only have one full stop in the input). That must be tested, it could work, but then requires special attention when generating suggestions in e.g. grammar checkers - it should not generate two full stops. 
+|  @P.Pmatch.Backtrack@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
+
+|               Flag diacritic | Explanation
+|               :------------- |:-----------
+| @D.ErrOrth.ON@ | To be written
+| @R.ErrOrth.ON@ | To be written
+| @C.ErrOrth@ | To be written
+| @P.ErrOrth.ON@ | To be written
+
+|              Flag diacritic | Explanation
+|              :------------- |:-----------
+|  @U.number.one@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.two@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.three@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.four@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.five@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.six@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
 
 - **@@ODE@**
 The word forms in Tokelauan language start from the lexeme roots of basic
@@ -474,11 +843,40 @@ word classes, or optionally from prefixes:
 
 ---
 
+# src-fst-morphology-stems-conjunctions.lexc.md 
+
+# Tokelau conjunctions
+
+- +CC: # ;  
+
+- oi cc "and" ;  
+- kae cc "and, when, while, but" ;  
+- ma cc "and" ;  
+- ona cc "fordi" ;  
+- ka cc "but" ;  
+- kana cc "if" ;  
+- ona cc ;  
+
+- +CS: # ;  
+
+- kāfai cs "if" ;  
+- kafai cs "if" ;  
+- ke cs "so" ;    introducing subordinate clauses.
+- auā cs "because" ;  
+- heiloga cs "unless" ;  
+- vāganā cs "unless" ;  
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
+
+---
+
 # src-fst-morphology-stems-determiners.lexc.md 
 
+# Tokelau determiners
 
-
-NP overview:
+Documentation: NP overview:
 1. (preposition) -> in prepositions.lexc
 2. determiner -> Determiners
 3. (possessive pronoun)
@@ -536,14 +934,59 @@ pl
 
 ---
 
+# src-fst-morphology-stems-interjections.lexc.md 
+
+# Interjections
+
+- +Interj: # ;  
+
+- fakamolemole ij "sorry" ;  
+- fakafetai ij "thank you" ;  
+- aho ij "good afternoon" ;  
+- afiafi ij "good evening" ;  
+- mâlô ij "greeting" ;  
+- tâlofa ij "greeting" ;  
+- hāloa ij "what a pity" ;  
+That was all interjections
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
+
+---
+
 # src-fst-morphology-stems-nouns.lexc.md 
 
-Nouns
+# Tokelau Nouns
 Nouns in the Tokelauan language refer to objects or sets of objects, qualities, states or ideas.
+
+- tamāloa:tamaalo^R^Ea nredupsuf "man" ;   (one redupnoun)
 
 ## Locative noun s
 
+- uta locnoun " The islets on the far" ;  
+- fafo locnoun " Outside, out of" ;  
+- fale locnoun "Communal settlement," ;  
+- gāuta locnoun " 1. Shore, land, (from" ;  
+
+- Todo: Check these:
+- Iaugātogi n "Prize giving. Nae" ;  
+- Taumuliava n "rad itio" ;  
+- Iaupāma n "Palm leaf. (n.b." ;  
+- Lafalafa n "Traditional name given" ;  
+
 ## Ordinary nouns
+
+- a n "Letter A." ;  
+- āeto n "(Bb.). Eagle. He" ;  
+- āeto:aaeto n "eagle" ;  
+- āiā n "Right, claim" ;  
+- aiha:aiha n "ice" ;  
+- aihiga n "Sam. ‘aisiga A" ;  
+- aitu n "ghost, spirit. E" ;  
+- ao n "daylight" ;  
+- aoao n "Supremacy. Ko" ;  
+etc
 
 * * *
 
@@ -553,12 +996,62 @@ Nouns in the Tokelauan language refer to objects or sets of objects, qualities, 
 
 # src-fst-morphology-stems-numerals.lexc.md 
 
-Numerals
-Numerals in the Tokelauan language describe a nuerical quantity.
+# Tokelau Numerals
+
+* CODE@
+* CODE@
+
+* CODE@ for the arabic numerals        !
+* CODE@ for the roman numerals         !
+* CODE@ for §34 etc.                   !
+* CODE@ for ½ etc.                     !
+
+* CODE@ except when counting, which is tahi
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+etc. up to 30, thereafter tens and hundreds and thousands up to 9000
 
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
+
+---
+
+# src-fst-morphology-stems-particles.lexc.md 
+
+# Tokelau particles
+
+* CODE@
+* CODE@
+
+* CODE@
+* CODE@
+
+* CODE@
+* CODE@ Post-verbal directional
+* CODE@ Post-verbal directional
+* CODE@ anaphoric particle, after Pr, referring to antecedent
+* CODE@ In front of Prop, Pron, locnoun
+* CODE@Post-nominal emphatic
+* CODE@Post-verbal directional
+* CODE@preverbal qualifying particle (oioti oi kaumai te tuhi)
+* CODE@follows the word it emph
+* CODE@Pre-nominal, introducing S or NP
+* CODE@in phrase "i lō"
+* CODE@Pre-verbal particle
+* CODE@interrogative particle !
+* CODE@Pre-pronominal particle, o-class
+* CODE@Pre-pronominal particle, a-class
+* CODE@Pre-verbal particle
+* CODE@in front of numerals
+
+That was all particles
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/particles.lexc](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/particles.lexc)</small>
 
 ---
 
@@ -575,8 +1068,26 @@ Prefixes in the Tokelauan language are attatched to the left of other words.
 
 # src-fst-morphology-stems-prepositions.lexc.md 
 
-Prepositions
+# Tokelau Prepositions
 ============
+
+* CODE@
+* CODE@
+
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+
+That was all prepositions
 
 * * *
 
@@ -586,8 +1097,38 @@ Prepositions
 
 # src-fst-morphology-stems-pronouns.lexc.md 
 
-Pronouns
+# Tokelau Pronouns
 Pronouns in the Tokelauan language are words that may replace nouns or refer to participants in the conversation.
+
+* **CODE@**
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+
+* **CODE@**
+* CODE@
+* CODE@
+* CODE@
+* ...
+
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* ...
+
+* CODE@
+* CODE@
+* CODE@
+* ... cf. also the adverbs.lexc file
+
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* ...
 
 * * *
 
@@ -595,10 +1136,35 @@ Pronouns in the Tokelauan language are words that may replace nouns or refer to 
 
 ---
 
+# src-fst-morphology-stems-propernouns.lexc.md 
+
+# nTokelau proer nouns
+
+* **LEXICON Propernouns**
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+* ...
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-tkl/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
+
+---
+
 # src-fst-morphology-stems-verbs.lexc.md 
 
-Verbs
+# Verbs
 Verbs in the Tokelauan language inflect for tense.
+
+* **LEXICON v_particles**
+
+* **LEXICON aux**
+
+* **LEXICON auxtag**
 
 * LEXICON 2v_stems  = 2-syllabic verbs with CV reduplication
 

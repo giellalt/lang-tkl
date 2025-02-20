@@ -1,6 +1,6 @@
+# Tokelau determiners
 
-
-NP overview:
+Documentation: NP overview:
 1. (preposition) -> in prepositions.lexc
 2. determiner -> Determiners
 3. (possessive pronoun)

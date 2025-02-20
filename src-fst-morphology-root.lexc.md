@@ -141,8 +141,61 @@ Use the following flag diacritics to control tag placement for prefixing
 |  @U.noun.pl@ | Tag moving from prefixing to +Pl
 |  @C.ErrOrth@ | a pematch tag to remove
 
-pmatch
-|  @P.Pmatch.Loc@ | a pematch tag to remove
+|               Flag diacritic | Explanation
+|               :------------- |:-----------
+|  @P.Pmatch.Loc@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split. Used e.g. in `bijladagi` to split `bijla` from `dagi`, or after abbreviations with full stops before the full stop, to allow an alternate `+CLB` analysis of it in case of a sentence final abbreviation. __NB!__ This will give a faulty lemma for the abbreviation, as it will not include the full stop. This can lead to other issues, but presently we have no other solution if we want to keep the full stopp as a separate token. We could leave a full stop at the end of the abbreviation lemma as well (but not on the input side - we only have one full stop in the input). That must be tested, it could work, but then requires special attention when generating suggestions in e.g. grammar checkers - it should not generate two full stops. 
+|  @P.Pmatch.Backtrack@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
+
+|               Flag diacritic | Explanation
+|               :------------- |:-----------
+| @D.ErrOrth.ON@ | To be written
+| @R.ErrOrth.ON@ | To be written
+| @C.ErrOrth@ | To be written
+| @P.ErrOrth.ON@ | To be written
+
+|              Flag diacritic | Explanation
+|              :------------- |:-----------
+|  @U.number.one@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.two@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.three@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.four@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.five@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.six@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+|  @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
 
 - **@@ODE@**
 The word forms in Tokelauan language start from the lexeme roots of basic

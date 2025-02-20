@@ -1,5 +1,19 @@
-Numerals
-Numerals in the Tokelauan language describe a nuerical quantity.
+# Tokelau Numerals
+
+* CODE@
+* CODE@
+
+* CODE@ for the arabic numerals        !
+* CODE@ for the roman numerals         !
+* CODE@ for §34 etc.                   !
+* CODE@ for ½ etc.                     !
+
+* CODE@ except when counting, which is tahi
+* CODE@
+* CODE@
+* CODE@
+* CODE@
+etc. up to 30, thereafter tens and hundreds and thousands up to 9000
 
 * * *
 
