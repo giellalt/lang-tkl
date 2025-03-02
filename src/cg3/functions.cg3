@@ -291,9 +291,13 @@ MAP:rxpcle (@<PCLE) TARGET POST-X-PCLE IF (-1 WORD);
 
 
 MAP:p< (@P<) TARGET N OR Pron IF (*-1 Pr BARRIER N OR V); 
+
+#!! NP complemnt rules
+
 MAP:d< (@>N) TARGET Det IF (*1 N BARRIER NOT-PRE-N); # til far
 MAP:d< (@>N) TARGET Pre IF (*1 N BARRIER NOT-PRE-N);
 MAP:d (@N<) TARGET Dem IF (-1 N)(NOT 1 N);
+MAP:d (@N<) TARGET V IF (-1C N);
 MAP:n< (@N<) TARGET Post ;
 
 
