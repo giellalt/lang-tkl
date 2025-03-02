@@ -1,0 +1,1107 @@
+"<Kua>"
+	"kua" V Prs
+: 
+"<hau>"
+	"hau" V Sg
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<tino>"
+	"tino" N
+"<.>"
+	"." CLB
+:\n
+
+"<Vili>"
+	"vili" V Sg
+: 
+"<ake>"
+	"ake" Pcle
+: 
+"<oi>"
+	"oi" CC
+: 
+"<kaumai>"
+	"kaumai" V Sg
+: 
+"<he>"
+	"he" Det Indef Sg
+: 
+"<toki>"
+	"toki" N
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<hau>"
+	"hau" V Sg
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<vaka>"
+	"vaka" N
+: 
+"<i>"
+	"i" Pr
+: 
+"<tauhaga>"
+	"tauhaga" N
+: 
+"<uma>"
+	"uma" N
+"<.>"
+	"." CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<povi>"
+	"povi" N
+: 
+"<e>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<kai>"
+	"kai" V Sg
+: 
+"<mutia>"
+	"mutia" N
+"<.>"
+	"." CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle
+: 
+"<ietahi>"
+	"iētahi" Det Indef Pl
+: 
+"<tino>"
+	"tino" N
+: 
+"<e>"
+	"e" Pr
+: 
+"<fiafia>"
+	"fiafia" N
+: 
+"<lele>"
+	"lele" Pcle Post
+	"lele" V Sg
+: 
+"<ki>"
+	"ki" Pr
+: 
+"<nā>"
+	"nā" Det Def Pl
+	"nā" Det Dem Med
+: 
+"<hiva>"
+	"hiva" N
+"<.>"
+	"." CLB
+:\n
+
+"<Kaumai>"
+	"Kaumai" N Prop
+	"kaumai" V Sg
+: 
+"<hetahi>"
+	"hetahi" Det Indef Sg
+: 
+"<nofoa>"
+	"nofoa" N
+"<.>"
+	"." CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs
+: 
+"<hau>"
+	"hau" V Sg
+: 
+"<koe>"
+	"koe" Pron Sg2
+: 
+"<auā>"
+	"auā" CS
+	"auā" V Pl
+	"auā" V Sg
+: 
+"<ia>"
+	"ia" Det Dem-Dist
+: 
+"<au>"
+	"au" N
+: 
+"<e>"
+	"e" Pr
+: 
+"<tauale>"
+	"tauale" N
+"<.>"
+	"." CLB
+:\n
+
+"<Na>"
+	"na" V Prf
+: 
+"<maua>"
+	"maua" V Sg
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<tuhi>"
+	"tuhi" N
+: 
+"<mai>"
+	"mai" Pr
+: 
+"<ia>"
+	"ia" Dem-Dist
+	"ia" Pcle
+	"ia" Pron Sg3
+: 
+"<te>"
+	"tē" Dem
+: 
+"<koe>"
+	"koe" Pron Sg2
+"<.>"
+	"." CLB
+:\n
+
+"<ko>"
+	"ko" Pcle
+: 
+"<nā>"
+	"nā" Det Def Pl
+	"nā" Det Dem Med
+: 
+"<hiama>"
+	"hiama" N
+: 
+"<ni>"
+	"ni" Det Indef Pl
+: 
+"<tamaki>"
+	"tamakī" Pcle Pre
+: 
+"<mea>"
+	"mea" N
+: 
+"<ola>"
+	"ola" N
+"<.>"
+	"." CLB
+:\n
+
+"<he>"
+	"he" Det Indef Sg
+: 
+"<mātuā>"
+	"mātuā" Pcle Pre
+: 
+"<ika>"
+	"ika" N
+	"ikā" V Pl
+	"ikā" V Sg
+: 
+"<lele>"
+	"lele" Pcle Post
+:\n
+"<he>"
+	"he" Det Indef Sg
+: 
+"<tino>"
+	"tino" N
+: 
+"<lelei>"
+	"lelei" N
+: 
+"<lele>"
+	"lele" Pcle Post
+:\n
+"<Ko>"
+	"ko" Pcle
+: 
+"<he>"
+	"he" Det Indef Sg
+: 
+"<ā>"
+	"ā" Pron Interr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<mea>"
+	"mea" N
+: 
+"<tēnā>"
+	"tēnā" Dem Med
+"<?>"
+	"?" CLB
+: 
+
+"<Ko>"
+	"ko" Pcle
+: 
+"<he>"
+	"hē" N
+	"hē" V Neg
+	"hē" V Pl
+	"hē" V Sg
+: 
+"<fa>"
+	"fa" ?
+: 
+"<le>"
+	"le" ?
+: 
+"<lava>"
+	"lava" Pcle Post
+	"lava" V Sg
+"<!>"
+	"!" CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle
+: 
+"<he>"
+	"he" Det Indef Sg
+: 
+"<a>"
+	"a" Pr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<fale>"
+	"fale" N
+	"fale" N Loc
+: 
+"<tênā>"
+	"tênā" ?
+"<?>"
+	"?" CLB
+: 
+
+"<Ko>"
+	"ko" Pcle
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<fale>"
+	"fale" N
+	"fale" N Loc
+: 
+"<fo>"
+	"fo" ?
+: 
+"<n>"
+	"n" N
+: 
+"<o>"
+	"o" Pr
+: 
+"<lava>"
+	"lava" Pcle Post
+	"lava" V Sg
+"<.>"
+	"." CLB
+:\n
+
+"<te>"
+	"te" Det Def Sg
+: 
+"<ko>"
+	"kō" N Loc
+: 
+"<fu>"
+	"fu" ?
+: 
+"<kukula>"
+	"kukula" V Pl
+	"kukula" V Sg
+: 
+"<lava>"
+	"lava" V Sg
+:\n
+"<Kua>"
+	"kua" V Prs
+: 
+"<kofu>"
+	"kofu" N
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<tauale>"
+	"tauale" N
+: 
+"<e>"
+	"e" Pr
+: 
+"<ia>"
+	"ia" Pron Sg3
+: 
+"<lava>"
+	"lava" Pcle Post
+:\n
+"<Na>"
+	"nā" Det Def Pl
+	"nā" Det Dem Med
+: 
+"<lavea>"
+	"lavea" N
+: 
+"<ia>"
+	"ia" Pcle Emph
+: 
+"<i>"
+	"i" Pr
+: 
+"<a>"
+	"a" Dem
+	"a" Pr
+	"ā" Pron Interr
+: 
+"<te>"
+	"tē" Dem
+: 
+"<ia>"
+	"ia" Dem-Dist
+	"ia" Pcle
+	"ia" Pron Sg3
+: 
+"<lava>"
+	"lava" V Sg
+:\n
+"<Na>"
+	"na" V Prf
+: 
+"<kaumai>"
+	"kaumai" V Sg
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<polo>"
+	"polo" N
+: 
+"<e>"
+	"e" Pr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<tamaiti>"
+	"tamaiti" N
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<he>"
+	"hē" V Neg
+: 
+"<iloa>"
+	"ilo" V Sg TV
+: 
+"<e>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<au>"
+	"au" V Sg
+"<.>"
+	"." CLB
+:\n
+
+"<Nae>"
+	"nae" V Prf
+: 
+"<nofo>"
+	"nofo" V Sg
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<toeaina>"
+	"toeaina" N
+: 
+"<i>"
+	"i" Pr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<nofoa>"
+	"nofoa" N
+"<.>"
+	"." CLB
+:\n
+
+"<Vaelua>"
+	"Vaelua" ?
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<lākau>"
+	"lākau" N
+: 
+"<i>"
+	"i" Pr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<toki>"
+	"toki" N
+"<.>"
+	"." CLB
+:\n
+
+"<Fano>"
+	"fano" V Sg
+: 
+"<ki>"
+	"ki" Pr
+: 
+"<gāuta>"
+	"gāuta" N Loc
+: 
+"<lele>"
+	"lele" Pcle Post
+	"lele" V Sg
+"<.>"
+	"." CLB
+:\n
+
+"<Nofo>"
+	"nofo" V Sg
+: 
+"<i>"
+	"i" Pr
+: 
+"<ona>"
+	"ona" Det Poss Sg3 Pl
+: 
+"<tua>"
+	"tua" N Loc
+	"tuā" N
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" Pr
+: 
+"<takalo>"
+	"takalo" N
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<tamaiti>"
+	"tamaiti" N
+: 
+"<i>"
+	"i" Pr
+: 
+"<lalo>"
+	"lalo" N Loc
+	"lalō" N Loc
+: 
+"<ifo>"
+	"ifo" Pcle
+	"ifo" V Sg
+: 
+"<o>"
+	"o" Pr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<laulau>"
+	"laulau" N
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<gali>"
+	"gali" V Sg
+: 
+"<ia>"
+	"ia" Pron Sg3
+: 
+"<Fenualoa>"
+	"Fenualoa" ?
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" Pr
+: 
+"<kikila>"
+	"kikila" N
+: 
+"<atu>"
+	"atu" Pcle
+: 
+"<au>"
+	"au" Det Poss Du2 Sg
+: 
+"<ki>"
+	"ki" N
+: 
+"<a>"
+	"a" Dem
+	"a" Pr
+	"ā" Pron Interr
+: 
+"<te>"
+	"tē" Dem
+: 
+"<koe>"
+	"koe" Pron Sg2
+"<.>"
+	"." CLB
+:\n
+
+"<Na>"
+	"na" V Prf
+: 
+"<kai>"
+	"kai" V Sg
+: 
+"<e>"
+	"e" Pr
+: 
+"<ki maua>"
+	"ki māua" Pron Du1 Excl
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<ika>"
+	"ika" N
+"<.>"
+	"." CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs
+: 
+"<maua>"
+	"maua" V Sg
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<tuhi>"
+	"tuhi" N
+: 
+"<mai>"
+	"mai" Pr
+: 
+"<ia>"
+	"ia" Dem-Dist
+	"ia" Pcle
+	"ia" Pron Sg3
+: 
+"<te>"
+	"tē" Dem
+: 
+"<koe>"
+	"koe" Pron Sg2
+"<.>"
+	"." CLB
+:\n
+
+"<Kā>"
+	"kā" V Fut
+: 
+"<olo>"
+	"fano" V Pl
+: 
+"<koulua>"
+	"koulua" Pron Du2
+"<?>"
+	"?" CLB
+:\n
+
+"<Na>"
+	"na" V Prf
+: 
+"<fakatali>"
+	"fakatali" V Sg
+: 
+"<pea>"
+	"pea" N
+: 
+"<ia>"
+	"ia" Pcle Emph
+: 
+"<kita>"
+	"kita" Pron Sg1 Excl
+"<.>"
+	"." CLB
+:\n
+
+"<Na>"
+	"nā" Det Def Pl
+	"nā" Det Dem Med
+: 
+"<fau>"
+	"fau" N
+	"fāū" N
+: 
+"<e>"
+	"e" Pr
+: 
+"<ia>"
+	"ia" Det Dem-Dist
+: 
+"<tona>"
+	"tona" N
+: 
+"<fale>"
+	"fale" N
+	"fale" N Loc
+"<.>"
+	"." CLB
+:\n
+
+"<Na>"
+	"na" V Prf
+: 
+"<kai>"
+	"kai" V Sg
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<ika>"
+	"ika" N
+: 
+"<e>"
+	"e" Pr
+: 
+"<Mele>"
+	"Mele" N Prop
+"<.>"
+	"." CLB
+:\n
+
+"<Kikila>"
+	"kikila" N
+: 
+"<e>"
+	"e" Pr
+: 
+"<koe>"
+	"koe" Pron Sg2
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<gāluega>"
+	"gāluega" N
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" Pr
+: 
+"<takalo>"
+	"takalo" N
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<tamaiti>"
+	"tamaiti" N
+: 
+"<i>"
+	"i" Pr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<fātoaga>"
+	"fātoaga" N
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<kekē>"
+	"kekē" ?
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<puaka>"
+	"puaka" N
+"<.>"
+	"." CLB
+:\n
+
+"<Ka>"
+	"kā" V Fut
+: 
+"<vili>"
+	"vili" V Sg
+: 
+"<au>"
+	"au" Det Poss Du2 Sg
+: 
+"<ki>"
+	"ki" N
+: 
+"<ko>"
+	"ko" Pcle
+	"kō" N Loc
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<kakai>"
+	"kai" V Pl
+: 
+"<na>"
+	"nā" Det Def Pl
+	"nā" Det Dem Med
+: 
+"<fafine>"
+	"fafine" N
+: 
+"<i>"
+	"i" Pr
+: 
+"<tau>"
+	"tau" N
+: 
+"<kuka>"
+	"kuka" N
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" Pr
+: 
+"<kikila>"
+	"kikila" N
+: 
+"<na>"
+	"nā" Det Def Pl
+: 
+"<tamaiti>"
+	"tamaiti" N
+: 
+"<ki>"
+	"ki" Pr
+: 
+"<te>"
+	"tē" Dem
+: 
+"<mahina>"
+	"mahina" ?
+"<.>"
+	"." CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle
+	"kō" N Loc
+: 
+"<tena>"
+	"tēnā" Dem Med
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<fale>"
+	"fale" N
+	"fale" N Loc
+: 
+"<nae>"
+	"nae" V Prf
+: 
+"<nonofo>"
+	"nofo" V Pl
+: 
+"<ai>"
+	"ai" Pron Interr
+: 
+"<oku>"
+	"toku" Pron Pl1
+: 
+"<mātua>"
+	"mātuā" Pcle Pre
+"<.>"
+	"." CLB
+:\n
+
+"<Na>"
+	"na" V Prf
+: 
+"<teka>"
+	"teka" V Sg
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<vaka>"
+	"vaka" N
+: 
+"<i>"
+	"i" Pr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<vāiaho>"
+	"vāiaho" N
+: 
+"<taluai>"
+	"taluai" V Sg
+"<.>"
+	"." CLB
+:\n
+
+"<Ka>"
+	"kā" V Fut
+: 
+"<fano>"
+	"fano" V Sg
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<vaka>"
+	"vaka" N
+"<.>"
+	"." CLB
+:\n
+
+"<Koi>"
+	"koi" V Ipf
+: 
+"<ola>"
+	"ola" N
+: 
+"<ō>"
+	"ō" ?
+: 
+"<mātua>"
+	"mātuā" Pcle Pre
+"<?>"
+	"?" CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs
+: 
+"<hau>"
+	"hau" V Sg
+: 
+"<to>"
+	"to" Pcle
+: 
+"<tamana>"
+	"tamana" N
+"<.>"
+	"." CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs
+: 
+"<tauale>"
+	"tauale" N
+: 
+"<to>"
+	"to" Pcle
+: 
+"<tamana>"
+	"tamana" N
+"<.>"
+	"." CLB
+:\n
+
+"<Olo>"
+	"Olo" N Prop
+	"fano" V Pl
+: 
+"<oi>"
+	"oi" CC
+: 
+"<tāfafao>"
+	"tāfafao" ?
+: 
+"<oi>"
+	"oi" CC
+: 
+"<kua>"
+	"kua" V Prs
+: 
+"<omai>"
+	"omai" ?
+: 
+"<ai>"
+	"ai" Pron Interr
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<vevela>"
+	"vela" V Pl
+: 
+"<te>"
+	"tē" Dem
+: 
+"<lā>"
+	"lā" Pron Du3
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<fa>"
+	"fa" ?
+: 
+"<n>"
+	"n" N
+: 
+"<o>"
+	"o" Pr
+: 
+"<au>"
+	"au" N
+	"au" Pron Sg1 Excl
+: 
+"<ki>"
+	"ki" Pr
+: 
+"<Niu>"
+	"niu" N
+: 
+"<Hila>"
+	"hila" N
+	"hilā" V Sg
+: 
+"<i>"
+	"i" Pr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<tauhaga>"
+	"tauhaga" N
+: 
+"<fo>"
+	"fo" ?
+: 
+"<u>"
+	"u" N
+	"ū" N
+"<.>"
+	"." CLB
+:\n
+
+"<E>"
+	"e" V Prs
+	"ē" V Prs
+: 
+"<nofo>"
+	"nofo" V Sg
+: 
+"<ia>"
+	"ia" Pron Sg3
+: 
+"<Hina>"
+	"hina" V Sg
+: 
+"<i>"
+	"i" Pr
+: 
+"<luga>"
+	"luga" N Loc
+: 
+"<o>"
+	"o" Pr
+: 
+"<te>"
+	"te" Det Def Sg
+: 
+"<vaka>"
+	"vaka" N
+: 
+"<kae>"
+	"kae" CC
+: 
+"<oho>"
+	"oho" N
+: 
+"<ifo>"
+	"ifo" Pcle
+	"ifo" V Sg
+: 
+"<ia>"
+	"ia" Pron Sg3
+: 
+"<Tokalalaga>"
+	"Tokalalaga" ?
+: 
+"<ki>"
+	"ki" Pr
+: 
+"<lalo>"
+	"lalo" N Loc
+	"lalō" N Loc
+"<.>"
+	"." CLB
+:\n
+

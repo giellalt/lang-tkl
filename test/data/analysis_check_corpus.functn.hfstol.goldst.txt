@@ -1,0 +1,1107 @@
+"<Kua>"
+	"kua" V Prs @+FAUXV
+: 
+"<hau>"
+	"hau" V Sg @FMV
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<tino>"
+	"tino" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Vili>"
+	"vili" V Sg @FMV
+: 
+"<ake>"
+	"ake" Pcle @<PCLE
+: 
+"<oi>"
+	"oi" CC @CVP @CNP
+: 
+"<kaumai>"
+	"kaumai" V Sg @FMV
+: 
+"<he>"
+	"he" Det Indef Sg @>N
+: 
+"<toki>"
+	"toki" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" V Prs @+FAUXV
+	"ē" V Prs @+FAUXV
+: 
+"<hau>"
+	"hau" V Sg @FMV
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<vaka>"
+	"vaka" N @<S
+: 
+"<i>"
+	"i" Pr @<ADVL
+: 
+"<tauhaga>"
+	"tauhaga" N @P<
+: 
+"<uma>"
+	"uma" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle @PCLE>
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<povi>"
+	"povi" N @SUBJ>
+: 
+"<e>"
+	"e" V Prs @N<
+	"ē" V Prs @N<
+: 
+"<kai>"
+	"kai" V Sg @FMV
+: 
+"<mutia>"
+	"mutia" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle @PCLE>
+: 
+"<ietahi>"
+	"iētahi" Det Indef Pl @>N
+: 
+"<tino>"
+	"tino" N @SUBJ>
+: 
+"<e>"
+	"e" Pr @<A
+: 
+"<fiafia>"
+	"fiafia" N @P<
+: 
+"<lele>"
+	"lele" Pcle Post @N<
+	"lele" V Sg @N<
+: 
+"<ki>"
+	"ki" Pr @<ADVL
+: 
+"<nā>"
+	"nā" Det Def Pl @>N
+	"nā" Det Dem Med @>N
+: 
+"<hiva>"
+	"hiva" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Kaumai>"
+	"Kaumai" N Prop @NPRED
+	"kaumai" V Sg @FMV
+: 
+"<hetahi>"
+	"hetahi" Det Indef Sg @>N
+: 
+"<nofoa>"
+	"nofoa" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs @+FAUXV
+: 
+"<hau>"
+	"hau" V Sg @FMV
+: 
+"<koe>"
+	"koe" Pron Sg2 @<SUBJ
+: 
+"<auā>"
+	"auā" CS @CVP @X
+	"auā" V Pl @FMV
+	"auā" V Sg @FMV
+: 
+"<ia>"
+	"ia" Det Dem-Dist @>N
+: 
+"<au>"
+	"au" N @<P
+: 
+"<e>"
+	"e" Pr @<A
+: 
+"<tauale>"
+	"tauale" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Na>"
+	"na" V Prf @FMV
+: 
+"<maua>"
+	"maua" V Sg @FMV
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<tuhi>"
+	"tuhi" N @<S
+: 
+"<mai>"
+	"mai" Pr @<ADVL
+: 
+"<ia>"
+	"ia" Dem-Dist
+	"ia" Pcle @X
+	"ia" Pron Sg3 @P<
+: 
+"<te>"
+	"tē" Dem
+: 
+"<koe>"
+	"koe" Pron Sg2 @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<ko>"
+	"ko" Pcle @PCLE>
+: 
+"<nā>"
+	"nā" Det Def Pl @>N
+	"nā" Det Dem Med @>N
+: 
+"<hiama>"
+	"hiama" N @NPRED
+: 
+"<ni>"
+	"ni" Det Indef Pl @>N
+: 
+"<tamaki>"
+	"tamakī" Pcle Pre @>N
+: 
+"<mea>"
+	"mea" N @HNOUN
+: 
+"<ola>"
+	"ola" N @HNOUN
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<he>"
+	"he" Det Indef Sg @>N
+: 
+"<mātuā>"
+	"mātuā" Pcle Pre @>N
+: 
+"<ika>"
+	"ika" N @NPRED
+	"ikā" V Pl @FMV
+	"ikā" V Sg @FMV
+: 
+"<lele>"
+	"lele" Pcle Post @N<
+:\n
+"<he>"
+	"he" Det Indef Sg @>N
+: 
+"<tino>"
+	"tino" N @<S
+: 
+"<lelei>"
+	"lelei" N @<S
+: 
+"<lele>"
+	"lele" Pcle Post @N<
+:\n
+"<Ko>"
+	"ko" Pcle @PCLE>
+: 
+"<he>"
+	"he" Det Indef Sg
+: 
+"<ā>"
+	"ā" Pron Interr @SUBJ>
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<mea>"
+	"mea" N @<S
+: 
+"<tēnā>"
+	"tēnā" Dem Med @N<
+"<?>"
+	"?" CLB @CLB
+: 
+
+"<Ko>"
+	"ko" Pcle @PCLE>
+: 
+"<he>"
+	"hē" N @SUBJ>
+	"hē" V Neg @+FAUXV
+	"hē" V Pl @+FAUXV
+	"hē" V Sg @+FAUXV
+: 
+"<fa>"
+	"fa" ? @X
+: 
+"<le>"
+	"le" ? @X
+: 
+"<lava>"
+	"lava" Pcle Post @N<
+	"lava" V Sg @FMV
+"<!>"
+	"!" CLB @CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle @PCLE>
+: 
+"<he>"
+	"he" Det Indef Sg
+: 
+"<a>"
+	"a" Pr @PRPRED
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<fale>"
+	"fale" N @P<
+	"fale" N Loc @P<
+: 
+"<tênā>"
+	"tênā" ? @X
+"<?>"
+	"?" CLB @CLB
+: 
+
+"<Ko>"
+	"ko" Pcle @PCLE>
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<fale>"
+	"fale" N @SUBJ>
+	"fale" N Loc @SUBJ>
+: 
+"<fo>"
+	"fo" ? @X
+: 
+"<n>"
+	"n" N @SUBJ>
+: 
+"<o>"
+	"o" Pr @ADVL>
+: 
+"<lava>"
+	"lava" Pcle Post @N<
+	"lava" V Sg @FMV
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<ko>"
+	"kō" N Loc @SUBJ>
+: 
+"<fu>"
+	"fu" ? @X
+: 
+"<kukula>"
+	"kukula" V Pl @FMV
+	"kukula" V Sg @FMV
+: 
+"<lava>"
+	"lava" V Sg @FMV
+:\n
+"<Kua>"
+	"kua" V Prs @+FAUXV
+: 
+"<kofu>"
+	"kofu" N @<P
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<tauale>"
+	"tauale" N @<P
+: 
+"<e>"
+	"e" Pr @<A
+: 
+"<ia>"
+	"ia" Pron Sg3 @P<
+: 
+"<lava>"
+	"lava" Pcle Post @N<
+:\n
+"<Na>"
+	"nā" Det Def Pl @>N
+	"nā" Det Dem Med @>N
+: 
+"<lavea>"
+	"lavea" N @P<
+: 
+"<ia>"
+	"ia" Pcle Emph @<PCLE
+: 
+"<i>"
+	"i" Pr @<ADVL
+: 
+"<a>"
+	"a" Dem
+	"a" Pr @<ADVL
+	"ā" Pron Interr @P<
+: 
+"<te>"
+	"tē" Dem
+: 
+"<ia>"
+	"ia" Dem-Dist @<PCLE
+	"ia" Pcle @<PCLE
+	"ia" Pron Sg3 @<PCLE
+: 
+"<lava>"
+	"lava" V Sg @FMV
+:\n
+"<Na>"
+	"na" V Prf @FMV
+: 
+"<kaumai>"
+	"kaumai" V Sg @FMV
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<polo>"
+	"polo" N @<P
+: 
+"<e>"
+	"e" Pr @<A
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<tamaiti>"
+	"tamaiti" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" V Prs @+FAUXV
+	"ē" V Prs @+FAUXV
+: 
+"<he>"
+	"hē" V Neg @+FAUXV
+: 
+"<iloa>"
+	"ilo" V Sg TV @FMV
+: 
+"<e>"
+	"e" V Prs @+FAUXV
+	"ē" V Prs @+FAUXV
+: 
+"<au>"
+	"au" V Sg @FMV
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Nae>"
+	"nae" V Prf @FMV
+: 
+"<nofo>"
+	"nofo" V Sg @FMV
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<toeaina>"
+	"toeaina" N @<S
+: 
+"<i>"
+	"i" Pr @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<nofoa>"
+	"nofoa" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Vaelua>"
+	"Vaelua" ? @X
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<lākau>"
+	"lākau" N @NPRED
+: 
+"<i>"
+	"i" Pr @N<
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<toki>"
+	"toki" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Fano>"
+	"fano" V Sg @FMV
+: 
+"<ki>"
+	"ki" Pr @<ADVL
+: 
+"<gāuta>"
+	"gāuta" N Loc @P<
+: 
+"<lele>"
+	"lele" Pcle Post @N<
+	"lele" V Sg @N<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Nofo>"
+	"nofo" V Sg @FMV
+: 
+"<i>"
+	"i" Pr @<ADVL
+: 
+"<ona>"
+	"ona" Det Poss Sg3 Pl @>N
+: 
+"<tua>"
+	"tua" N Loc @P<
+	"tuā" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" Pr @<A
+: 
+"<takalo>"
+	"takalo" N @P<
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<tamaiti>"
+	"tamaiti" N @SUBJ>
+: 
+"<i>"
+	"i" Pr @ADVL>
+: 
+"<lalo>"
+	"lalo" N Loc @P<
+	"lalō" N Loc @P<
+: 
+"<ifo>"
+	"ifo" Pcle @X
+	"ifo" V Sg @N<
+: 
+"<o>"
+	"o" Pr @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<laulau>"
+	"laulau" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" V Prs @+FAUXV
+	"ē" V Prs @+FAUXV
+: 
+"<gali>"
+	"gali" V Sg @FMV
+: 
+"<ia>"
+	"ia" Pron Sg3 @SUBJ>
+: 
+"<Fenualoa>"
+	"Fenualoa" ? @X
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" Pr @<A
+: 
+"<kikila>"
+	"kikila" N @P<
+: 
+"<atu>"
+	"atu" Pcle @X
+: 
+"<au>"
+	"au" Det Poss Du2 Sg @>N
+: 
+"<ki>"
+	"ki" N @HNOUN
+: 
+"<a>"
+	"a" Dem @N<
+	"a" Pr @N<
+	"ā" Pron Interr @X
+: 
+"<te>"
+	"tē" Dem
+: 
+"<koe>"
+	"koe" Pron Sg2 @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Na>"
+	"na" V Prf @FMV
+: 
+"<kai>"
+	"kai" V Sg @FMV
+: 
+"<e>"
+	"e" Pr @<A
+: 
+"<ki maua>"
+	"ki māua" Pron Du1 Excl @P<
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<ika>"
+	"ika" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs @+FAUXV
+: 
+"<maua>"
+	"maua" V Sg @FMV
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<tuhi>"
+	"tuhi" N @<S
+: 
+"<mai>"
+	"mai" Pr @<ADVL
+: 
+"<ia>"
+	"ia" Dem-Dist
+	"ia" Pcle @X
+	"ia" Pron Sg3 @P<
+: 
+"<te>"
+	"tē" Dem
+: 
+"<koe>"
+	"koe" Pron Sg2 @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Kā>"
+	"kā" V Fut @PCLE>
+: 
+"<olo>"
+	"fano" V Pl @FMV
+: 
+"<koulua>"
+	"koulua" Pron Du2 @SUBJ>
+"<?>"
+	"?" CLB @CLB
+:\n
+
+"<Na>"
+	"na" V Prf @FMV
+: 
+"<fakatali>"
+	"fakatali" V Sg @FMV
+: 
+"<pea>"
+	"pea" N @<S
+: 
+"<ia>"
+	"ia" Pcle Emph @<PCLE
+: 
+"<kita>"
+	"kita" Pron Sg1 Excl @SUBJ>
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Na>"
+	"nā" Det Def Pl @>N
+	"nā" Det Dem Med @>N
+: 
+"<fau>"
+	"fau" N @NPRED
+	"fāū" N @NPRED
+: 
+"<e>"
+	"e" Pr @<A
+: 
+"<ia>"
+	"ia" Det Dem-Dist @>N
+: 
+"<tona>"
+	"tona" N @P<
+: 
+"<fale>"
+	"fale" N @HNOUN
+	"fale" N Loc @HNOUN
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Na>"
+	"na" V Prf @FMV
+: 
+"<kai>"
+	"kai" V Sg @FMV
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<ika>"
+	"ika" N @<P
+: 
+"<e>"
+	"e" Pr @<A
+: 
+"<Mele>"
+	"Mele" N Prop @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Kikila>"
+	"kikila" N @NPRED
+: 
+"<e>"
+	"e" Pr @<A
+: 
+"<koe>"
+	"koe" Pron Sg2 @P<
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<gāluega>"
+	"gāluega" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" Pr @<A
+: 
+"<takalo>"
+	"takalo" N @P<
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<tamaiti>"
+	"tamaiti" N @HNOUN
+: 
+"<i>"
+	"i" Pr @N<
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<fātoaga>"
+	"fātoaga" N @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" V Prs @+FMAINV
+	"ē" V Prs @+FMAINV
+: 
+"<kekē>"
+	"kekē" ? @X
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<puaka>"
+	"puaka" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Ka>"
+	"kā" V Fut @PCLE>
+: 
+"<vili>"
+	"vili" V Sg @FMV
+: 
+"<au>"
+	"au" Det Poss Du2 Sg @>N
+: 
+"<ki>"
+	"ki" N @<S
+: 
+"<ko>"
+	"ko" Pcle @X
+	"kō" N Loc @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" V Prs @+FAUXV
+	"ē" V Prs @+FAUXV
+: 
+"<kakai>"
+	"kai" V Pl @FMV
+: 
+"<na>"
+	"nā" Det Def Pl @>N
+	"nā" Det Dem Med @>N
+: 
+"<fafine>"
+	"fafine" N @<S
+: 
+"<i>"
+	"i" Pr @<ADVL
+: 
+"<tau>"
+	"tau" N @P<
+: 
+"<kuka>"
+	"kuka" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" Pr @<A
+: 
+"<kikila>"
+	"kikila" N @P<
+: 
+"<na>"
+	"nā" Det Def Pl @>N
+: 
+"<tamaiti>"
+	"tamaiti" N @HNOUN
+: 
+"<ki>"
+	"ki" Pr @N<
+: 
+"<te>"
+	"tē" Dem
+: 
+"<mahina>"
+	"mahina" ? @X
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle @PCLE>
+	"kō" N Loc @SUBJ>
+: 
+"<tena>"
+	"tēnā" Dem Med @N<
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<fale>"
+	"fale" N @SUBJ>
+	"fale" N Loc @SUBJ>
+: 
+"<nae>"
+	"nae" V Prf @N<
+: 
+"<nonofo>"
+	"nofo" V Pl @FMV
+: 
+"<ai>"
+	"ai" Pron Interr @SUBJ>
+: 
+"<oku>"
+	"toku" Pron Pl1 @SUBJ>
+: 
+"<mātua>"
+	"mātuā" Pcle Pre @X
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Na>"
+	"na" V Prf @FMV
+: 
+"<teka>"
+	"teka" V Sg @FMV
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<vaka>"
+	"vaka" N @<S
+: 
+"<i>"
+	"i" Pr @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<vāiaho>"
+	"vāiaho" N @P<
+: 
+"<taluai>"
+	"taluai" V Sg @N<
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Ka>"
+	"kā" V Fut @PCLE>
+: 
+"<fano>"
+	"fano" V Sg @FMV
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<vaka>"
+	"vaka" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Koi>"
+	"koi" V Ipf @FMV
+: 
+"<ola>"
+	"ola" N @<S
+: 
+"<ō>"
+	"ō" ? @X
+: 
+"<mātua>"
+	"mātuā" Pcle Pre @X
+"<?>"
+	"?" CLB @CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs @+FAUXV
+: 
+"<hau>"
+	"hau" V Sg @FMV
+: 
+"<to>"
+	"to" Pcle @X
+: 
+"<tamana>"
+	"tamana" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs @+FMAINV
+: 
+"<tauale>"
+	"tauale" N @<S
+: 
+"<to>"
+	"to" Pcle @X
+: 
+"<tamana>"
+	"tamana" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<Olo>"
+	"Olo" N Prop @SUBJ>
+	"fano" V Pl @FMV
+: 
+"<oi>"
+	"oi" CC @CVP @CNP
+: 
+"<tāfafao>"
+	"tāfafao" ? @X
+: 
+"<oi>"
+	"oi" CC @CVP @CNP
+: 
+"<kua>"
+	"kua" V Prs @+FAUXV
+: 
+"<omai>"
+	"omai" ? @X
+: 
+"<ai>"
+	"ai" Pron Interr @SUBJ>
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" V Prs @+FAUXV
+	"ē" V Prs @+FAUXV
+: 
+"<vevela>"
+	"vela" V Pl @FMV
+: 
+"<te>"
+	"tē" Dem
+: 
+"<lā>"
+	"lā" Pron Du3 @SUBJ>
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" V Prs @+FAUXV
+	"ē" V Prs @+FAUXV
+: 
+"<fa>"
+	"fa" ? @X
+: 
+"<n>"
+	"n" N @<S
+: 
+"<o>"
+	"o" Pr @<ADVL
+: 
+"<au>"
+	"au" N @P<
+	"au" Pron Sg1 Excl @P<
+: 
+"<ki>"
+	"ki" Pr @<ADVL
+: 
+"<Niu>"
+	"niu" N @P<
+: 
+"<Hila>"
+	"hila" N @<S
+	"hilā" V Sg @N<
+: 
+"<i>"
+	"i" Pr @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<tauhaga>"
+	"tauhaga" N @P<
+: 
+"<fo>"
+	"fo" ? @X
+: 
+"<u>"
+	"u" N @<S
+	"ū" N @<S
+"<.>"
+	"." CLB @CLB
+:\n
+
+"<E>"
+	"e" V Prs @+FAUXV
+	"ē" V Prs @+FAUXV
+: 
+"<nofo>"
+	"nofo" V Sg @FMV
+: 
+"<ia>"
+	"ia" Pron Sg3 @<SUBJ
+: 
+"<Hina>"
+	"hina" V Sg @FMV
+: 
+"<i>"
+	"i" Pr @<ADVL
+: 
+"<luga>"
+	"luga" N Loc @P<
+: 
+"<o>"
+	"o" Pr @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg @>N
+: 
+"<vaka>"
+	"vaka" N @P<
+: 
+"<kae>"
+	"kae" CC @CVP @CNP
+: 
+"<oho>"
+	"oho" N @<S
+: 
+"<ifo>"
+	"ifo" Pcle @X
+	"ifo" V Sg @N<
+: 
+"<ia>"
+	"ia" Pron Sg3 @SUBJ>
+: 
+"<Tokalalaga>"
+	"Tokalalaga" ? @X
+: 
+"<ki>"
+	"ki" Pr @<ADVL
+: 
+"<lalo>"
+	"lalo" N Loc @P<
+	"lalō" N Loc @P<
+"<.>"
+	"." CLB @CLB
+:\n
+
