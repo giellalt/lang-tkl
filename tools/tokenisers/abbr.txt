@@ -1,0 +1,54 @@
+LEXICON ITRAB
+Ltd
+cm
+adj
+adv
+alb
+LEXICON TRNUMAB
+LEXICON TRAB
+dr
+prof
+1.aman
+A
+B
+C
+Chr
+D
+E
+Ev.luth
+F
+G
+H
+I
+J
+Joh
+Johs
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+austr
+bib
+biol
+ca
+scient
+theol
+evt
+gen
+gen.lt
+hebr
+LEXICON IDIOM
+
+LEXICON NUM
