@@ -259,6 +259,7 @@ SETPARENT:dlnpcle @PCLE>  (0 PRE-N-PCLE) TO (*1 N);
 SETPARENT:dlproppcle @PCLE> TO (0 PRE-PRON-PCLE) (1 Prop);
 SETPARENT:dlpronpcle @PCLE> TO (1 Pron) (0 PRE-PRON-PCLE);
 SETPARENT:dlnumpcle @PCLE> TO (1 Num) (0 PRE-NUM-PCLE);
+SETPARENT:drvpcle @<PCLE TO (-1 V) ;# (0 POST-V-PCLE);
 SETPARENT:drnpcle @<PCLE TO (*-1 N OR Pron)  (0 POST-N-PCLE)(-1 N);
 SETPARENT:drprpcle @<PCLE TO (-1 Pr) (0 POST-PR-PCLE);
 SETPARENT:drxpcle @<PCLE (0 POST-X-PCLE)  TO  (-1 WORD) ;
