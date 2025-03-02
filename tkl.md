@@ -342,6 +342,8 @@ Map Interj, CC, CS, ..
 
 PP complement rules
 
+NP complemnt rules
+
 ## Map clause structure tags
 
 ## PP rules
