@@ -1,25 +1,47 @@
-# NOTE! Replace the content of this file (including thist comment) with a
-# number of paragraphs and sentences suitable for testing regressions in the
-# morphological and syntactic analyses. The whole file is used as input to
-# preprocessing/segmentation, morphological analysis, disambiguation, etc.
-
-Son namuha ahte sii leat gal ávžžuhan olbmuid geat dihtet ahte dárbbašit jođánit beassat buohccevissui, nugo ovdamearkka dihte áhpehis nissonolbmuid geain lahkona riegádahttináigi, árvvoštallat galget go ovdal go buohccájit juo vuolgit buohccevissui.
-Sávan didjiide lihku, vástidii Evo Morales.
-Rievtti mielde lea duodjeluohkás gulahallanoahpaheaddji, muhto son ii leat doppe nu dávjá go oahppit sávvet.
-Ávvir ii ožžon rektor Mats Steinfjella jearahallamii.
-Miehtá čájáhuslanja lea lebbejuvvon plastihkkagovččas ja gávcci máná njuni ovddas lea čáhcemála.
-Lea meara láhkai go das oidnojit bárut.
-Gaskavahku eahkeda lei Kárášjoga kulturvisttis álbmotčoahkkin gosa ledje sullii 50 olbmo boahtán.
-Juohke gielddas ožžot olbmot skoviid maid sii galget deavdit ja sii jearahallet maiddái olbmuid, muhto Isaksen imašta kommišuvnna bargovugiid.
-Loahpas jearai Johttisámelisttu Anders Somby jr. sudnos njuolga háliida go čearru gulahallat, juo dahje ii.
-Stáhta lea dadjan don galggat duosa.
-Son ii bivdde gal akto.
-Báhpárruskkat eai váilon, ja eanaš bisánanbáikkit ledje erenoamáš ruivasat.
-Son muittaša movt ovdal lávii ja jietna šaddá litnáseabbon.
-Doppe vástida Farmen-Mikkel, dahje Mikkel Isak Eira.
-Dattetge lea Internašunála Sámi Filbmaguovddáža jođiheaddji mielas áibbas dárbbašlaš ahte gávdno sámegiel fálaldat mánáide.
-Juoba ge dán áigodagas.
-Ii fal runiidan jalges gittiide, muhto meahccái, gosa návddit dávjá ja lunddolaččat fievrredit ráppiid.
-Dál lea rábbeohcanbeana, dan lea čájehan go nealgečovjjiin borragođii ráppis.
-Dan dihte leage riekta ja dehálaš go skuvla čielga vugiin dovddasta dat lea maiddái sámi ohppiid skuvla.
-Dán filmma leat Kárášjoga nuorat oaidnán, eaige šat vuolgge sirkusii.
+Kua hau te tino.
+Vili ake oi kaumai he toki.
+E hau te vaka i tauhaga uma.
+Ko te povi e kai mutia.
+Ko ietahi tino e fiafia lele ki nā hiva.
+Kaumai hetahi nofoa.
+Kua hau koe auā ia au e tauale.
+Na maua te tuhi mai ia te koe.
+ko nā hiama ni tamaki mea ola.
+he mātuā ika lele
+he tino lelei lele
+Ko he ā te mea tēnā? Ko he fa le lava!
+Ko he a te fale tênā? Ko te fale fo n o lava.
+te ko fu kukula lava
+Kua kofu te tauale e ia lava
+Na lavea ia i a te ia lava
+Na kaumai te polo e te tamaiti.
+E he iloa e au.
+Nae nofo te toeaina i te nofoa.
+Vaelua te lākau i te toki.
+Fano ki gāuta lele.
+Nofo i ona tua.
+E takalo te tamaiti i lalo ifo o te laulau.
+E gali ia Fenualoa.
+E kikila atu au ki a te koe.
+Na kai e ki maua te ika.
+Kua maua te tuhi mai ia te koe.
+Kā olo koulua?
+Na fakatali pea ia kita.
+Na fau e ia tona fale.
+Na kai te ika e Mele.
+Kikila e koe te gāluega.
+E takalo te tamaiti i te fātoaga.
+E kekē te puaka.
+Ka vili au ki ko.
+E kakai na fafine i tau kuka.
+E kikila na tamaiti ki te mahina.
+Ko tena te fale nae nonofo ai oku mātua.
+Na teka te vaka i te vāiaho taluai.
+Ka fano te vaka.
+Koi ola ō mātua?
+Kua hau to tamana.
+Kua tauale to tamana.
+Olo oi tāfafao oi kua omai ai.
+E vevela te lā.
+E fa n o au ki Niu Hila i te tauhaga fo u.
+E nofo ia Hina i luga o te vaka kae oho ifo ia Tokalalaga ki lalo.
