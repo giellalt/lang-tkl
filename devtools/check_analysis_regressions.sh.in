@@ -245,9 +245,9 @@ function open_diffs() {
     diff_file=$1
     if test ! -f $corpusdir/$diff_file.goldst.txt; then
         echo "First time run!"
-        echo "Adding $corpusdir/$diff_file.goldst.txt to svn"
+        echo "Adding $corpusdir/$diff_file.goldst.txt to git"
         cp $diff_file.txt $corpusdir/$diff_file.goldst.txt
-        svn add --force $corpusdir/$diff_file.goldst.txt
+        git add --force $corpusdir/$diff_file.goldst.txt
     else
       if cmp --silent $corpusdir/$diff_file.goldst.txt $diff_file.txt ; then
         echo "$diff_file.txt and $corpusdir/$diff_file.goldst.txt are identical"
