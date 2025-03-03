@@ -279,6 +279,8 @@ SELECT:dirverb V IF (1 DIR-PCLE);
 #!! **dirpcle** selects Pcle if verb to the left
 SELECT:dirpcle Pcle IF (-1 V)(0 DIR-PCLE);
 
+SELECT:lelepcle Pcle IF (0 ("lele"))(-1 V);
+
 AFTER-SECTIONS
 
 # last resort rules
