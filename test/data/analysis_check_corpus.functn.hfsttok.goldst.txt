@@ -1,0 +1,1107 @@
+"<Kua>"
+	"kua" V Prs <W:0.0> @+FAUXV
+: 
+"<hau>"
+	"hau" V Sg <W:0.0> @FMV
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<tino>"
+	"tino" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Vili>"
+	"vili" V Sg <W:0.0> @FMV
+: 
+"<ake>"
+	"ake" Pcle <W:0.0> @<PCLE
+: 
+"<oi>"
+	"oi" CC <W:0.0> @CVP @CNP
+: 
+"<kaumai>"
+	"kaumai" V Sg <W:0.0> @FMV
+: 
+"<he>"
+	"he" Det Indef Sg <W:0.0> @>N
+: 
+"<toki>"
+	"toki" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
+: 
+"<hau>"
+	"hau" V Sg <W:0.0> @FMV
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<vaka>"
+	"vaka" N <W:0.0> @<S
+: 
+"<i>"
+	"i" Pr <W:0.0> @<ADVL
+: 
+"<tauhaga>"
+	"tauhaga" N <W:0.0> @P<
+: 
+"<uma>"
+	"uma" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle <W:0.0> @PCLE>
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<povi>"
+	"povi" N <W:0.0> @SUBJ>
+: 
+"<e>"
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
+: 
+"<kai>"
+	"kai" V Sg <W:0.0> @FMV
+: 
+"<mutia>"
+	"mutia" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle <W:0.0> @PCLE>
+: 
+"<ietahi>"
+	"iētahi" Det Indef Pl <W:0.0> @>N
+: 
+"<tino>"
+	"tino" N <W:0.0> @SUBJ>
+: 
+"<e>"
+	"e" Pr <W:0.0> @<A
+: 
+"<fiafia>"
+	"fiafia" N <W:0.0> @P<
+: 
+"<lele>"
+	"lele" Pcle Post <W:0.0> @N<
+	"lele" V Sg <W:0.0> @FMV
+: 
+"<ki>"
+	"ki" Pr <W:0.0> @<ADVL
+: 
+"<nā>"
+	"nā" Det Def Pl <W:0.0> @>N
+	"nā" Det Dem Med <W:0.0> @>N
+: 
+"<hiva>"
+	"hiva" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Kaumai>"
+	"Kaumai" N Prop <W:0.0> @NPRED
+	"kaumai" V Sg <W:0.0> @FMV
+: 
+"<hetahi>"
+	"hetahi" Det Indef Sg <W:0.0> @>N
+: 
+"<nofoa>"
+	"nofoa" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs <W:0.0> @+FAUXV
+: 
+"<hau>"
+	"hau" V Sg <W:0.0> @FMV
+: 
+"<koe>"
+	"koe" Pron Sg2 <W:0.0> @<SUBJ
+: 
+"<auā>"
+	"auā" CS <W:0.0> @CVP @X
+	"auā" V Pl <W:0.0> @FMV
+	"auā" V Sg <W:0.0> @FMV
+: 
+"<ia>"
+	"ia" Det Dem-Dist <W:0.0> @>N
+: 
+"<au>"
+	"au" N <W:0.0> @<P
+: 
+"<e>"
+	"e" Pr <W:0.0> @<A
+: 
+"<tauale>"
+	"tauale" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Na>"
+	"na" V Prf <W:0.0> @FMV
+: 
+"<maua>"
+	"maua" V Sg <W:0.0> @FMV
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<tuhi>"
+	"tuhi" N <W:0.0> @<S
+: 
+"<mai>"
+	"mai" Pr <W:0.0> @<ADVL
+: 
+"<ia>"
+	"ia" Dem-Dist <W:0.0>
+	"ia" Pcle <W:0.0> @X
+	"ia" Pron Sg3 <W:0.0> @P<
+: 
+"<te>"
+	"tē" Dem <W:0.0>
+: 
+"<koe>"
+	"koe" Pron Sg2 <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<ko>"
+	"ko" Pcle <W:0.0> @PCLE>
+: 
+"<nā>"
+	"nā" Det Def Pl <W:0.0> @>N
+	"nā" Det Dem Med <W:0.0> @>N
+: 
+"<hiama>"
+	"hiama" N <W:0.0> @NPRED
+: 
+"<ni>"
+	"ni" Det Indef Pl <W:0.0> @>N
+: 
+"<tamaki>"
+	"tamakī" Pcle Pre <W:0.0> @>N
+: 
+"<mea>"
+	"mea" N <W:0.0> @HNOUN
+: 
+"<ola>"
+	"ola" N <W:0.0> @HNOUN
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<he>"
+	"he" Det Indef Sg <W:0.0> @>N
+: 
+"<mātuā>"
+	"mātuā" Pcle Pre <W:0.0> @>N
+: 
+"<ika>"
+	"ika" N <W:0.0> @NPRED
+	"ikā" V Pl <W:0.0> @FMV
+	"ikā" V Sg <W:0.0> @FMV
+: 
+"<lele>"
+	"lele" Pcle Post <W:0.0> @N<
+:\n
+"<he>"
+	"he" Det Indef Sg <W:0.0> @>N
+: 
+"<tino>"
+	"tino" N <W:0.0> @<S
+: 
+"<lelei>"
+	"lelei" N <W:0.0> @<S
+: 
+"<lele>"
+	"lele" Pcle Post <W:0.0> @N<
+:\n
+"<Ko>"
+	"ko" Pcle <W:0.0> @PCLE>
+: 
+"<he>"
+	"he" Det Indef Sg <W:0.0>
+: 
+"<ā>"
+	"ā" Pron Interr <W:0.0> @SUBJ>
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<mea>"
+	"mea" N <W:0.0> @<S
+: 
+"<tēnā>"
+	"tēnā" Dem Med <W:0.0> @N<
+"<?>"
+	"?" CLB <W:0.0> @CLB
+: 
+
+"<Ko>"
+	"ko" Pcle <W:0.0> @PCLE>
+: 
+"<he>"
+	"hē" N <W:0.0> @SUBJ>
+	"hē" V Neg <W:0.0> @+FAUXV
+	"hē" V Pl <W:0.0> @+FAUXV
+	"hē" V Sg <W:0.0> @+FAUXV
+: 
+"<fa>"
+	"fa" ? @X
+: 
+"<le>"
+	"le" ? @X
+: 
+"<lava>"
+	"lava" Pcle Post <W:0.0> @N<
+	"lava" V Sg <W:0.0> @FMV
+"<!>"
+	"!" CLB <W:0.0> @CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle <W:0.0> @PCLE>
+: 
+"<he>"
+	"he" Det Indef Sg <W:0.0>
+: 
+"<a>"
+	"a" Pr <W:0.0> @PRPRED
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<fale>"
+	"fale" N <W:0.0> @P<
+	"fale" N Loc <W:0.0> @P<
+: 
+"<tênā>"
+	"tênā" ? @X
+"<?>"
+	"?" CLB <W:0.0> @CLB
+: 
+
+"<Ko>"
+	"ko" Pcle <W:0.0> @PCLE>
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<fale>"
+	"fale" N <W:0.0> @SUBJ>
+	"fale" N Loc <W:0.0> @SUBJ>
+: 
+"<fo>"
+	"fo" ? @X
+: 
+"<n>"
+	"n" N <W:0.0> @SUBJ>
+: 
+"<o>"
+	"o" Pr <W:0.0> @ADVL>
+: 
+"<lava>"
+	"lava" Pcle Post <W:0.0> @N<
+	"lava" V Sg <W:0.0> @FMV
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<ko>"
+	"kō" N Loc <W:0.0> @SUBJ>
+: 
+"<fu>"
+	"fu" ? @X
+: 
+"<kukula>"
+	"kukula" V Pl <W:0.0> @FMV
+	"kukula" V Sg <W:0.0> @FMV
+: 
+"<lava>"
+	"lava" V Sg <W:0.0> @FMV
+:\n
+"<Kua>"
+	"kua" V Prs <W:0.0> @+FAUXV
+: 
+"<kofu>"
+	"kofu" N <W:0.0> @<P
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<tauale>"
+	"tauale" N <W:0.0> @<P
+: 
+"<e>"
+	"e" Pr <W:0.0> @<A
+: 
+"<ia>"
+	"ia" Pron Sg3 <W:0.0> @P<
+: 
+"<lava>"
+	"lava" Pcle Post <W:0.0> @N<
+:\n
+"<Na>"
+	"nā" Det Def Pl <W:0.0> @>N
+	"nā" Det Dem Med <W:0.0> @>N
+: 
+"<lavea>"
+	"lavea" N <W:0.0> @P<
+: 
+"<ia>"
+	"ia" Pcle Emph <W:0.0> @<PCLE
+: 
+"<i>"
+	"i" Pr <W:0.0> @<ADVL
+: 
+"<a>"
+	"a" Dem <W:0.0>
+	"a" Pr <W:0.0> @<ADVL
+	"ā" Pron Interr <W:0.0> @P<
+: 
+"<te>"
+	"tē" Dem <W:0.0>
+: 
+"<ia>"
+	"ia" Dem-Dist <W:0.0> @<PCLE
+	"ia" Pcle <W:0.0> @<PCLE
+	"ia" Pron Sg3 <W:0.0> @<PCLE
+: 
+"<lava>"
+	"lava" V Sg <W:0.0> @FMV
+:\n
+"<Na>"
+	"na" V Prf <W:0.0> @FMV
+: 
+"<kaumai>"
+	"kaumai" V Sg <W:0.0> @FMV
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<polo>"
+	"polo" N <W:0.0> @<P
+: 
+"<e>"
+	"e" Pr <W:0.0> @<A
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<tamaiti>"
+	"tamaiti" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
+: 
+"<he>"
+	"hē" V Neg <W:0.0> @+FAUXV
+: 
+"<iloa>"
+	"ilo" V Sg TV <W:0.0> @FMV
+: 
+"<e>"
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
+: 
+"<au>"
+	"au" V Sg <W:0.0> @FMV
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Nae>"
+	"nae" V Prf <W:0.0> @FMV
+: 
+"<nofo>"
+	"nofo" V Sg <W:0.0> @FMV
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<toeaina>"
+	"toeaina" N <W:0.0> @<S
+: 
+"<i>"
+	"i" Pr <W:0.0> @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<nofoa>"
+	"nofoa" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Vaelua>"
+	"Vaelua" ? @X
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<lākau>"
+	"lākau" N <W:0.0> @NPRED
+: 
+"<i>"
+	"i" Pr <W:0.0> @N<
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<toki>"
+	"toki" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Fano>"
+	"fano" V Sg <W:0.0> @FMV
+: 
+"<ki>"
+	"ki" Pr <W:0.0> @<ADVL
+: 
+"<gāuta>"
+	"gāuta" N Loc <W:0.0> @P<
+: 
+"<lele>"
+	"lele" Pcle Post <W:0.0> @N<
+	"lele" V Sg <W:0.0> @FMV
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Nofo>"
+	"nofo" V Sg <W:0.0> @FMV
+: 
+"<i>"
+	"i" Pr <W:0.0> @<ADVL
+: 
+"<ona>"
+	"ona" Det Poss Sg3 Pl <W:0.0> @>N
+: 
+"<tua>"
+	"tua" N Loc <W:0.0> @P<
+	"tuā" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" Pr <W:0.0> @<A
+: 
+"<takalo>"
+	"takalo" N <W:0.0> @P<
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<tamaiti>"
+	"tamaiti" N <W:0.0> @SUBJ>
+: 
+"<i>"
+	"i" Pr <W:0.0> @ADVL>
+: 
+"<lalo>"
+	"lalo" N Loc <W:0.0> @P<
+	"lalō" N Loc <W:0.0> @P<
+: 
+"<ifo>"
+	"ifo" Pcle <W:0.0> @X
+	"ifo" V Sg <W:0.0> @FMV
+: 
+"<o>"
+	"o" Pr <W:0.0> @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<laulau>"
+	"laulau" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
+: 
+"<gali>"
+	"gali" V Sg <W:0.0> @FMV
+: 
+"<ia>"
+	"ia" Pron Sg3 <W:0.0> @SUBJ>
+: 
+"<Fenualoa>"
+	"Fenualoa" ? @X
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" Pr <W:0.0> @<A
+: 
+"<kikila>"
+	"kikila" N <W:0.0> @P<
+: 
+"<atu>"
+	"atu" Pcle <W:0.0> @X
+: 
+"<au>"
+	"au" Det Poss Du2 Sg <W:0.0> @>N
+: 
+"<ki>"
+	"ki" N <W:0.0> @HNOUN
+: 
+"<a>"
+	"a" Dem <W:0.0> @N<
+	"a" Pr <W:0.0> @N<
+	"ā" Pron Interr <W:0.0> @X
+: 
+"<te>"
+	"tē" Dem <W:0.0>
+: 
+"<koe>"
+	"koe" Pron Sg2 <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Na>"
+	"na" V Prf <W:0.0> @FMV
+: 
+"<kai>"
+	"kai" V Sg <W:0.0> @FMV
+: 
+"<e>"
+	"e" Pr <W:0.0> @<A
+: 
+"<ki maua>"
+	"ki māua" Pron Du1 Excl <W:0.0> @P<
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<ika>"
+	"ika" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs <W:0.0> @+FAUXV
+: 
+"<maua>"
+	"maua" V Sg <W:0.0> @FMV
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<tuhi>"
+	"tuhi" N <W:0.0> @<S
+: 
+"<mai>"
+	"mai" Pr <W:0.0> @<ADVL
+: 
+"<ia>"
+	"ia" Dem-Dist <W:0.0>
+	"ia" Pcle <W:0.0> @X
+	"ia" Pron Sg3 <W:0.0> @P<
+: 
+"<te>"
+	"tē" Dem <W:0.0>
+: 
+"<koe>"
+	"koe" Pron Sg2 <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Kā>"
+	"kā" V Fut <W:0.0> @PCLE>
+: 
+"<olo>"
+	"fano" V Pl <W:0.0> @FMV
+: 
+"<koulua>"
+	"koulua" Pron Du2 <W:0.0> @SUBJ>
+"<?>"
+	"?" CLB <W:0.0> @CLB
+:\n
+
+"<Na>"
+	"na" V Prf <W:0.0> @FMV
+: 
+"<fakatali>"
+	"fakatali" V Sg <W:0.0> @FMV
+: 
+"<pea>"
+	"pea" N <W:0.0> @<S
+: 
+"<ia>"
+	"ia" Pcle Emph <W:0.0> @<PCLE
+: 
+"<kita>"
+	"kita" Pron Sg1 Excl <W:0.0> @SUBJ>
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Na>"
+	"nā" Det Def Pl <W:0.0> @>N
+	"nā" Det Dem Med <W:0.0> @>N
+: 
+"<fau>"
+	"fau" N <W:0.0> @NPRED
+	"fāū" N <W:0.0> @NPRED
+: 
+"<e>"
+	"e" Pr <W:0.0> @<A
+: 
+"<ia>"
+	"ia" Det Dem-Dist <W:0.0> @>N
+: 
+"<tona>"
+	"tona" N <W:0.0> @P<
+: 
+"<fale>"
+	"fale" N <W:0.0> @HNOUN
+	"fale" N Loc <W:0.0> @HNOUN
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Na>"
+	"na" V Prf <W:0.0> @FMV
+: 
+"<kai>"
+	"kai" V Sg <W:0.0> @FMV
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<ika>"
+	"ika" N <W:0.0> @<P
+: 
+"<e>"
+	"e" Pr <W:0.0> @<A
+: 
+"<Mele>"
+	"Mele" N Prop <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Kikila>"
+	"kikila" N <W:0.0> @NPRED
+: 
+"<e>"
+	"e" Pr <W:0.0> @<A
+: 
+"<koe>"
+	"koe" Pron Sg2 <W:0.0> @P<
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<gāluega>"
+	"gāluega" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" Pr <W:0.0> @<A
+: 
+"<takalo>"
+	"takalo" N <W:0.0> @P<
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<tamaiti>"
+	"tamaiti" N <W:0.0> @HNOUN
+: 
+"<i>"
+	"i" Pr <W:0.0> @N<
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<fātoaga>"
+	"fātoaga" N <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" V Prs <W:0.0> @+FMAINV
+	"ē" V Prs <W:0.0> @+FMAINV
+: 
+"<kekē>"
+	"kekē" ? @X
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<puaka>"
+	"puaka" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Ka>"
+	"kā" V Fut <W:0.0> @PCLE>
+: 
+"<vili>"
+	"vili" V Sg <W:0.0> @FMV
+: 
+"<au>"
+	"au" Det Poss Du2 Sg <W:0.0> @>N
+: 
+"<ki>"
+	"ki" N <W:0.0> @<S
+: 
+"<ko>"
+	"ko" Pcle <W:0.0> @X
+	"kō" N Loc <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
+: 
+"<kakai>"
+	"kai" V Pl <W:0.0> @FMV
+: 
+"<na>"
+	"nā" Det Def Pl <W:0.0> @>N
+	"nā" Det Dem Med <W:0.0> @>N
+: 
+"<fafine>"
+	"fafine" N <W:0.0> @<S
+: 
+"<i>"
+	"i" Pr <W:0.0> @<ADVL
+: 
+"<tau>"
+	"tau" N <W:0.0> @P<
+: 
+"<kuka>"
+	"kuka" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" Pr <W:0.0> @<A
+: 
+"<kikila>"
+	"kikila" N <W:0.0> @P<
+: 
+"<na>"
+	"nā" Det Def Pl <W:0.0> @>N
+: 
+"<tamaiti>"
+	"tamaiti" N <W:0.0> @HNOUN
+: 
+"<ki>"
+	"ki" Pr <W:0.0> @N<
+: 
+"<te>"
+	"tē" Dem <W:0.0>
+: 
+"<mahina>"
+	"mahina" ? @X
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Ko>"
+	"ko" Pcle <W:0.0> @PCLE>
+	"kō" N Loc <W:0.0> @SUBJ>
+: 
+"<tena>"
+	"tēnā" Dem Med <W:0.0> @N<
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<fale>"
+	"fale" N <W:0.0> @SUBJ>
+	"fale" N Loc <W:0.0> @SUBJ>
+: 
+"<nae>"
+	"nae" V Prf <W:0.0> @FMV
+: 
+"<nonofo>"
+	"nofo" V Pl <W:0.0> @FMV
+: 
+"<ai>"
+	"ai" Pron Interr <W:0.0> @SUBJ>
+: 
+"<oku>"
+	"toku" Pron Pl1 <W:0.0> @SUBJ>
+: 
+"<mātua>"
+	"mātuā" Pcle Pre <W:0.0> @X
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Na>"
+	"na" V Prf <W:0.0> @FMV
+: 
+"<teka>"
+	"teka" V Sg <W:0.0> @FMV
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<vaka>"
+	"vaka" N <W:0.0> @<S
+: 
+"<i>"
+	"i" Pr <W:0.0> @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<vāiaho>"
+	"vāiaho" N <W:0.0> @P<
+: 
+"<taluai>"
+	"taluai" V Sg <W:0.0> @FMV
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Ka>"
+	"kā" V Fut <W:0.0> @PCLE>
+: 
+"<fano>"
+	"fano" V Sg <W:0.0> @FMV
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<vaka>"
+	"vaka" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Koi>"
+	"koi" V Ipf <W:0.0> @FMV
+: 
+"<ola>"
+	"ola" N <W:0.0> @<S
+: 
+"<ō>"
+	"ō" ? @X
+: 
+"<mātua>"
+	"mātuā" Pcle Pre <W:0.0> @X
+"<?>"
+	"?" CLB <W:0.0> @CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs <W:0.0> @+FAUXV
+: 
+"<hau>"
+	"hau" V Sg <W:0.0> @FMV
+: 
+"<to>"
+	"to" Pcle <W:0.0> @X
+: 
+"<tamana>"
+	"tamana" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Kua>"
+	"kua" V Prs <W:0.0> @+FMAINV
+: 
+"<tauale>"
+	"tauale" N <W:0.0> @<S
+: 
+"<to>"
+	"to" Pcle <W:0.0> @X
+: 
+"<tamana>"
+	"tamana" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<Olo>"
+	"Olo" N Prop <W:0.0> @SUBJ>
+	"fano" V Pl <W:0.0> @FMV
+: 
+"<oi>"
+	"oi" CC <W:0.0> @CVP @CNP
+: 
+"<tāfafao>"
+	"tāfafao" ? @X
+: 
+"<oi>"
+	"oi" CC <W:0.0> @CVP @CNP
+: 
+"<kua>"
+	"kua" V Prs <W:0.0> @+FAUXV
+: 
+"<omai>"
+	"omai" ? @X
+: 
+"<ai>"
+	"ai" Pron Interr <W:0.0> @SUBJ>
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
+: 
+"<vevela>"
+	"vela" V Pl <W:0.0> @FMV
+: 
+"<te>"
+	"tē" Dem <W:0.0>
+: 
+"<lā>"
+	"lā" Pron Du3 <W:0.0> @SUBJ>
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
+: 
+"<fa>"
+	"fa" ? @X
+: 
+"<n>"
+	"n" N <W:0.0> @<S
+: 
+"<o>"
+	"o" Pr <W:0.0> @<ADVL
+: 
+"<au>"
+	"au" N <W:0.0> @P<
+	"au" Pron Sg1 Excl <W:0.0> @P<
+: 
+"<ki>"
+	"ki" Pr <W:0.0> @<ADVL
+: 
+"<Niu>"
+	"niu" N <W:0.0> @P<
+: 
+"<Hila>"
+	"hila" N <W:0.0> @<S
+	"hilā" V Sg <W:0.0> @FMV
+: 
+"<i>"
+	"i" Pr <W:0.0> @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<tauhaga>"
+	"tauhaga" N <W:0.0> @P<
+: 
+"<fo>"
+	"fo" ? @X
+: 
+"<u>"
+	"u" N <W:0.0> @<S
+	"ū" N <W:0.0> @<S
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
+"<E>"
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
+: 
+"<nofo>"
+	"nofo" V Sg <W:0.0> @FMV
+: 
+"<ia>"
+	"ia" Pron Sg3 <W:0.0> @<SUBJ
+: 
+"<Hina>"
+	"hina" V Sg <W:0.0> @FMV
+: 
+"<i>"
+	"i" Pr <W:0.0> @<ADVL
+: 
+"<luga>"
+	"luga" N Loc <W:0.0> @P<
+: 
+"<o>"
+	"o" Pr <W:0.0> @<ADVL
+: 
+"<te>"
+	"te" Det Def Sg <W:0.0> @>N
+: 
+"<vaka>"
+	"vaka" N <W:0.0> @P<
+: 
+"<kae>"
+	"kae" CC <W:0.0> @CVP @CNP
+: 
+"<oho>"
+	"oho" N <W:0.0> @<S
+: 
+"<ifo>"
+	"ifo" Pcle <W:0.0> @X
+	"ifo" V Sg <W:0.0> @FMV
+: 
+"<ia>"
+	"ia" Pron Sg3 <W:0.0> @SUBJ>
+: 
+"<Tokalalaga>"
+	"Tokalalaga" ? @X
+: 
+"<ki>"
+	"ki" Pr <W:0.0> @<ADVL
+: 
+"<lalo>"
+	"lalo" N Loc <W:0.0> @P<
+	"lalō" N Loc <W:0.0> @P<
+"<.>"
+	"." CLB <W:0.0> @CLB
+:\n
+
