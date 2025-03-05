@@ -87,6 +87,8 @@
 
 - ko
 
+- lava
+
 - mā
 
 -  mai

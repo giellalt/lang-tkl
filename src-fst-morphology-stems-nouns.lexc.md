@@ -7,7 +7,7 @@ Nouns in the Tokelauan language refer to objects or sets of objects, qualities, 
 
 - uta locnoun " The islets on the far" ;  
 - fafo locnoun " Outside, out of" ;  
-- fale locnoun "Communal settlement," ;  
+- falē locnoun "Communal settlement," ;  
 - gāuta locnoun " 1. Shore, land, (from" ;  
 
 - Todo: Check these:
