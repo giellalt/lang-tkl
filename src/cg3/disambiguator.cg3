@@ -153,6 +153,9 @@ SELECT:kePron Pron IF (NOT -1 N)(0 ("kē"))(1 V);
 #!! - ko
 REMOVE Pron IF (0 ("ko"))(NOT 1 V);
 
+#!! - lava
+SELECT:vlava V IF (-1 Prs OR Prf)(0 ("lava"));
+
 #!! - mā
 REMOVE ("ma") IF (0 ("mā"));
 REMOVE:maPron Pr IF (0 ("mā") + Pron)(1C V);
