@@ -69,11 +69,11 @@
 	"povi" N <W:0.0> @SUBJ> #3->5
 : 
 "<e>"
-	"e" V Prs <W:0.0> @N< #4->3
-	"ē" V Prs <W:0.0> @N< #4->3
+	"e" <aux> <aux> V Prs <W:0.0> @FAUX #4->0
+	"ē" <aux> <aux> V Prs <W:0.0> @FAUX #4->0
 : 
 "<kai>"
-	"kai" <mv> V Sg <W:0.0> @FMV #5->0
+	"kai" <mv> V Sg <W:0.0> @FMV #5->4
 : 
 "<mutia>"
 	"mutia" N <W:0.0> @<S #6->5
@@ -91,18 +91,17 @@
 	"tino" N <W:0.0> @SUBJ> #3->5
 : 
 "<e>"
-	"e" V Prs <W:0.0> @N< #4->3
-	"ē" V Prs <W:0.0> @N< #4->3
+	"e" <aux> <aux> V Prs <W:0.0> @FAUX #4->0
+	"ē" <aux> <aux> V Prs <W:0.0> @FAUX #4->0
 : 
 "<fiafia>"
-	"fiafia" <mv> V Sg <W:0.0> @FMV #5->0
+	"fiafia" <mv> V Sg <W:0.0> @FMV #5->4
 : 
 "<lele>"
-	"lele" Pcle Post <W:0.0> @N< #6->5
-	"lele" <mv> V Sg <W:0.0> @FMV #6->5
+	"lele" Pcle Post <W:0.0> @N< #6->6
 : 
 "<ki>"
-	"ki" Pr <W:0.0> @<ADVL #7->6
+	"ki" Pr <W:0.0> @<ADVL #7->5
 : 
 "<nā>"
 	"nā" Det Def Pl <W:0.0> @>N #8->9
@@ -111,7 +110,7 @@
 "<hiva>"
 	"hiva" N <W:0.0> @P< #9->7
 "<.>"
-	"." CLB <W:0.0> @CLB #10->6
+	"." CLB <W:0.0> @CLB #10->5
 :\n
 
 "<Kaumai>"
@@ -262,9 +261,9 @@
 : 
 "<he>"
 	"hē" N <W:0.0> @SUBJ> #2->0
-	"hē" <aux> <aux> V Neg <W:0.0> @FAUX #2->0
-	"hē" <aux> <aux> V Pl <W:0.0> @FAUX #2->0
-	"hē" <aux> <aux> V Sg <W:0.0> @FAUX #2->0
+	"hē" <mv> V Neg <W:0.0> @FMV #2->0
+	"hē" <mv> V Pl <W:0.0> @FMV #2->0
+	"hē" <mv> V Sg <W:0.0> @FMV #2->0
 : 
 "<fa>"
 	"fa" ? @X #3->3
@@ -293,7 +292,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0> @P< #5->3
-	"fale" N Loc <W:0.0> @P< #5->3
+	"falē" N Loc <W:0.0> @P< #5->3
 : 
 "<tênā>"
 	"tênā" ? @X #6->6
@@ -309,7 +308,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0> @SUBJ> #3->7
-	"fale" N Loc <W:0.0> @SUBJ> #3->7
+	"falē" N Loc <W:0.0> @SUBJ> #3->7
 : 
 "<fo>"
 	"fo" ? @X #4->4
@@ -422,7 +421,7 @@
 	"ē" <aux> <aux> V Prs <W:0.0> @FAUX #1->0
 : 
 "<he>"
-	"hē" <aux> <aux> V Neg <W:0.0> @FAUX #2->1
+	"hē" <mv> V Neg <W:0.0> @FMV #2->1
 : 
 "<iloa>"
 	"ilo" <mv> V Sg TV <W:0.0> @FMV #3->2
@@ -493,9 +492,9 @@
 : 
 "<lele>"
 	"lele" Pcle Post <W:0.0> @N< #4->3
-	"lele" V Sg <W:0.0> @N< #4->3
+	"lele" <mv> V Sg <W:0.0> @FMV #4->3
 "<.>"
-	"." CLB <W:0.0> @CLB #5->1
+	"." CLB <W:0.0> @CLB #5->4
 :\n
 
 "<Nofo>"
@@ -524,21 +523,21 @@
 	"te" Det Def Sg <W:0.0> @>N #3->4
 : 
 "<tamaiti>"
-	"tamaiti" N <W:0.0> @SUBJ> #4->4
+	"tamaiti" N <W:0.0> @SUBJ> #4->7
 : 
 "<i>"
-	"i" Pr <W:0.0> @ADVL> #5->5
+	"i" Pr <W:0.0> @ADVL> #5->7
 : 
 "<lalo>"
 	"lalo" N Loc <W:0.0> @P< #6->5
 	"lalō" N Loc <W:0.0> @P< #6->5
 : 
 "<ifo>"
-	"ifo" Pcle <W:0.0> @X #7->6
-	"ifo" V Sg <W:0.0> @N< #7->6
+	"ifo" Pcle <W:0.0> @X #7->0
+	"ifo" <mv> V Sg <W:0.0> @FMV #7->0
 : 
 "<o>"
-	"o" Pr <W:0.0> @<ADVL #8->8
+	"o" Pr <W:0.0> @<ADVL #8->7
 : 
 "<te>"
 	"te" Det Def Sg <W:0.0> @>N #9->10
@@ -546,7 +545,7 @@
 "<laulau>"
 	"laulau" N <W:0.0> @P< #10->8
 "<.>"
-	"." CLB <W:0.0> @CLB #11->11
+	"." CLB <W:0.0> @CLB #11->7
 :\n
 
 "<E>"
@@ -693,7 +692,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0> @HNOUN #6->0
-	"fale" N Loc <W:0.0> @HNOUN #6->0
+	"falē" N Loc <W:0.0> @HNOUN #6->0
 "<.>"
 	"." CLB <W:0.0> @CLB #7->6
 :\n
@@ -847,8 +846,8 @@
 :\n
 
 "<Ko>"
-	"ko" Pcle <W:0.0> @PCLE> #1->6
-	"kō" N Loc <W:0.0> @SUBJ> #1->6
+	"ko" Pcle <W:0.0> @PCLE> #1->5
+	"kō" N Loc <W:0.0> @SUBJ> #1->5
 : 
 "<tena>"
 	"tēnā" Dem Med <W:0.0> @N< #2->1
@@ -857,14 +856,14 @@
 	"te" Det Def Sg <W:0.0> @>N #3->4
 : 
 "<fale>"
-	"fale" N <W:0.0> @SUBJ> #4->6
-	"fale" N Loc <W:0.0> @SUBJ> #4->6
+	"fale" N <W:0.0> @SUBJ> #4->5
+	"falē" N Loc <W:0.0> @SUBJ> #4->5
 : 
 "<nae>"
-	"nae" V Prf <W:0.0> @N< #5->4
+	"nae" <mv> V Prf <W:0.0> @FMV #5->0
 : 
 "<nonofo>"
-	"nofo" <mv> V Pl <W:0.0> @FMV #6->0
+	"nofo" <mv> V Pl <W:0.0> @FMV #6->5
 : 
 "<ai>"
 	"ai" Pron Interr <W:0.0> @SUBJ> #7->7
@@ -900,9 +899,9 @@
 	"vāiaho" N <W:0.0> @P< #7->5
 : 
 "<taluai>"
-	"taluai" V Sg <W:0.0> @N< #8->7
+	"taluai" <mv> V Sg <W:0.0> @FMV #8->0
 "<.>"
-	"." CLB <W:0.0> @CLB #9->2
+	"." CLB <W:0.0> @CLB #9->8
 :\n
 
 "<Ka>"
@@ -1030,11 +1029,11 @@
 	"niu" N <W:0.0> @P< #7->6
 : 
 "<Hila>"
-	"hila" N <W:0.0> @<S #8->7
-	"hilā" V Sg <W:0.0> @N< #8->7
+	"hila" N <W:0.0> @<S #8->0
+	"hilā" <mv> V Sg <W:0.0> @FMV #8->0
 : 
 "<i>"
-	"i" Pr <W:0.0> @<ADVL #9->1
+	"i" Pr <W:0.0> @<ADVL #9->8
 : 
 "<te>"
 	"te" Det Def Sg <W:0.0> @>N #10->11
@@ -1046,10 +1045,10 @@
 	"fo" ? @X #12->12
 : 
 "<u>"
-	"u" N <W:0.0> @<S #13->13
-	"ū" N <W:0.0> @<S #13->13
+	"u" N <W:0.0> @<S #13->8
+	"ū" N <W:0.0> @<S #13->8
 "<.>"
-	"." CLB <W:0.0> @CLB #14->14
+	"." CLB <W:0.0> @CLB #14->8
 :\n
 
 "<E>"
@@ -1087,8 +1086,8 @@
 	"oho" N <W:0.0> @<S #11->4
 : 
 "<ifo>"
-	"ifo" Pcle <W:0.0> @X #12->11
-	"ifo" V Sg <W:0.0> @N< #12->11
+	"ifo" Pcle <W:0.0> @X #12->0
+	"ifo" <mv> V Sg <W:0.0> @FMV #12->0
 : 
 "<ia>"
 	"ia" Pron Sg3 <W:0.0> @SUBJ> #13->13
@@ -1097,12 +1096,12 @@
 	"Tokalalaga" ? @X #14->14
 : 
 "<ki>"
-	"ki" Pr <W:0.0> @<ADVL #15->4
+	"ki" Pr <W:0.0> @<ADVL #15->12
 : 
 "<lalo>"
 	"lalo" N Loc <W:0.0> @P< #16->15
 	"lalō" N Loc <W:0.0> @P< #16->15
 "<.>"
-	"." CLB <W:0.0> @CLB #17->4
+	"." CLB <W:0.0> @CLB #17->12
 :\n
 

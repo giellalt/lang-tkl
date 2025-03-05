@@ -69,8 +69,8 @@
 	"povi" N <W:0.0> @SUBJ>
 : 
 "<e>"
-	"e" V Prs <W:0.0> @+FAUXV
-	"ē" V Prs <W:0.0> @+FAUXV
+	"e" V Prs <W:0.0> @N<
+	"ē" V Prs <W:0.0> @N<
 : 
 "<kai>"
 	"kai" V Sg <W:0.0> @FMV
@@ -91,14 +91,14 @@
 	"tino" N <W:0.0> @SUBJ>
 : 
 "<e>"
-	"e" Pr <W:0.0> @<A
+	"e" V Prs <W:0.0> @+FAUXV
+	"ē" V Prs <W:0.0> @+FAUXV
 : 
 "<fiafia>"
-	"fiafia" N <W:0.0> @P<
+	"fiafia" V Sg <W:0.0> @FMV
 : 
 "<lele>"
 	"lele" Pcle Post <W:0.0> @N<
-	"lele" V Sg <W:0.0> @FMV
 : 
 "<ki>"
 	"ki" Pr <W:0.0> @<ADVL
@@ -261,9 +261,9 @@
 : 
 "<he>"
 	"hē" N <W:0.0> @SUBJ>
-	"hē" V Neg <W:0.0> @+FAUXV
-	"hē" V Pl <W:0.0> @+FAUXV
-	"hē" V Sg <W:0.0> @+FAUXV
+	"hē" V Neg <W:0.0> @FMV
+	"hē" V Pl <W:0.0> @FMV
+	"hē" V Sg <W:0.0> @FMV
 : 
 "<fa>"
 	"fa" ? @X
@@ -292,7 +292,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0> @P<
-	"fale" N Loc <W:0.0> @P<
+	"falē" N Loc <W:0.0> @P<
 : 
 "<tênā>"
 	"tênā" ? @X
@@ -308,7 +308,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0> @SUBJ>
-	"fale" N Loc <W:0.0> @SUBJ>
+	"falē" N Loc <W:0.0> @SUBJ>
 : 
 "<fo>"
 	"fo" ? @X
@@ -421,7 +421,7 @@
 	"ē" V Prs <W:0.0> @+FAUXV
 : 
 "<he>"
-	"hē" V Neg <W:0.0> @+FAUXV
+	"hē" V Neg <W:0.0> @FMV
 : 
 "<iloa>"
 	"ilo" V Sg TV <W:0.0> @FMV
@@ -692,7 +692,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0> @HNOUN
-	"fale" N Loc <W:0.0> @HNOUN
+	"falē" N Loc <W:0.0> @HNOUN
 "<.>"
 	"." CLB <W:0.0> @CLB
 :\n
@@ -857,7 +857,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0> @SUBJ>
-	"fale" N Loc <W:0.0> @SUBJ>
+	"falē" N Loc <W:0.0> @SUBJ>
 : 
 "<nae>"
 	"nae" V Prf <W:0.0> @FMV

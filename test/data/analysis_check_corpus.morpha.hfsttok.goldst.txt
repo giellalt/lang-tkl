@@ -118,6 +118,7 @@
 : 
 "<fiafia>"
 	"fiafia" N <W:0.0>
+	"fiafia" V Sg <W:0.0>
 : 
 "<lele>"
 	"lele" Pcle Post <W:0.0>
@@ -368,7 +369,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0>
-	"fale" N Loc <W:0.0>
+	"falē" N Loc <W:0.0>
 : 
 "<tênā>"
 	"tênā" ?
@@ -386,7 +387,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0>
-	"fale" N Loc <W:0.0>
+	"falē" N Loc <W:0.0>
 : 
 "<fo>"
 	"fo" ?
@@ -870,7 +871,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0>
-	"fale" N Loc <W:0.0>
+	"falē" N Loc <W:0.0>
 "<.>"
 	"." CLB <W:0.0>
 :\n
@@ -1075,7 +1076,7 @@
 : 
 "<fale>"
 	"fale" N <W:0.0>
-	"fale" N Loc <W:0.0>
+	"falē" N Loc <W:0.0>
 : 
 "<nae>"
 	"nae" V Prf <W:0.0>
