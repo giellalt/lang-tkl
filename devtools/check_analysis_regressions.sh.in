@@ -77,7 +77,7 @@ function print_usage() {
     echo "Check whether there are regressions in the analysis output by"
     echo "analysing a corpus in several ways and comparing to the previous"
     echo "version. The input corpus used is found in"
-    echo "\$GIELLA_LANG/test/data/analysis_check_corpus.txt. The previous"
+    echo "\$GIELLA_LANG/$corpus_file. The previous"
     echo "analyses under version controll are stored in the same directory."
     echo
     echo "You need to specify at least one of the diff options."
