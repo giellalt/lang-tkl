@@ -69,7 +69,7 @@ can_gramcheck=x
 scriptname=$0
 
 # move into devtools dir in the build dir:
-cd $abs_top_builddir/devtools
+pushd $abs_top_builddir/devtools || exit 1
 
 function print_usage() {
     echo "Usage: $0 OPTION [MORE OPTIONS...]"
@@ -425,3 +425,5 @@ done
 if test "x$old_new_xerox_diff" = "xyes" ; then
    $difftool $morpha_corpus.xfst.txt $morpha_corpus.htokoldcomp.txt
 fi
+
+popd || exit 1
