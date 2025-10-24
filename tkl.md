@@ -4,11 +4,11 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-dependency.cg3.md 
+## src-cg3-dependency.cg3.md 
 
-# Tokelau dependency grammar 
+## Tokelau dependency grammar 
 
-## strict-tags
+### strict-tags
 Alphabet below must be all multichar symbols used in all rules
 - @NO CODE@ 
 - @NO CODE@ 
@@ -57,9 +57,9 @@ Alphabet below must be all multichar symbols used in all rules
 - @NO CODE@ 
 - @NO CODE@ 
 
-## Delimiters #
+### Delimiters #
 
-### Sets
+#### Sets
 
 ... to be documented
 
@@ -67,27 +67,27 @@ Alphabet below must be all multichar symbols used in all rules
 
 First som e adjustment rules
 
-### NP rules
+#### NP rules
 
-### PPs
+#### PPs
 
-### ellipse
+#### ellipse
 
-### S
+#### S
 
 Rules for subj and obj (to be revised)
 
-### preposition to verb
+#### preposition to verb
 
-### VPs
+#### VPs
 
-### CS
+#### CS
 
-### CC
+#### CC
 
-### subjunction and coordination
+#### subjunction and coordination
 
-### Root
+#### Root
 
 * * *
 
@@ -95,11 +95,11 @@ Rules for subj and obj (to be revised)
 
 ---
 
-# src-cg3-disambiguator.cg3.md 
+## src-cg3-disambiguator.cg3.md 
 
-# Tokelau disambiguator 
+## Tokelau disambiguator 
 
-## Strict-tags
+### Strict-tags
 - @NO CODE@ 
 - @NO CODE@ 
 - @NO CODE@ 
@@ -128,11 +128,11 @@ Rules for subj and obj (to be revised)
 - @NO CODE@ 
 - @NO CODE@ 
 
-## Delimiters 
+### Delimiters 
 
 - @NO CODE@  sentence delimiters
 
-## Tags and sets 
+### Tags and sets 
 
 - @NO CODE@ 
 - @NO CODE@ 
@@ -174,11 +174,11 @@ Rules for subj and obj (to be revised)
 
 - @NO CODE@ 
 
-## rule SECTION  
+### rule SECTION  
 
-### No context rules
+#### No context rules
 
-### Local context rules (+/- 1)
+#### Local context rules (+/- 1)
 
 - ō
 
@@ -196,17 +196,17 @@ Rules for subj and obj (to be revised)
 
 -  nā
 
-### NP
+#### NP
 
 **PNP** removes V if N to the right of safe Pr
 
-### VP
+#### VP
 
 **V** selects V if Prs or Prf particle to the left
 
 **VV** selects V if next word is a safe V
 
-### Propernoun
+#### Propernoun
 
 **prop** selects Prop if not sentence-initially (relying on capital first letter)
 
@@ -252,9 +252,9 @@ Late verb rules
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
-# Tokelau functions grammar
+## Tokelau functions grammar
 
 Tag declaration via STRICT-tAGS
 - *@NO CODE@ 
@@ -315,12 +315,12 @@ Tag declaration via STRICT-tAGS
 
 - *@NO CODE@ 
 
-# Tags and sets #
+## Tags and sets #
 
 - *@NO CODE@  
 - *@NO CODE@ 
 
-## Parts of speech
+### Parts of speech
 
 * Sets for POS sub-categories
 
@@ -338,7 +338,7 @@ Tag declaration via STRICT-tAGS
 
 These were the set types.
 
-## Rules
+### Rules
 
 Map Interj, CC, CS, ..
 
@@ -346,13 +346,13 @@ PP complement rules
 
 NP complemnt rules
 
-## Map clause structure tags
+### Map clause structure tags
 
-## PP rules
+### PP rules
 
-## FMV
+### FMV
 
-## The X rule
+### The X rule
 
 Map any leftover as @X
 
@@ -362,7 +362,7 @@ Map any leftover as @X
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
 Adjective inflection
 The Tokelauan language adjectives compare.
@@ -373,7 +373,7 @@ The Tokelauan language adjectives compare.
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection
 The Tokelauan language nouns inflect in number and cases.
@@ -384,7 +384,7 @@ The Tokelauan language nouns inflect in number and cases.
 
 ---
 
-# src-fst-morphology-affixes-numerals.lexc.md 
+## src-fst-morphology-affixes-numerals.lexc.md 
 
 Numeral affix file
 
@@ -521,7 +521,7 @@ allow 199,878 as special typo
 
 ---
 
-# src-fst-morphology-affixes-prefixes.lexc.md 
+## src-fst-morphology-affixes-prefixes.lexc.md 
 
 Prefixes
 Prefixes in the Tokelauan language are attatched to the left of other words.
@@ -532,7 +532,7 @@ Prefixes in the Tokelauan language are attatched to the left of other words.
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
 The Tokelauan language proper nouns inflect in the same cases as regular
@@ -544,10 +544,10 @@ nouns, but perhaps with a colon (':') as separator.
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
@@ -555,12 +555,12 @@ nouns, but perhaps with a colon (':') as separator.
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb inflection
 The Tokelauan language verbs inflect for number.
 
-# Prefixes
+## Prefixes
 
 LEXICON Verbs  splits to subgrups according to pl form
 
@@ -578,7 +578,7 @@ LEXICON Verbs  splits to subgrups according to pl form
 
 * LEXICON 4redup_pref  = 2-syllabic verbs with full reduplication
 
-# Suffixes
+## Suffixes
 
 * LEXICON vsg  
 
@@ -601,13 +601,13 @@ LEXICON Verbs  splits to subgrups according to pl form
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
 =================================== !
 The Tokelauan morphophonological/twolc rules file !
 =================================== !
 
-# Alphabet 
+## Alphabet 
 -  a b c d e f g h i j k l m n o p q r s t u v w x y z    = lower case
 -  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z    = upper case
 -  %^R:f %^R:g %^R:k %^R:l %^R:m %^R:n %^R:p %^R:h %^R:t %^R:v   = redup Cns
@@ -621,13 +621,13 @@ The Tokelauan morphophonological/twolc rules file !
 -  %>:0    = suffix border
 -  a2 e2 i2 o2 u2 ;   for Petele2ema - Peteleema *Petelēma
 The digit 2 to be removed in longvowel-cleanup.regex 
-# Sets  
+## Sets  
 
 -  Vow = a e i o u      
 - ā ē ō ī ū Ā Ē Ō Ī Ū ; long vowels  
 -  Cns = b c d f g h j k l m n p q r s t v w x y z ;   
 
-# Rules  
+## Rules  
 
 **RULE: ^R realisation as consonant** = duplicates C for reduplication
 
@@ -647,18 +647,18 @@ The digit 2 to be removed in longvowel-cleanup.regex
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
 INTRODUCTION TO THE MORPHOLOGICAL ANALYSER FOR Tokelauan .
 
-# Definitions for Multichar_Symbols
+## Definitions for Multichar_Symbols
 
-## Composed letters
+### Composed letters
 
 - a2 e2 i2 o2 u2 these are for first part of lexical aa, ee, ii, oo, uu
 
-## Analysis symbols
+### Analysis symbols
 The morphological analyses of wordforms for the Tokelauan
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -757,7 +757,7 @@ symbols in the lexicon files:
 
 And following triggers to control variation
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -858,9 +858,9 @@ word classes, or optionally from prefixes:
 
 ---
 
-# src-fst-morphology-stems-conjunctions.lexc.md 
+## src-fst-morphology-stems-conjunctions.lexc.md 
 
-# Tokelau conjunctions
+## Tokelau conjunctions
 
 - +CC: # ;  
 
@@ -887,9 +887,9 @@ word classes, or optionally from prefixes:
 
 ---
 
-# src-fst-morphology-stems-determiners.lexc.md 
+## src-fst-morphology-stems-determiners.lexc.md 
 
-# Tokelau determiners
+## Tokelau determiners
 
 Documentation: NP overview:
 1. (preposition) -> in prepositions.lexc
@@ -905,22 +905,22 @@ before N they function as Det, after N they
 must have another Det as support. (taimi = time)
 tēnei taimi, te taimi tēnei
 
-## pre-nominal
+### pre-nominal
 sg
 
 unspecified for number
 
 pl
 
-## Possessors
+### Possessors
 
-### Singular reference
+#### Singular reference
 
 du1
 
 pl1
 
-### Plural reference
+#### Plural reference
 
 du1
 
@@ -928,7 +928,7 @@ pl1
 pl3
 TODO
 
-# System should be:
+## System should be:
 - particles before / after N
 - particles before / after V
 
@@ -949,9 +949,9 @@ pl
 
 ---
 
-# src-fst-morphology-stems-interjections.lexc.md 
+## src-fst-morphology-stems-interjections.lexc.md 
 
-# Interjections
+## Interjections
 
 - +Interj: # ;  
 
@@ -970,14 +970,14 @@ That was all interjections
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
-# Tokelau Nouns
+## Tokelau Nouns
 Nouns in the Tokelauan language refer to objects or sets of objects, qualities, states or ideas.
 
 - tamāloa:tamaalo^R^Ea nredupsuf "man" ;   (one redupnoun)
 
-## Locative noun s
+### Locative noun s
 
 - uta locnoun " The islets on the far" ;  
 - fafo locnoun " Outside, out of" ;  
@@ -990,7 +990,7 @@ Nouns in the Tokelauan language refer to objects or sets of objects, qualities, 
 - Iaupāma n "Palm leaf. (n.b." ;  
 - Lafalafa n "Traditional name given" ;  
 
-## Ordinary nouns
+### Ordinary nouns
 
 - a n "Letter A." ;  
 - āeto n "(Bb.). Eagle. He" ;  
@@ -1009,9 +1009,9 @@ etc
 
 ---
 
-# src-fst-morphology-stems-numerals.lexc.md 
+## src-fst-morphology-stems-numerals.lexc.md 
 
-# Tokelau Numerals
+## Tokelau Numerals
 
 * CODE@
 * CODE@
@@ -1034,9 +1034,9 @@ etc. up to 30, thereafter tens and hundreds and thousands up to 9000
 
 ---
 
-# src-fst-morphology-stems-particles.lexc.md 
+## src-fst-morphology-stems-particles.lexc.md 
 
-# Tokelau particles
+## Tokelau particles
 
 * CODE@
 * CODE@
@@ -1070,9 +1070,9 @@ That was all particles
 
 ---
 
-# src-fst-morphology-stems-prepositions.lexc.md 
+## src-fst-morphology-stems-prepositions.lexc.md 
 
-# Tokelau Prepositions
+## Tokelau Prepositions
 ============
 
 * CODE@
@@ -1099,9 +1099,9 @@ That was all prepositions
 
 ---
 
-# src-fst-morphology-stems-pronouns.lexc.md 
+## src-fst-morphology-stems-pronouns.lexc.md 
 
-# Tokelau Pronouns
+## Tokelau Pronouns
 Pronouns in the Tokelauan language are words that may replace nouns or refer to participants in the conversation.
 
 * **CODE@**
@@ -1140,9 +1140,9 @@ Pronouns in the Tokelauan language are words that may replace nouns or refer to 
 
 ---
 
-# src-fst-morphology-stems-propernouns.lexc.md 
+## src-fst-morphology-stems-propernouns.lexc.md 
 
-# nTokelau proer nouns
+## nTokelau proer nouns
 
 * **LEXICON Propernouns**
 * CODE@
@@ -1159,9 +1159,9 @@ Pronouns in the Tokelauan language are words that may replace nouns or refer to 
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
-# Verbs
+## Verbs
 Verbs in the Tokelauan language inflect for tense.
 
 * **LEXICON v_particles**
@@ -1188,7 +1188,7 @@ Verbs in the Tokelauan language inflect for tense.
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -1210,7 +1210,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -1226,26 +1226,26 @@ For example:
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
-#  Tokelauan  G R A M M A R   C H E C K E R
+##  Tokelauan  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -1272,7 +1272,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -1288,7 +1288,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -1351,7 +1351,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -1384,7 +1384,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -1454,22 +1454,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -1480,11 +1480,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -1492,7 +1492,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -1504,25 +1504,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -1530,9 +1530,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for tkl
+## Tokeniser for tkl
 
 Usage:
 ```
@@ -1576,7 +1576,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -1595,9 +1595,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for tkl
+## Grammar checker tokenisation for tkl
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -1660,9 +1660,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
