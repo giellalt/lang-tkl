@@ -1,12 +1,12 @@
 The Tokelauan morphology and tools
 ==========================================
 
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-tkl%2Fgh-pages%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-tkl%2Fgh-pages%2Fbadgedata%2Ffst-lemmacount.json)
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-tkl%2Fmain%2Fdocs%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-tkl%2Fmain%2Fdocs%2Fbadgedata%2Ffst-lemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-tkl)](https://github.com/giellalt/lang-tkl/issues)
 [![License](https://img.shields.io/github/license/giellalt/lang-tkl)](https://github.com/giellalt/lang-tkl/blob/main/LICENSE)
-[![Doc Build Status](https://github.com/giellalt/lang-tkl/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-tkl/actions)
-[![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-tkl/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-tkl/main/latest)
+[![Doc build](https://img.shields.io/github/actions/workflow/status/giellalt/lang-tkl/docs.yml?logo=github&label=DocCI)](https://github.com/giellalt/lang-tkl/actions/workflows/docs.yml)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-tkl?logo=buildkite&label=CoreCI)](https://builds.giellalt.org/pipelines/lang-tkl/builds/latest)
 
 Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
 
