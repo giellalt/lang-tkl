@@ -6,10 +6,6 @@
         "lexcfile": "@abs_srcdir@/../stems/nouns.lexc",
         "lemmatags": ["+N+Sg+Nom", "+N+Pl+Nom"]
     },
-    "adjectives": {
-        "lexcfile": "@abs_srcdir@/../stems/adjectives.lexc",
-        "lemmatags": ["+A+Sg+Nom"]
-    },
     "propernouns": {
         "lexcfile": "@abs_srcdir@/../stems/propernouns.lexc",
         "lemmatags": ["+N+Prop+Sg+Nom"]
