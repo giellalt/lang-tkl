@@ -1,9 +1,0 @@
-!! Adjective inflection
-!  --------------------
-!! The Tokelauan language adjectives compare.
-
-!LEXICON Comparisons
-!+A: # ;
-
-! vim: set ft=xfst-lexc:
-
